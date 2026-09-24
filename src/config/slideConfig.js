@@ -5,6 +5,9 @@ import Page_ContentDetails from '../pages/Page_ContentDetails';
 import Page_ContentDetails_AI from '../pages/Page_ContentDetails_AI';
 import Page_CompetitorAnalysis_AI from '../pages/Page_CompetitorAnalysis_AI';
 import Page_QueryDataSystemLink from '../pages/Page_QueryDataSystemLink';
+import Page_OctoberPlanKpi from '../pages/Page_OctoberPlanKpi';
+import Page_OctoberPlanWork from '../pages/Page_OctoberPlanWork';
+import Page_OctoberPlanResearch from '../pages/Page_OctoberPlanResearch';
 
 const PLATFORM_IDS = [1, 2, 5]; // DeepSeek / 豆包 / 通义千问
 const ENTRY_PAGE_SIZE = 15;
@@ -60,6 +63,12 @@ export const slideConfig = [
   { type: 'section', title: '投放渠道与数据明细' },
   { type: 'page', title: '桃李面包 ToC 投放明细', component: Page_ContentDetails },
   { type: 'page', title: '桃李面包 ToB 投放明细', component: Page_ContentDetails_AI },
+
+  { type: 'chapter', title: '桃李面包\n10月工作安排', subtitle: 'OCTOBER WORK PLAN', backgroundImage: '/proposal-chapters/proposal-chapter-cover-03.jpg' },
+  { type: 'section', title: '10月工作安排' },
+  { type: 'page', title: '冲击合同设定目标 KPI', component: Page_OctoberPlanKpi },
+  { type: 'page', title: '详细工作安排', component: Page_OctoberPlanWork },
+  { type: 'page', title: '调研与策略', component: Page_OctoberPlanResearch },
 
   { type: 'chapter', title: '词条数据明细', subtitle: 'KEYWORD DETAILS', backgroundImage: '/proposal-chapters/proposal-chapter-cover-03.jpg' },
   { type: 'section', title: '桃李面包 ToC 平台明细' },
