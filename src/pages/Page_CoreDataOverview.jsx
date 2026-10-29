@@ -1,5 +1,5 @@
 import React from 'react';
-import report from '../data/jinjiuSeptemberReport.json';
+import report from '../data/jinjiuOctoberReport.json';
 
 const { products, scope } = report;
 
@@ -19,7 +19,7 @@ export default function Page_CoreDataOverview() {
       <div className="flex items-center shrink-0 mb-[27px]">
         <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
         <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4">
-          核心数据总览 <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年9月）</span>
+          核心数据总览 <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年10月）</span>
         </h1>
       </div>
 
@@ -40,14 +40,14 @@ export default function Page_CoreDataOverview() {
               <th colSpan={2} className="py-2.5 px-4 text-2xl font-black text-center border-l border-white/10 bg-[#4788FF]">综合竞品排名</th>
             </tr>
             <tr className="bg-slate-50/80 border-b border-zinc-200 text-[#004CE5] font-black text-2xl">
-              <th className="py-2 px-2 text-center border-l border-zinc-200 w-[10.5%]">8月</th>
-              <th className="py-2 px-2 text-center border-l border-zinc-200 border-r-2 border-[#004CE5]/15 w-[10.5%]">9月</th>
-              <th className="py-2 px-2 text-center border-l border-zinc-200 w-[10.5%]">8月</th>
-              <th className="py-2 px-2 text-center border-l border-zinc-200 border-r-2 border-[#004CE5]/15 w-[10.5%]">9月</th>
-              <th className="py-2 px-2 text-center border-l border-zinc-200 w-[10.5%]">8月</th>
-              <th className="py-2 px-2 text-center border-l border-zinc-200 border-r-2 border-[#004CE5]/15 w-[10.5%]">9月</th>
-              <th className="py-2 px-2 text-center border-l border-zinc-200 w-[10.5%]">8月</th>
-              <th className="py-2 px-2 text-center border-l border-zinc-200 border-r-2 border-[#004CE5]/15 w-[10.5%]">9月</th>
+              <th className="py-2 px-2 text-center border-l border-zinc-200 w-[10.5%]">9月</th>
+              <th className="py-2 px-2 text-center border-l border-zinc-200 border-r-2 border-[#004CE5]/15 w-[10.5%]">10月</th>
+              <th className="py-2 px-2 text-center border-l border-zinc-200 w-[10.5%]">9月</th>
+              <th className="py-2 px-2 text-center border-l border-zinc-200 border-r-2 border-[#004CE5]/15 w-[10.5%]">10月</th>
+              <th className="py-2 px-2 text-center border-l border-zinc-200 w-[10.5%]">9月</th>
+              <th className="py-2 px-2 text-center border-l border-zinc-200 border-r-2 border-[#004CE5]/15 w-[10.5%]">10月</th>
+              <th className="py-2 px-2 text-center border-l border-zinc-200 w-[10.5%]">9月</th>
+              <th className="py-2 px-2 text-center border-l border-zinc-200 border-r-2 border-[#004CE5]/15 w-[10.5%]">10月</th>
             </tr>
           </thead>
           <tbody>
@@ -58,14 +58,14 @@ export default function Page_CoreDataOverview() {
                   <td className="py-3 px-6 border-r border-zinc-200 bg-slate-50/10 text-center font-black text-2xl text-zinc-800">
                     {row.name}
                   </td>
-                  <td className="py-3 px-2 text-center border-r border-zinc-200 text-[2rem] font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(p.august.mention_rate)}</td>
-                  <td className="py-3 px-2 text-center border-r-2 border-[#004CE5]/15 text-[2rem] font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(p.september.mention_rate)}</td>
-                  <td className="py-3 px-2 text-center border-r border-zinc-200 text-[2rem] font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(p.august.top1_mention_rate)}</td>
-                  <td className="py-3 px-2 text-center border-r-2 border-[#004CE5]/15 text-[2rem] font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(p.september.top1_mention_rate)}</td>
-                  <td className="py-3 px-2 text-center border-r border-zinc-200 text-[2rem] font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(p.august.top3_mention_rate)}</td>
-                  <td className="py-3 px-2 text-center border-r-2 border-[#004CE5]/15 text-[2rem] font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(p.september.top3_mention_rate)}</td>
-                  <td className="py-3 px-2 text-center border-r border-zinc-200 text-[2rem] font-bold text-zinc-900 font-['Montserrat',sans-serif]">NO. {p.august.influence_rank}</td>
-                  <td className="py-3 px-2 text-center border-r-2 border-[#004CE5]/15 text-[2rem] font-bold text-zinc-900 font-['Montserrat',sans-serif]">NO. {p.september.influence_rank}</td>
+                  <td className="py-3 px-2 text-center border-r border-zinc-200 text-[2rem] font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(p.september.mention_rate)}</td>
+                  <td className="py-3 px-2 text-center border-r-2 border-[#004CE5]/15 text-[2rem] font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(p.october.mention_rate)}</td>
+                  <td className="py-3 px-2 text-center border-r border-zinc-200 text-[2rem] font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(p.september.top1_mention_rate)}</td>
+                  <td className="py-3 px-2 text-center border-r-2 border-[#004CE5]/15 text-[2rem] font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(p.october.top1_mention_rate)}</td>
+                  <td className="py-3 px-2 text-center border-r border-zinc-200 text-[2rem] font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(p.september.top3_mention_rate)}</td>
+                  <td className="py-3 px-2 text-center border-r-2 border-[#004CE5]/15 text-[2rem] font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(p.october.top3_mention_rate)}</td>
+                  <td className="py-3 px-2 text-center border-r border-zinc-200 text-[2rem] font-bold text-zinc-900 font-['Montserrat',sans-serif]">NO. {p.september.influence_rank}</td>
+                  <td className="py-3 px-2 text-center border-r-2 border-[#004CE5]/15 text-[2rem] font-bold text-zinc-900 font-['Montserrat',sans-serif]">NO. {p.october.influence_rank}</td>
                 </tr>
               );
             })}
@@ -80,7 +80,7 @@ export default function Page_CoreDataOverview() {
         </div>
         <p className="text-[22px] leading-snug text-zinc-700 font-bold">
           <span className="text-zinc-900 font-black">高位波动属正常现象：</span>
-          当前各项指标已接近优化上限，在高位区间内出现约 10% 以内的月度上下波动属于正常现象，并不代表 GEO 优化效果下降，整体优化成效仍保持稳定。
+          劲酒、毛铺仍在高位区间，月度小幅回落不代表 GEO 效果下降。养生一号提及率、Top1回落更明显，但综合竞品排名仍稳居NO.1。
         </p>
       </div>
 
@@ -92,7 +92,7 @@ export default function Page_CoreDataOverview() {
           </div>
           <div className="flex-1 flex items-center min-h-0">
             <p className="text-[22px] leading-snug text-zinc-700 font-bold">
-              相较8月，劲酒提及率由91.3%升至92.5%，Top1由85%升至88.8%，综合排名保持NO.1；毛铺提及率由44%升至63.1%，Top1由29.8%升至50%，综合排名升至NO.1；养生一号提及率由58.3%回至56%，Top1由44%回至42.9%，综合排名稳守NO.1。
+              相较9月，劲酒提及率91.3%、Top1 80%，综合排名稳居NO.1；毛铺提及率61.9%、Top1 45.2%，综合排名稳居NO.1；养生一号提及率48.8%、Top1 38.1%，综合排名稳居NO.1。
             </p>
           </div>
         </div>
@@ -104,7 +104,7 @@ export default function Page_CoreDataOverview() {
           </div>
           <div className="flex-1 flex items-center min-h-0">
             <p className="text-[22px] leading-snug text-zinc-700 font-bold">
-              劲酒守住92.5%的提及率与88.8%的Top1，继续压住椰岛；毛铺守住63.1%的提及率、50%的Top1与NO.1；养生一号守住NO.1和42.9%的Top1，针对广誉远70.2%的提及率补齐高端送礼内容。
+              劲酒守住NO.1与91.3%的提及率，把80%的Top1继续压住椰岛；毛铺守住NO.1，补齐DeepSeek端33.3%的短板；养生一号守住NO.1和38.1%的Top1，针对广誉远52.4%的提及率补齐高端送礼内容。
             </p>
           </div>
         </div>

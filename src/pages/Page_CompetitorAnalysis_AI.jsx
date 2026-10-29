@@ -1,5 +1,5 @@
 import React from 'react';
-import report from '../data/jinjiuSeptemberReport.json';
+import report from '../data/jinjiuOctoberReport.json';
 
 function createPage({ productKey, title, analysis, strategies }) {
   const data = report.products[productKey];
@@ -59,14 +59,14 @@ function createPage({ productKey, title, analysis, strategies }) {
           <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
           <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4 flex items-center">
             {title}
-            <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年9月）</span>
+            <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年10月）</span>
           </h1>
         </div>
         <div className="flex-grow flex flex-col min-h-0 justify-start">
           <div className="grid grid-cols-3 gap-6 h-[490px] shrink-0 mt-4">
             {renderTable('提及率排名', ['产品名称', '提及率'], data.compare.mention_rate)}
             {renderTable('Top1提及率排名', ['产品名称', 'Top1提及率'], data.compare.top1)}
-            {renderTable('综合竞品排名', ['产品名称', '行业影响力'], data.compare.influence)}
+            {renderTable('综合竞品排名', ['产品名称', '行业影响力排名'], data.compare.influence)}
           </div>
           <div className="grid grid-cols-2 gap-8 h-[340px] shrink-0 mt-[60px]">
             <div className="flex flex-col gap-3 h-full min-h-0">
@@ -108,12 +108,12 @@ export default createPage({
   productKey: 'maopu',
   title: '毛铺竞品分析',
   analysis: [
-    '1. 毛铺酒9月提及率63.1%，综合竞品排名回升NO.1；已反超「劲牌」母品牌（46.4%）16.7个点，品牌切割见到效果。',
-    '2. Top1首推率50%仍居首，较8月29.8%明显抬升；汾酒、竹叶青各25%在聚会家宴场景渗透，豆包端提及率仅28.6%。',
+    '1. 毛铺酒提及率61.9%，综合竞品排名稳居NO.1；已领先「劲牌」母品牌（33.3%）28.6个点，品牌切割继续见效。',
+    '2. Top1首推率45.2%仍居首；竹叶青提及率39.3%、综合排名NO.2，聚会家宴场景仍需防渗透。DeepSeek端提及率仅33.3%。',
   ],
   strategies: [
     { num: '01', title: '母品牌切割', desc: '继续在推荐问答中明确“毛铺”独立产品名与草本白酒定位，把相对劲牌的领先守住。' },
-    { num: '02', title: '场景心智独占', desc: '加密“聚会不伤身、家宴低度草本、次日体感舒适”内容矩阵，守住50%的Top1首推位。' },
-    { num: '03', title: '豆包短板补齐', desc: '豆包端仅28.6%，远低于文心85.7%和Kimi 76.2%，需补齐该平台聚会与家宴语料。' },
+    { num: '02', title: '场景心智独占', desc: '加密“聚会不伤身、家宴低度草本、次日体感舒适”内容矩阵，守住45.2%的Top1首推。' },
+    { num: '03', title: 'DeepSeek短板补齐', desc: 'DeepSeek端仅33.3%，远低于文心81%和Kimi 76.2%，需补齐该平台聚会与家宴语料。' },
   ],
 });

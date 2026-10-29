@@ -1,0 +1,2579 @@
+{
+  "meta": {
+    "label": "2026年10月",
+    "delivery_excel": "1029"
+  },
+  "products": {
+    "jinjiu": {
+      "name": "劲酒",
+      "brandMatch": "劲酒",
+      "september": {
+        "mention_rate": 92.5,
+        "top1_mention_rate": 88.8,
+        "top3_mention_rate": 90,
+        "influence_rank": 1
+      },
+      "october": {
+        "mention_rate": 91.3,
+        "top1_mention_rate": 80,
+        "top3_mention_rate": 82.5,
+        "influence_rank": 1,
+        "conversations": 80,
+        "platform_stats": [
+          {
+            "platform_id": 1,
+            "platform_name": "DeepSeek",
+            "platform_logo": "https://app.geoindexfuture.com/logo/deepseek.png",
+            "brand_mention_rate": 90,
+            "avg_position": 2.1
+          },
+          {
+            "platform_id": 2,
+            "platform_name": "豆包",
+            "platform_logo": "https://app.geoindexfuture.com/logo/doubao.png",
+            "brand_mention_rate": 80,
+            "avg_position": 2.9
+          },
+          {
+            "platform_id": 4,
+            "platform_name": "文心",
+            "platform_logo": "https://app.geoindexfuture.com/logo/wenxin.webp",
+            "brand_mention_rate": 100,
+            "avg_position": 1
+          },
+          {
+            "platform_id": 6,
+            "platform_name": "kimi",
+            "platform_logo": "https://app.geoindexfuture.com/logo/kimi.png",
+            "brand_mention_rate": 95,
+            "avg_position": 2.6
+          }
+        ]
+      },
+      "compare": {
+        "mention_rate": [
+          {
+            "name": "劲酒",
+            "value": "91.3%",
+            "isTarget": true
+          },
+          {
+            "name": "椰岛",
+            "value": "66.3%",
+            "isTarget": false
+          },
+          {
+            "name": "广誉远",
+            "value": "47.5%",
+            "isTarget": false
+          },
+          {
+            "name": "竹叶青",
+            "value": "45%",
+            "isTarget": false
+          },
+          {
+            "name": "致中和",
+            "value": "41.3%",
+            "isTarget": false
+          }
+        ],
+        "top1": [
+          {
+            "name": "劲酒",
+            "value": "80%",
+            "isTarget": true
+          },
+          {
+            "name": "京东京造",
+            "value": "3.8%",
+            "isTarget": false
+          },
+          {
+            "name": "京东京造 × 同仁堂",
+            "value": "1.3%",
+            "isTarget": false
+          },
+          {
+            "name": "人参酒",
+            "value": "1.3%",
+            "isTarget": false
+          },
+          {
+            "name": "劲牌",
+            "value": "1.3%",
+            "isTarget": false
+          }
+        ],
+        "influence": [
+          {
+            "name": "劲酒",
+            "value": "NO. 1",
+            "isTarget": true
+          },
+          {
+            "name": "椰岛",
+            "value": "NO. 2",
+            "isTarget": false
+          },
+          {
+            "name": "广誉远",
+            "value": "NO. 3",
+            "isTarget": false
+          },
+          {
+            "name": "竹叶青",
+            "value": "NO. 4",
+            "isTarget": false
+          },
+          {
+            "name": "致中和",
+            "value": "NO. 5",
+            "isTarget": false
+          }
+        ]
+      },
+      "sentiments": {
+        "positive": 100,
+        "negative": 0,
+        "positive_keywords": [
+          "性价比高",
+          "口感温润",
+          "口感柔和"
+        ],
+        "negative_keywords": []
+      },
+      "entries_by_platform": {
+        "DeepSeek": [
+          {
+            "name": "有哪些比较健康的日常养生酒品牌",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "日常养生酒推荐品牌",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "养生酒十大品牌",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常养生酒品牌推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常养生酒选购推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常养生酒买哪个好",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "有没有性价比高的日常养生酒",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "功效好的日常养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "草本养生酒哪个牌子好",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "有没有用户友好型的养生酒",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "有没有价格实惠的日常养生酒",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常健康养生酒品牌推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "男士日常养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "有哪些口碑好的养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常养生酒有哪些",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常养生酒做得好的有哪些",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常养生酒推荐哪种",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "适合秋天喝的日常养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常小酌养生酒推荐",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "夏天十大日常最佳养生酒",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          }
+        ],
+        "豆包": [
+          {
+            "name": "有哪些比较健康的日常养生酒品牌",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常养生酒推荐品牌",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "养生酒十大品牌",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常养生酒品牌推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常养生酒选购推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "有没有性价比高的日常养生酒",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "功效好的日常养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "草本养生酒哪个牌子好",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "有没有用户友好型的养生酒",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "有没有价格实惠的日常养生酒",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常健康养生酒品牌推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常小酌养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "男士日常养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "有哪些口碑好的养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常养生酒做得好的有哪些",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常养生酒推荐哪种",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常养生酒买哪个好",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "日常养生酒有哪些",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "夏天十大日常最佳养生酒",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "适合秋天喝的日常养生酒推荐",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          }
+        ],
+        "文心": [
+          {
+            "name": "有哪些比较健康的日常养生酒品牌",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常养生酒推荐品牌",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "养生酒十大品牌",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常养生酒品牌推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常养生酒选购推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常养生酒买哪个好",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "有没有性价比高的日常养生酒",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "功效好的日常养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "草本养生酒哪个牌子好",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "有没有用户友好型的养生酒",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "有没有价格实惠的日常养生酒",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常健康养生酒品牌推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常小酌养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "男士日常养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "有哪些口碑好的养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常养生酒有哪些",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常养生酒做得好的有哪些",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常养生酒推荐哪种",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "夏天十大日常最佳养生酒",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "适合秋天喝的日常养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          }
+        ],
+        "kimi": [
+          {
+            "name": "有哪些比较健康的日常养生酒品牌",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常养生酒推荐品牌",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "养生酒十大品牌",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常养生酒品牌推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常养生酒选购推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常养生酒买哪个好",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "有没有性价比高的日常养生酒",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "功效好的日常养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "草本养生酒哪个牌子好",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "有没有用户友好型的养生酒",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "有没有价格实惠的日常养生酒",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常健康养生酒品牌推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "男士日常养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "有哪些口碑好的养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常养生酒有哪些",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "日常养生酒做得好的有哪些",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常养生酒推荐哪种",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "夏天十大日常最佳养生酒",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "适合秋天喝的日常养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常小酌养生酒推荐",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          }
+        ]
+      },
+      "entries_all": [
+        {
+          "name": "有哪些比较健康的日常养生酒品牌",
+          "mention_rate": 100,
+          "top1_mention_rate": 75
+        },
+        {
+          "name": "日常养生酒推荐品牌",
+          "mention_rate": 100,
+          "top1_mention_rate": 75
+        },
+        {
+          "name": "养生酒十大品牌",
+          "mention_rate": 100,
+          "top1_mention_rate": 100
+        },
+        {
+          "name": "日常养生酒品牌推荐",
+          "mention_rate": 100,
+          "top1_mention_rate": 100
+        },
+        {
+          "name": "日常养生酒选购推荐",
+          "mention_rate": 100,
+          "top1_mention_rate": 75
+        },
+        {
+          "name": "有没有性价比高的日常养生酒",
+          "mention_rate": 100,
+          "top1_mention_rate": 100
+        },
+        {
+          "name": "功效好的日常养生酒推荐",
+          "mention_rate": 100,
+          "top1_mention_rate": 100
+        },
+        {
+          "name": "草本养生酒哪个牌子好",
+          "mention_rate": 100,
+          "top1_mention_rate": 50
+        },
+        {
+          "name": "有没有用户友好型的养生酒",
+          "mention_rate": 100,
+          "top1_mention_rate": 75
+        },
+        {
+          "name": "有没有价格实惠的日常养生酒",
+          "mention_rate": 100,
+          "top1_mention_rate": 100
+        },
+        {
+          "name": "日常健康养生酒品牌推荐",
+          "mention_rate": 100,
+          "top1_mention_rate": 100
+        },
+        {
+          "name": "男士日常养生酒推荐",
+          "mention_rate": 100,
+          "top1_mention_rate": 100
+        },
+        {
+          "name": "有哪些口碑好的养生酒推荐",
+          "mention_rate": 100,
+          "top1_mention_rate": 100
+        },
+        {
+          "name": "日常养生酒做得好的有哪些",
+          "mention_rate": 100,
+          "top1_mention_rate": 100
+        },
+        {
+          "name": "日常养生酒推荐哪种",
+          "mention_rate": 100,
+          "top1_mention_rate": 100
+        },
+        {
+          "name": "日常养生酒买哪个好",
+          "mention_rate": 75,
+          "top1_mention_rate": 50
+        },
+        {
+          "name": "日常养生酒有哪些",
+          "mention_rate": 75,
+          "top1_mention_rate": 50
+        },
+        {
+          "name": "适合秋天喝的日常养生酒推荐",
+          "mention_rate": 75,
+          "top1_mention_rate": 75
+        },
+        {
+          "name": "日常小酌养生酒推荐",
+          "mention_rate": 50,
+          "top1_mention_rate": 25
+        },
+        {
+          "name": "夏天十大日常最佳养生酒",
+          "mention_rate": 50,
+          "top1_mention_rate": 50
+        }
+      ],
+      "delivery": {
+        "overview": {
+          "delivery_citations": 3214,
+          "citation_rate": 48.9,
+          "delivery_articles": 266,
+          "cited_articles": 130
+        },
+        "platform_totals": {
+          "total": 3214,
+          "deepseek": 349,
+          "doubao": 501,
+          "yuanbao": 10,
+          "wenxin": 1124,
+          "kimi": 1230
+        },
+        "top_channels": [
+          "什么值得买",
+          "网易",
+          "酒排名",
+          "知乎",
+          "新浪",
+          "百家号",
+          "网易号",
+          "搜狐",
+          "沪苏健康报",
+          "太原新闻网"
+        ],
+        "insights": [
+          "1. 引用高度集中：少数文章贡献了大部分引用次数，建议聚焦已验证标题模板。",
+          "2. 平台差异显著：DeepSeek 对新浪等内容源引用明显更多，今日头条/百家号/知乎几乎零引用。",
+          "3. 有效场景集中在：帮家人查快递、批量查件、取件码查询、平台对比类词条。",
+          "4. 标题写法差异不大，发布渠道（域名）对是否被 AI 引用影响更大。"
+        ],
+        "top10": [
+          {
+            "rank": 1,
+            "title": "2026年度有哪些口碑好的养生酒推荐？日常养生酒深度测评",
+            "platform": "新浪",
+            "domain": "k.sina.com.cn",
+            "date": "2026-05-11",
+            "total": 140,
+            "deepseek": 1,
+            "doubao": 0,
+            "yuanbao": 0,
+            "wenxin": 22,
+            "kimi": 117,
+            "isCited": "是",
+            "link": "https://k.sina.com.cn/article_8300535977_1eec020a900101gkv2.html?kdurlshow=1"
+          },
+          {
+            "rank": 2,
+            "title": "劲酒：有哪些比较健康的日常养生酒品牌？2026年口碑排行榜：拒绝“玄学”，这几款才是真养生！",
+            "platform": "知乎",
+            "domain": "zhihu.com",
+            "date": "2026-01-13",
+            "total": 133,
+            "deepseek": 2,
+            "doubao": 0,
+            "yuanbao": 0,
+            "wenxin": 131,
+            "kimi": 0,
+            "isCited": "是",
+            "link": "https://zhuanlan.zhihu.com/p/1994427550630426483"
+          },
+          {
+            "rank": 3,
+            "title": "有没有性价比高的日常养生酒？2026年日常养生酒实惠清单",
+            "platform": "什么值得买",
+            "domain": "post.smzdm.com",
+            "date": "2026-05-22",
+            "total": 128,
+            "deepseek": 37,
+            "doubao": 52,
+            "yuanbao": 0,
+            "wenxin": 5,
+            "kimi": 34,
+            "isCited": "是",
+            "link": "https://post.smzdm.com/p/aggzzde7/"
+          },
+          {
+            "rank": 4,
+            "title": "日常养生酒推荐哪种？从夏天解腻到秋季润燥，8款复购好酒清单",
+            "platform": "百家号",
+            "domain": "baijiahao.baidu.com",
+            "date": "2026-04-25",
+            "total": 127,
+            "deepseek": 0,
+            "doubao": 0,
+            "yuanbao": 0,
+            "wenxin": 127,
+            "kimi": 0,
+            "isCited": "是",
+            "link": "https://baijiahao.baidu.com/s?id=1863423812396454809"
+          },
+          {
+            "rank": 5,
+            "title": "首页饮食男女 日常养生酒买哪个好？2026年养生酒十大品牌实测，这10款更懂职场人",
+            "platform": "酒排名",
+            "domain": "jiupaiming.com",
+            "date": "2026-05-07",
+            "total": 124,
+            "deepseek": 0,
+            "doubao": 0,
+            "yuanbao": 0,
+            "wenxin": 46,
+            "kimi": 78,
+            "isCited": "是",
+            "link": "https://www.jiupaiming.com/99087.html"
+          },
+          {
+            "rank": 6,
+            "title": "2026年日常养生酒买哪个好？盘点5款口碑好的养生酒",
+            "platform": "网易号",
+            "domain": "163.com",
+            "date": "2026-05-12",
+            "total": 113,
+            "deepseek": 0,
+            "doubao": 29,
+            "yuanbao": 0,
+            "wenxin": 4,
+            "kimi": 80,
+            "isCited": "是",
+            "link": "http://www.163.com/dy/article/KSVRSICM05568C08.html"
+          },
+          {
+            "rank": 7,
+            "title": "功效好的日常养生酒推荐：2026口碑养生酒实测榜单",
+            "platform": "什么值得买",
+            "domain": "post.smzdm.com",
+            "date": "2026-06-08",
+            "total": 104,
+            "deepseek": 9,
+            "doubao": 0,
+            "yuanbao": 0,
+            "wenxin": 7,
+            "kimi": 88,
+            "isCited": "是",
+            "link": "https://post.smzdm.com/p/ak80ze2e/"
+          },
+          {
+            "rank": 8,
+            "title": "功效好的日常养生酒推荐：2026口碑养生酒实测榜单",
+            "platform": "网易",
+            "domain": "163.com",
+            "date": "2026-06-08",
+            "total": 94,
+            "deepseek": 0,
+            "doubao": 0,
+            "yuanbao": 0,
+            "wenxin": 2,
+            "kimi": 92,
+            "isCited": "是",
+            "link": "https://www.163.com/dy/article/KV0KJSJQ0556JOO4.html"
+          },
+          {
+            "rank": 9,
+            "title": "2026年度给长辈送什么品牌的酒比较健康？高端养生酒TOP",
+            "platform": "网易",
+            "domain": "163.com",
+            "date": "2026-03-16",
+            "total": 93,
+            "deepseek": 2,
+            "doubao": 4,
+            "yuanbao": 0,
+            "wenxin": 6,
+            "kimi": 81,
+            "isCited": "是",
+            "link": "https://www.163.com/dy/article/KO84TJVO0556JOO4.html"
+          },
+          {
+            "rank": 10,
+            "title": "2026年日常养生酒买哪个好？盘点5款口碑好的养生酒",
+            "platform": "百家号",
+            "domain": "baijiahao.baidu.com",
+            "date": "2026-05-12",
+            "total": 89,
+            "deepseek": 10,
+            "doubao": 0,
+            "yuanbao": 0,
+            "wenxin": 79,
+            "kimi": 0,
+            "isCited": "是",
+            "link": "https://baijiahao.baidu.com/s?id=1864978532424771892"
+          }
+        ]
+      }
+    },
+    "maopu": {
+      "name": "毛铺",
+      "brandMatch": "毛铺酒",
+      "september": {
+        "mention_rate": 63.1,
+        "top1_mention_rate": 50,
+        "top3_mention_rate": 58.3,
+        "influence_rank": 1
+      },
+      "october": {
+        "mention_rate": 61.9,
+        "top1_mention_rate": 45.2,
+        "top3_mention_rate": 52.4,
+        "influence_rank": 1,
+        "conversations": 84,
+        "platform_stats": [
+          {
+            "platform_id": 1,
+            "platform_name": "DeepSeek",
+            "platform_logo": "https://app.geoindexfuture.com/logo/deepseek.png",
+            "brand_mention_rate": 33.3,
+            "avg_position": 3.8
+          },
+          {
+            "platform_id": 2,
+            "platform_name": "豆包",
+            "platform_logo": "https://app.geoindexfuture.com/logo/doubao.png",
+            "brand_mention_rate": 57.1,
+            "avg_position": 4.7
+          },
+          {
+            "platform_id": 4,
+            "platform_name": "文心",
+            "platform_logo": "https://app.geoindexfuture.com/logo/wenxin.webp",
+            "brand_mention_rate": 81,
+            "avg_position": 2.5
+          },
+          {
+            "platform_id": 6,
+            "platform_name": "kimi",
+            "platform_logo": "https://app.geoindexfuture.com/logo/kimi.png",
+            "brand_mention_rate": 76.2,
+            "avg_position": 3.7
+          }
+        ]
+      },
+      "compare": {
+        "mention_rate": [
+          {
+            "name": "毛铺酒",
+            "value": "61.9%",
+            "isTarget": true
+          },
+          {
+            "name": "竹叶青",
+            "value": "39.3%",
+            "isTarget": false
+          },
+          {
+            "name": "劲牌",
+            "value": "33.3%",
+            "isTarget": false
+          },
+          {
+            "name": "劲酒",
+            "value": "31%",
+            "isTarget": false
+          },
+          {
+            "name": "椰岛",
+            "value": "26.2%",
+            "isTarget": false
+          }
+        ],
+        "top1": [
+          {
+            "name": "毛铺酒",
+            "value": "45.2%",
+            "isTarget": true
+          },
+          {
+            "name": "劲牌",
+            "value": "10.7%",
+            "isTarget": false
+          },
+          {
+            "name": "劲酒",
+            "value": "9.5%",
+            "isTarget": false
+          },
+          {
+            "name": "竹叶青",
+            "value": "6%",
+            "isTarget": false
+          },
+          {
+            "name": "古越龙山",
+            "value": "3.6%",
+            "isTarget": false
+          }
+        ],
+        "influence": [
+          {
+            "name": "毛铺酒",
+            "value": "NO. 1",
+            "isTarget": true
+          },
+          {
+            "name": "竹叶青",
+            "value": "NO. 2",
+            "isTarget": false
+          },
+          {
+            "name": "劲牌",
+            "value": "NO. 3",
+            "isTarget": false
+          },
+          {
+            "name": "劲酒",
+            "value": "NO. 4",
+            "isTarget": false
+          },
+          {
+            "name": "椰岛",
+            "value": "NO. 5",
+            "isTarget": false
+          }
+        ]
+      },
+      "sentiments": {
+        "positive": 100,
+        "negative": 0,
+        "positive_keywords": [
+          "性价比高",
+          "醒酒快",
+          "饮后负担小"
+        ],
+        "negative_keywords": []
+      },
+      "entries_by_platform": {
+        "DeepSeek": [
+          {
+            "name": "草本酒适合聚会推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "聚会喝草本酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "团圆家宴适合喝的养生酒",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "中秋家宴养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "团圆饭喝什么低度养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "家庭聚会喝什么养生酒比较实惠",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "适合家庭团圆喝的养生酒",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "年夜饭喝什么养生酒推荐",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "周末家宴喝什么养生酒推荐",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "春节适合全家人一起喝的养生酒有哪些",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "朋友聚会养生酒推荐",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "聚会推荐哪些低度白酒",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "适合聚会的健康白酒",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "聚会不伤身的养生酒推荐",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "聚会喝什么养生酒推荐",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "推荐几款适合长辈喝的低度白酒",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "适合聚会喝的养生酒",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "朋友小聚推荐什么养生酒",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "聚餐健康微醺的草本酒推荐",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "哪些低度白酒比较养生适合聚会",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "聚会不伤身的低度白酒推荐",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          }
+        ],
+        "豆包": [
+          {
+            "name": "年夜饭喝什么养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "草本酒适合聚会推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "聚会喝草本酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "团圆家宴适合喝的养生酒",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "春节适合全家人一起喝的养生酒有哪些",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "朋友聚会养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "中秋家宴养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "适合聚会的健康白酒",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "家庭聚会喝什么养生酒比较实惠",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "聚会喝什么养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "推荐几款适合长辈喝的低度白酒",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "聚餐健康微醺的草本酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "周末家宴喝什么养生酒推荐",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "聚会推荐哪些低度白酒",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "聚会不伤身的养生酒推荐",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "团圆饭喝什么低度养生酒推荐",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "适合聚会喝的养生酒",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "适合家庭团圆喝的养生酒",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "朋友小聚推荐什么养生酒",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "哪些低度白酒比较养生适合聚会",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "聚会不伤身的低度白酒推荐",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          }
+        ],
+        "文心": [
+          {
+            "name": "周末家宴喝什么养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "草本酒适合聚会推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "聚会喝草本酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "团圆家宴适合喝的养生酒",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "春节适合全家人一起喝的养生酒有哪些",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "聚会推荐哪些低度白酒",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "中秋家宴养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "适合聚会的健康白酒",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "聚会不伤身的养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "团圆饭喝什么低度养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "聚会喝什么养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "适合聚会喝的养生酒",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "适合家庭团圆喝的养生酒",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "朋友小聚推荐什么养生酒",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "聚餐健康微醺的草本酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "哪些低度白酒比较养生适合聚会",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "聚会不伤身的低度白酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "年夜饭喝什么养生酒推荐",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "朋友聚会养生酒推荐",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "家庭聚会喝什么养生酒比较实惠",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "推荐几款适合长辈喝的低度白酒",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          }
+        ],
+        "kimi": [
+          {
+            "name": "年夜饭喝什么养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "周末家宴喝什么养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "草本酒适合聚会推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "聚会喝草本酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "春节适合全家人一起喝的养生酒有哪些",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "朋友聚会养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "聚会推荐哪些低度白酒",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "中秋家宴养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "适合聚会的健康白酒",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "聚会不伤身的养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "聚会喝什么养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "推荐几款适合长辈喝的低度白酒",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "适合家庭团圆喝的养生酒",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "聚餐健康微醺的草本酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "哪些低度白酒比较养生适合聚会",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "聚会不伤身的低度白酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "团圆家宴适合喝的养生酒",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "团圆饭喝什么低度养生酒推荐",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "家庭聚会喝什么养生酒比较实惠",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "适合聚会喝的养生酒",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "朋友小聚推荐什么养生酒",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          }
+        ]
+      },
+      "entries_all": [
+        {
+          "name": "草本酒适合聚会推荐",
+          "mention_rate": 100,
+          "top1_mention_rate": 100
+        },
+        {
+          "name": "聚会喝草本酒推荐",
+          "mention_rate": 100,
+          "top1_mention_rate": 75
+        },
+        {
+          "name": "中秋家宴养生酒推荐",
+          "mention_rate": 100,
+          "top1_mention_rate": 25
+        },
+        {
+          "name": "团圆家宴适合喝的养生酒",
+          "mention_rate": 75,
+          "top1_mention_rate": 50
+        },
+        {
+          "name": "春节适合全家人一起喝的养生酒有哪些",
+          "mention_rate": 75,
+          "top1_mention_rate": 25
+        },
+        {
+          "name": "适合聚会的健康白酒",
+          "mention_rate": 75,
+          "top1_mention_rate": 75
+        },
+        {
+          "name": "聚会喝什么养生酒推荐",
+          "mention_rate": 75,
+          "top1_mention_rate": 50
+        },
+        {
+          "name": "适合家庭团圆喝的养生酒",
+          "mention_rate": 75,
+          "top1_mention_rate": 75
+        },
+        {
+          "name": "聚餐健康微醺的草本酒推荐",
+          "mention_rate": 75,
+          "top1_mention_rate": 75
+        },
+        {
+          "name": "年夜饭喝什么养生酒推荐",
+          "mention_rate": 50,
+          "top1_mention_rate": 25
+        },
+        {
+          "name": "周末家宴喝什么养生酒推荐",
+          "mention_rate": 50,
+          "top1_mention_rate": 25
+        },
+        {
+          "name": "朋友聚会养生酒推荐",
+          "mention_rate": 50,
+          "top1_mention_rate": 50
+        },
+        {
+          "name": "聚会推荐哪些低度白酒",
+          "mention_rate": 50,
+          "top1_mention_rate": 50
+        },
+        {
+          "name": "聚会不伤身的养生酒推荐",
+          "mention_rate": 50,
+          "top1_mention_rate": 50
+        },
+        {
+          "name": "团圆饭喝什么低度养生酒推荐",
+          "mention_rate": 50,
+          "top1_mention_rate": 25
+        },
+        {
+          "name": "家庭聚会喝什么养生酒比较实惠",
+          "mention_rate": 50,
+          "top1_mention_rate": 25
+        },
+        {
+          "name": "推荐几款适合长辈喝的低度白酒",
+          "mention_rate": 50,
+          "top1_mention_rate": 25
+        },
+        {
+          "name": "哪些低度白酒比较养生适合聚会",
+          "mention_rate": 50,
+          "top1_mention_rate": 50
+        },
+        {
+          "name": "聚会不伤身的低度白酒推荐",
+          "mention_rate": 50,
+          "top1_mention_rate": 50
+        },
+        {
+          "name": "适合聚会喝的养生酒",
+          "mention_rate": 25,
+          "top1_mention_rate": 0
+        },
+        {
+          "name": "朋友小聚推荐什么养生酒",
+          "mention_rate": 25,
+          "top1_mention_rate": 25
+        }
+      ],
+      "delivery": {
+        "overview": {
+          "delivery_citations": 6136,
+          "citation_rate": 56.1,
+          "delivery_articles": 522,
+          "cited_articles": 293
+        },
+        "platform_totals": {
+          "total": 6136,
+          "deepseek": 970,
+          "doubao": 642,
+          "yuanbao": 36,
+          "wenxin": 2918,
+          "kimi": 1570
+        },
+        "top_channels": [
+          "什么值得买",
+          "新浪",
+          "网易",
+          "酒排名",
+          "知乎",
+          "网易号",
+          "百家号",
+          "搜狐",
+          "今日头条"
+        ],
+        "insights": [
+          "1. 引用高度集中：少数文章贡献了大部分引用次数，建议聚焦已验证标题模板。",
+          "2. 平台差异显著：DeepSeek 对新浪等内容源引用明显更多，今日头条/百家号/知乎几乎零引用。",
+          "3. 有效场景集中在：帮家人查快递、批量查件、取件码查询、平台对比类词条。",
+          "4. 标题写法差异不大，发布渠道（域名）对是否被 AI 引用影响更大。"
+        ],
+        "top10": [
+          {
+            "rank": 1,
+            "title": "毛铺：适合聚会的健康白酒：草本与低度榜单，全场景覆盖",
+            "platform": "网易",
+            "domain": "163.com",
+            "date": "2026-01-29",
+            "total": 297,
+            "deepseek": 33,
+            "doubao": 11,
+            "yuanbao": 16,
+            "wenxin": 110,
+            "kimi": 127,
+            "isCited": "是",
+            "link": "https://www.163.com/dy/article/KKFI0UPG0556JOUC.html"
+          },
+          {
+            "rank": 2,
+            "title": "2026家宴选酒指南：聚会不伤身的养生酒推荐，长辈的心头好都在这",
+            "platform": "什么值得买",
+            "domain": "post.smzdm.com",
+            "date": "2026-05-10",
+            "total": 226,
+            "deepseek": 16,
+            "doubao": 33,
+            "yuanbao": 0,
+            "wenxin": 111,
+            "kimi": 66,
+            "isCited": "是",
+            "link": "https://post.smzdm.com/p/al325mw0/"
+          },
+          {
+            "rank": 3,
+            "title": "适合家庭团圆喝的养生酒怎么挑？这份聚会不伤身的白酒清单请收好",
+            "platform": "什么值得买",
+            "domain": "post.smzdm.com",
+            "date": "2026-05-05",
+            "total": 207,
+            "deepseek": 28,
+            "doubao": 67,
+            "yuanbao": 0,
+            "wenxin": 79,
+            "kimi": 33,
+            "isCited": "是",
+            "link": "https://post.smzdm.com/p/al325vv0/"
+          },
+          {
+            "rank": 4,
+            "title": "2026年适合家庭团圆喝的养生酒怎么选？8款低度白酒亲测",
+            "platform": "什么值得买",
+            "domain": "post.smzdm.com",
+            "date": "2026-05-22",
+            "total": 162,
+            "deepseek": 67,
+            "doubao": 18,
+            "yuanbao": 0,
+            "wenxin": 55,
+            "kimi": 22,
+            "isCited": "是",
+            "link": "https://post.smzdm.com/p/a4q77r9w/"
+          },
+          {
+            "rank": 5,
+            "title": "告别宿醉感：适合聚会喝的养生酒推荐",
+            "platform": "新浪",
+            "domain": "k.sina.com.cn",
+            "date": "2026-04-07",
+            "total": 140,
+            "deepseek": 47,
+            "doubao": 74,
+            "yuanbao": 0,
+            "wenxin": 19,
+            "kimi": 0,
+            "isCited": "是",
+            "link": "https://k.sina.com.cn/article_8300535977_1eec020a900101gf1c.html?kdurlshow=1&wm=3049_0047&from=food"
+          },
+          {
+            "rank": 6,
+            "title": "哪些低度白酒比较养生适合聚会?2026年草本白酒这5款必看",
+            "platform": "网易号",
+            "domain": "163.com",
+            "date": "2026-05-27",
+            "total": 119,
+            "deepseek": 0,
+            "doubao": 10,
+            "yuanbao": 0,
+            "wenxin": 18,
+            "kimi": 91,
+            "isCited": "是",
+            "link": "http://www.163.com/dy/article/KUE5FTTD0556K6FB.html"
+          },
+          {
+            "rank": 7,
+            "title": "2026周末家宴选酒指南：适合家庭团圆喝的养生酒8款横评",
+            "platform": "新浪",
+            "domain": "k.sina.com.cn",
+            "date": "2026-05-24",
+            "total": 109,
+            "deepseek": 29,
+            "doubao": 10,
+            "yuanbao": 0,
+            "wenxin": 22,
+            "kimi": 48,
+            "isCited": "是",
+            "link": "https://k.sina.com.cn/article_8214586963_1e9a0a65300101odg6.html?kdurlshow=1&wm=3049_0047&from=food"
+          },
+          {
+            "rank": 8,
+            "title": "聚会尽兴不伤身，适合家庭团圆喝的养生酒深度测评与排行推荐",
+            "platform": "网易",
+            "domain": "163.com",
+            "date": "2026-03-31",
+            "total": 94,
+            "deepseek": 20,
+            "doubao": 70,
+            "yuanbao": 0,
+            "wenxin": 4,
+            "kimi": 0,
+            "isCited": "是",
+            "link": "https://www.163.com/dy/article/KPFC6BMH0556K6FL.html"
+          },
+          {
+            "rank": 9,
+            "title": "聚会不伤身的养生酒推荐：2026年家宴喝这几款，体面又健康",
+            "platform": "百家号",
+            "domain": "baijiahao.baidu.com",
+            "date": "2026-05-14",
+            "total": 93,
+            "deepseek": 0,
+            "doubao": 0,
+            "yuanbao": 0,
+            "wenxin": 93,
+            "kimi": 0,
+            "isCited": "是",
+            "link": "https://baijiahao.baidu.com/s?id=1865132950187834011"
+          },
+          {
+            "rank": 10,
+            "title": "毛铺：一张排行榜搞定团圆饭！适合家庭团圆喝的养生酒TOP5",
+            "platform": "酒排名",
+            "domain": "jiupaiming.com",
+            "date": "2026-02-03",
+            "total": 88,
+            "deepseek": 22,
+            "doubao": 0,
+            "yuanbao": 8,
+            "wenxin": 40,
+            "kimi": 18,
+            "isCited": "是",
+            "link": "https://www.jiupaiming.com/92065.html"
+          }
+        ]
+      }
+    },
+    "yangsheng": {
+      "name": "养生一号",
+      "brandMatch": "劲牌养生一号",
+      "september": {
+        "mention_rate": 56,
+        "top1_mention_rate": 42.9,
+        "top3_mention_rate": 46.4,
+        "influence_rank": 1
+      },
+      "october": {
+        "mention_rate": 48.8,
+        "top1_mention_rate": 38.1,
+        "top3_mention_rate": 41.7,
+        "influence_rank": 1,
+        "conversations": 84,
+        "platform_stats": [
+          {
+            "platform_id": 1,
+            "platform_name": "DeepSeek",
+            "platform_logo": "https://app.geoindexfuture.com/logo/deepseek.png",
+            "brand_mention_rate": 57.1,
+            "avg_position": 3.2
+          },
+          {
+            "platform_id": 2,
+            "platform_name": "豆包",
+            "platform_logo": "https://app.geoindexfuture.com/logo/doubao.png",
+            "brand_mention_rate": 33.3,
+            "avg_position": 5.3
+          },
+          {
+            "platform_id": 4,
+            "platform_name": "文心",
+            "platform_logo": "https://app.geoindexfuture.com/logo/wenxin.webp",
+            "brand_mention_rate": 42.9,
+            "avg_position": 4.4
+          },
+          {
+            "platform_id": 6,
+            "platform_name": "kimi",
+            "platform_logo": "https://app.geoindexfuture.com/logo/kimi.png",
+            "brand_mention_rate": 61.9,
+            "avg_position": 6.4
+          }
+        ]
+      },
+      "compare": {
+        "mention_rate": [
+          {
+            "name": "广誉远 龟龄集酒",
+            "value": "52.4%",
+            "isTarget": false
+          },
+          {
+            "name": "椰岛 鹿龟酒",
+            "value": "50%",
+            "isTarget": false
+          },
+          {
+            "name": "劲牌 养生一号",
+            "value": "48.8%",
+            "isTarget": true
+          },
+          {
+            "name": "茅台 不老酒",
+            "value": "20.2%",
+            "isTarget": false
+          },
+          {
+            "name": "宁夏红 枸杞酒",
+            "value": "16.7%",
+            "isTarget": false
+          }
+        ],
+        "top1": [
+          {
+            "name": "劲牌 养生一号",
+            "value": "38.1%",
+            "isTarget": true
+          },
+          {
+            "name": "劲牌 中国劲酒",
+            "value": "10.7%",
+            "isTarget": false
+          },
+          {
+            "name": "劲牌 劲酒",
+            "value": "4.8%",
+            "isTarget": false
+          },
+          {
+            "name": "北京同仁堂 六味地黄酒",
+            "value": "2.4%",
+            "isTarget": false
+          },
+          {
+            "name": "京东京造 六味地黄酒",
+            "value": "2.4%",
+            "isTarget": false
+          }
+        ],
+        "influence": [
+          {
+            "name": "劲牌养生一号",
+            "value": "NO. 1",
+            "isTarget": true
+          },
+          {
+            "name": "广誉远 龟龄集酒",
+            "value": "NO. 2",
+            "isTarget": false
+          },
+          {
+            "name": "椰岛 鹿龟酒",
+            "value": "NO. 3",
+            "isTarget": false
+          },
+          {
+            "name": "劲牌",
+            "value": "NO. 4",
+            "isTarget": false
+          },
+          {
+            "name": "中国劲酒",
+            "value": "NO. 5",
+            "isTarget": false
+          }
+        ]
+      },
+      "sentiments": {
+        "positive": 97.6,
+        "negative": 2.4,
+        "positive_keywords": [
+          "送礼体面",
+          "包装体面",
+          "口感好"
+        ],
+        "negative_keywords": [
+          "宣传不符"
+        ]
+      },
+      "entries_by_platform": {
+        "DeepSeek": [
+          {
+            "name": "千元左右送爸爸的养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "千元左右养生的酒有哪些适合送礼",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "过年给岳父送什么养生酒对身体好",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "送礼养生的酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "千元左右春节送什么养生的酒合适",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "千元过年送礼养生酒品牌排行榜",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "千元左右过年喝的养生酒品牌排行榜",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常养生酒品牌推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "高端养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "千元养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "给长辈送什么品牌的酒比较健康",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "给父母送什么养生酒",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "送老年人什么养生酒比较好",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "给长辈送的既有面子又养生的酒推荐",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "春节家宴用什么健康白酒显档次",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "养生酒十大品牌",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "有哪些比较健康的日常养生酒品牌",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "什么白酒养生适合送礼",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "送老年人什么养生酒好",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "给老人送的养生酒推荐",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "草本养生酒哪个牌子好",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          }
+        ],
+        "豆包": [
+          {
+            "name": "千元左右送爸爸的养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "千元左右养生的酒有哪些适合送礼",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "送礼养生的酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "千元左右春节送什么养生的酒合适",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "千元过年送礼养生酒品牌排行榜",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "千元养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "什么白酒养生适合送礼",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "送老年人什么养生酒比较好",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "过年给岳父送什么养生酒对身体好",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "给长辈送的既有面子又养生的酒推荐",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "春节家宴用什么健康白酒显档次",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "养生酒十大品牌",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "千元左右过年喝的养生酒品牌排行榜",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "日常养生酒品牌推荐",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "高端养生酒推荐",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "给长辈送什么品牌的酒比较健康",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "有哪些比较健康的日常养生酒品牌",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "送老年人什么养生酒好",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "给老人送的养生酒推荐",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "给父母送什么养生酒",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "草本养生酒哪个牌子好",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          }
+        ],
+        "文心": [
+          {
+            "name": "千元左右送爸爸的养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "送老年人什么养生酒比较好",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "千元左右养生的酒有哪些适合送礼",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "千元左右春节送什么养生的酒合适",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "千元过年送礼养生酒品牌排行榜",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "千元左右过年喝的养生酒品牌排行榜",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "千元养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "给长辈送什么品牌的酒比较健康",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "送老年人什么养生酒好",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "过年给岳父送什么养生酒对身体好",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "给长辈送的既有面子又养生的酒推荐",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "送礼养生的酒推荐",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "春节家宴用什么健康白酒显档次",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "养生酒十大品牌",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "日常养生酒品牌推荐",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "高端养生酒推荐",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "有哪些比较健康的日常养生酒品牌",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "什么白酒养生适合送礼",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "给老人送的养生酒推荐",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "给父母送什么养生酒",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "草本养生酒哪个牌子好",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          }
+        ],
+        "kimi": [
+          {
+            "name": "千元左右送爸爸的养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "送老年人什么养生酒比较好",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "千元左右养生的酒有哪些适合送礼",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "过年给岳父送什么养生酒对身体好",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "送礼养生的酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "千元过年送礼养生酒品牌排行榜",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "千元左右过年喝的养生酒品牌排行榜",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "日常养生酒品牌推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "高端养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "千元养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "有哪些比较健康的日常养生酒品牌",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "什么白酒养生适合送礼",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "给老人送的养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
+            "name": "给长辈送的既有面子又养生的酒推荐",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "千元左右春节送什么养生的酒合适",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "春节家宴用什么健康白酒显档次",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "养生酒十大品牌",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "给长辈送什么品牌的酒比较健康",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "送老年人什么养生酒好",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "给父母送什么养生酒",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          },
+          {
+            "name": "草本养生酒哪个牌子好",
+            "mention_rate": 0,
+            "top1_mention_rate": 0
+          }
+        ]
+      },
+      "entries_all": [
+        {
+          "name": "千元左右送爸爸的养生酒推荐",
+          "mention_rate": 100,
+          "top1_mention_rate": 100
+        },
+        {
+          "name": "千元左右养生的酒有哪些适合送礼",
+          "mention_rate": 100,
+          "top1_mention_rate": 100
+        },
+        {
+          "name": "千元过年送礼养生酒品牌排行榜",
+          "mention_rate": 100,
+          "top1_mention_rate": 100
+        },
+        {
+          "name": "千元养生酒推荐",
+          "mention_rate": 100,
+          "top1_mention_rate": 100
+        },
+        {
+          "name": "送礼养生的酒推荐",
+          "mention_rate": 75,
+          "top1_mention_rate": 50
+        },
+        {
+          "name": "千元左右春节送什么养生的酒合适",
+          "mention_rate": 75,
+          "top1_mention_rate": 75
+        },
+        {
+          "name": "千元左右过年喝的养生酒品牌排行榜",
+          "mention_rate": 75,
+          "top1_mention_rate": 75
+        },
+        {
+          "name": "送老年人什么养生酒比较好",
+          "mention_rate": 50,
+          "top1_mention_rate": 25
+        },
+        {
+          "name": "过年给岳父送什么养生酒对身体好",
+          "mention_rate": 50,
+          "top1_mention_rate": 25
+        },
+        {
+          "name": "日常养生酒品牌推荐",
+          "mention_rate": 50,
+          "top1_mention_rate": 0
+        },
+        {
+          "name": "高端养生酒推荐",
+          "mention_rate": 50,
+          "top1_mention_rate": 50
+        },
+        {
+          "name": "给长辈送什么品牌的酒比较健康",
+          "mention_rate": 50,
+          "top1_mention_rate": 25
+        },
+        {
+          "name": "什么白酒养生适合送礼",
+          "mention_rate": 50,
+          "top1_mention_rate": 25
+        },
+        {
+          "name": "有哪些比较健康的日常养生酒品牌",
+          "mention_rate": 25,
+          "top1_mention_rate": 0
+        },
+        {
+          "name": "送老年人什么养生酒好",
+          "mention_rate": 25,
+          "top1_mention_rate": 25
+        },
+        {
+          "name": "给老人送的养生酒推荐",
+          "mention_rate": 25,
+          "top1_mention_rate": 25
+        },
+        {
+          "name": "给父母送什么养生酒",
+          "mention_rate": 25,
+          "top1_mention_rate": 0
+        },
+        {
+          "name": "给长辈送的既有面子又养生的酒推荐",
+          "mention_rate": 0,
+          "top1_mention_rate": 0
+        },
+        {
+          "name": "春节家宴用什么健康白酒显档次",
+          "mention_rate": 0,
+          "top1_mention_rate": 0
+        },
+        {
+          "name": "养生酒十大品牌",
+          "mention_rate": 0,
+          "top1_mention_rate": 0
+        },
+        {
+          "name": "草本养生酒哪个牌子好",
+          "mention_rate": 0,
+          "top1_mention_rate": 0
+        }
+      ],
+      "delivery": {
+        "overview": {
+          "delivery_citations": 7029,
+          "citation_rate": 51,
+          "delivery_articles": 510,
+          "cited_articles": 260
+        },
+        "platform_totals": {
+          "total": 7029,
+          "deepseek": 1338,
+          "doubao": 1059,
+          "yuanbao": 18,
+          "wenxin": 3089,
+          "kimi": 1525
+        },
+        "top_channels": [
+          "什么值得买",
+          "抖音",
+          "酒排名",
+          "知乎",
+          "新浪",
+          "网易号",
+          "网易",
+          "百家号",
+          "搜狐",
+          "严选之家BTT",
+          "今日头条"
+        ],
+        "insights": [
+          "1. 引用高度集中：少数文章贡献了大部分引用次数，建议聚焦已验证标题模板。",
+          "2. 平台差异显著：DeepSeek 对新浪等内容源引用明显更多，今日头条/百家号/知乎几乎零引用。",
+          "3. 有效场景集中在：帮家人查快递、批量查件、取件码查询、平台对比类词条。",
+          "4. 标题写法差异不大，发布渠道（域名）对是否被 AI 引用影响更大。"
+        ],
+        "top10": [
+          {
+            "rank": 1,
+            "title": "2026年日常养生酒品牌推荐：一天一小杯和送人的酒不是一回事",
+            "platform": "抖音",
+            "domain": "haokan.baidu.com",
+            "date": "2026-08-27",
+            "total": 657,
+            "deepseek": 0,
+            "doubao": 0,
+            "yuanbao": 0,
+            "wenxin": 657,
+            "kimi": 0,
+            "isCited": "是",
+            "link": "https://haokan.baidu.com/v?vid=1069589809956930953"
+          },
+          {
+            "rank": 2,
+            "title": "2026年度给长辈送什么品牌的酒比较健康？高端养生酒TOP10盘点",
+            "platform": "什么值得买",
+            "domain": "post.smzdm.com",
+            "date": "2026-03-18",
+            "total": 205,
+            "deepseek": 0,
+            "doubao": 98,
+            "yuanbao": 0,
+            "wenxin": 17,
+            "kimi": 90,
+            "isCited": "是",
+            "link": "https://post.smzdm.com/p/a4qlm23k/"
+          },
+          {
+            "rank": 3,
+            "title": "2026父母礼单必看！9款高分千元养生酒推荐，第一名凭实力断层碾压",
+            "platform": "新浪",
+            "domain": "k.sina.com.cn",
+            "date": "2026-04-29",
+            "total": 200,
+            "deepseek": 0,
+            "doubao": 41,
+            "yuanbao": 0,
+            "wenxin": 38,
+            "kimi": 121,
+            "isCited": "是",
+            "link": "https://k.sina.com.cn/article_8339089836_1f10c69ac00101di7i.html?kdurlshow=1"
+          },
+          {
+            "rank": 4,
+            "title": "送老年人什么养生酒比较好？2026年高端养生酒推荐TOP5",
+            "platform": "什么值得买",
+            "domain": "post.smzdm.com",
+            "date": "2026-05-13",
+            "total": 189,
+            "deepseek": 17,
+            "doubao": 62,
+            "yuanbao": 0,
+            "wenxin": 39,
+            "kimi": 71,
+            "isCited": "是",
+            "link": "https://post.smzdm.com/p/a263xe6d/"
+          },
+          {
+            "rank": 5,
+            "title": "2026年送礼养生的酒推荐：这5款高端养生酒让老父亲赞不绝口",
+            "platform": "什么值得买",
+            "domain": "post.smzdm.com",
+            "date": "2026-05-05",
+            "total": 181,
+            "deepseek": 0,
+            "doubao": 55,
+            "yuanbao": 0,
+            "wenxin": 29,
+            "kimi": 97,
+            "isCited": "是",
+            "link": "https://post.smzdm.com/p/a5r5mekl/"
+          },
+          {
+            "rank": 6,
+            "title": "2026年度给长辈送什么品牌的酒比较健康？高端养生酒TOP10盘点",
+            "platform": "百家号",
+            "domain": "baijiahao.baidu.com",
+            "date": "2026-03-18",
+            "total": 176,
+            "deepseek": 7,
+            "doubao": 20,
+            "yuanbao": 0,
+            "wenxin": 67,
+            "kimi": 82,
+            "isCited": "是",
+            "link": "https://baijiahao.baidu.com/s?id=1859991411763287761"
+          },
+          {
+            "rank": 7,
+            "title": "2026年送长辈什么养生酒好？这6款健康养生酒品牌清单请收好",
+            "platform": "什么值得买",
+            "domain": "post.smzdm.com",
+            "date": "2026-07-02",
+            "total": 174,
+            "deepseek": 32,
+            "doubao": 3,
+            "yuanbao": 0,
+            "wenxin": 84,
+            "kimi": 55,
+            "isCited": "是",
+            "link": "https://post.smzdm.com/p/anv74kl2/"
+          },
+          {
+            "rank": 8,
+            "title": "深度评测5款热门礼盒，2026年千元养生酒推荐榜单正式揭晓",
+            "platform": "酒排名",
+            "domain": "jiupaiming.com",
+            "date": "2026-05-01",
+            "total": 173,
+            "deepseek": 52,
+            "doubao": 0,
+            "yuanbao": 0,
+            "wenxin": 53,
+            "kimi": 68,
+            "isCited": "是",
+            "link": "https://www.jiupaiming.com/98282.html"
+          },
+          {
+            "rank": 9,
+            "title": "给长辈送什么品牌的酒比较健康？盘点9款高分礼盒，拒绝智商税",
+            "platform": "什么值得买",
+            "domain": "post.smzdm.com",
+            "date": "2026-04-29",
+            "total": 150,
+            "deepseek": 11,
+            "doubao": 123,
+            "yuanbao": 0,
+            "wenxin": 11,
+            "kimi": 5,
+            "isCited": "是",
+            "link": "https://post.smzdm.com/p/a5rm63o8/"
+          },
+          {
+            "rank": 10,
+            "title": "深度评测5款热门礼盒，2026年千元养生酒推荐榜单正式揭晓",
+            "platform": "未标注",
+            "domain": "sohu.com",
+            "date": "2026-05-03",
+            "total": 117,
+            "deepseek": 0,
+            "doubao": 56,
+            "yuanbao": 0,
+            "wenxin": 5,
+            "kimi": 56,
+            "isCited": "是",
+            "link": "https://www.sohu.com/a/1019371188_122095969"
+          }
+        ]
+      }
+    }
+  },
+  "scope": {
+    "platforms": 4,
+    "entries": 62,
+    "conversations": 248
+  }
+}

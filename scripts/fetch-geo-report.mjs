@@ -93,6 +93,7 @@ async function login() {
   cookie = (res.headers.getSetCookie?.() || [res.headers.get('set-cookie')])
     .filter(Boolean)
     .map((c) => c.split(';')[0])
+    .filter((c) => c.includes('=') && c.split('=').slice(1).join('='))
     .join('; ');
   return json.user;
 }
@@ -210,6 +211,8 @@ async function main() {
       list: (influence.data.list || []).map((b) => ({
         rank: b.rank,
         brand_name: b.brand_name,
+        product_name: b.product_name || null,
+        display_name: b.display_name || b.display_name_zh || b.product_name || b.brand_name,
         favicon_url: b.favicon_url,
         influence_score: num(b.influence_score),
         mention_rate: num(b.mention_rate),
