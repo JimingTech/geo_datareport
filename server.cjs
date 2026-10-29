@@ -3,7 +3,7 @@ const path = require('path');
 const fs = require('fs');
 
 const app = express();
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 4050;
 const DIST_DIR = path.join(__dirname, 'dist');
 
 app.use(express.json());
