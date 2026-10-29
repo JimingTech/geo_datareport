@@ -97,7 +97,7 @@ export default function Page_CompetitorAnalysis() {
         <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
         <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4 flex items-center">
           ToC 竞品分析
-          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年9月）</span>
+          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年10月）</span>
         </h1>
       </div>
 
@@ -116,11 +116,11 @@ export default function Page_CompetitorAnalysis() {
             </h2>
             <div className="flex-grow rounded-2xl bg-[#004CE5]/5 border border-[#004CE5]/20 p-5 flex flex-col justify-evenly min-h-0">
               <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-                1. 桃李已拿下曝光与影响力双第一：提及率 72.2% 领先豪士 21.1 个百分点，综合竞品排名稳居 NO.1。
+                1. 桃李已拿下曝光与影响力双第一：提及率 82.8% 领先豪士 25.6 个百分点，综合竞品排名稳居 NO.1。
               </p>
               <div className="h-px bg-[#004CE5]/10 my-1" />
               <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-                2. 首推领先最接近的竞品：Top1 42.2%，高于豪士 13.3 个百分点；曼可顿、义利已进入首推分流。
+                2. 首推领先最接近的竞品：Top1 51.1%，高于豪士 40.0 个百分点；义利、山姆、盒马已进入首推分流。
               </p>
             </div>
           </div>
@@ -135,17 +135,17 @@ export default function Page_CompetitorAnalysis() {
                 {
                   num: '01',
                   title: '扩大首推领先',
-                  desc: 'Top1 现为 42.2%，高于优化前 40.9%，继续在早餐、早八、平价短保词条强化「首选桃李」表述。',
+                  desc: 'Top1 现为 51.1%，高于 9月 42.2%，继续在早餐、早八、平价短保词条强化「首选桃李」表述。',
                 },
                 {
                   num: '02',
                   title: '拦截豪士',
-                  desc: '豪士是最接近的竞品（提及率 51.1%、Top1 13.3%），需在同台推荐中明确桃李更优的结论。',
+                  desc: '豪士是最接近的竞品（提及率 57.2%、Top1 11.1%），需在同台推荐中明确桃李更优的结论。',
                 },
                 {
                   num: '03',
                   title: '守住综合竞品排名',
-                  desc: '综合竞品排名现居 NO.1，继续在推荐清单类语料中前置桃李，防止曼可顿、达利园继续贴近。',
+                  desc: '综合竞品排名现居 NO.1，继续在推荐清单类语料中前置桃李，防止曼可顿、嘉顿继续贴近。',
                 },
               ].map((strat) => (
                 <div key={strat.num} className="flex items-start gap-3">

@@ -7,20 +7,6 @@ function fmtPct(v) {
   return `${Number(v).toFixed(1)}%`;
 }
 
-function fmtCnDate(iso) {
-  const [, month, day] = String(iso).split('-');
-  return `${Number(month)}月${Number(day)}日`;
-}
-
-function BeforeHeading() {
-  return (
-    <span className="block leading-tight">
-      {meta.before_label}
-      <span className="block">（{fmtCnDate(meta.before_date)}）</span>
-    </span>
-  );
-}
-
 const ROWS = [
   { key: 'toc', name: '桃李面包 ToC' },
   { key: 'tob', name: '桃李面包 ToB' },
@@ -53,13 +39,13 @@ export default function Page_CoreDataOverview() {
               <th colSpan={2} className="py-3 px-4 text-2xl font-black text-center border-l border-white/10 bg-[#2E75FF]">综合竞品排名</th>
             </tr>
             <tr className="bg-slate-50/80 border-b border-zinc-200 text-[#004CE5] font-black text-2xl">
-              <th className="py-2 px-2 text-center border-l border-zinc-200 w-[10.25%]"><BeforeHeading /></th>
+              <th className="py-2 px-2 text-center border-l border-zinc-200 w-[10.25%]">{meta.before_label}</th>
               <th className="py-2 px-2 text-center border-l border-zinc-200 border-r-2 border-[#004CE5]/15 w-[10.25%]">{meta.september_label}</th>
-              <th className="py-2 px-2 text-center border-l border-zinc-200 w-[10.25%]"><BeforeHeading /></th>
+              <th className="py-2 px-2 text-center border-l border-zinc-200 w-[10.25%]">{meta.before_label}</th>
               <th className="py-2 px-2 text-center border-l border-zinc-200 border-r-2 border-[#004CE5]/15 w-[10.25%]">{meta.september_label}</th>
-              <th className="py-2 px-2 text-center border-l border-zinc-200 w-[10.25%]"><BeforeHeading /></th>
+              <th className="py-2 px-2 text-center border-l border-zinc-200 w-[10.25%]">{meta.before_label}</th>
               <th className="py-2 px-2 text-center border-l border-zinc-200 border-r-2 border-[#004CE5]/15 w-[10.25%]">{meta.september_label}</th>
-              <th className="py-2 px-2 text-center border-l border-zinc-200 w-[10.25%]"><BeforeHeading /></th>
+              <th className="py-2 px-2 text-center border-l border-zinc-200 w-[10.25%]">{meta.before_label}</th>
               <th className="py-2 px-2 text-center border-l border-zinc-200 w-[10.25%]">{meta.september_label}</th>
             </tr>
           </thead>
@@ -94,7 +80,7 @@ export default function Page_CoreDataOverview() {
           </div>
           <div className="flex-1 flex items-center min-h-0">
             <p className="text-[22px] leading-snug text-zinc-700 font-bold">
-              相较优化前，ToC 提及率由 59.1% 升至 72.2%，综合竞品排名稳守 NO.1，Top1 由 40.9% 升至 42.2%；ToB 提及率由 83.3% 升至 88.3%，综合竞品排名稳居 NO.1，Top1 由 67.8% 升至 73.9%。
+              相较9月，ToC 提及率由 72.2% 升至 82.8%，综合竞品排名稳守 NO.1，Top1 由 42.2% 升至 51.1%；ToB 提及率由 88.3% 升至 93.9%，综合竞品排名稳居 NO.1，Top1 由 73.9% 升至 82.2%。
             </p>
           </div>
         </div>
@@ -106,7 +92,7 @@ export default function Page_CoreDataOverview() {
           </div>
           <div className="flex-1 flex items-center min-h-0">
             <p className="text-[22px] leading-snug text-zinc-700 font-bold">
-              ToC 守住 42.2% 的首推，继续拦截豪士在早餐/早八场景的分流；ToB 守住 88.3% 的提及广度、73.9% 的首推与 NO.1，继续压住达利园、曼可顿。
+              ToC 守住 51.1% 的首推，继续拦截豪士在早餐/早八场景的分流；ToB 守住 93.9% 的提及广度、82.2% 的首推与 NO.1，继续压住曼可顿、宾堡。
             </p>
           </div>
         </div>

@@ -97,7 +97,7 @@ export default function Page_CompetitorAnalysis_AI() {
         <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
         <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4 flex items-center">
           ToB 竞品分析
-          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年9月）</span>
+          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年10月）</span>
         </h1>
       </div>
 
@@ -116,11 +116,11 @@ export default function Page_CompetitorAnalysis_AI() {
             </h2>
             <div className="flex-grow rounded-2xl bg-[#004CE5]/5 border border-[#004CE5]/20 p-5 flex flex-col justify-evenly min-h-0">
               <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-                1. ToB 基本盘更稳：提及率 88.3%、Top1 73.9%、综合竞品排名 NO.1，首推断层领先（第二名达利园仅 3.9%）。
+                1. ToB 基本盘更稳：提及率 93.9%、Top1 82.2%、综合竞品排名 NO.1，首推断层领先（第二名盼盼仅 3.3%）。
               </p>
               <div className="h-px bg-[#004CE5]/10 my-1" />
               <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-                2. 达利园、曼可顿提及率分列 59.4%、57.8%，但对首推威胁弱。
+                2. 曼可顿、宾堡提及率分列 66.7%、52.2%，但对首推威胁弱。
               </p>
             </div>
           </div>
@@ -135,17 +135,17 @@ export default function Page_CompetitorAnalysis_AI() {
                 {
                   num: '01',
                   title: '守住首推断层',
-                  desc: 'Top1 73.9% 已高于优化前 67.8%，需在便利店进货、商超供货等 ToB 词条继续前置桃李，把断层优势稳住。',
+                  desc: 'Top1 82.2% 已高于 9月 73.9%，需在便利店进货、商超供货等 ToB 词条继续前置桃李，把断层优势稳住。',
                 },
                 {
                   num: '02',
                   title: '拉开第二梯队',
-                  desc: '达利园、曼可顿提及率分列 59.4%、57.8%，要在多品牌同台语料中明确「渠道更稳、周转更快」的差异。',
+                  desc: '曼可顿、宾堡提及率分列 66.7%、52.2%，要在多品牌同台语料中明确「渠道更稳、周转更快」的差异。',
                 },
                 {
                   num: '03',
                   title: '高曝光转化',
-                  desc: '利用 88.3% 的提及率第一优势，把渠道进货场景的曝光继续转化成首推偏好，守住综合竞品排名 NO.1。',
+                  desc: '利用 93.9% 的提及率第一优势，把渠道进货场景的曝光继续转化成首推偏好，守住综合竞品排名 NO.1。',
                 },
               ].map((strat) => (
                 <div key={strat.num} className="flex items-start gap-3">

@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 /**
  * 桃李面包 TOC(465) / TOB(464) 报告取数
- *   优化前 = 2026-08-11 单日
- *   9月   = 2026-09-22 单日（页面文字口径写「9月」）
+ *   9月 = 2026-09-22 单日（写入 before）
+ *   10月 = 2026-10-29 单日（写入 september 字段，页面标签为「10月」）
  */
 import { writeFileSync, existsSync, mkdirSync, readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
@@ -30,10 +30,10 @@ if (!USERNAME || !PASSWORD) {
   process.exit(1);
 }
 
-const BEFORE_DATE = '2026-08-11';
-const SEPT_DATE = '2026-09-22';
-const MONTH_START = '2026-09-01';
-const MONTH_END = '2026-09-22';
+const BEFORE_DATE = '2026-09-22';
+const SEPT_DATE = '2026-10-29';
+const MONTH_START = '2026-10-01';
+const MONTH_END = '2026-10-29';
 
 const PRODUCTS = [
   { key: 'toc', projectId: 465, name: '桃李面包 ToC', short: 'ToC' },
@@ -75,7 +75,10 @@ async function login() {
   const json = await res.json();
   if (!json.ok) throw new Error(`登录失败: ${json.error}`);
   cookie = (res.headers.getSetCookie?.() || [res.headers.get('set-cookie')])
-    .filter(Boolean).map((c) => c.split(';')[0]).join('; ');
+    .filter(Boolean)
+    .map((c) => c.split(';')[0])
+    .filter((pair) => pair.slice(pair.indexOf('=') + 1).length > 0)
+    .join('; ');
   return json.user;
 }
 
@@ -206,8 +209,8 @@ async function main() {
     septSnap.covered_entries = (sept.entries.data.list || []).filter((e) => Number(e.mention_rate) > 0).length;
     beforeSnap.covered_entries = (before.entries.data.list || []).filter((e) => Number(e.mention_rate) > 0).length;
 
-    console.log(`  优化前 提及率=${beforeSnap.mention_rate}% Top1=${beforeSnap.top1_mention_rate}% Top3=${beforeSnap.top3_mention_rate}% 排名=NO.${beforeSnap.influence_rank}`);
-    console.log(`  9月    提及率=${septSnap.mention_rate}% Top1=${septSnap.top1_mention_rate}% Top3=${septSnap.top3_mention_rate}% 排名=NO.${septSnap.influence_rank}`);
+    console.log(`  9月  提及率=${beforeSnap.mention_rate}% Top1=${beforeSnap.top1_mention_rate}% Top3=${beforeSnap.top3_mention_rate}% 排名=NO.${beforeSnap.influence_rank}`);
+    console.log(`  10月 提及率=${septSnap.mention_rate}% Top1=${septSnap.top1_mention_rate}% Top3=${septSnap.top3_mention_rate}% 排名=NO.${septSnap.influence_rank}`);
 
     const compare = {
       mention_rate: ranking(topFourPlusSelf(sept.compare.data.mention_rate_ranking), (b) => `${num(b.mention_rate)}%`),
@@ -276,7 +279,7 @@ async function main() {
     scopeArticles += monthArticles.data.total || 0;
     scopeEntries += monthEntries.data.total || 0;
     for (const n of await allBrandNames(p.projectId, MONTH_START, MONTH_END)) scopeBrands.add(n);
-    console.log(`  9月1-22 会话=${monthCitations.data.total_conversations} 文章=${monthArticles.data.total} 引用=${monthCitations.data.total_citations}`);
+    console.log(`  10月1-29 会话=${monthCitations.data.total_conversations} 文章=${monthArticles.data.total} 引用=${monthCitations.data.total_citations}`);
   }
 
   const monitor = {};
@@ -294,14 +297,14 @@ async function main() {
   const report = {
     meta: {
       fetched_at: new Date().toISOString(),
-      label: '2026年9月',
+      label: '2026年10月',
       before_date: BEFORE_DATE,
       september_date: SEPT_DATE,
-      before_label: '优化前',
-      september_label: '9月',
+      before_label: '9月',
+      september_label: '10月',
     },
     scope: {
-      calendar_days: 22,
+      calendar_days: 29,
       platforms: scopePlatforms.size,
       platform_names: [...scopePlatforms],
       entries: scopeEntries,
