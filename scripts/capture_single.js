@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUTPUT_DIR = path.join(__dirname, '../screenshots');
-const SLIDE_URL = 'http://localhost:7647';
+const SLIDE_URL = 'http://localhost:7648';
 
 async function main() {
   const browser = await puppeteer.launch({
