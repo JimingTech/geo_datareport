@@ -80,7 +80,7 @@ export default function Page_CoreDataOverview() {
         </div>
         <p className="text-[22px] leading-snug text-zinc-700 font-bold">
           <span className="text-zinc-900 font-black">高位波动属正常现象：</span>
-          劲酒、毛铺仍在高位区间，月度小幅回落不代表 GEO 效果下降。养生一号提及率、Top1回落更明显，但综合竞品排名仍稳居NO.1。
+          劲酒、毛铺、养生一号仍在高位区间，月度小幅回落不代表 GEO 效果下降。三款产品综合竞品排名均稳居NO.1。
         </p>
       </div>
 
@@ -92,7 +92,7 @@ export default function Page_CoreDataOverview() {
           </div>
           <div className="flex-1 flex items-center min-h-0">
             <p className="text-[22px] leading-snug text-zinc-700 font-bold">
-              相较9月，劲酒提及率91.3%、Top1 80%，综合排名稳居NO.1；毛铺提及率61.9%、Top1 45.2%，综合排名稳居NO.1；养生一号提及率48.8%、Top1 38.1%，综合排名稳居NO.1。
+              劲酒提及率91.3%、Top1 80%，综合排名稳居NO.1；毛铺提及率61.9%、Top1 45.2%，综合排名稳居NO.1；养生一号提及率51.2%、Top1 39.3%，综合排名稳居NO.1，提及率已超过椰岛和广誉远。
             </p>
           </div>
         </div>
@@ -104,7 +104,7 @@ export default function Page_CoreDataOverview() {
           </div>
           <div className="flex-1 flex items-center min-h-0">
             <p className="text-[22px] leading-snug text-zinc-700 font-bold">
-              劲酒守住NO.1与91.3%的提及率，把80%的Top1继续压住椰岛；毛铺守住NO.1，补齐DeepSeek端33.3%的短板；养生一号守住NO.1和38.1%的Top1，针对广誉远52.4%的提及率补齐高端送礼内容。
+              劲酒继续守住80%的Top1，并拉开与椰岛的提及率差距；毛铺补齐DeepSeek端33.3%的短板；养生一号巩固提及率第一，加密高端送礼内容，防止被椰岛、广誉远贴近。
             </p>
           </div>
         </div>

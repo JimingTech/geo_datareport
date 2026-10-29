@@ -1714,9 +1714,9 @@
         "influence_rank": 1
       },
       "october": {
-        "mention_rate": 48.8,
-        "top1_mention_rate": 38.1,
-        "top3_mention_rate": 41.7,
+        "mention_rate": 51.2,
+        "top1_mention_rate": 39.3,
+        "top3_mention_rate": 42.9,
         "influence_rank": 1,
         "conversations": 84,
         "platform_stats": [
@@ -1725,21 +1725,21 @@
             "platform_name": "DeepSeek",
             "platform_logo": "https://app.geoindexfuture.com/logo/deepseek.png",
             "brand_mention_rate": 57.1,
-            "avg_position": 3.2
+            "avg_position": 3.3
           },
           {
             "platform_id": 2,
             "platform_name": "豆包",
             "platform_logo": "https://app.geoindexfuture.com/logo/doubao.png",
-            "brand_mention_rate": 33.3,
+            "brand_mention_rate": 38.1,
             "avg_position": 5.3
           },
           {
             "platform_id": 4,
             "platform_name": "文心",
             "platform_logo": "https://app.geoindexfuture.com/logo/wenxin.webp",
-            "brand_mention_rate": 42.9,
-            "avg_position": 4.4
+            "brand_mention_rate": 47.6,
+            "avg_position": 4
           },
           {
             "platform_id": 6,
@@ -1753,9 +1753,9 @@
       "compare": {
         "mention_rate": [
           {
-            "name": "广誉远 龟龄集酒",
-            "value": "52.4%",
-            "isTarget": false
+            "name": "劲牌 养生一号",
+            "value": "51.2%",
+            "isTarget": true
           },
           {
             "name": "椰岛 鹿龟酒",
@@ -1763,35 +1763,30 @@
             "isTarget": false
           },
           {
-            "name": "劲牌 养生一号",
+            "name": "广誉远 龟龄集酒",
             "value": "48.8%",
-            "isTarget": true
-          },
-          {
-            "name": "茅台 不老酒",
-            "value": "20.2%",
             "isTarget": false
           },
           {
-            "name": "宁夏红 枸杞酒",
-            "value": "16.7%",
+            "name": "劲牌 劲酒",
+            "value": "40.5%",
+            "isTarget": false
+          },
+          {
+            "name": "贵州董酒 佰草香",
+            "value": "25%",
             "isTarget": false
           }
         ],
         "top1": [
           {
             "name": "劲牌 养生一号",
-            "value": "38.1%",
+            "value": "39.3%",
             "isTarget": true
           },
           {
-            "name": "劲牌 中国劲酒",
-            "value": "10.7%",
-            "isTarget": false
-          },
-          {
             "name": "劲牌 劲酒",
-            "value": "4.8%",
+            "value": "27.4%",
             "isTarget": false
           },
           {
@@ -1803,6 +1798,11 @@
             "name": "京东京造 六味地黄酒",
             "value": "2.4%",
             "isTarget": false
+          },
+          {
+            "name": "劲牌 参茸劲酒",
+            "value": "2.4%",
+            "isTarget": false
           }
         ],
         "influence": [
@@ -1812,7 +1812,7 @@
             "isTarget": true
           },
           {
-            "name": "广誉远 龟龄集酒",
+            "name": "劲酒",
             "value": "NO. 2",
             "isTarget": false
           },
@@ -1822,12 +1822,12 @@
             "isTarget": false
           },
           {
-            "name": "劲牌",
+            "name": "广誉远 龟龄集酒",
             "value": "NO. 4",
             "isTarget": false
           },
           {
-            "name": "中国劲酒",
+            "name": "贵州董酒 佰草香",
             "value": "NO. 5",
             "isTarget": false
           }
@@ -1980,6 +1980,11 @@
             "top1_mention_rate": 100
           },
           {
+            "name": "千元左右过年喝的养生酒品牌排行榜",
+            "mention_rate": 100,
+            "top1_mention_rate": 100
+          },
+          {
             "name": "千元养生酒推荐",
             "mention_rate": 100,
             "top1_mention_rate": 100
@@ -2011,11 +2016,6 @@
           },
           {
             "name": "养生酒十大品牌",
-            "mention_rate": 0,
-            "top1_mention_rate": 0
-          },
-          {
-            "name": "千元左右过年喝的养生酒品牌排行榜",
             "mention_rate": 0,
             "top1_mention_rate": 0
           },
@@ -2107,6 +2107,11 @@
             "top1_mention_rate": 100
           },
           {
+            "name": "给老人送的养生酒推荐",
+            "mention_rate": 100,
+            "top1_mention_rate": 0
+          },
+          {
             "name": "过年给岳父送什么养生酒对身体好",
             "mention_rate": 0,
             "top1_mention_rate": 0
@@ -2148,11 +2153,6 @@
           },
           {
             "name": "什么白酒养生适合送礼",
-            "mention_rate": 0,
-            "top1_mention_rate": 0
-          },
-          {
-            "name": "给老人送的养生酒推荐",
             "mention_rate": 0,
             "top1_mention_rate": 0
           },
@@ -2292,6 +2292,11 @@
           "top1_mention_rate": 100
         },
         {
+          "name": "千元左右过年喝的养生酒品牌排行榜",
+          "mention_rate": 100,
+          "top1_mention_rate": 100
+        },
+        {
           "name": "千元养生酒推荐",
           "mention_rate": 100,
           "top1_mention_rate": 100
@@ -2303,11 +2308,6 @@
         },
         {
           "name": "千元左右春节送什么养生的酒合适",
-          "mention_rate": 75,
-          "top1_mention_rate": 75
-        },
-        {
-          "name": "千元左右过年喝的养生酒品牌排行榜",
           "mention_rate": 75,
           "top1_mention_rate": 75
         },
@@ -2342,17 +2342,17 @@
           "top1_mention_rate": 25
         },
         {
+          "name": "给老人送的养生酒推荐",
+          "mention_rate": 50,
+          "top1_mention_rate": 25
+        },
+        {
           "name": "有哪些比较健康的日常养生酒品牌",
           "mention_rate": 25,
           "top1_mention_rate": 0
         },
         {
           "name": "送老年人什么养生酒好",
-          "mention_rate": 25,
-          "top1_mention_rate": 25
-        },
-        {
-          "name": "给老人送的养生酒推荐",
           "mention_rate": 25,
           "top1_mention_rate": 25
         },

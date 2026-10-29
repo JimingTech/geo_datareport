@@ -1,6 +1,6 @@
 {
   "meta": {
-    "fetched_at": "2026-10-29T06:53:09.861Z",
+    "fetched_at": "2026-10-29T12:43:01.145Z",
     "api_base": "https://api.geotopone.com",
     "project_id": 127,
     "project_name": "养生一号",
@@ -76,14 +76,14 @@
     }
   ],
   "stats": {
-    "brand_mention_rate": 48.8,
-    "top1_mention_rate": 38.1,
-    "top3_mention_rate": 41.7,
+    "brand_mention_rate": 51.2,
+    "top1_mention_rate": 39.3,
+    "top3_mention_rate": 42.9,
     "avg_position": 4.8,
     "daily_stats": [
       {
         "date": "2026-10-29",
-        "mention_rate": 48.8,
+        "mention_rate": 51.2,
         "avg_position": 4.8
       }
     ],
@@ -93,21 +93,21 @@
         "platform_name": "DeepSeek",
         "platform_logo": "https://app.geoindexfuture.com/logo/deepseek.png",
         "brand_mention_rate": 57.1,
-        "avg_position": 3.2
+        "avg_position": 3.3
       },
       {
         "platform_id": 2,
         "platform_name": "豆包",
         "platform_logo": "https://app.geoindexfuture.com/logo/doubao.png",
-        "brand_mention_rate": 33.3,
+        "brand_mention_rate": 38.1,
         "avg_position": 5.3
       },
       {
         "platform_id": 4,
         "platform_name": "文心",
         "platform_logo": "https://app.geoindexfuture.com/logo/wenxin.webp",
-        "brand_mention_rate": 42.9,
-        "avg_position": 4.4
+        "brand_mention_rate": 47.6,
+        "avg_position": 4
       },
       {
         "platform_id": 6,
@@ -127,20 +127,20 @@
         "product_name": "养生一号",
         "display_name": "养生一号",
         "favicon_url": null,
-        "influence_score": 44.5,
-        "mention_rate": 48.8,
-        "avg_position": 5.7,
+        "influence_score": 46.4,
+        "mention_rate": 51.2,
+        "avg_position": 5.6,
         "is_target": true
       },
       {
         "rank": 2,
-        "brand_name": "广誉远",
-        "product_name": "广誉远 龟龄集酒",
-        "display_name": "广誉远 龟龄集酒",
-        "favicon_url": null,
-        "influence_score": 32.4,
-        "mention_rate": 52.4,
-        "avg_position": 6.1,
+        "brand_name": "劲牌",
+        "product_name": "劲酒",
+        "display_name": "劲酒",
+        "favicon_url": "https://image.qcc.com/logo/b9bacc58df7fa9ddb5b8e9de03ab08d6.jpg?x-oss-process=style/logo_200",
+        "influence_score": 35.3,
+        "mention_rate": 40.5,
+        "avg_position": 5.7,
         "is_target": false
       },
       {
@@ -151,29 +151,29 @@
         "favicon_url": null,
         "influence_score": 31,
         "mention_rate": 50,
-        "avg_position": 6.4,
+        "avg_position": 6.3,
         "is_target": false
       },
       {
         "rank": 4,
-        "brand_name": "劲牌",
-        "product_name": "劲牌",
-        "display_name": "劲牌",
-        "favicon_url": "https://image.qcc.com/logo/b9bacc58df7fa9ddb5b8e9de03ab08d6.jpg?x-oss-process=style/logo_200",
-        "influence_score": 13.3,
-        "mention_rate": 14.3,
-        "avg_position": 7.5,
+        "brand_name": "广誉远",
+        "product_name": "广誉远 龟龄集酒",
+        "display_name": "广誉远 龟龄集酒",
+        "favicon_url": null,
+        "influence_score": 30.2,
+        "mention_rate": 48.8,
+        "avg_position": 6.2,
         "is_target": false
       },
       {
         "rank": 5,
-        "brand_name": "劲牌",
-        "product_name": "中国劲酒",
-        "display_name": "中国劲酒",
-        "favicon_url": "https://image.qcc.com/logo/b9bacc58df7fa9ddb5b8e9de03ab08d6.jpg?x-oss-process=style/logo_200",
-        "influence_score": 12.9,
-        "mention_rate": 14.3,
-        "avg_position": 7.7,
+        "brand_name": "董酒",
+        "product_name": "贵州董酒 佰草香",
+        "display_name": "贵州董酒 佰草香",
+        "favicon_url": "https://image.qcc.com/logo/23cd4acd1e9985abac56dfe2c31a824c.jpg?x-oss-process=style/logo_200",
+        "influence_score": 15,
+        "mention_rate": 25,
+        "avg_position": 7.1,
         "is_target": false
       }
     ]
@@ -224,6 +224,20 @@
         "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261027/f1501e0d0efc4c068da7e4cd55abb425.png"
       },
       {
+        "entry_id": 1337,
+        "entry_name": "千元左右过年喝的养生酒品牌排行榜",
+        "mention_rate": 100,
+        "position": 1,
+        "platform_ids": [
+          1,
+          2,
+          4,
+          6
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261029/494b1d3f1a224ea3857afdf415b178bf.png"
+      },
+      {
         "entry_id": 1340,
         "entry_name": "千元养生酒推荐",
         "mention_rate": 100,
@@ -266,20 +280,6 @@
         "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261027/007703d86fbc4d90abf5914212cdf6fd.png"
       },
       {
-        "entry_id": 1337,
-        "entry_name": "千元左右过年喝的养生酒品牌排行榜",
-        "mention_rate": 75,
-        "position": 2.8,
-        "platform_ids": [
-          1,
-          2,
-          4,
-          6
-        ],
-        "last_conversation_time": "2026-10-28T16:00:00.000Z",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261027/d01c4450c9ee4ac39c0480128fab2f2c.png"
-      },
-      {
         "entry_id": 1328,
         "entry_name": "送老年人什么养生酒比较好",
         "mention_rate": 50,
@@ -297,7 +297,7 @@
         "entry_id": 1330,
         "entry_name": "过年给岳父送什么养生酒对身体好",
         "mention_rate": 50,
-        "position": 3.8,
+        "position": 3.5,
         "platform_ids": [
           1,
           2,
@@ -305,7 +305,7 @@
           6
         ],
         "last_conversation_time": "2026-10-28T16:00:00.000Z",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261027/32fad434178f423cbe034551c13ed885.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261013/f614fcf1e9884454a539ee7867a981e1.png"
       },
       {
         "entry_id": 1338,
@@ -353,7 +353,7 @@
         "entry_id": 1343,
         "entry_name": "什么白酒养生适合送礼",
         "mention_rate": 50,
-        "position": 7.3,
+        "position": 6.3,
         "platform_ids": [
           1,
           2,
@@ -362,6 +362,20 @@
         ],
         "last_conversation_time": "2026-10-28T16:00:00.000Z",
         "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261027/d6472e208d1140aa8c65509cc7d43490.png"
+      },
+      {
+        "entry_id": 1345,
+        "entry_name": "给老人送的养生酒推荐",
+        "mention_rate": 50,
+        "position": 4,
+        "platform_ids": [
+          1,
+          2,
+          4,
+          6
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261027/961b8140c07c465490e4a0fd208865b7.png"
       },
       {
         "entry_id": 1342,
@@ -390,20 +404,6 @@
         ],
         "last_conversation_time": "2026-10-28T16:00:00.000Z",
         "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261027/6b944e53ea5340fba7ba4899e8affb13.png"
-      },
-      {
-        "entry_id": 1345,
-        "entry_name": "给老人送的养生酒推荐",
-        "mention_rate": 25,
-        "position": 3.8,
-        "platform_ids": [
-          1,
-          2,
-          4,
-          6
-        ],
-        "last_conversation_time": "2026-10-28T16:00:00.000Z",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261027/961b8140c07c465490e4a0fd208865b7.png"
       },
       {
         "entry_id": 1346,
@@ -481,14 +481,14 @@
     "target_product": "劲牌养生一号",
     "mention_rate_ranking": [
       {
-        "brand_id": 5893,
-        "brand_name": "广誉远",
-        "product_id": 6344,
-        "product_name": "广誉远 龟龄集酒",
-        "display_name": "广誉远 龟龄集酒",
-        "mention_count": 44,
-        "mention_rate": 52.4,
-        "is_target": false
+        "brand_id": 5624,
+        "brand_name": "劲牌",
+        "product_id": 6518,
+        "product_name": "养生一号",
+        "display_name": "养生一号",
+        "mention_count": 43,
+        "mention_rate": 51.2,
+        "is_target": true
       },
       {
         "brand_id": 5888,
@@ -501,33 +501,33 @@
         "is_target": false
       },
       {
-        "brand_id": 5624,
-        "brand_name": "劲牌",
-        "product_id": 6518,
-        "product_name": "养生一号",
-        "display_name": "养生一号",
+        "brand_id": 5893,
+        "brand_name": "广誉远",
+        "product_id": 6344,
+        "product_name": "广誉远 龟龄集酒",
+        "display_name": "广誉远 龟龄集酒",
         "mention_count": 41,
         "mention_rate": 48.8,
-        "is_target": true
-      },
-      {
-        "brand_id": 328,
-        "brand_name": "茅台",
-        "product_id": 6353,
-        "product_name": "茅台 不老酒",
-        "display_name": "茅台 不老酒",
-        "mention_count": 17,
-        "mention_rate": 20.2,
         "is_target": false
       },
       {
-        "brand_id": 5899,
-        "brand_name": "宁夏红",
-        "product_id": 6348,
-        "product_name": "宁夏红 枸杞酒",
-        "display_name": "宁夏红 枸杞酒",
-        "mention_count": 14,
-        "mention_rate": 16.7,
+        "brand_id": 339,
+        "brand_name": "劲牌",
+        "product_id": 67013,
+        "product_name": "劲酒",
+        "display_name": "劲酒",
+        "mention_count": 34,
+        "mention_rate": 40.5,
+        "is_target": false
+      },
+      {
+        "brand_id": 378,
+        "brand_name": "董酒",
+        "product_id": 6373,
+        "product_name": "贵州董酒 佰草香",
+        "display_name": "贵州董酒 佰草香",
+        "mention_count": 21,
+        "mention_rate": 25,
         "is_target": false
       }
     ],
@@ -538,9 +538,19 @@
         "product_id": 6518,
         "product_name": "养生一号",
         "display_name": "养生一号",
-        "avg_position": 5.7,
-        "mention_count": 41,
+        "avg_position": 5.6,
+        "mention_count": 43,
         "is_target": true
+      },
+      {
+        "brand_id": 339,
+        "brand_name": "劲牌",
+        "product_id": 67013,
+        "product_name": "劲酒",
+        "display_name": "劲酒",
+        "avg_position": 5.7,
+        "mention_count": 34,
+        "is_target": false
       },
       {
         "brand_id": 5893,
@@ -548,8 +558,8 @@
         "product_id": 6344,
         "product_name": "广誉远 龟龄集酒",
         "display_name": "广誉远 龟龄集酒",
-        "avg_position": 6.1,
-        "mention_count": 44,
+        "avg_position": 6.2,
+        "mention_count": 41,
         "is_target": false
       },
       {
@@ -558,7 +568,7 @@
         "product_id": 6346,
         "product_name": "椰岛 鹿龟酒",
         "display_name": "椰岛 鹿龟酒",
-        "avg_position": 6.4,
+        "avg_position": 6.3,
         "mention_count": 42,
         "is_target": false
       },
@@ -568,58 +578,48 @@
         "product_id": 6373,
         "product_name": "贵州董酒 佰草香",
         "display_name": "贵州董酒 佰草香",
-        "avg_position": 7.4,
-        "mention_count": 12,
-        "is_target": false
-      },
-      {
-        "brand_id": 339,
-        "brand_name": "劲牌",
-        "product_id": null,
-        "product_name": "劲牌",
-        "display_name": "劲牌",
-        "avg_position": 7.5,
-        "mention_count": 12,
+        "avg_position": 7.1,
+        "mention_count": 21,
         "is_target": false
       }
     ],
     "rate_daily": [
       {
         "date": "2026-10-29",
-        "广誉远 龟龄集酒": 52.4,
+        "养生一号": 51.2,
         "椰岛 鹿龟酒": 50,
-        "养生一号": 48.8,
-        "茅台 不老酒": 20.2,
-        "宁夏红 枸杞酒": 16.7
+        "广誉远 龟龄集酒": 48.8,
+        "劲酒": 40.5,
+        "贵州董酒 佰草香": 25
       }
     ],
     "position_daily": [
       {
         "date": "2026-10-29",
-        "养生一号": 5.7,
-        "广誉远 龟龄集酒": 6.1,
-        "椰岛 鹿龟酒": 6.4,
-        "贵州董酒 佰草香": 7.4,
-        "劲牌": 7.5
+        "养生一号": 5.6,
+        "劲酒": 5.7,
+        "广誉远 龟龄集酒": 6.2,
+        "椰岛 鹿龟酒": 6.3,
+        "贵州董酒 佰草香": 7.1
       }
     ],
     "top1_ranking": [
       {
         "rank": 1,
         "brand_name": "养生一号",
-        "top1_mention_rate": 38.1,
+        "top1_mention_rate": 39.3,
         "is_target": true
       },
       {
         "rank": 2,
-        "brand_name": "中国劲酒",
-        "top1_mention_rate": 10.7,
+        "brand_name": "劲酒",
+        "top1_mention_rate": 27.4,
         "is_target": false
       },
       {
         "rank": 3,
-        "brand_name": "劲酒",
-        "top1_mention_rate": 4.8,
+        "brand_name": "六味地黄酒",
+        "top1_mention_rate": 2.4,
         "is_target": false
       },
       {
@@ -630,43 +630,43 @@
       },
       {
         "rank": 5,
-        "brand_name": "六味地黄酒",
-        "top1_mention_rate": 2.4,
-        "is_target": false
-      },
-      {
-        "rank": 6,
         "brand_name": "参茸劲酒",
         "top1_mention_rate": 2.4,
         "is_target": false
       },
       {
-        "rank": 7,
+        "rank": 6,
         "brand_name": "广誉远 龟龄集酒",
         "top1_mention_rate": 2.4,
         "is_target": false
       },
       {
-        "rank": 8,
+        "rank": 7,
         "brand_name": "椰岛 鹿龟酒",
         "top1_mention_rate": 2.4,
         "is_target": false
       },
       {
-        "rank": 9,
+        "rank": 8,
         "brand_name": "三十年陈花雕酒",
         "top1_mention_rate": 1.2,
         "is_target": false
       },
       {
+        "rank": 9,
+        "brand_name": "中国劲酒",
+        "top1_mention_rate": 1.2,
+        "is_target": false
+      },
+      {
         "rank": 10,
-        "brand_name": "劲牌十全酒高端",
+        "brand_name": "北京同仁堂 养生酒",
         "top1_mention_rate": 1.2,
         "is_target": false
       },
       {
         "rank": 11,
-        "brand_name": "北京同仁堂 养生酒",
+        "brand_name": "十全酒",
         "top1_mention_rate": 1.2,
         "is_target": false
       },
@@ -690,37 +690,37 @@
       },
       {
         "rank": 15,
-        "brand_name": "毛铺草本酒黑荞",
+        "brand_name": "毛铺 黑荞酒",
         "top1_mention_rate": 1.2,
         "is_target": false
       },
       {
         "rank": 16,
-        "brand_name": "竹叶青（30年青享版）",
+        "brand_name": "竹叶青 30年青享版",
         "top1_mention_rate": 1.2,
         "is_target": false
       },
       {
         "rank": 17,
-        "brand_name": "竹叶青酒",
+        "brand_name": "竹叶青 经典版",
         "top1_mention_rate": 1.2,
         "is_target": false
       },
       {
         "rank": 18,
-        "brand_name": "红标劲酒（小瓶）",
-        "top1_mention_rate": 1.2,
-        "is_target": false
-      },
-      {
-        "rank": 19,
         "brand_name": "绍兴花雕",
         "top1_mention_rate": 1.2,
         "is_target": false
       },
       {
-        "rank": 20,
+        "rank": 19,
         "brand_name": "茅台 1935",
+        "top1_mention_rate": 1.2,
+        "is_target": false
+      },
+      {
+        "rank": 20,
+        "brand_name": "茅台 飞天茅台",
         "top1_mention_rate": 1.2,
         "is_target": false
       }
@@ -730,10 +730,10 @@
     "mention_rate": [
       {
         "rank": 1,
-        "name": "广誉远 龟龄集酒",
-        "brand_name": "广誉远",
-        "value": 52.4,
-        "is_target": false
+        "name": "养生一号",
+        "brand_name": "劲牌",
+        "value": 51.2,
+        "is_target": true
       },
       {
         "rank": 2,
@@ -744,126 +744,126 @@
       },
       {
         "rank": 3,
-        "name": "养生一号",
-        "brand_name": "劲牌",
+        "name": "广誉远 龟龄集酒",
+        "brand_name": "广誉远",
         "value": 48.8,
-        "is_target": true
+        "is_target": false
       },
       {
         "rank": 4,
+        "name": "劲酒",
+        "brand_name": "劲牌",
+        "value": 40.5,
+        "is_target": false
+      },
+      {
+        "rank": 5,
+        "name": "贵州董酒 佰草香",
+        "brand_name": "董酒",
+        "value": 25,
+        "is_target": false
+      },
+      {
+        "rank": 6,
         "name": "茅台 不老酒",
         "brand_name": "茅台",
         "value": 20.2,
         "is_target": false
       },
       {
-        "rank": 5,
+        "rank": 7,
         "name": "宁夏红 枸杞酒",
         "brand_name": "宁夏红",
+        "value": 17.9,
+        "is_target": false
+      },
+      {
+        "rank": 8,
+        "name": "竹叶青 经典版",
+        "brand_name": "竹叶青",
         "value": 16.7,
         "is_target": false
       },
       {
-        "rank": 6,
-        "name": "致中和 五加皮五年陈",
+        "rank": 9,
+        "name": "致中和 五加皮酒五年陈",
         "brand_name": "致中和",
         "value": 16.7,
         "is_target": false
       },
       {
-        "rank": 7,
-        "name": "中国劲酒",
-        "brand_name": "劲牌",
-        "value": 14.3,
+        "rank": 10,
+        "name": "竹叶青 30年青享版",
+        "brand_name": "竹叶青",
+        "value": 15.5,
         "is_target": false
       },
       {
-        "rank": 8,
+        "rank": 11,
         "name": "五粮液 黄金酒",
         "brand_name": "五粮液",
         "value": 14.3,
         "is_target": false
       },
       {
-        "rank": 9,
-        "name": "劲牌",
-        "brand_name": "劲牌",
-        "value": 14.3,
-        "is_target": false
-      },
-      {
-        "rank": 10,
+        "rank": 12,
         "name": "竹叶青",
         "brand_name": "竹叶青",
         "value": 14.3,
         "is_target": false
       },
       {
-        "rank": 11,
-        "name": "贵州董酒 佰草香",
-        "brand_name": "董酒",
-        "value": 14.3,
-        "is_target": false
-      },
-      {
-        "rank": 12,
+        "rank": 13,
         "name": "古岭神 古岭神酒",
         "brand_name": "古岭神",
         "value": 11.9,
         "is_target": false
       },
       {
-        "rank": 13,
-        "name": "张裕 三鞭酒",
-        "brand_name": "张裕",
-        "value": 10.7,
-        "is_target": false
-      },
-      {
         "rank": 14,
-        "name": "董酒 佰草香",
-        "brand_name": "董酒",
-        "value": 10.7,
-        "is_target": false
-      },
-      {
-        "rank": 15,
         "name": "六味地黄酒",
         "brand_name": "京东京造",
         "value": 9.5,
         "is_target": false
       },
       {
-        "rank": 16,
-        "name": "劲酒",
-        "brand_name": "劲牌",
-        "value": 9.5,
-        "is_target": false
-      },
-      {
-        "rank": 17,
+        "rank": 15,
         "name": "北京同仁堂 同仁御酒",
         "brand_name": "北京同仁堂",
         "value": 9.5,
         "is_target": false
       },
       {
-        "rank": 18,
+        "rank": 16,
+        "name": "北京同仁堂 国公酒",
+        "brand_name": "北京同仁堂",
+        "value": 9.5,
+        "is_target": false
+      },
+      {
+        "rank": 17,
         "name": "参茸劲酒",
         "brand_name": "劲牌",
         "value": 9.5,
         "is_target": false
       },
       {
-        "rank": 19,
+        "rank": 18,
         "name": "古岭神",
         "brand_name": "古岭神",
         "value": 9.5,
         "is_target": false
       },
       {
+        "rank": 19,
+        "name": "张裕 三鞭酒",
+        "brand_name": "张裕",
+        "value": 9.5,
+        "is_target": false
+      },
+      {
         "rank": 20,
-        "name": "北京同仁堂 国公酒",
+        "name": "六味地黄酒",
         "brand_name": "北京同仁堂",
         "value": 8.3,
         "is_target": false
@@ -874,76 +874,76 @@
         "rank": 1,
         "name": "养生一号",
         "brand_name": "劲牌",
-        "value": 38.1,
+        "value": 39.3,
         "is_target": true
       },
       {
         "rank": 2,
-        "name": "中国劲酒",
+        "name": "劲酒",
         "brand_name": "劲牌",
-        "value": 10.7,
+        "value": 27.4,
         "is_target": false
       },
       {
         "rank": 3,
-        "name": "劲酒",
-        "brand_name": "劲牌",
-        "value": 4.8,
-        "is_target": false
-      },
-      {
-        "rank": 4,
         "name": "六味地黄酒",
         "brand_name": "北京同仁堂",
         "value": 2.4,
         "is_target": false
       },
       {
-        "rank": 5,
+        "rank": 4,
         "name": "六味地黄酒",
         "brand_name": "京东京造",
         "value": 2.4,
         "is_target": false
       },
       {
-        "rank": 6,
+        "rank": 5,
         "name": "参茸劲酒",
         "brand_name": "劲牌",
         "value": 2.4,
         "is_target": false
       },
       {
-        "rank": 7,
+        "rank": 6,
         "name": "广誉远 龟龄集酒",
         "brand_name": "广誉远",
         "value": 2.4,
         "is_target": false
       },
       {
-        "rank": 8,
+        "rank": 7,
         "name": "椰岛 鹿龟酒",
         "brand_name": "椰岛",
         "value": 2.4,
         "is_target": false
       },
       {
-        "rank": 9,
+        "rank": 8,
         "name": "三十年陈花雕酒",
         "brand_name": "古越龙山",
         "value": 1.2,
         "is_target": false
       },
       {
-        "rank": 10,
-        "name": "劲牌十全酒高端",
+        "rank": 9,
+        "name": "中国劲酒",
         "brand_name": "劲牌",
         "value": 1.2,
         "is_target": false
       },
       {
-        "rank": 11,
+        "rank": 10,
         "name": "北京同仁堂 养生酒",
         "brand_name": "北京同仁堂",
+        "value": 1.2,
+        "is_target": false
+      },
+      {
+        "rank": 11,
+        "name": "十全酒",
+        "brand_name": "劲牌",
         "value": 1.2,
         "is_target": false
       },
@@ -970,42 +970,42 @@
       },
       {
         "rank": 15,
-        "name": "毛铺草本酒黑荞",
+        "name": "毛铺 黑荞酒",
         "brand_name": "毛铺酒",
         "value": 1.2,
         "is_target": false
       },
       {
         "rank": 16,
-        "name": "竹叶青（30年青享版）",
-        "brand_name": "汾酒",
+        "name": "竹叶青 30年青享版",
+        "brand_name": "竹叶青",
         "value": 1.2,
         "is_target": false
       },
       {
         "rank": 17,
-        "name": "竹叶青酒",
-        "brand_name": "汾酒",
+        "name": "竹叶青 经典版",
+        "brand_name": "竹叶青",
         "value": 1.2,
         "is_target": false
       },
       {
         "rank": 18,
-        "name": "红标劲酒（小瓶）",
-        "brand_name": "劲牌",
-        "value": 1.2,
-        "is_target": false
-      },
-      {
-        "rank": 19,
         "name": "绍兴花雕",
         "brand_name": "绍兴花雕",
         "value": 1.2,
         "is_target": false
       },
       {
-        "rank": 20,
+        "rank": 19,
         "name": "茅台 1935",
+        "brand_name": "茅台",
+        "value": 1.2,
+        "is_target": false
+      },
+      {
+        "rank": 20,
+        "name": "茅台 飞天茅台",
         "brand_name": "茅台",
         "value": 1.2,
         "is_target": false
@@ -1016,56 +1016,56 @@
         "rank": 1,
         "name": "养生一号",
         "brand_name": "劲牌",
-        "value": 41.7,
+        "value": 42.9,
         "is_target": true
       },
       {
         "rank": 2,
+        "name": "劲酒",
+        "brand_name": "劲牌",
+        "value": 33.3,
+        "is_target": false
+      },
+      {
+        "rank": 3,
         "name": "广誉远 龟龄集酒",
         "brand_name": "广誉远",
         "value": 26.2,
         "is_target": false
       },
       {
-        "rank": 3,
+        "rank": 4,
         "name": "椰岛 鹿龟酒",
         "brand_name": "椰岛",
         "value": 23.8,
         "is_target": false
       },
       {
-        "rank": 4,
-        "name": "中国劲酒",
-        "brand_name": "劲牌",
-        "value": 13.1,
+        "rank": 5,
+        "name": "贵州董酒 佰草香",
+        "brand_name": "董酒",
+        "value": 14.3,
         "is_target": false
       },
       {
-        "rank": 5,
+        "rank": 6,
         "name": "六味地黄酒",
         "brand_name": "京东京造",
         "value": 8.3,
         "is_target": false
       },
       {
-        "rank": 6,
+        "rank": 7,
         "name": "茅台 不老酒",
         "brand_name": "茅台",
         "value": 7.1,
         "is_target": false
       },
       {
-        "rank": 7,
-        "name": "董酒 佰草香",
-        "brand_name": "董酒",
-        "value": 7.1,
-        "is_target": false
-      },
-      {
         "rank": 8,
-        "name": "贵州董酒 佰草香",
-        "brand_name": "董酒",
-        "value": 7.1,
+        "name": "竹叶青 30年青享版",
+        "brand_name": "竹叶青",
+        "value": 6,
         "is_target": false
       },
       {
@@ -1084,7 +1084,7 @@
       },
       {
         "rank": 11,
-        "name": "劲酒",
+        "name": "十全酒",
         "brand_name": "劲牌",
         "value": 4.8,
         "is_target": false
@@ -1105,50 +1105,50 @@
       },
       {
         "rank": 14,
-        "name": "竹叶青（30年青享版）",
-        "brand_name": "汾酒",
+        "name": "竹叶青 经典版",
+        "brand_name": "竹叶青",
         "value": 3.6,
         "is_target": false
       },
       {
         "rank": 15,
-        "name": "竹叶青酒",
-        "brand_name": "汾酒",
+        "name": "草本酒",
+        "brand_name": "毛铺酒",
         "value": 3.6,
         "is_target": false
       },
       {
         "rank": 16,
-        "name": "致中和 五加皮五年陈",
-        "brand_name": "致中和",
-        "value": 3.6,
-        "is_target": false
-      },
-      {
-        "rank": 17,
         "name": "五粮液 普五(第八代)",
         "brand_name": "五粮液",
         "value": 2.4,
         "is_target": false
       },
       {
-        "rank": 18,
+        "rank": 17,
         "name": "五粮液 第八代普五",
         "brand_name": "五粮液",
         "value": 2.4,
         "is_target": false
       },
       {
+        "rank": 18,
+        "name": "北京同仁堂 养生酒",
+        "brand_name": "北京同仁堂",
+        "value": 2.4,
+        "is_target": false
+      },
+      {
         "rank": 19,
-        "name": "劲牌十全酒高端",
-        "brand_name": "劲牌",
+        "name": "彭祖八百寿 养身酒",
+        "brand_name": "彭祖八百寿",
         "value": 2.4,
         "is_target": false
       },
       {
         "rank": 20,
-        "name": "北京同仁堂 养生酒",
-        "brand_name": "北京同仁堂",
+        "name": "毛铺 紫荞酒",
+        "brand_name": "毛铺酒",
         "value": 2.4,
         "is_target": false
       }
@@ -1170,128 +1170,128 @@
       },
       {
         "rank": 3,
+        "name": "劲酒",
+        "brand_name": "劲牌",
+        "value": 5.6,
+        "is_target": false
+      },
+      {
+        "rank": 4,
         "name": "椰岛 鹿龟酒",
         "brand_name": "椰岛",
         "value": 5.8,
         "is_target": false
       },
       {
-        "rank": 4,
+        "rank": 5,
         "name": "贵州董酒 佰草香",
         "brand_name": "董酒",
-        "value": 6.6,
+        "value": 6.2,
         "is_target": false
       },
       {
-        "rank": 5,
+        "rank": 6,
         "name": "茅台 不老酒",
         "brand_name": "茅台",
         "value": 6.8,
         "is_target": false
       },
       {
-        "rank": 6,
-        "name": "中国劲酒",
-        "brand_name": "劲牌",
-        "value": 7,
-        "is_target": false
-      },
-      {
         "rank": 7,
-        "name": "劲酒",
-        "brand_name": "劲牌",
-        "value": 7,
+        "name": "竹叶青 30年青享版",
+        "brand_name": "竹叶青",
+        "value": 6.8,
         "is_target": false
       },
       {
         "rank": 8,
-        "name": "北京同仁堂 国公酒",
-        "brand_name": "北京同仁堂",
-        "value": 7.1,
+        "name": "竹叶青 经典版",
+        "brand_name": "竹叶青",
+        "value": 6.9,
         "is_target": false
       },
       {
         "rank": 9,
+        "name": "北京同仁堂 国公酒",
+        "brand_name": "北京同仁堂",
+        "value": 7,
+        "is_target": false
+      },
+      {
+        "rank": 10,
         "name": "五粮液 黄金酒",
         "brand_name": "五粮液",
         "value": 7.1,
         "is_target": false
       },
       {
-        "rank": 10,
+        "rank": 11,
         "name": "参茸劲酒",
         "brand_name": "劲牌",
         "value": 7.2,
         "is_target": false
       },
       {
-        "rank": 11,
-        "name": "竹叶青 30年青享版",
-        "brand_name": "竹叶青",
+        "rank": 12,
+        "name": "毛铺 紫荞酒",
+        "brand_name": "毛铺酒",
         "value": 7.2,
         "is_target": false
       },
       {
-        "rank": 12,
+        "rank": 13,
         "name": "北京同仁堂 同仁御酒",
         "brand_name": "北京同仁堂",
         "value": 7.2,
         "is_target": false
       },
       {
-        "rank": 13,
+        "rank": 14,
         "name": "茅台 1935",
         "brand_name": "茅台",
         "value": 7.3,
         "is_target": false
       },
       {
-        "rank": 14,
+        "rank": 15,
         "name": "五粮液 普五(第八代)",
         "brand_name": "五粮液",
         "value": 7.3,
         "is_target": false
       },
       {
-        "rank": 15,
-        "name": "竹叶青 经典版",
-        "brand_name": "竹叶青",
+        "rank": 16,
+        "name": "十全酒",
+        "brand_name": "劲牌",
         "value": 7.3,
         "is_target": false
       },
       {
-        "rank": 16,
-        "name": "毛铺 紫荞酒",
-        "brand_name": "毛铺酒",
-        "value": 7.4,
-        "is_target": false
-      },
-      {
         "rank": 17,
-        "name": "董酒 佰草香",
-        "brand_name": "董酒",
-        "value": 7.4,
+        "name": "北京同仁堂 养生酒系列",
+        "brand_name": "北京同仁堂",
+        "value": 7.3,
         "is_target": false
       },
       {
         "rank": 18,
-        "name": "北京同仁堂 养生酒系列",
-        "brand_name": "北京同仁堂",
-        "value": 7.4,
+        "name": "青花20",
+        "brand_name": "汾酒",
+        "value": 7.3,
         "is_target": false
       },
       {
         "rank": 19,
-        "name": "竹叶青酒",
-        "brand_name": "汾酒",
-        "value": 7.4,
+        "name": "奔富 Bin389",
+        "brand_name": "奔富",
+        "value": 7.3,
         "is_target": false
       },
       {
         "rank": 20,
-        "name": "青花20",
-        "brand_name": "汾酒",
-        "value": 7.4,
+        "name": "洋河 梦之蓝M9",
+        "brand_name": "洋河",
+        "value": 7.3,
         "is_target": false
       }
     ]
@@ -1299,27 +1299,27 @@
   "citations": {
     "total_conversations": 84,
     "citation_rate": 92.9,
-    "total_citations": 1629,
+    "total_citations": 1625,
     "platform_stats": [
       {
         "platform_name": "抖音精选",
         "domain": "iesdouyin.com",
         "logo_url": "https://app.geoindexfuture.com/site-icons/iesdouyin.com-jingxuan.png",
-        "citation_count": 281,
-        "share": 17.2
+        "citation_count": 282,
+        "share": 17.4
       },
       {
         "platform_name": "百家号",
         "domain": "baijiahao.baidu.com",
         "logo_url": "https://app.geoindexfuture.com/site-icons/baijiahao.baidu.com.png",
-        "citation_count": 269,
-        "share": 16.5
+        "citation_count": 275,
+        "share": 16.9
       },
       {
         "platform_name": "搜狐网",
         "domain": "sohu.com",
         "logo_url": "https://app.geoindexfuture.com/site-icons/sohu.com.ico",
-        "citation_count": 179,
+        "citation_count": 178,
         "share": 11
       },
       {
@@ -1333,8 +1333,8 @@
         "platform_name": "什么值得买",
         "domain": "smzdm.com",
         "logo_url": "https://app.geoindexfuture.com/site-icons/smzdm.com.jpg",
-        "citation_count": 89,
-        "share": 5.5
+        "citation_count": 92,
+        "share": 5.7
       }
     ],
     "articles": [
@@ -1369,36 +1369,6 @@
         "has_target_product": false
       },
       {
-        "title": "猛男酒测评 成为猛男要喝什么酒？#猛男酒 #少妇 #保健酒 #劲酒 #梅开五十三度",
-        "link_url": "https://www.iesdouyin.com/share/video/7661242832090655909",
-        "domain": "iesdouyin.com",
-        "platform_name": "抖音精选",
-        "logo_url": "https://app.geoindexfuture.com/site-icons/iesdouyin.com-jingxuan.png",
-        "total_citations": 10,
-        "avg_citations": 10,
-        "has_target_product": false
-      },
-      {
-        "title": "养生酒行业品牌排行",
-        "link_url": "https://www.chinapp.com/brand/6178",
-        "domain": "chinapp.com",
-        "platform_name": "品牌网",
-        "logo_url": "https://s2.zimgs.cn/ims?at=smstruct&kt=url&key=aHR0cHM6Ly9tLmptLmNoaW5hcHAuY29tL2Zhdmljb24uaWNv&sign=yx:gDBfBJmxaBUHIfQ8Aa9tbjJUtak=&tv=0_0&p=",
-        "total_citations": 9,
-        "avg_citations": 9,
-        "has_target_product": false
-      },
-      {
-        "title": "彭祖八百寿酒",
-        "link_url": "https://baike.baidu.com/item/%E5%BD%AD%E7%A5%96%E5%85%AB%E7%99%BE%E5%AF%BF%E9%85%92/2099487?anchor=3&fragment=3&bst=1792240559.6286028dd3dc3a33#3#1#1#1",
-        "domain": "baike.baidu.com",
-        "platform_name": "百度百科",
-        "logo_url": "https://app.geoindexfuture.com/site-icons/baike.baidu.com.png",
-        "total_citations": 9,
-        "avg_citations": 9,
-        "has_target_product": false
-      },
-      {
         "title": "热门养生酒测评榜！#养生酒#谷益堂酒#酒知识科普 #测评",
         "link_url": "https://www.iesdouyin.com/share/video/7662972554210843881",
         "domain": "iesdouyin.com",
@@ -1419,13 +1389,23 @@
         "has_target_product": true
       },
       {
-        "title": "2026年送礼养生的酒推荐这5款高端养生酒让老父亲赞不绝口",
-        "link_url": "http://zhuanlan.zhihu.com/p/2035431850341053615",
-        "domain": "zhihu.com",
-        "platform_name": "知乎",
-        "logo_url": "https://static.zhihu.com/heifetz/favicon.ico",
-        "total_citations": 8,
-        "avg_citations": 8,
+        "title": "彭祖八百寿酒",
+        "link_url": "https://baike.baidu.com/item/%E5%BD%AD%E7%A5%96%E5%85%AB%E7%99%BE%E5%AF%BF%E9%85%92/2099487?anchor=3&fragment=3&bst=1792240559.6286028dd3dc3a33#3#1#1#1",
+        "domain": "baike.baidu.com",
+        "platform_name": "百度百科",
+        "logo_url": "https://app.geoindexfuture.com/site-icons/baike.baidu.com.png",
+        "total_citations": 9,
+        "avg_citations": 9,
+        "has_target_product": false
+      },
+      {
+        "title": "猛男酒测评 成为猛男要喝什么酒？#猛男酒 #少妇 #保健酒 #劲酒 #梅开五十三度",
+        "link_url": "https://www.iesdouyin.com/share/video/7661242832090655909",
+        "domain": "iesdouyin.com",
+        "platform_name": "抖音精选",
+        "logo_url": "https://app.geoindexfuture.com/site-icons/iesdouyin.com-jingxuan.png",
+        "total_citations": 9,
+        "avg_citations": 9,
         "has_target_product": false
       },
       {
@@ -1437,13 +1417,33 @@
         "total_citations": 8,
         "avg_citations": 8,
         "has_target_product": false
+      },
+      {
+        "title": "2026年最值得买的养生酒品牌？精选健康生态佳品，全面提升饮酒体验",
+        "link_url": "https://baijiahao.baidu.com/s?id=1878813994541307851&wfr=spider&for=pc",
+        "domain": "baijiahao.baidu.com",
+        "platform_name": "百家号",
+        "logo_url": "https://app.geoindexfuture.com/site-icons/baijiahao.baidu.com.png",
+        "total_citations": 7,
+        "avg_citations": 7,
+        "has_target_product": false
+      },
+      {
+        "title": "2026年一文看懂送老年人什么养生酒比较好，先弄清是哪类酒_什么值得买",
+        "link_url": "https://post.m.smzdm.com/zz/p/apqm4280",
+        "domain": "smzdm.com",
+        "platform_name": "什么值得买",
+        "logo_url": "https://app.geoindexfuture.com/site-icons/smzdm.com.jpg",
+        "total_citations": 7,
+        "avg_citations": 7,
+        "has_target_product": false
       }
     ]
   },
   "overview_daily": [
     {
       "date": "2026-10-29",
-      "mention_rate": 48.8,
+      "mention_rate": 51.2,
       "avg_position": 4.8,
       "influence_rank": 1
     }

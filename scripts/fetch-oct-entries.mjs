@@ -25,11 +25,17 @@ const USERNAME = process.env.GEO_USER;
 const PASSWORD = process.env.GEO_PASS;
 let cookie = '';
 
-const PRODUCTS = [
+const ALL_PRODUCTS = [
   { id: 125, key: 'jinjiu', name: '劲酒', date: '2026-10-29' },
   { id: 126, key: 'maopu', name: '毛铺', date: '2026-10-22' },
   { id: 127, key: 'yangsheng', name: '养生一号', date: '2026-10-29' },
 ];
+const onlyKey = process.argv.find((a) => a.startsWith('--only='))?.slice(7);
+const PRODUCTS = onlyKey ? ALL_PRODUCTS.filter((p) => p.key === onlyKey || String(p.id) === onlyKey) : ALL_PRODUCTS;
+if (!PRODUCTS.length) {
+  console.error(`--only=${onlyKey} 未匹配到产品`);
+  process.exit(1);
+}
 
 const num = (v) => (v === null || v === undefined || v === '' ? null : Number(v));
 
@@ -135,7 +141,9 @@ for (const p of PRODUCTS) {
 const sentPath = path.join(root, 'src/data/oct_entries_sentiments.json');
 const platPath = path.join(root, 'src/data/platform_entries.json');
 mkdirSync(path.dirname(sentPath), { recursive: true });
-writeFileSync(sentPath, JSON.stringify(sentimentsOut, null, 2), 'utf8');
-writeFileSync(platPath, JSON.stringify(platformOut, null, 2), 'utf8');
+const prevSent = existsSync(sentPath) ? JSON.parse(readFileSync(sentPath, 'utf8')) : {};
+const prevPlat = existsSync(platPath) ? JSON.parse(readFileSync(platPath, 'utf8')) : {};
+writeFileSync(sentPath, JSON.stringify({ ...prevSent, ...sentimentsOut }, null, 2), 'utf8');
+writeFileSync(platPath, JSON.stringify({ ...prevPlat, ...platformOut }, null, 2), 'utf8');
 console.log('\nwrote', sentPath);
 console.log('wrote', platPath);
