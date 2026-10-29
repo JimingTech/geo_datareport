@@ -51,7 +51,7 @@ export default function Page_CoreDataOverview() {
               <td className="py-1.5 px-2 text-center border-r-2 border-[#004CE5]/15 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">46.7%</td>
               <td className="py-1.5 px-2 text-center border-r border-zinc-200 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">60.0%</td>
               <td className="py-1.5 px-2 text-center border-r-2 border-[#004CE5]/15 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">63.3%</td>
-              <td className="py-1.5 px-2 text-center border-r border-zinc-200 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">NO. 2</td>
+              <td className="py-1.5 px-2 text-center border-r border-zinc-200 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">NO. 1</td>
               <td className="py-1.5 px-2 text-center border-r-2 border-[#004CE5]/15 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">NO. 1</td>
             </tr>
 
@@ -91,7 +91,7 @@ export default function Page_CoreDataOverview() {
           </div>
           <div className="flex-1 flex items-center min-h-0">
             <p className="text-[22px] leading-snug text-zinc-700 font-bold">
-              相较8月，古16提及率由83.3%升至86.7%，Top1由48.3%回至46.7%，竞品排名由 NO.2 升至 NO.1；古20提及率由85.0%升至88.3%，Top1由28.3%升至31.7%，竞品排名稳守 NO.1。
+              相较8月，古16提及率由83.3%升至86.7%，Top1由48.3%回至46.7%，竞品排名稳守 NO.1；古20提及率由85.0%升至88.3%，Top1由28.3%升至31.7%，竞品排名稳守 NO.1。
             </p>
           </div>
         </div>
