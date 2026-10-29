@@ -1,5 +1,5 @@
 import React from 'react';
-import report from '../data/awadaSeptemberReport.json';
+import report from '../data/chuangxinguOctoberReport.json';
 
 const platformData = report.platform_entries;
 
@@ -22,11 +22,23 @@ const LOGOS = {
 };
 
 const PRODUCT_META = {
-  668: { short: 'Awada', full: 'Awada' },
+  721: { short: '创维创新谷', full: '创维创新谷' },
 };
 
+const COL_WIDTHS = ['4%', '7%', '42%', '13%', '14%', '10%', '10%'];
+
+function ColGroup() {
+  return (
+    <colgroup>
+      {COL_WIDTHS.map((width) => (
+        <col key={width} style={{ width }} />
+      ))}
+    </colgroup>
+  );
+}
+
 export default function Page_QueryDataSystemLink({
-  projectId = 668,
+  projectId = 721,
   platformId = 1,
   pageIndex = 0,
   pageSize = 16,
@@ -38,26 +50,30 @@ export default function Page_QueryDataSystemLink({
   const data = allData.slice(safePage * pageSize, safePage * pageSize + pageSize);
   const startRank = safePage * pageSize;
 
-  const product = PRODUCT_META[projectId] || { short: 'Awada', full: 'Awada' };
+  const product = PRODUCT_META[projectId] || { short: report.meta.product, full: report.meta.product };
   const platformName = PLATFORM_NAMES[platformId] || '';
   const slideTitle = `${product.short}词条数据明细（${platformName}）`;
 
   return (
-    <div className="w-full h-full flex flex-col px-10 pt-3 pb-3 text-zinc-900 font-sans justify-start overflow-hidden bg-white">
-      <div className="flex items-center shrink-0 mb-2">
+    <div className="w-full h-full flex flex-col px-10 pt-5 pb-5 text-zinc-900 font-sans justify-start overflow-hidden bg-white">
+      <div className="flex items-center shrink-0 mb-4">
         <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
         <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4">
           {slideTitle}
-          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年9月）</span>
+          <span className="text-2xl font-bold text-zinc-400 ml-4">（{report.meta.label}）</span>
         </h1>
       </div>
 
-      <div className="flex items-center justify-between p-1 mb-1.5 shrink-0 text-[13px] font-medium text-zinc-500">
+      <div className="flex items-center shrink-0 mb-1">
+        <h2 className="text-[20px] font-black text-zinc-900 tracking-tight">词条</h2>
+      </div>
+
+      <div className="flex items-center justify-between p-1.5 mb-3 shrink-0 text-[13px] font-medium text-zinc-500">
         <div className="flex items-center gap-3">
           <div className="flex items-center gap-1.5 bg-white border border-zinc-200/80 rounded-md px-3 py-1.5 shadow-[0_1px_2px_rgba(0,0,0,0.02)]">
             <span className="text-zinc-400 text-xs">📅</span>
             <span>日期</span>
-            <span className="text-zinc-400 text-[10px] ml-1">{report.meta.september_date.slice(5)}</span>
+            <span className="text-zinc-800 font-bold ml-1">{report.meta.september_label}</span>
             <span className="text-zinc-300 text-[9px] ml-1">▼</span>
           </div>
 
@@ -95,40 +111,40 @@ export default function Page_QueryDataSystemLink({
       </div>
 
       <div className="flex-grow min-h-0 border border-zinc-150 bg-white rounded-xl overflow-hidden shadow-[0_2px_12px_rgba(0,0,0,0.015)] flex flex-col">
-        <div className="flex-1 overflow-hidden">
+        <div className="flex-1 min-h-0 overflow-hidden">
           <table className="w-full text-left border-collapse table-fixed">
+            <ColGroup />
             <thead>
-              <tr className="bg-white border-b border-zinc-150 text-[13px] font-extrabold text-zinc-400">
-                <th className="py-1.5 px-3 w-[5%] text-center">
-                  <div className="w-3.5 h-3.5 rounded-full border border-zinc-300 bg-white mx-auto" />
+              <tr className="bg-white border-b border-zinc-150 text-[16px] font-extrabold text-zinc-400">
+                <th className="py-3 px-3 text-center">
+                  <div className="w-4 h-4 rounded-full border border-zinc-300 bg-white mx-auto" />
                 </th>
-                <th className="py-1.5 px-2 w-[6%] text-center">序号</th>
-                <th className="py-1.5 px-4 w-[36%] text-left font-black text-zinc-500">词条</th>
-                <th className="py-1.5 px-3 w-[12%] text-center font-black text-zinc-500">提及率 ↓</th>
-                <th className="py-1.5 px-3 w-[16%] text-center font-black text-zinc-500 whitespace-nowrap">top1提及率</th>
-                <th className="py-1.5 px-3 w-[12%] text-center font-black text-zinc-500">监测平台</th>
-                <th className="py-1.5 px-3 w-[11%] text-center font-black text-zinc-500">会话截图</th>
-                <th className="py-1.5 px-4 w-[12%] text-center font-black text-zinc-500">最近更新时间</th>
+                <th className="py-3 px-2 text-center">序号</th>
+                <th className="py-3 px-5 text-left font-black text-zinc-500">词条</th>
+                <th className="py-3 px-3 text-center font-black text-zinc-500">提及率 ↓</th>
+                <th className="py-3 px-3 text-center font-black text-zinc-500 whitespace-nowrap">top1提及率</th>
+                <th className="py-3 px-3 text-center font-black text-zinc-500">监测平台</th>
+                <th className="py-3 px-3 text-center font-black text-zinc-500">会话截图</th>
               </tr>
             </thead>
-            <tbody className="divide-y divide-zinc-100 text-[13px] font-medium text-zinc-650">
+            <tbody className="divide-y divide-zinc-100 text-[17px] font-medium text-zinc-650">
               {data.map((row, idx) => (
-                <tr key={`${row.entry_name}-${idx}`} className="hover:bg-slate-50/20 transition-colors h-[34px]">
+                <tr key={`${row.entry_name}-${idx}`} className="hover:bg-slate-50/20 transition-colors h-[48px]">
                   <td className="py-0 px-3 text-center">
-                    <div className="w-3.5 h-3.5 rounded-full border border-zinc-300 bg-white mx-auto" />
+                    <div className="w-4 h-4 rounded-full border border-zinc-300 bg-white mx-auto" />
                   </td>
-                  <td className="py-0 px-2 text-center text-zinc-400 font-sans text-xs">{startRank + idx + 1}</td>
-                  <td className="py-0 px-4 text-zinc-800 truncate font-semibold text-left" title={row.entry_name}>
+                  <td className="py-0 px-2 text-center text-zinc-400 font-sans">{startRank + idx + 1}</td>
+                  <td className="py-0 px-5 text-zinc-800 truncate font-semibold text-left" title={row.entry_name}>
                     {row.entry_name}
                   </td>
                   <td className="py-0 px-3 text-center font-bold text-zinc-700 font-sans">{row.mention_rate}</td>
-                  <td className="py-0 px-3 text-center text-zinc-500 font-sans">{row.top1_mention_rate}</td>
+                  <td className="py-0 px-3 text-center text-zinc-600 font-sans">{row.top1_mention_rate}</td>
                   <td className="py-0 px-3 text-center">
                     <div className="inline-flex items-center justify-center">
                       <img
                         src={LOGOS[platformId]}
                         alt=""
-                        className="w-[16px] h-[16px] rounded-full object-cover border border-white bg-white shadow-sm"
+                        className="w-[22px] h-[22px] rounded-full object-cover border border-white bg-white shadow-sm"
                       />
                     </div>
                   </td>
@@ -138,15 +154,12 @@ export default function Page_QueryDataSystemLink({
                         <img
                           src={row.last_screenshot_url}
                           alt="截图"
-                          className="w-[18px] h-[22px] object-cover rounded border border-zinc-200 mx-auto shadow-sm"
+                          className="w-[22px] h-[28px] object-cover rounded border border-zinc-200 mx-auto shadow-sm"
                         />
                       </div>
                     ) : (
-                      <span className="text-zinc-300 text-xs">--</span>
+                      <span className="text-zinc-300 text-sm">--</span>
                     )}
-                  </td>
-                  <td className="py-0 px-4 text-center text-zinc-400 font-sans text-xs">
-                    {row.last_conversation_time}
                   </td>
                 </tr>
               ))}

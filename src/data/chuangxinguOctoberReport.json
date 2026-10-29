@@ -1,0 +1,1647 @@
+{
+  "meta": {
+    "project_id": 721,
+    "project_name": "创新谷-优化词",
+    "product": "创维创新谷",
+    "brand": "创维创新谷",
+    "label": "2026年10月",
+    "before_date": "2026-09-16",
+    "september_date": "2026-10-28",
+    "october_date": "2026-10-28",
+    "before_label": "优化前",
+    "september_label": "10月"
+  },
+  "scope": {
+    "platforms": 2,
+    "platform_names": [
+      "DeepSeek",
+      "豆包"
+    ],
+    "entries": 70,
+    "conversations": 140
+  },
+  "before": {
+    "mention_rate": 10.7,
+    "top1_mention_rate": 4.3,
+    "top3_mention_rate": 7.9,
+    "influence_score": 8.1,
+    "influence_rank": 9,
+    "conversations": 140,
+    "covered_entries": 11,
+    "platforms": [
+      {
+        "name": "DeepSeek",
+        "mention_rate": 10
+      },
+      {
+        "name": "豆包",
+        "mention_rate": 11.4
+      }
+    ]
+  },
+  "september": {
+    "mention_rate": 42.1,
+    "top1_mention_rate": 13.6,
+    "top3_mention_rate": 22.1,
+    "influence_score": 30.7,
+    "influence_rank": 2,
+    "conversations": 140,
+    "covered_entries": 45,
+    "platforms": [
+      {
+        "name": "DeepSeek",
+        "mention_rate": 45.7
+      },
+      {
+        "name": "豆包",
+        "mention_rate": 38.6
+      }
+    ]
+  },
+  "compare": {
+    "mention_rate": [
+      {
+        "name": "新桥东先进制造产业园",
+        "value": "51.4%",
+        "isTarget": false,
+        "rank": 1
+      },
+      {
+        "name": "创维创新谷",
+        "value": "42.1%",
+        "isTarget": true,
+        "rank": 2
+      },
+      {
+        "name": "全至科技创新园",
+        "value": "30%",
+        "isTarget": false,
+        "rank": 3
+      },
+      {
+        "name": "燕罗智能网联汽车产业园",
+        "value": "29.3%",
+        "isTarget": false,
+        "rank": 4
+      },
+      {
+        "name": "桃花源科技创新区",
+        "value": "27.9%",
+        "isTarget": false,
+        "rank": 5
+      }
+    ],
+    "top1": [
+      {
+        "name": "创维创新谷",
+        "value": "13.6%",
+        "isTarget": true,
+        "rank": 1
+      },
+      {
+        "name": "新桥东先进制造产业园",
+        "value": "12.9%",
+        "isTarget": false,
+        "rank": 2
+      },
+      {
+        "name": "燕罗智能网联汽车产业园",
+        "value": "7.1%",
+        "isTarget": false,
+        "rank": 3
+      },
+      {
+        "name": "燕罗湾区芯城",
+        "value": "5.7%",
+        "isTarget": false,
+        "rank": 4
+      },
+      {
+        "name": "前海·宝安具身智能港",
+        "value": "3.6%",
+        "isTarget": false,
+        "rank": 5
+      }
+    ],
+    "influence": [
+      {
+        "name": "新桥东先进制造产业园",
+        "value": "NO. 1",
+        "isTarget": false,
+        "rank": 1
+      },
+      {
+        "name": "创维创新谷",
+        "value": "NO. 2",
+        "isTarget": true,
+        "rank": 2
+      },
+      {
+        "name": "燕罗智能网联汽车产业园",
+        "value": "NO. 3",
+        "isTarget": false,
+        "rank": 3
+      },
+      {
+        "name": "全至科技创新园",
+        "value": "NO. 4",
+        "isTarget": false,
+        "rank": 4
+      },
+      {
+        "name": "桃花源科技创新区",
+        "value": "NO. 5",
+        "isTarget": false,
+        "rank": 5
+      }
+    ]
+  },
+  "entries": [
+    {
+      "name": "适合总部入驻的深圳市宝安区高端产业园推荐",
+      "mention_rate": 100,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "口碑好的深圳市宝安区高端产业园推荐",
+      "mention_rate": 100,
+      "top1_mention_rate": 50,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区新型显示产业园推荐",
+      "mention_rate": 100,
+      "top1_mention_rate": 100,
+      "before_mention_rate": 100,
+      "before_top1_mention_rate": 100
+    },
+    {
+      "name": "深圳市宝安区适合电子信息企业发展的产业园有哪些",
+      "mention_rate": 100,
+      "top1_mention_rate": 50,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区新一代电子信息产业园推荐",
+      "mention_rate": 100,
+      "top1_mention_rate": 100,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区超高清视频显示产业园推荐",
+      "mention_rate": 100,
+      "top1_mention_rate": 100,
+      "before_mention_rate": 100,
+      "before_top1_mention_rate": 100
+    },
+    {
+      "name": "深圳市宝安区超高清视频产业园推荐",
+      "mention_rate": 100,
+      "top1_mention_rate": 100,
+      "before_mention_rate": 100,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区电子信息产业链园区推荐",
+      "mention_rate": 100,
+      "top1_mention_rate": 50,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区电子信息产业上下游企业集聚园区推荐",
+      "mention_rate": 100,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区适合新型显示企业入驻的产业园推荐",
+      "mention_rate": 100,
+      "top1_mention_rate": 100,
+      "before_mention_rate": 50,
+      "before_top1_mention_rate": 50
+    },
+    {
+      "name": "深圳市宝安区适合超高清视频企业入驻的产业园推荐",
+      "mention_rate": 100,
+      "top1_mention_rate": 50,
+      "before_mention_rate": 100,
+      "before_top1_mention_rate": 50
+    },
+    {
+      "name": "深圳市宝安区甲级研发办公园区推荐",
+      "mention_rate": 100,
+      "top1_mention_rate": 50,
+      "before_mention_rate": 50,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区精装修可直接入驻的产业园推荐",
+      "mention_rate": 100,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区业主直租产业园推荐",
+      "mention_rate": 100,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "配套齐全的深圳市宝安区高端产业园推荐",
+      "mention_rate": 50,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "能生产又能办公的深圳市宝安区高端产业园推荐",
+      "mention_rate": 50,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区科技产业园推荐",
+      "mention_rate": 50,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区适合科技企业入驻的产业园有哪些",
+      "mention_rate": 50,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 50,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区生产研发一体化园区推荐",
+      "mention_rate": 50,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "产业园里的深圳市宝安区写字楼推荐",
+      "mention_rate": 50,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "适合总部办公的深圳市宝安区写字楼推荐",
+      "mention_rate": 50,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区写字楼推荐",
+      "mention_rate": 50,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区产业园排行榜",
+      "mention_rate": 50,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区产业园有哪些",
+      "mention_rate": 50,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "口碑好的深圳市宝安区产业园推荐",
+      "mention_rate": 50,
+      "top1_mention_rate": 50,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区电子信息产业集群园区推荐",
+      "mention_rate": 50,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区智能硬件产业园推荐",
+      "mention_rate": 50,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区电子信息产业链上下游园区有哪些",
+      "mention_rate": 50,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区产业链上下游企业集聚园区推荐",
+      "mention_rate": 50,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区适合电子信息企业入驻的产业园推荐",
+      "mention_rate": 50,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 50,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区适合智能硬件企业入驻的产业园推荐",
+      "mention_rate": 50,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区研发生产办公一体化园区推荐",
+      "mention_rate": 50,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 50,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区龙头企业集聚的产业园推荐",
+      "mention_rate": 50,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区总部企业集聚的产业园推荐",
+      "mention_rate": 50,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区知名企业集聚的高端产业园推荐",
+      "mention_rate": 50,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区研发办公空间好的产业园推荐",
+      "mention_rate": 50,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区配套完善的产业园推荐",
+      "mention_rate": 50,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区办公生活配套完善的产业园推荐",
+      "mention_rate": 50,
+      "top1_mention_rate": 50,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区产业运营服务好的产业园推荐",
+      "mention_rate": 50,
+      "top1_mention_rate": 50,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区高性价比产业园推荐",
+      "mention_rate": 50,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区交通便利的产业园推荐",
+      "mention_rate": 50,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区地铁口产业园推荐",
+      "mention_rate": 50,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区体量大业态齐全的产业园推荐",
+      "mention_rate": 50,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区停车场充足的产业园推荐",
+      "mention_rate": 50,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区显示产业园推荐",
+      "mention_rate": 50,
+      "top1_mention_rate": 50,
+      "before_mention_rate": 50,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区高端产业园排行榜",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "现成可入驻的深圳市宝安区高端产业园推荐",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "有政策补贴的深圳市宝安区高端产业园推荐",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "面积能灵活分割的深圳市宝安区高端产业园推荐",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 50,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "适配AI人工智能机器人的深圳市宝安区产业园推荐",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区适合智能硬件企业的产业园有哪些",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区研发办公一体化园区推荐",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区新一代信息技术产业园推荐",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区智能终端产业园推荐",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区科技制造产业园推荐",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区产业链协同发展的产业园推荐",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "有完整产业链的深圳市宝安区产业园推荐",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区产业集群优势明显的产业园推荐",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区产业链配套完善的产业园推荐",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区适合科技制造企业入驻的产业园推荐",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区适合研发型企业入驻的产业园推荐",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区适合研发生产一体企业的产业园推荐",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区适合科技企业长期发展的产业园推荐",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "有总部企业入驻的深圳市宝安产业园推荐",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区高标准研发楼产业园推荐",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区工业上楼产业园推荐",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区企业服务完善的产业园推荐",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区红本产权产业园推荐",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区超高使用率产业园推荐",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "深圳市宝安区适合新能源企业入驻的产业园推荐",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    }
+  ],
+  "platform_entries": {
+    "1": [
+      {
+        "entry_name": "适合总部入驻的深圳市宝安区高端产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/6b51e17156a64cca8b412e0a348cb2f2.png"
+      },
+      {
+        "entry_name": "能生产又能办公的深圳市宝安区高端产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/74aba62fa89f4efa8484d05bb0bf90fd.png"
+      },
+      {
+        "entry_name": "口碑好的深圳市宝安区高端产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/46b1e5cb115148db94455dd22ed49dcc.png"
+      },
+      {
+        "entry_name": "深圳市宝安区科技产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/3314229c5ac8465fb20093d49c5778ba.png"
+      },
+      {
+        "entry_name": "深圳市宝安区新型显示产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/437736efca284f02a6ecd2ce372dff29.png"
+      },
+      {
+        "entry_name": "深圳市宝安区适合电子信息企业发展的产业园有哪些",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/7f19d8176a8040a18f3c4031eb191926.png"
+      },
+      {
+        "entry_name": "产业园里的深圳市宝安区写字楼推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/c382419205054e898822de66dc9ba375.png"
+      },
+      {
+        "entry_name": "深圳市宝安区写字楼推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/a7e2d1b668654519bc3c88558bfe65f2.png"
+      },
+      {
+        "entry_name": "深圳市宝安区产业园排行榜",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/a23180f6c77d466089d041c22f625665.png"
+      },
+      {
+        "entry_name": "口碑好的深圳市宝安区产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/c048f123ca2449db98e9deb8f59d459d.png"
+      },
+      {
+        "entry_name": "深圳市宝安区新一代电子信息产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/3a8f7a491bda42e6a63241b364b3b133.png"
+      },
+      {
+        "entry_name": "深圳市宝安区超高清视频显示产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/602483d570e9438192521230eba36157.png"
+      },
+      {
+        "entry_name": "深圳市宝安区超高清视频产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/581adefa11754c98ad38f1fdc1eae925.png"
+      },
+      {
+        "entry_name": "深圳市宝安区电子信息产业链园区推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/735473c10868495d9913a6fcf9b5cf50.png"
+      },
+      {
+        "entry_name": "深圳市宝安区电子信息产业上下游企业集聚园区推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/4a29b775ea134f32b9e479297fbeae69.png"
+      },
+      {
+        "entry_name": "深圳市宝安区产业链上下游企业集聚园区推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/129d90e6ff00482fa4568083785b8c7f.png"
+      },
+      {
+        "entry_name": "深圳市宝安区适合电子信息企业入驻的产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/bcd5d548e6704373bec1a6c3ff96650b.png"
+      },
+      {
+        "entry_name": "深圳市宝安区适合新型显示企业入驻的产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/0f6f319a1d6e4b7496bde8402c28e79a.png"
+      },
+      {
+        "entry_name": "深圳市宝安区适合超高清视频企业入驻的产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/b60e7cc43c0d40e1a40d32e802db460c.png"
+      },
+      {
+        "entry_name": "深圳市宝安区研发生产办公一体化园区推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/b5b08a3b743d49428f5f5a6e3ffdfcf1.png"
+      },
+      {
+        "entry_name": "深圳市宝安区总部企业集聚的产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/63f354aaff8047279213a3002a1b5a8c.png"
+      },
+      {
+        "entry_name": "深圳市宝安区知名企业集聚的高端产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/efe6382e6a074914b32b9d0a54dd1390.png"
+      },
+      {
+        "entry_name": "深圳市宝安区甲级研发办公园区推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/db0fea5203d84c04b3b936c10b18db7e.png"
+      },
+      {
+        "entry_name": "深圳市宝安区研发办公空间好的产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/b2dd3a1312a147f7b9371223b997319d.png"
+      },
+      {
+        "entry_name": "深圳市宝安区办公生活配套完善的产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/c2570d89d699413f96e783e76e07d8d4.png"
+      },
+      {
+        "entry_name": "深圳市宝安区产业运营服务好的产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/8c1ca334610848d6abb4f80e71f8809b.png"
+      },
+      {
+        "entry_name": "深圳市宝安区精装修可直接入驻的产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/1b7a2968720a4e1882d912b17dac9d82.png"
+      },
+      {
+        "entry_name": "深圳市宝安区高性价比产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/008c656cc2fb404d9b60e5dd34157eee.png"
+      },
+      {
+        "entry_name": "深圳市宝安区交通便利的产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/0b86842c169e40089b225e8e178b1f18.png"
+      },
+      {
+        "entry_name": "深圳市宝安区地铁口产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/3953a88115574eff95f701ec783f6be2.png"
+      },
+      {
+        "entry_name": "深圳市宝安区体量大业态齐全的产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/1df4efdbc4e749edbae1af7d643c97bb.png"
+      },
+      {
+        "entry_name": "深圳市宝安区业主直租产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/7cbbf51917b84df1be436a55cb72c13a.png"
+      },
+      {
+        "entry_name": "深圳市宝安区高端产业园排行榜",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/e13f5f304a0043b1906cac0764a07f5d.png"
+      },
+      {
+        "entry_name": "现成可入驻的深圳市宝安区高端产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/986bd2dad5e1411880363ca32a5d20ed.png"
+      },
+      {
+        "entry_name": "配套齐全的深圳市宝安区高端产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/b1d5b29e9d284dffa08ba200a4293dfb.png"
+      },
+      {
+        "entry_name": "有政策补贴的深圳市宝安区高端产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/c7d1587652a048d49d2ba5b827824f3b.png"
+      },
+      {
+        "entry_name": "面积能灵活分割的深圳市宝安区高端产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/45cfbd1aa3a745168303a16419a38761.png"
+      },
+      {
+        "entry_name": "适配AI人工智能机器人的深圳市宝安区产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/be51cdf02cfb411ca6791f975bcd2d8d.png"
+      },
+      {
+        "entry_name": "深圳市宝安区适合科技企业入驻的产业园有哪些",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/e1432e99b2794bd8a8267835c4b912e4.png"
+      },
+      {
+        "entry_name": "深圳市宝安区适合智能硬件企业的产业园有哪些",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/11918e07503a4244b1eb04b13945da6b.png"
+      },
+      {
+        "entry_name": "深圳市宝安区研发办公一体化园区推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/a8b2e20bc7104e5fa2ce998a7edbe4a8.png"
+      },
+      {
+        "entry_name": "深圳市宝安区生产研发一体化园区推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/70e8c318d44a48bfbd63fc49fb107271.png"
+      },
+      {
+        "entry_name": "适合总部办公的深圳市宝安区写字楼推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/f686d80d86584aa9bef01c816f1fe760.png"
+      },
+      {
+        "entry_name": "深圳市宝安区产业园有哪些",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/8576352cde574c478379d3aae6794f63.png"
+      },
+      {
+        "entry_name": "深圳市宝安区新一代信息技术产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/356f953cb8f842a79cfd027b81980a65.png"
+      },
+      {
+        "entry_name": "深圳市宝安区电子信息产业集群园区推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/d012f803d05c46bca1f73641830c023e.png"
+      },
+      {
+        "entry_name": "深圳市宝安区智能终端产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/45449c5f7528482d94c39e554bd34a00.png"
+      },
+      {
+        "entry_name": "深圳市宝安区智能硬件产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/bc234d3b73cd4baf9b27816baa1456ca.png"
+      },
+      {
+        "entry_name": "深圳市宝安区科技制造产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/6511fb020463478fbfaf3caaf5679ded.png"
+      },
+      {
+        "entry_name": "深圳市宝安区电子信息产业链上下游园区有哪些",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/bdee9b2a7da14c039cc882517904a011.png"
+      },
+      {
+        "entry_name": "深圳市宝安区产业链协同发展的产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/4349d0307b1542df82b25106f62e426f.png"
+      },
+      {
+        "entry_name": "有完整产业链的深圳市宝安区产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/1cc89805008246ff9e09a8ecaf5399c6.png"
+      },
+      {
+        "entry_name": "深圳市宝安区产业集群优势明显的产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/50f9c63d2bcf4283a9e974f3a74afad6.png"
+      },
+      {
+        "entry_name": "深圳市宝安区产业链配套完善的产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/01b1708816164a2f9f91a1d9cf875277.png"
+      },
+      {
+        "entry_name": "深圳市宝安区适合智能硬件企业入驻的产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/5d9fd050ce1048558fe30fc465b047fe.png"
+      },
+      {
+        "entry_name": "深圳市宝安区适合科技制造企业入驻的产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/b230a12104e6407b8e40f9ab5d96e943.png"
+      },
+      {
+        "entry_name": "深圳市宝安区适合研发型企业入驻的产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/f2941011c05d40b1bfd0208755634ec4.png"
+      },
+      {
+        "entry_name": "深圳市宝安区适合研发生产一体企业的产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/4aa19823737548988a28915358850bb3.png"
+      },
+      {
+        "entry_name": "深圳市宝安区适合科技企业长期发展的产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/f62141709a6c4decab82644fba77e136.png"
+      },
+      {
+        "entry_name": "深圳市宝安区龙头企业集聚的产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/f09d09b6403c4fc2bbabd05b845e541a.png"
+      },
+      {
+        "entry_name": "有总部企业入驻的深圳市宝安产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/ce08322a79434dff85baecb01c07356c.png"
+      },
+      {
+        "entry_name": "深圳市宝安区高标准研发楼产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/a505dae67a3244cfbb0850a2c929a04f.png"
+      },
+      {
+        "entry_name": "深圳市宝安区工业上楼产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/e7aa4503eb95459290a556482cc3a186.png"
+      },
+      {
+        "entry_name": "深圳市宝安区配套完善的产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/8d29ac6c894b4edd8c39d7590cf77f84.png"
+      },
+      {
+        "entry_name": "深圳市宝安区企业服务完善的产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/428c8f05e4fa4d75ab6d6289f9a17f26.png"
+      },
+      {
+        "entry_name": "深圳市宝安区停车场充足的产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/aff0f4091ef84b85a6ef6e7bbca155ec.png"
+      },
+      {
+        "entry_name": "深圳市宝安区红本产权产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/c8d1c18d1b644ea2b5327776b7a12bf8.png"
+      },
+      {
+        "entry_name": "深圳市宝安区超高使用率产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/cc1e281ef966443aabf7dd948e6e5e56.png"
+      },
+      {
+        "entry_name": "深圳市宝安区适合新能源企业入驻的产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/d9f98982fba946769728496d8a04ce5d.png"
+      },
+      {
+        "entry_name": "深圳市宝安区显示产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/51bd9f4a47b24bd4b0716475dc8b222b.png"
+      }
+    ],
+    "2": [
+      {
+        "entry_name": "配套齐全的深圳市宝安区高端产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/e62b10b2cdbb411b96fa5441656604b6.png"
+      },
+      {
+        "entry_name": "适合总部入驻的深圳市宝安区高端产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/494c811bb0c9482ca1c12cf6fb46c505.png"
+      },
+      {
+        "entry_name": "口碑好的深圳市宝安区高端产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/fffbf9bfa14b42beae8e1b1a37cde925.png"
+      },
+      {
+        "entry_name": "深圳市宝安区新型显示产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/bf37054a98d147d9a865a1bb2e353b52.png"
+      },
+      {
+        "entry_name": "深圳市宝安区适合科技企业入驻的产业园有哪些",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/49cdd794bed74f2ab7d463a3a3043e73.png"
+      },
+      {
+        "entry_name": "深圳市宝安区适合电子信息企业发展的产业园有哪些",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/0591837f5bd6409e9db85f26a8705658.png"
+      },
+      {
+        "entry_name": "深圳市宝安区生产研发一体化园区推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/16f48d4bf1dd4958b476d90f0b9da0b6.png"
+      },
+      {
+        "entry_name": "适合总部办公的深圳市宝安区写字楼推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/423d50b6644d43e18c63c91c9c589ca2.png"
+      },
+      {
+        "entry_name": "深圳市宝安区产业园有哪些",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/0235b136b3714706968fd6e7548b8d6f.png"
+      },
+      {
+        "entry_name": "深圳市宝安区新一代电子信息产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/93fa9d99e2cb47a8b8a54caed9912d64.png"
+      },
+      {
+        "entry_name": "深圳市宝安区超高清视频显示产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/e1bd01abc2a546b9bf118b2d2bdaceb0.png"
+      },
+      {
+        "entry_name": "深圳市宝安区超高清视频产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/b365971fc2d244759b31b70e01ff383f.png"
+      },
+      {
+        "entry_name": "深圳市宝安区电子信息产业集群园区推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/ae4c02d45cfa4eb3bced359729b8071b.png"
+      },
+      {
+        "entry_name": "深圳市宝安区智能硬件产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/a283e1ae8d55416d8a435bab5899b69f.png"
+      },
+      {
+        "entry_name": "深圳市宝安区电子信息产业链园区推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/7143584c3b5b49f39af7e2794e04885f.png"
+      },
+      {
+        "entry_name": "深圳市宝安区电子信息产业上下游企业集聚园区推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/a93710c80bb54b38ab181871df9ae5b6.png"
+      },
+      {
+        "entry_name": "深圳市宝安区电子信息产业链上下游园区有哪些",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/8c0231e4b57a419482078f3ae1688be1.png"
+      },
+      {
+        "entry_name": "深圳市宝安区适合新型显示企业入驻的产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/e36d6aa0f8e64ea8a9f1a5c78aff2273.png"
+      },
+      {
+        "entry_name": "深圳市宝安区适合超高清视频企业入驻的产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/253eafa3ce514880a2d2994e00cc438b.png"
+      },
+      {
+        "entry_name": "深圳市宝安区适合智能硬件企业入驻的产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/ce74a227f91b455898349d2a204e775a.png"
+      },
+      {
+        "entry_name": "深圳市宝安区龙头企业集聚的产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/4f324982aa06458394b034e6e352670a.png"
+      },
+      {
+        "entry_name": "深圳市宝安区甲级研发办公园区推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/e9379561264f41ba93cea09fad898b3f.png"
+      },
+      {
+        "entry_name": "深圳市宝安区配套完善的产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/0e008925c1ee4b67a1e88bf0b295e4c2.png"
+      },
+      {
+        "entry_name": "深圳市宝安区精装修可直接入驻的产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/348e0a2df576419e90a2fdae3dac111d.png"
+      },
+      {
+        "entry_name": "深圳市宝安区停车场充足的产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/f5c9b0e0f2b948de8a5fddb9c26ef20a.png"
+      },
+      {
+        "entry_name": "深圳市宝安区业主直租产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/6b2a55e205d24f78951c72e37b4918da.png"
+      },
+      {
+        "entry_name": "深圳市宝安区显示产业园推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/3c076fde801d47deb3e43e2fe3f0d26b.png"
+      },
+      {
+        "entry_name": "深圳市宝安区高端产业园排行榜",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/e0b254978c1f4654b261974b66b554b9.png"
+      },
+      {
+        "entry_name": "现成可入驻的深圳市宝安区高端产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/de7a95e0df044f5fa4a0ce51f308eec6.png"
+      },
+      {
+        "entry_name": "能生产又能办公的深圳市宝安区高端产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/f5cc80d2ed3547b78fca33a08e6be3c4.png"
+      },
+      {
+        "entry_name": "有政策补贴的深圳市宝安区高端产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/aeaa1b065ae54d4fb19590e5d20d7803.png"
+      },
+      {
+        "entry_name": "面积能灵活分割的深圳市宝安区高端产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/7f07b7c4767542c9a77b31a73690c57d.png"
+      },
+      {
+        "entry_name": "深圳市宝安区科技产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/a9af7f650ed844fdbb015eca3e0d7188.png"
+      },
+      {
+        "entry_name": "适配AI人工智能机器人的深圳市宝安区产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/03039ea90ce648deadf698669cd75ecb.png"
+      },
+      {
+        "entry_name": "深圳市宝安区适合智能硬件企业的产业园有哪些",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/9d41c7a6f24f4121938e153c3d0cacdb.png"
+      },
+      {
+        "entry_name": "深圳市宝安区研发办公一体化园区推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/2c0737207325432695e6a0476fefd3cf.png"
+      },
+      {
+        "entry_name": "产业园里的深圳市宝安区写字楼推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/cc8b1064844542e8870a073b505fb3f1.png"
+      },
+      {
+        "entry_name": "深圳市宝安区写字楼推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/39e49dc5b95a4b48884ec9373a8bd2a5.png"
+      },
+      {
+        "entry_name": "深圳市宝安区产业园排行榜",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/dc1d958e5d03433299a8c09995664086.png"
+      },
+      {
+        "entry_name": "口碑好的深圳市宝安区产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/ac9a48c21e54447e9bce3bf4e437a3b5.png"
+      },
+      {
+        "entry_name": "深圳市宝安区新一代信息技术产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/195dc27b8b504ff5b44e659321a516df.png"
+      },
+      {
+        "entry_name": "深圳市宝安区智能终端产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/d27592e6ae094e68b4ebda8d1f2ce012.png"
+      },
+      {
+        "entry_name": "深圳市宝安区科技制造产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/fe3bf993264f4e258a761b45c9d13292.png"
+      },
+      {
+        "entry_name": "深圳市宝安区产业链上下游企业集聚园区推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/d6f3b11255db4047bb9964da9da74066.png"
+      },
+      {
+        "entry_name": "深圳市宝安区产业链协同发展的产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/af72a3dbc3d545949ebd4b38085b7d7d.png"
+      },
+      {
+        "entry_name": "有完整产业链的深圳市宝安区产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/4742086dfb3042ca9a1dae1a5773b71f.png"
+      },
+      {
+        "entry_name": "深圳市宝安区产业集群优势明显的产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/3f7e1a6d23714abb99ae72358a346f50.png"
+      },
+      {
+        "entry_name": "深圳市宝安区产业链配套完善的产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/e62d8920b4a64155b23d47bbae52b26e.png"
+      },
+      {
+        "entry_name": "深圳市宝安区适合电子信息企业入驻的产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/6d1e3cc4699848ff88effe51ce4f54ec.png"
+      },
+      {
+        "entry_name": "深圳市宝安区适合科技制造企业入驻的产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/a4507575f7904bee87a3a2515dca294a.png"
+      },
+      {
+        "entry_name": "深圳市宝安区适合研发型企业入驻的产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/458f29c4292044ccaf5c01c2e12ca6ce.png"
+      },
+      {
+        "entry_name": "深圳市宝安区适合研发生产一体企业的产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/7fe75177f38c43ebb9778d4f84c12d94.png"
+      },
+      {
+        "entry_name": "深圳市宝安区适合科技企业长期发展的产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/ffbaccfcefdc44649513f8a91b2fe383.png"
+      },
+      {
+        "entry_name": "深圳市宝安区研发生产办公一体化园区推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/9716027435b44d928fbc97eff2947448.png"
+      },
+      {
+        "entry_name": "有总部企业入驻的深圳市宝安产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/7f6b1a61edc346baab020227d9246128.png"
+      },
+      {
+        "entry_name": "深圳市宝安区总部企业集聚的产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/dddc32e3ed134c198ed046c49fcaa22c.png"
+      },
+      {
+        "entry_name": "深圳市宝安区知名企业集聚的高端产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/1fb533d28b7c4c4cb4109847b96dfff2.png"
+      },
+      {
+        "entry_name": "深圳市宝安区高标准研发楼产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/18e680ad14934eb999eda0cf5912523a.png"
+      },
+      {
+        "entry_name": "深圳市宝安区工业上楼产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/a9c8700c08c441a89118f29850058dc5.png"
+      },
+      {
+        "entry_name": "深圳市宝安区研发办公空间好的产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/b856a5768b6648439e219e5bde4baacc.png"
+      },
+      {
+        "entry_name": "深圳市宝安区办公生活配套完善的产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/a46ce7f69bef4127b51be76b12e1d35e.png"
+      },
+      {
+        "entry_name": "深圳市宝安区企业服务完善的产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/1d76bbd9b25a43ab9d45b69eb6991267.png"
+      },
+      {
+        "entry_name": "深圳市宝安区产业运营服务好的产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/813e91416eee4362be70057114da7623.png"
+      },
+      {
+        "entry_name": "深圳市宝安区高性价比产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/d1555e48885a46d7b2439051039f9bff.png"
+      },
+      {
+        "entry_name": "深圳市宝安区交通便利的产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/c75a6490465240f6b6522df757af7eda.png"
+      },
+      {
+        "entry_name": "深圳市宝安区地铁口产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/2bf57be297ff4c1bb3d06a3c91b23f4a.png"
+      },
+      {
+        "entry_name": "深圳市宝安区体量大业态齐全的产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/c843bf6bf188476c888935ad92695f38.png"
+      },
+      {
+        "entry_name": "深圳市宝安区红本产权产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/a0b4ff6ffc47430c9e1667768508b685.png"
+      },
+      {
+        "entry_name": "深圳市宝安区超高使用率产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/6baeeaaf2e5140bea47e80daea92ddab.png"
+      },
+      {
+        "entry_name": "深圳市宝安区适合新能源企业入驻的产业园推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/27",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261026/5f6671b84aba412da0b57262925a256d.png"
+      }
+    ]
+  },
+  "platforms": [
+    {
+      "id": 1,
+      "name": "DeepSeek"
+    },
+    {
+      "id": 2,
+      "name": "豆包"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import report from '../data/awadaSeptemberReport.json';
+import report from '../data/chuangxinguOctoberReport.json';
 
 const { compare } = report;
 
@@ -104,8 +104,8 @@ export default function Page_CompetitorAnalysis() {
       <div className="flex items-center shrink-0 mb-3">
         <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
         <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4 flex items-center">
-          Awada竞品分析
-          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年9月）</span>
+          创维创新谷竞品分析
+          <span className="text-2xl font-bold text-zinc-400 ml-4">（{report.meta.label}）</span>
         </h1>
       </div>
 
@@ -124,11 +124,11 @@ export default function Page_CompetitorAnalysis() {
             </h2>
             <div className="flex-grow rounded-2xl bg-[#004CE5]/5 border border-[#004CE5]/20 p-5 flex flex-col justify-evenly min-h-0">
               <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-                1. 火枫提及率 60.6%、Top1 27.5%，综合竞品排名稳居 NO.1，仍是户外餐厨推荐的默认答案；挪客、Snow Peak、MSR 以 21%—32% 组成第二梯队。
+                1. 新桥东先进制造产业园提及率 51.4%、Top1 12.9%，综合竞品排名 NO.1，是离创维创新谷最近的对手；全至科技创新园提及率 30%，燕罗智能网联汽车产业园 29.3%，落在第三、第四。
               </p>
               <div className="h-px bg-[#004CE5]/10 my-1" />
               <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-                2. Awada 本月提及率 6.9%（排名 NO.17），综合竞品排名 NO.43→NO.16；Top1 升至 1.3%（排名 NO.9），首推刚打开。
+                2. 创维创新谷 10 月提及率 42.1%（排名 NO.2），综合竞品排名 NO.9→NO.2；Top1 由 4.3%（NO.6）升至 13.6%（NO.1），Top3 由 7.9%（NO.7）升至 22.1%（NO.2）。
               </p>
             </div>
           </div>
@@ -140,9 +140,9 @@ export default function Page_CompetitorAnalysis() {
             </h2>
             <div className="flex-grow rounded-2xl bg-[#004CE5]/[0.015] border border-[#004CE5]/15 p-5 flex flex-col justify-evenly min-h-0">
               {[
-                { num: '01', title: '拦截火枫', desc: '火枫独占首推两成以上，需在专业餐厨、精致露营同台对比里给出 Awada 更优的结论。' },
-                { num: '02', title: '扩大提及广度', desc: '「露营厨具哪个牌子好」仍是 0，「口碑好的户外厨具推荐」刚破零，泛选购大词还要继续铺。' },
-                { num: '03', title: '提升综合竞品排名', desc: '综合竞品排名现居 NO.16，需在已覆盖的 10 个词条里抢前三，继续向第二梯队靠拢。' },
+                { num: '01', title: '追上新桥东', desc: '提及率落后 9.3 个点，Top1 已领先 0.7 个点。同台对比里继续把创维创新谷写成第一选择。' },
+                { num: '02', title: '补豆包短板', desc: '豆包提及率 38.6%，DeepSeek 已到 45.7%。电子信息入驻、总部集聚在 DeepSeek 已是 100%，豆包还是 0。' },
+                { num: '03', title: '补上空白词条', desc: '还有 25 个词条是 0，集中在补贴、灵活分割、智能硬件和红本产权。已到 100% 的总部入驻词，Top1 仍是 0。' },
               ].map((strat, idx) => (
                 <div key={idx} className="flex items-start gap-3">
                   <span className="text-[#004CE5] font-black text-2xl shrink-0 mt-0.5">{strat.num}</span>

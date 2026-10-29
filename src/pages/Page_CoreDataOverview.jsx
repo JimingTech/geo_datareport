@@ -1,5 +1,5 @@
 import React from 'react';
-import report from '../data/awadaSeptemberReport.json';
+import report from '../data/chuangxinguOctoberReport.json';
 
 const { scope, before, september } = report;
 
@@ -11,14 +11,14 @@ const BEFORE_LABEL = report.meta.before_label;
 const SEPT_LABEL = report.meta.september_label;
 
 export default function Page_CoreDataOverview() {
-  const rows = [{ key: 'all', name: 'Awada', before, september }];
+  const rows = [{ key: 'all', name: report.meta.product, before, september }];
 
   return (
     <div className="w-full h-full flex flex-col px-12 sm:px-16 pt-[22px] pb-8 text-zinc-800 font-sans overflow-hidden">
       <div className="flex items-center shrink-0 mb-[27px]">
         <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
         <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4">
-          核心数据总览 <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年9月）</span>
+          核心数据总览 <span className="text-2xl font-bold text-zinc-400 ml-4">（{report.meta.label}）</span>
         </h1>
       </div>
 
@@ -50,7 +50,7 @@ export default function Page_CoreDataOverview() {
           <tbody>
             {rows.map((row) => (
               <tr key={row.key} className="border-b border-zinc-200 bg-white hover:bg-slate-50/20 transition-colors">
-                <td className="py-[60px] px-4 border-r border-zinc-200 bg-slate-50/10 text-center font-black text-3xl text-zinc-800">
+                <td className="py-[60px] px-4 border-r border-zinc-200 bg-slate-50/10 text-center font-black text-[1.65rem] leading-tight text-zinc-800">
                   {row.name}
                 </td>
                 <td className="py-[60px] px-2 text-center border-r border-zinc-200 text-5xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(row.before.mention_rate)}</td>
@@ -75,15 +75,15 @@ export default function Page_CoreDataOverview() {
           </div>
           <div className="flex-1 flex flex-col justify-evenly min-h-0">
             <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-              1. 提及率由优化前的1.9%升至6.9%，综合竞品排名由NO.43进至NO.16，是本月进位幅度最大的户外餐厨品牌之一。
+              1. 提及率由优化前（9月16日）的10.7%升至42.1%，综合竞品排名由 NO.9 进至 NO.2。Top1 提及率由4.3%升至13.6%，排名由 NO.6 进至 NO.1。
             </p>
             <div className="h-px bg-[#004CE5]/10" />
             <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-              2. DeepSeek从7.5%升至10%；豆包、元宝、通义千问由0分别做到7.5%、5%、5%，四端均已破零，后两端仍落后。
+              2. DeepSeek 10%→45.7%，豆包 11.4%→38.6%。两端都在涨，豆包仍比 DeepSeek 低 7.1 个点。Top3 提及率由7.9%升至22.1%，排名由 NO.7 进至 NO.2。
             </p>
             <div className="h-px bg-[#004CE5]/10" />
             <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-              3. 40个监测词条的有效覆盖由3个增至10个；Top1提及率升至1.3%，Top3仍为1.3%，刚拿到首推，还没铺开前三。
+              3. 70个监测词条的有效覆盖由11个增至45个，仍有25个为0。「适合总部入驻的深圳市宝安区高端产业园推荐」已到100%，Top1 仍是0。
             </p>
           </div>
         </div>
@@ -95,9 +95,9 @@ export default function Page_CoreDataOverview() {
           </div>
           <div className="flex-1 flex flex-col justify-evenly min-h-0">
             {[
-              { num: '01', title: '复制成功路径', desc: 'DeepSeek与豆包已有声量，把专业餐厨、精致露营、泛选购大词同步到元宝、通义千问，拉平四端差距。' },
-              { num: '02', title: '补齐词条覆盖', desc: '针对40个词条中尚未破零的30个补充语料，优先攻「露营厨具哪个牌子好」等仍为0的泛选购大词。' },
-              { num: '03', title: '放大首推成果', desc: 'Top1刚到1.3%，在已覆盖的10个词条里强化第一顺位表达，把曝光转化成稳定首推。' },
+              { num: '01', title: '追上新桥东', desc: '提及率还差 9.3 个点（42.1%对51.4%），综合竞品排名 NO.2。Top1 已反超（13.6%对12.9%），同台对比里把创维创新谷写成第一选择。' },
+              { num: '02', title: '补齐豆包缺口', desc: '「适合电子信息企业入驻」「总部企业集聚」在 DeepSeek 已是 100%，豆包仍是 0。先把这两类词条补到豆包。' },
+              { num: '03', title: '大词做成首推', desc: '70 个词条里还有 56 个 Top1 为 0。「适合总部入驻的深圳市宝安区高端产业园推荐」提及率已是 100%，首推还是 0。' },
             ].map((strat) => (
               <div key={strat.num} className="flex items-start gap-3">
                 <span className="text-emerald-600 font-black text-2xl shrink-0 mt-0.5 font-['Montserrat',sans-serif]">{strat.num}</span>

@@ -1,0 +1,205 @@
+{
+  "source": "创新谷-优化词(中位数)_投放文章统计_1029.xlsx",
+  "generated_at": "2026-10-29",
+  "overview": {
+    "delivery_articles": 186,
+    "cited_articles": 48,
+    "cited_rate": 25.8,
+    "unique_titles": 133,
+    "unique_cited_titles": 47,
+    "delivery_citations": 563,
+    "total_conversations": 1120,
+    "total_citation_records": 17377
+  },
+  "platform_totals": {
+    "total": 563,
+    "deepseek": 256,
+    "doubao": 307
+  },
+  "top10": [
+    {
+      "rank": 1,
+      "title": "2026年口碑好的深圳市宝安区高端产业园推荐，怎么挑",
+      "platform": "抖音（每日科技解析）",
+      "domain": "v.douyin.com",
+      "date": "2026-10-09",
+      "total": 78,
+      "deepseek": 0,
+      "doubao": 78,
+      "isCited": "是"
+    },
+    {
+      "rank": 2,
+      "title": "2026年深圳市宝安区适合智能硬件企业入驻的产业园推荐",
+      "platform": "抖音（英子科技生活）",
+      "domain": "douyin.com",
+      "date": "2026-10-09",
+      "total": 63,
+      "deepseek": 0,
+      "doubao": 63,
+      "isCited": "是"
+    },
+    {
+      "rank": 3,
+      "title": "2026年深圳市宝安区龙头企业集聚的产业园推荐，5家对照",
+      "platform": "抖音（米兰科技）",
+      "domain": "douyin.com",
+      "date": "2026-10-09",
+      "total": 36,
+      "deepseek": 0,
+      "doubao": 36,
+      "isCited": "是"
+    },
+    {
+      "rank": 4,
+      "title": "深圳市宝安区停车场充足的产业园推荐怎么看",
+      "platform": "抖音（87年的兔）",
+      "domain": "v.douyin.com",
+      "date": "2026-10-22",
+      "total": 35,
+      "deepseek": 0,
+      "doubao": 35,
+      "isCited": "是"
+    },
+    {
+      "rank": 5,
+      "title": "2026年深圳市宝安区适合科技企业入驻的产业园有哪些",
+      "platform": "网易商业财经",
+      "domain": "zhihu.com",
+      "date": "2026-09-17",
+      "total": 35,
+      "deepseek": 35,
+      "doubao": 0,
+      "isCited": "是"
+    },
+    {
+      "rank": 6,
+      "title": "2026年深圳市宝安区产业园排行榜：名次之前先定要哪一类",
+      "platform": "抖音（好运气科技生活）",
+      "domain": "douyin.com",
+      "date": "2026-09-23",
+      "total": 33,
+      "deepseek": 0,
+      "doubao": 33,
+      "isCited": "是"
+    },
+    {
+      "rank": 7,
+      "title": "2026年深圳市宝安区研发生产办公一体化园区推荐指南",
+      "platform": "抖音（深圳生活网）",
+      "domain": "douyin.com",
+      "date": "2026-10-10",
+      "total": 32,
+      "deepseek": 0,
+      "doubao": 32,
+      "isCited": "是"
+    },
+    {
+      "rank": 8,
+      "title": "产线搬上楼？2026年深圳市宝安区研发办公一体化园区推荐",
+      "platform": "知乎",
+      "domain": "zhihu.com",
+      "date": "2026-09-20",
+      "total": 32,
+      "deepseek": 32,
+      "doubao": 0,
+      "isCited": "是"
+    },
+    {
+      "rank": 9,
+      "title": "2026年深圳市宝安区新一代电子信息产业园推荐排行榜揭晓",
+      "platform": "搜狐网商讯（包收录）",
+      "domain": "sohu.com",
+      "date": "2026-09-17",
+      "total": 14,
+      "deepseek": 14,
+      "doubao": 0,
+      "isCited": "是"
+    },
+    {
+      "rank": 10,
+      "title": "深圳市宝安区业主直租产业园推荐怎么看，先问签约对方是谁",
+      "platform": "万叶千家（知乎号）",
+      "domain": "zhihu.com",
+      "date": "2026-09-20",
+      "total": 13,
+      "deepseek": 13,
+      "doubao": 0,
+      "isCited": "是"
+    }
+  ],
+  "domain_stats": [
+    {
+      "channel": "抖音",
+      "articles": 54,
+      "cited": 13,
+      "citations": 303
+    },
+    {
+      "channel": "知乎",
+      "articles": 48,
+      "cited": 28,
+      "citations": 221
+    },
+    {
+      "channel": "搜狐",
+      "articles": 19,
+      "cited": 6,
+      "citations": 37
+    },
+    {
+      "channel": "今日头条",
+      "articles": 16,
+      "cited": 1,
+      "citations": 2
+    },
+    {
+      "channel": "百家号",
+      "articles": 31,
+      "cited": 0,
+      "citations": 0
+    },
+    {
+      "channel": "读特",
+      "articles": 7,
+      "cited": 0,
+      "citations": 0
+    },
+    {
+      "channel": "新浪",
+      "articles": 5,
+      "cited": 0,
+      "citations": 0
+    },
+    {
+      "channel": "网易",
+      "articles": 2,
+      "cited": 0,
+      "citations": 0
+    },
+    {
+      "channel": "xdxf.xcainews.cn",
+      "articles": 1,
+      "cited": 0,
+      "citations": 0
+    },
+    {
+      "channel": "caijing365w.lyaskw.com",
+      "articles": 1,
+      "cited": 0,
+      "citations": 0
+    },
+    {
+      "channel": "yicheshiw.cn",
+      "articles": 1,
+      "cited": 0,
+      "citations": 0
+    },
+    {
+      "channel": "中国经济时报",
+      "articles": 1,
+      "cited": 0,
+      "citations": 0
+    }
+  ]
+}
