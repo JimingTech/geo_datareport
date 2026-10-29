@@ -160,9 +160,9 @@
     "product": "桃李面包 ToC"
   },
   "tob": {
-    "total_articles": 239,
+    "total_articles": 224,
     "cited_articles": 67,
-    "citation_rate": 28.0,
+    "citation_rate": 29.9,
     "total_citations": 5937,
     "by_platform": {
       "deepseek": 3903,
@@ -309,7 +309,7 @@
         "qwen": 0
       }
     ],
-    "article_rows": 239,
+    "article_rows": 224,
     "product": "桃李面包 ToB"
   }
 }
