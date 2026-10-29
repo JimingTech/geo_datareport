@@ -35,7 +35,7 @@ export const slideConfig = [
     backgroundImage: '/proposal-cover/proposal-cover-new.png',
     brand: 'GEO 索引未来',
     subtitle: '古井贡酒GEO \n 阶段性报告',
-    date: 'September 2026',
+    date: 'October 2026',
   },
 
   {

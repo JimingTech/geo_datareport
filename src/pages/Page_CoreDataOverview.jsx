@@ -7,14 +7,14 @@ export default function Page_CoreDataOverview() {
       <div className="flex items-center shrink-0 mb-[27px]">
         <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
         <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4">
-          核心数据总览 <span className="text-2xl font-bold text-zinc-400 ml-4">（古16 · 9月21日 / 古20 · 9月23日）</span>
+          核心数据总览 <span className="text-2xl font-bold text-zinc-400 ml-4">（古16 · 10月28日 / 古20 · 10月21日）</span>
         </h1>
       </div>
 
       {/* 1. Top Section: Decorative Data Remark */}
       <div className="rounded-xl border border-zinc-200 bg-slate-50/40 py-3.5 px-6 shrink-0 mb-4">
         <p className="text-[1.35rem] leading-relaxed text-zinc-500 font-bold">
-          本次监测周期共计 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">16</span> 天，覆盖 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">4</span> 个核心AI平台，针对 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">30</span> 个重点监测词条进行累计查询 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">360</span> 次，追踪引用文章共计 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">2,172</span> 篇、累计引用 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">4,759</span> 次，涉及识别竞品品牌 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">80</span> 家。
+          本次监测周期共计 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">31</span> 天，覆盖 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">4</span> 个核心AI平台，针对 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">30</span> 个重点监测词条进行累计查询 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">480</span> 次，追踪引用文章共计 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">2,832</span> 篇、累计引用 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">6,931</span> 次，涉及识别竞品品牌 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">69</span> 家。
         </p>
       </div>
 
@@ -30,14 +30,14 @@ export default function Page_CoreDataOverview() {
               <th colSpan={2} className="py-3 px-4 text-2xl font-black text-center border-l border-white/10 bg-[#2E75FF]">竞品排名</th>
             </tr>
             <tr className="bg-slate-50/80 border-b border-zinc-200 text-[#004CE5] font-black text-2xl">
-              <th className="py-2 px-2 text-center border-l border-zinc-200 w-[10%]">8月</th>
-              <th className="py-2 px-2 text-center border-l border-zinc-200 border-r-2 border-[#004CE5]/15 w-[10%]">9月</th>
-              <th className="py-2 px-2 text-center border-l border-zinc-200 w-[10%]">8月</th>
-              <th className="py-2 px-2 text-center border-l border-zinc-200 border-r-2 border-[#004CE5]/15 w-[10%]">9月</th>
-              <th className="py-2 px-2 text-center border-l border-zinc-200 w-[10%]">8月</th>
-              <th className="py-2 px-2 text-center border-l border-zinc-200 border-r-2 border-[#004CE5]/15 w-[10%]">9月</th>
-              <th className="py-2 px-2 text-center border-l border-zinc-200 w-[10%]">8月</th>
               <th className="py-2 px-2 text-center border-l border-zinc-200 w-[10%]">9月</th>
+              <th className="py-2 px-2 text-center border-l border-zinc-200 border-r-2 border-[#004CE5]/15 w-[10%]">10月</th>
+              <th className="py-2 px-2 text-center border-l border-zinc-200 w-[10%]">9月</th>
+              <th className="py-2 px-2 text-center border-l border-zinc-200 border-r-2 border-[#004CE5]/15 w-[10%]">10月</th>
+              <th className="py-2 px-2 text-center border-l border-zinc-200 w-[10%]">9月</th>
+              <th className="py-2 px-2 text-center border-l border-zinc-200 border-r-2 border-[#004CE5]/15 w-[10%]">10月</th>
+              <th className="py-2 px-2 text-center border-l border-zinc-200 w-[10%]">9月</th>
+              <th className="py-2 px-2 text-center border-l border-zinc-200 w-[10%]">10月</th>
             </tr>
           </thead>
           <tbody>
@@ -45,12 +45,12 @@ export default function Page_CoreDataOverview() {
               <td className="py-1.5 px-6 border-r border-zinc-200 bg-slate-50/10 text-center font-black text-2xl text-zinc-800">
                 古井贡酒古16
               </td>
-              <td className="py-1.5 px-2 text-center border-r border-zinc-200 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">83.3%</td>
-              <td className="py-1.5 px-2 text-center border-r-2 border-[#004CE5]/15 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">86.7%</td>
-              <td className="py-1.5 px-2 text-center border-r border-zinc-200 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">48.3%</td>
-              <td className="py-1.5 px-2 text-center border-r-2 border-[#004CE5]/15 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">46.7%</td>
-              <td className="py-1.5 px-2 text-center border-r border-zinc-200 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">60.0%</td>
-              <td className="py-1.5 px-2 text-center border-r-2 border-[#004CE5]/15 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">63.3%</td>
+              <td className="py-1.5 px-2 text-center border-r border-zinc-200 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">86.7%</td>
+              <td className="py-1.5 px-2 text-center border-r-2 border-[#004CE5]/15 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">91.7%</td>
+              <td className="py-1.5 px-2 text-center border-r border-zinc-200 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">46.7%</td>
+              <td className="py-1.5 px-2 text-center border-r-2 border-[#004CE5]/15 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">50.0%</td>
+              <td className="py-1.5 px-2 text-center border-r border-zinc-200 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">63.3%</td>
+              <td className="py-1.5 px-2 text-center border-r-2 border-[#004CE5]/15 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">68.3%</td>
               <td className="py-1.5 px-2 text-center border-r border-zinc-200 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">NO. 1</td>
               <td className="py-1.5 px-2 text-center border-r-2 border-[#004CE5]/15 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">NO. 1</td>
             </tr>
@@ -59,11 +59,11 @@ export default function Page_CoreDataOverview() {
               <td className="py-1.5 px-6 border-r border-zinc-200 bg-slate-50/10 text-center font-black text-2xl text-zinc-800">
                 古井贡酒古20
               </td>
-              <td className="py-1.5 px-2 text-center border-r border-zinc-200 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">85.0%</td>
-              <td className="py-1.5 px-2 text-center border-r-2 border-[#004CE5]/15 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">88.3%</td>
-              <td className="py-1.5 px-2 text-center border-r border-zinc-200 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">28.3%</td>
-              <td className="py-1.5 px-2 text-center border-r-2 border-[#004CE5]/15 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">31.7%</td>
-              <td className="py-1.5 px-2 text-center border-r border-zinc-200 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">48.3%</td>
+              <td className="py-1.5 px-2 text-center border-r border-zinc-200 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">88.3%</td>
+              <td className="py-1.5 px-2 text-center border-r-2 border-[#004CE5]/15 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">90.0%</td>
+              <td className="py-1.5 px-2 text-center border-r border-zinc-200 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">31.7%</td>
+              <td className="py-1.5 px-2 text-center border-r-2 border-[#004CE5]/15 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">35.0%</td>
+              <td className="py-1.5 px-2 text-center border-r border-zinc-200 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">45.0%</td>
               <td className="py-1.5 px-2 text-center border-r-2 border-[#004CE5]/15 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">45.0%</td>
               <td className="py-1.5 px-2 text-center border-r border-zinc-200 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">NO. 1</td>
               <td className="py-1.5 px-2 text-center border-r-2 border-[#004CE5]/15 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">NO. 1</td>
@@ -91,7 +91,7 @@ export default function Page_CoreDataOverview() {
           </div>
           <div className="flex-1 flex items-center min-h-0">
             <p className="text-[22px] leading-snug text-zinc-700 font-bold">
-              相较8月，古16提及率由83.3%升至86.7%，Top1由48.3%回至46.7%，竞品排名稳守 NO.1；古20提及率由85.0%升至88.3%，Top1由28.3%升至31.7%，竞品排名稳守 NO.1。
+              相较9月，古16提及率由86.7%升至91.7%，Top1由46.7%升至50.0%，竞品排名稳守 NO.1；古20提及率由88.3%升至90.0%，Top1由31.7%升至35.0%，竞品排名稳守 NO.1。
             </p>
           </div>
         </div>
@@ -103,7 +103,7 @@ export default function Page_CoreDataOverview() {
           </div>
           <div className="flex-1 flex items-center min-h-0">
             <p className="text-[22px] leading-snug text-zinc-700 font-bold">
-              古16提及率86.7%仍落后水晶剑3.3个百分点，需继续补齐并守住 NO.1 与 Top1 46.7%的领先；古20守住88.3%的提及广度与 NO.1，重点压住升至竞品排名 NO.2 的水晶剑。
+              古16提及率91.7%已反超水晶剑，需守住 NO.1 与 Top1 50.0%的领先；古20守住90.0%的提及广度与 NO.1，重点压住升至竞品排名 NO.2 的梦之蓝M6+。
             </p>
           </div>
         </div>

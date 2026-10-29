@@ -6,6 +6,7 @@
  * 用法:
  *   node scripts/fetch-monthly-snapshot.mjs --date 2026-08-29
  *   node scripts/fetch-monthly-snapshot.mjs --date 2026-08-29 --month 2026-08
+ *   node scripts/fetch-monthly-snapshot.mjs --gu16-date 2026-10-28 --gu20-date 2026-10-21 --month 2026-10
  *
  * 口径约定（历史踩坑，务必遵守）：
  *   · 核心数据总览的「提及率 / 平均提及位次」→ conversations/stats 的 brand_mention_rate / avg_position
@@ -41,7 +42,9 @@ const API_BASE = process.env.GEO_API_BASE;
 const USERNAME = process.env.GEO_USER;
 const PASSWORD = process.env.GEO_PASS;
 const DATE = getFlag('date', '2026-08-29');
-const MONTH = getFlag('month', DATE.slice(0, 7));
+const GU16_DATE = getFlag('gu16-date', DATE);
+const GU20_DATE = getFlag('gu20-date', DATE);
+const MONTH = getFlag('month', (GU16_DATE > GU20_DATE ? GU16_DATE : GU20_DATE).slice(0, 7));
 
 if (!API_BASE || !USERNAME || !PASSWORD) {
   console.error('缺少 GEO_API_BASE / GEO_USER / GEO_PASS（可写在根目录 .env）');
@@ -50,8 +53,8 @@ if (!API_BASE || !USERNAME || !PASSWORD) {
 
 /** 报告侧沿用的产品键（123/124）与数据系统真实项目 ID 的映射 */
 const PRODUCTS = [
-  { slideKey: '123', projectId: 351, name: '古井贡酒古16', short: '古16' },
-  { slideKey: '124', projectId: 352, name: '古井贡酒古20', short: '古20' },
+  { slideKey: '123', projectId: 351, name: '古井贡酒古16', short: '古16', date: GU16_DATE },
+  { slideKey: '124', projectId: 352, name: '古井贡酒古20', short: '古20', date: GU20_DATE },
 ];
 
 const monthStart = `${MONTH}-01`;
@@ -74,8 +77,12 @@ async function login() {
   });
   const json = await res.json();
   if (!json.ok) throw new Error(`登录失败: ${json.error}`);
-  cookie = (res.headers.getSetCookie?.() || [res.headers.get('set-cookie')])
-    .filter(Boolean).map((c) => c.split(';')[0]).join('; ');
+  const lastByName = new Map();
+  for (const line of (res.headers.getSetCookie?.() || [res.headers.get('set-cookie')]).filter(Boolean)) {
+    const pair = line.split(';')[0];
+    lastByName.set(pair.split('=')[0], pair);
+  }
+  cookie = [...lastByName.values()].join('; ');
   return json.user;
 }
 
@@ -155,10 +162,18 @@ function fmtDate(v) {
 async function main() {
   const user = await login();
   console.log(`已登录: ${user.name} (${user.company_name})`);
-  console.log(`单日口径: ${DATE} / 整月口径: ${monthStart} ~ ${monthEnd}\n`);
+  console.log(`单日口径: 古16=${GU16_DATE} 古20=${GU20_DATE} / 整月口径: ${monthStart} ~ ${monthEnd}\n`);
 
   const out = {
-    meta: { fetched_at: new Date().toISOString(), date: DATE, month: MONTH, month_start: monthStart, month_end: monthEnd },
+    meta: {
+      fetched_at: new Date().toISOString(),
+      date: DATE,
+      gu16_date: GU16_DATE,
+      gu20_date: GU20_DATE,
+      month: MONTH,
+      month_start: monthStart,
+      month_end: monthEnd,
+    },
     products: {},
     scope: {},
   };
@@ -173,8 +188,8 @@ async function main() {
   let scopeCollectDays = 0;
 
   for (const p of PRODUCTS) {
-    console.log(`=== ${p.name} (项目 ${p.projectId}) ===`);
-    const day = { project_id: p.projectId, start_date: DATE, end_date: DATE };
+    console.log(`=== ${p.name} (项目 ${p.projectId}) 单日 ${p.date} ===`);
+    const day = { project_id: p.projectId, start_date: p.date, end_date: p.date };
     const month = { project_id: p.projectId, start_date: monthStart, end_date: monthEnd };
 
     const dayStats = await api('/api/conversations/stats', day);
@@ -193,6 +208,7 @@ async function main() {
       project_id: p.projectId,
       name: p.name,
       short: p.short,
+      date: p.date,
       overview: {
         mention_rate: num(dayStats.data.brand_mention_rate),
         avg_position: num(dayStats.data.avg_position),

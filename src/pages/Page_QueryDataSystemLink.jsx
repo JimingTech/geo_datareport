@@ -15,16 +15,15 @@ const LOGOS = {
   6: 'https://app.geoindexfuture.com/logo/kimi.png'
 };
 
-/** 词条明细按当月单日口径展示。古16取 9月21日，古20取 9月23日。 */
+/** 词条明细按当月口径展示。标题和筛选栏只写月份，不要写具体日，也不要「最近更新时间」列。 */
 
 export default function Page_QueryDataSystemLink({ projectId = 123, platformId = 1 }) {
   const data = platformData[String(projectId)]?.[String(platformId)] || [];
   const productName = projectId === 123 ? '古井贡酒古16' : '古井贡酒古20';
   const platformName = PLATFORM_NAMES[platformId] || '';
 
-  const isGu20 = projectId === 124;
-  const dateLabel = isGu20 ? '2026年9月23日' : '2026年9月21日';
-  const dateRangeLabel = isGu20 ? '9月23日' : '9月21日';
+  const dateLabel = '2026年10月';
+  const dateRangeLabel = '10月';
   const slideTitle = `${projectId === 123 ? '古16' : '古20'}词条数据明细（${platformName}）`;
 
   return (
@@ -103,12 +102,11 @@ export default function Page_QueryDataSystemLink({ projectId = 123, platformId =
                   <div className="w-3.5 h-3.5 rounded-full border border-zinc-300 bg-white cursor-pointer mx-auto" />
                 </th>
                 <th className="py-3 px-2 w-[6%] text-center">序号</th>
-                <th className="py-3 px-4 w-[38%] text-left font-black text-zinc-500">词条</th>
-                <th className="py-3 px-3 w-[12%] text-center font-black text-zinc-500">提及率 ↓</th>
-                <th className="py-3 px-3 w-[14%] text-center font-black text-zinc-500">top1提及率</th>
+                <th className="py-3 px-4 w-[44%] text-left font-black text-zinc-500">词条</th>
+                <th className="py-3 px-3 w-[14%] text-center font-black text-zinc-500">提及率 ↓</th>
+                <th className="py-3 px-3 w-[16%] text-center font-black text-zinc-500">top1提及率</th>
                 <th className="py-3 px-3 w-[12%] text-center font-black text-zinc-500">监测平台</th>
-                <th className="py-3 px-3 w-[11%] text-center font-black text-zinc-500">会话截图</th>
-                <th className="py-3 px-4 w-[12%] text-center font-black text-zinc-500">最近更新时间</th>
+                <th className="py-3 px-3 w-[13%] text-center font-black text-zinc-500">会话截图</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-zinc-100 text-[13px] font-medium text-zinc-650">
@@ -152,9 +150,6 @@ export default function Page_QueryDataSystemLink({ projectId = 123, platformId =
                     ) : (
                       <span className="text-zinc-300 text-xs">--</span>
                     )}
-                  </td>
-                  <td className="py-1 px-4 text-center text-zinc-400 font-sans text-xs">
-                    {row.last_conversation_time}
                   </td>
                 </tr>
               ))}

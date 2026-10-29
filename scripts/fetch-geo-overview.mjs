@@ -74,10 +74,12 @@ async function login() {
   });
   const json = await res.json();
   if (!json.ok) throw new Error(`登录失败: ${json.error}`);
-  cookie = (res.headers.getSetCookie?.() || [res.headers.get('set-cookie')])
-    .filter(Boolean)
-    .map((c) => c.split(';')[0])
-    .join('; ');
+  const lastByName = new Map();
+  for (const line of (res.headers.getSetCookie?.() || [res.headers.get('set-cookie')]).filter(Boolean)) {
+    const pair = line.split(';')[0];
+    lastByName.set(pair.split('=')[0], pair);
+  }
+  cookie = [...lastByName.values()].join('; ');
   return json.user;
 }
 

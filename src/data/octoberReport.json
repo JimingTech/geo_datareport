@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "fetched_at": "2026-10-29T08:50:46.559Z",
+    "date": "2026-08-29",
+    "gu16_date": "2026-10-28",
+    "gu20_date": "2026-10-21",
+    "month": "2026-10",
+    "month_start": "2026-10-01",
+    "month_end": "2026-10-31"
+  },
+  "products": {
+    "123": {
+      "project_id": 351,
+      "name": "古井贡酒古16",
+      "short": "古16",
+      "date": "2026-10-28",
+      "overview": {
+        "mention_rate": 91.7,
+        "avg_position": 3.6,
+        "influence_rank": 1,
+        "top1_mention_rate": 50,
+        "top3_mention_rate": 68.3
+      },
+      "rankings": {
+        "mention_rate": [
+          {
+            "name": "古井贡酒 古16",
+            "value": 91.7,
+            "is_target": true
+          },
+          {
+            "name": "水晶剑",
+            "value": 85,
+            "is_target": false
+          },
+          {
+            "name": "国缘四开",
+            "value": 55,
+            "is_target": false
+          },
+          {
+            "name": "青花20",
+            "value": 46.7,
+            "is_target": false
+          },
+          {
+            "name": "红花郎15",
+            "value": 41.7,
+            "is_target": false
+          }
+        ],
+        "position": [
+          {
+            "name": "古井贡酒 古16",
+            "value": 3.6,
+            "is_target": true
+          },
+          {
+            "name": "水晶剑",
+            "value": 4.2,
+            "is_target": false
+          },
+          {
+            "name": "国缘四开",
+            "value": 6.9,
+            "is_target": false
+          },
+          {
+            "name": "红花郎15",
+            "value": 7.1,
+            "is_target": false
+          },
+          {
+            "name": "青花20",
+            "value": 7.8,
+            "is_target": false
+          }
+        ],
+        "top1": [
+          {
+            "name": "古井贡酒 古16",
+            "value": 50,
+            "is_target": true
+          },
+          {
+            "name": "水晶剑",
+            "value": 15,
+            "is_target": false
+          },
+          {
+            "name": "国缘四开",
+            "value": 13.3,
+            "is_target": false
+          },
+          {
+            "name": "国缘对开",
+            "value": 5,
+            "is_target": false
+          },
+          {
+            "name": "飞天茅台",
+            "value": 5,
+            "is_target": false
+          }
+        ],
+        "influence": [
+          {
+            "name": "古井贡酒 古16",
+            "value": 75,
+            "is_target": true
+          },
+          {
+            "name": "水晶剑",
+            "value": 57,
+            "is_target": false
+          },
+          {
+            "name": "国缘四开",
+            "value": 38.3,
+            "is_target": false
+          },
+          {
+            "name": "青花20",
+            "value": 28,
+            "is_target": false
+          },
+          {
+            "name": "红花郎15",
+            "value": 25.7,
+            "is_target": false
+          }
+        ]
+      },
+      "sentiment": {
+        "positive": 100,
+        "negative": 0,
+        "positive_keywords": [
+          {
+            "tag_name": "包装喜庆",
+            "tag_name_zh": "包装喜庆"
+          },
+          {
+            "tag_name": "品牌认知度高",
+            "tag_name_zh": "品牌认知度高"
+          },
+          {
+            "tag_name": "红瓶喜庆",
+            "tag_name_zh": "红瓶喜庆"
+          }
+        ],
+        "negative_keywords": [],
+        "raw_keys": [
+          "positive_rate",
+          "positive_percentage",
+          "negative_percentage",
+          "positive_keywords",
+          "negative_keywords",
+          "daily_stats"
+        ]
+      },
+      "negative_answers": []
+    },
+    "124": {
+      "project_id": 352,
+      "name": "古井贡酒古20",
+      "short": "古20",
+      "date": "2026-10-21",
+      "overview": {
+        "mention_rate": 90,
+        "avg_position": 4.7,
+        "influence_rank": 1,
+        "top1_mention_rate": 35,
+        "top3_mention_rate": 45
+      },
+      "rankings": {
+        "mention_rate": [
+          {
+            "name": "年份原浆古20",
+            "value": 90,
+            "is_target": true
+          },
+          {
+            "name": "水晶剑",
+            "value": 60,
+            "is_target": false
+          },
+          {
+            "name": "梦之蓝M6+",
+            "value": 58.3,
+            "is_target": false
+          },
+          {
+            "name": "第八代普五",
+            "value": 36.7,
+            "is_target": false
+          },
+          {
+            "name": "国窖1573",
+            "value": 33.3,
+            "is_target": false
+          }
+        ],
+        "position": [
+          {
+            "name": "年份原浆古20",
+            "value": 4.8,
+            "is_target": true
+          },
+          {
+            "name": "第八代普五",
+            "value": 6.2,
+            "is_target": false
+          },
+          {
+            "name": "梦之蓝M6+",
+            "value": 6.5,
+            "is_target": false
+          },
+          {
+            "name": "水晶剑",
+            "value": 6.6,
+            "is_target": false
+          },
+          {
+            "name": "国窖1573",
+            "value": 7.2,
+            "is_target": false
+          }
+        ],
+        "top1": [
+          {
+            "name": "年份原浆古20",
+            "value": 35,
+            "is_target": true
+          },
+          {
+            "name": "第八代普五",
+            "value": 16.7,
+            "is_target": false
+          },
+          {
+            "name": "梦之蓝M6+",
+            "value": 13.3,
+            "is_target": false
+          },
+          {
+            "name": "飞天茅台",
+            "value": 6.7,
+            "is_target": false
+          },
+          {
+            "name": "水晶剑",
+            "value": 3.3,
+            "is_target": false
+          }
+        ],
+        "influence": [
+          {
+            "name": "年份原浆古20",
+            "value": 68,
+            "is_target": true
+          },
+          {
+            "name": "梦之蓝M6+",
+            "value": 40.3,
+            "is_target": false
+          },
+          {
+            "name": "水晶剑",
+            "value": 37.3,
+            "is_target": false
+          },
+          {
+            "name": "第八代普五",
+            "value": 28.7,
+            "is_target": false
+          },
+          {
+            "name": "五粮液",
+            "value": 23.7,
+            "is_target": false
+          }
+        ]
+      },
+      "sentiment": {
+        "positive": 100,
+        "negative": 0,
+        "positive_keywords": [
+          {
+            "tag_name": "包装大气",
+            "tag_name_zh": "包装大气"
+          },
+          {
+            "tag_name": "品牌认可",
+            "tag_name_zh": "品牌认可"
+          },
+          {
+            "tag_name": "口感好",
+            "tag_name_zh": "口感好"
+          }
+        ],
+        "negative_keywords": [],
+        "raw_keys": [
+          "positive_rate",
+          "positive_percentage",
+          "negative_percentage",
+          "positive_keywords",
+          "negative_keywords",
+          "daily_stats"
+        ]
+      },
+      "negative_answers": []
+    }
+  },
+  "scope": {
+    "calendar_days": 31,
+    "collect_days": 4,
+    "platforms": 4,
+    "platform_names": [
+      "DeepSeek",
+      "豆包",
+      "文心",
+      "kimi"
+    ],
+    "entries": 30,
+    "conversations": 480,
+    "articles": 2832,
+    "citations": 6931,
+    "competitor_brands": 69
+  }
+}
