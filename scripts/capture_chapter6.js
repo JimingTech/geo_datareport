@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUTPUT_DIR = path.join(__dirname, '../screenshots/chapter6');
-const SLIDE_URL = 'http://localhost:7649';
+const SLIDE_URL = 'http://localhost:7650';
 
 async function main() {
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });

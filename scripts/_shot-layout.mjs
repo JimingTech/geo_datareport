@@ -19,7 +19,7 @@ for (const [idx, file] of [
   [7, '_check_content.png'],
   [9, '_check_entries_ds1.png'],
 ]) {
-  await page.goto(`http://localhost:7649/#slide=${idx}`, { waitUntil: 'networkidle2', timeout: 20000 });
+  await page.goto(`http://localhost:7650/#slide=${idx}`, { waitUntil: 'networkidle2', timeout: 20000 });
   await page.evaluate(() => document.fonts.ready);
   await new Promise((r) => setTimeout(r, 400));
   const el = await page.$('div[style*="width: 1920px"]');
