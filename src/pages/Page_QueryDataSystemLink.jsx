@@ -52,28 +52,24 @@ export default function Page_QueryDataSystemLink({
       <div className="flex items-center justify-between p-1.5 mb-3 shrink-0 text-[13px] font-medium text-zinc-500">
         <div className="flex items-center gap-3">
           <div className="flex items-center gap-1.5 bg-white border border-zinc-200/80 rounded-md px-3 py-1.5 shadow-[0_1px_2px_rgba(0,0,0,0.02)]">
-            <span className="text-zinc-400 text-xs">📅</span>
             <span>日期</span>
             <span className="text-zinc-400 text-[10px] ml-1">10-29</span>
             <span className="text-zinc-300 text-[9px] ml-1">▼</span>
           </div>
 
           <div className="flex items-center gap-1.5 bg-white border border-zinc-200/80 rounded-md px-3 py-1.5 shadow-[0_1px_2px_rgba(0,0,0,0.02)]">
-            <span className="text-zinc-400 text-xs">🤖</span>
             <span>平台</span>
             <span className="text-zinc-800 font-bold ml-1">{platformName}</span>
             <span className="text-zinc-300 text-[9px] ml-1">▼</span>
           </div>
 
           <div className="flex items-center gap-1.5 bg-white border border-zinc-200/80 rounded-md px-3 py-1.5 shadow-[0_1px_2px_rgba(0,0,0,0.02)]">
-            <span className="text-zinc-400 text-xs">📝</span>
             <span>词条</span>
             <span className="text-zinc-400 text-[10px] ml-1">全部</span>
             <span className="text-zinc-300 text-[9px] ml-1">▼</span>
           </div>
 
           <div className="flex items-center gap-1.5 bg-[#f0f4ff] border border-[#dbe4ff] rounded-md px-3 py-1.5 text-[#004CE5] font-extrabold text-[12px] shadow-sm ml-1">
-            <span className="text-[#004CE5] text-xs">❖</span>
             <span>目标产品 | {product.full}</span>
           </div>
         </div>
@@ -86,7 +82,7 @@ export default function Page_QueryDataSystemLink({
             </div>
           </div>
           <button type="button" className="border border-zinc-200 bg-white rounded-md px-3 py-1.5 shadow-sm text-zinc-600 flex items-center gap-1">
-            ⚙ 管理列
+            管理列
           </button>
         </div>
       </div>
@@ -121,18 +117,11 @@ export default function Page_QueryDataSystemLink({
                   <td className="py-1 px-3 text-center font-bold text-zinc-700 font-sans">{row.mention_rate}</td>
                   <td className="py-1 px-3 text-center text-zinc-500 font-sans">{row.top1_mention_rate}</td>
                   <td className="py-1 px-3 text-center">
-                    <div className="inline-flex items-center -space-x-1.5 justify-center">
-                      {Object.entries(LOGOS).map(([id, url]) => (
-                        <img
-                          key={id}
-                          src={url}
-                          alt=""
-                          className={`w-[18px] h-[18px] rounded-full object-cover border border-white bg-white shadow-sm ${
-                            Number(id) === platformId ? 'opacity-100 z-10 scale-105 border-[#004CE5]' : 'opacity-85'
-                          }`}
-                        />
-                      ))}
-                    </div>
+                    <img
+                      src={LOGOS[platformId]}
+                      alt={platformName}
+                      className="w-[18px] h-[18px] rounded-full object-cover border border-white bg-white shadow-sm mx-auto"
+                    />
                   </td>
                   <td className="py-1 px-3 text-center">
                     {row.last_screenshot_url ? (
