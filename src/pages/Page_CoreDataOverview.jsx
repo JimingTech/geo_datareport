@@ -52,7 +52,7 @@ export default function Page_CoreDataOverview() {
               <td className="py-1.5 px-2 text-center border-r border-zinc-200 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">73.3%</td>
               <td className="py-1.5 px-2 text-center border-r-2 border-[#004CE5]/15 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">60.0%</td>
               <td className="py-1.5 px-2 text-center border-r border-zinc-200 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">NO. 1</td>
-              <td className="py-1.5 px-2 text-center border-r-2 border-[#004CE5]/15 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">NO. 2</td>
+              <td className="py-1.5 px-2 text-center border-r-2 border-[#004CE5]/15 text-4xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">NO. 1</td>
             </tr>
 
             <tr className="border-b border-zinc-200 bg-white hover:bg-slate-50/20 transition-colors">
@@ -91,7 +91,7 @@ export default function Page_CoreDataOverview() {
           </div>
           <div className="flex-1 flex items-center min-h-0">
             <p className="text-[22px] leading-snug text-zinc-700 font-bold">
-              相较7月，两款产品均在高位小幅波动：古16提及率由85.0%回落至83.3%，Top1提及率48.3%仍领跑首推，竞品排名由 NO.1 落到 NO.2；古20提及率由91.7%回落至85.0%，竞品排名稳守 NO.1。
+              相较7月，两款产品均在高位小幅波动：古16提及率由85.0%回落至83.3%，Top1提及率48.3%仍领跑首推，竞品排名稳守 NO.1；古20提及率由91.7%回落至85.0%，竞品排名稳守 NO.1。
             </p>
           </div>
         </div>
@@ -103,7 +103,7 @@ export default function Page_CoreDataOverview() {
           </div>
           <div className="flex-1 flex items-center min-h-0">
             <p className="text-[22px] leading-snug text-zinc-700 font-bold">
-              古16需把竞品排名从 NO.2 追回，并守住婚宴词条的首推表达；古20守住 NO.1 与 85.0% 的提及广度，继续压住梦之蓝M6+与水晶剑。
+              古16需守住竞品排名 NO.1，并守住婚宴词条的首推表达；古20守住 NO.1 与 85.0% 的提及广度，继续压住梦之蓝M6+与水晶剑。
             </p>
           </div>
         </div>
