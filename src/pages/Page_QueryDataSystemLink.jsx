@@ -1,5 +1,5 @@
 import React from 'react';
-import report from '../data/awadaSeptemberReport.json';
+import report from '../data/awadaOctoberReport.json';
 
 const platformData = report.platform_entries;
 
@@ -48,7 +48,7 @@ export default function Page_QueryDataSystemLink({
         <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
         <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4">
           {slideTitle}
-          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年9月）</span>
+          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年10月）</span>
         </h1>
       </div>
 
@@ -57,7 +57,7 @@ export default function Page_QueryDataSystemLink({
           <div className="flex items-center gap-1.5 bg-white border border-zinc-200/80 rounded-md px-3 py-1.5 shadow-[0_1px_2px_rgba(0,0,0,0.02)]">
             <span className="text-zinc-400 text-xs">📅</span>
             <span>日期</span>
-            <span className="text-zinc-400 text-[10px] ml-1">{report.meta.september_date.slice(5)}</span>
+            <span className="text-zinc-800 font-bold ml-1">10月</span>
             <span className="text-zinc-300 text-[9px] ml-1">▼</span>
           </div>
 
@@ -95,25 +95,28 @@ export default function Page_QueryDataSystemLink({
       </div>
 
       <div className="flex-grow min-h-0 border border-zinc-150 bg-white rounded-xl overflow-hidden shadow-[0_2px_12px_rgba(0,0,0,0.015)] flex flex-col">
-        <div className="flex-1 overflow-hidden">
-          <table className="w-full text-left border-collapse table-fixed">
+        <div className="flex-1 min-h-0 overflow-hidden">
+          <table className="w-full h-full text-left border-collapse table-fixed">
             <thead>
-              <tr className="bg-white border-b border-zinc-150 text-[13px] font-extrabold text-zinc-400">
+              <tr className="bg-white border-b border-zinc-150 text-[13px] font-extrabold text-zinc-400 h-9">
                 <th className="py-1.5 px-3 w-[5%] text-center">
                   <div className="w-3.5 h-3.5 rounded-full border border-zinc-300 bg-white mx-auto" />
                 </th>
                 <th className="py-1.5 px-2 w-[6%] text-center">序号</th>
-                <th className="py-1.5 px-4 w-[36%] text-left font-black text-zinc-500">词条</th>
+                <th className="py-1.5 px-4 w-[48%] text-left font-black text-zinc-500">词条</th>
                 <th className="py-1.5 px-3 w-[12%] text-center font-black text-zinc-500">提及率 ↓</th>
                 <th className="py-1.5 px-3 w-[16%] text-center font-black text-zinc-500 whitespace-nowrap">top1提及率</th>
                 <th className="py-1.5 px-3 w-[12%] text-center font-black text-zinc-500">监测平台</th>
                 <th className="py-1.5 px-3 w-[11%] text-center font-black text-zinc-500">会话截图</th>
-                <th className="py-1.5 px-4 w-[12%] text-center font-black text-zinc-500">最近更新时间</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-zinc-100 text-[13px] font-medium text-zinc-650">
               {data.map((row, idx) => (
-                <tr key={`${row.entry_name}-${idx}`} className="hover:bg-slate-50/20 transition-colors h-[34px]">
+                <tr
+                  key={`${row.entry_name}-${idx}`}
+                  className="hover:bg-slate-50/20 transition-colors"
+                  style={{ height: `calc((100% - 2.25rem) / ${Math.max(data.length, 1)})` }}
+                >
                   <td className="py-0 px-3 text-center">
                     <div className="w-3.5 h-3.5 rounded-full border border-zinc-300 bg-white mx-auto" />
                   </td>
@@ -144,9 +147,6 @@ export default function Page_QueryDataSystemLink({
                     ) : (
                       <span className="text-zinc-300 text-xs">--</span>
                     )}
-                  </td>
-                  <td className="py-0 px-4 text-center text-zinc-400 font-sans text-xs">
-                    {row.last_conversation_time}
                   </td>
                 </tr>
               ))}

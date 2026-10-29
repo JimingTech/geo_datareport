@@ -1,5 +1,5 @@
 import React from 'react';
-import report from '../data/awadaSeptemberReport.json';
+import report from '../data/awadaOctoberReport.json';
 
 const { overview: ov, platform_totals: plat, top10, generated_at, domain_stats: domains } = report.delivery;
 const [year, month, day] = generated_at.split('-');
@@ -8,14 +8,13 @@ const sourceDate = `${year}/${Number(month)}/${Number(day)}`;
 const channelLead = domains
   .slice()
   .sort((a, b) => b.articles - a.articles || b.citations - a.citations)
-  .slice(0, 4)
-  .map((d) => `${d.channel} ${d.articles} 篇`)
+  .slice(0, 6)
+  .map((d) => d.channel)
   .join('、');
 
 const citedLead = domains
-  .filter((d) => d.cited > 0)
   .slice()
-  .sort((a, b) => b.cited - a.cited || b.citations - a.citations)
+  .sort((a, b) => b.citations - a.citations || b.cited - a.cited)
   .slice(0, 3)
   .map((d) => d.channel)
   .join('、');
@@ -27,7 +26,7 @@ export default function Page_ContentDetails() {
         <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
         <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4 flex items-center">
           Awada 投放明细
-          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年9月）</span>
+          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年10月）</span>
         </h1>
       </div>
 
@@ -42,9 +41,9 @@ export default function Page_ContentDetails() {
               <span className="text-6xl font-black text-zinc-900 font-['Montserrat',sans-serif]">{ov.delivery_articles}</span>
               <span className="text-2xl font-black text-zinc-800 ml-1">篇</span>
             </div>
-            <div className="text-[1.12rem] font-bold text-zinc-500">全网总投放量（按发布条）</div>
+            <div className="text-[1.12rem] font-bold text-zinc-500">全网总投放量</div>
             <p className="text-[1rem] font-bold text-zinc-400 leading-relaxed mt-1">
-              同稿发到不同渠道分别计，不重复标题 {ov.unique_titles} 个。覆盖渠道：{channelLead}，其余分布于凤凰网、淘宝江湖等。
+              覆盖渠道：{channelLead}等。
             </p>
           </div>
 
@@ -61,7 +60,7 @@ export default function Page_ContentDetails() {
               ( {ov.cited_articles} / {ov.delivery_articles} 篇投放已被引用 )
             </div>
             <p className="text-[1rem] font-bold text-zinc-400 leading-relaxed mt-1">
-              被引用文章主要来自{citedLead}三个渠道。
+              投放到{citedLead}等渠道已顺利通过大模型的检索。
             </p>
           </div>
 

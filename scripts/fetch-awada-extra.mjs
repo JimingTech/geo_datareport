@@ -50,6 +50,7 @@ async function login() {
   cookie = (res.headers.getSetCookie?.() || [res.headers.get('set-cookie')])
     .filter(Boolean)
     .map((c) => c.split(';')[0])
+    .filter((c) => c.includes('=') && c.split('=').slice(1).join('='))
     .join('; ');
 }
 

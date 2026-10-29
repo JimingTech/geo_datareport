@@ -1,5 +1,5 @@
 import React from 'react';
-import report from '../data/awadaSeptemberReport.json';
+import report from '../data/awadaOctoberReport.json';
 
 const { compare } = report;
 
@@ -43,57 +43,47 @@ export default function Page_CompetitorAnalysis() {
           <span className="w-1.5 h-4.5 bg-[#004CE5] rounded-full shadow-[0_0_8px_rgba(0,76,229,0.25)]" />
           {title}
         </h3>
-        <div className="flex-grow rounded-2xl border border-zinc-200 bg-white shadow-[0_6px_25px_rgba(0,0,0,0.01)] overflow-hidden flex flex-col p-4">
-          <table className="w-full text-left border-collapse table-fixed">
-            <thead>
-              <tr className="border-b border-zinc-200 bg-slate-50/50">
-                <th className="py-3 px-3 w-[16%]"></th>
-                <th className="py-3 px-2 text-lg font-black text-zinc-500 w-[54%]">{headers[0]}</th>
-                <th className="py-3 px-4 text-lg font-black text-zinc-500 w-[30%] text-right pr-6">{headers[1]}</th>
-              </tr>
-            </thead>
-            <tbody>
-              {display.map((item, idx) => {
-                if (item.type === 'gap') {
-                  return (
-                    <tr key={`gap-${idx}`}>
-                      <td colSpan={3} className="h-8 text-center text-zinc-300 font-black text-xl tracking-[0.4em] leading-none select-none">
-                        ···
-                      </td>
-                    </tr>
-                  );
-                }
-                const isBrand = !!item.isTarget;
+        <div className="flex-grow rounded-2xl border border-zinc-200 bg-white shadow-[0_6px_25px_rgba(0,0,0,0.01)] overflow-hidden flex flex-col min-h-0 px-4 pt-2 pb-3">
+          <div className="grid grid-cols-[44px_minmax(0,1fr)_138px] items-center border-b border-zinc-200 shrink-0">
+            <div />
+            <div className="py-3 px-2 text-lg font-black text-zinc-500">{headers[0]}</div>
+            <div className="py-3 pr-1 text-lg font-black text-zinc-500 text-right whitespace-nowrap">{headers[1]}</div>
+          </div>
+          <div className="flex-1 flex flex-col min-h-0">
+            {display.map((item, idx) => {
+              if (item.type === 'gap') {
                 return (
-                  <tr
-                    key={`${item.name}-${item.rank ?? idx}`}
-                    className={`border-b border-zinc-100 last:border-none hover:bg-slate-50/50 transition-colors ${isBrand ? 'bg-[#004CE5]/[0.03]' : ''}`}
-                  >
-                    <td className="h-[68px] py-0 px-3 align-middle">
-                      <div className="flex justify-center">
-                        <RankBadge rank={item.rank} index={idx} />
-                      </div>
-                    </td>
-                    <td className="h-[68px] py-0 px-2 align-middle">
-                      <div className="flex items-center gap-2 min-w-0">
-                        <span className={`text-[1.25rem] truncate ${isBrand ? 'font-black text-[#004CE5]' : 'font-bold text-zinc-800'}`}>
-                          {item.name}
-                        </span>
-                        {isBrand && (
-                          <span className="px-2 py-0.5 text-[0.75rem] font-bold rounded bg-zinc-100 text-zinc-500 border border-zinc-200/50 shrink-0">
-                            目标产品
-                          </span>
-                        )}
-                      </div>
-                    </td>
-                    <td className={`h-[68px] py-0 px-4 text-right pr-6 align-middle text-[30px] font-black font-['Montserrat',sans-serif] ${isBrand ? 'text-[#004CE5]' : 'text-zinc-700'}`}>
-                      {item.value}
-                    </td>
-                  </tr>
+                  <div key={`gap-${idx}`} className="h-7 shrink-0 flex items-center justify-center text-zinc-300 font-black text-xl tracking-[0.4em] leading-none select-none">
+                    ···
+                  </div>
                 );
-              })}
-            </tbody>
-          </table>
+              }
+              const isBrand = !!item.isTarget;
+              return (
+                <div
+                  key={`${item.name}-${item.rank ?? idx}`}
+                  className={`flex-1 min-h-0 grid grid-cols-[44px_minmax(0,1fr)_138px] items-center border-b border-zinc-100 last:border-none ${isBrand ? 'bg-[#004CE5]/[0.04] -mx-4 px-4' : ''}`}
+                >
+                  <div className="flex justify-center">
+                    <RankBadge rank={item.rank} index={idx} />
+                  </div>
+                  <div className="min-w-0 px-2 flex items-center gap-2">
+                    <span className={`truncate text-[1.25rem] leading-none ${isBrand ? 'font-black text-[#004CE5]' : 'font-bold text-zinc-800'}`}>
+                      {item.name}
+                    </span>
+                    {isBrand && (
+                      <span className="shrink-0 px-2 py-0.5 text-[0.75rem] font-bold leading-none rounded bg-zinc-100 text-zinc-500 border border-zinc-200/50">
+                        目标产品
+                      </span>
+                    )}
+                  </div>
+                  <div className={`pr-2 text-right text-[30px] font-black font-['Montserrat',sans-serif] leading-none whitespace-nowrap ${isBrand ? 'text-[#004CE5]' : 'text-zinc-700'}`}>
+                    {item.value}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
     );
@@ -105,7 +95,7 @@ export default function Page_CompetitorAnalysis() {
         <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
         <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4 flex items-center">
           Awada竞品分析
-          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年9月）</span>
+          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年10月）</span>
         </h1>
       </div>
 
@@ -124,11 +114,11 @@ export default function Page_CompetitorAnalysis() {
             </h2>
             <div className="flex-grow rounded-2xl bg-[#004CE5]/5 border border-[#004CE5]/20 p-5 flex flex-col justify-evenly min-h-0">
               <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-                1. 火枫提及率 60.6%、Top1 27.5%，综合竞品排名稳居 NO.1，仍是户外餐厨推荐的默认答案；挪客、Snow Peak、MSR 以 21%—32% 组成第二梯队。
+                1. 火枫提及率 71.9%、Top1 30%，综合竞品排名 NO.1。爱路客、Snow Peak、挪客的提及率分别是 35.6%、28.1%、27.5%。
               </p>
               <div className="h-px bg-[#004CE5]/10 my-1" />
               <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-                2. Awada 本月提及率 6.9%（排名 NO.17），综合竞品排名 NO.43→NO.16；Top1 升至 1.3%（排名 NO.9），首推刚打开。
+                2. Awada 提及率 23.1%，提及率排名 NO.6；综合竞品排名由 9月的 NO.16 进至 NO.4。Top1 为 12.5%，排在火枫之后。
               </p>
             </div>
           </div>
@@ -140,9 +130,9 @@ export default function Page_CompetitorAnalysis() {
             </h2>
             <div className="flex-grow rounded-2xl bg-[#004CE5]/[0.015] border border-[#004CE5]/15 p-5 flex flex-col justify-evenly min-h-0">
               {[
-                { num: '01', title: '拦截火枫', desc: '火枫独占首推两成以上，需在专业餐厨、精致露营同台对比里给出 Awada 更优的结论。' },
-                { num: '02', title: '扩大提及广度', desc: '「露营厨具哪个牌子好」仍是 0，「口碑好的户外厨具推荐」刚破零，泛选购大词还要继续铺。' },
-                { num: '03', title: '提升综合竞品排名', desc: '综合竞品排名现居 NO.16，需在已覆盖的 10 个词条里抢前三，继续向第二梯队靠拢。' },
+                { num: '01', title: '对着火枫补首推', desc: '火枫 Top1 30%，Awada 12.5%。专业餐厨和精致露营的推荐里写明首选 Awada。' },
+                { num: '02', title: '跟上爱路客', desc: '爱路客提及率 35.6%，提及率排名第 2。泛选购大词继续铺。' },
+                { num: '03', title: '继续抬排名', desc: '综合竞品排名现为 NO.4。推荐里把首选 Awada 写清楚，先把提及率往挪客的 27.5% 靠。' },
               ].map((strat, idx) => (
                 <div key={idx} className="flex items-start gap-3">
                   <span className="text-[#004CE5] font-black text-2xl shrink-0 mt-0.5">{strat.num}</span>

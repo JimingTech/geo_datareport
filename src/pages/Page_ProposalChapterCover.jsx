@@ -9,6 +9,15 @@ export default function Page_ProposalChapterCover({
     chapters = [],
 }) {
     const chapterNum = String(chapterIndex + 1).padStart(2, '0');
+    // 182px 下大约 7 个字撑满一行。更长的标题若靠宽度硬折，会把最后一两个字单独丢到下一行。
+    const coverTitle = (() => {
+        const text = (title || '').replace(/\n/g, '');
+        if (text.length <= 7) return text;
+        const at = text.indexOf('与');
+        if (at > 0 && at < text.length - 1) return `${text.slice(0, at + 1)}\n${text.slice(at + 1)}`;
+        const mid = Math.ceil(text.length / 2);
+        return `${text.slice(0, mid)}\n${text.slice(mid)}`;
+    })();
 
     return (
         <div className="w-full h-full relative overflow-hidden bg-gradient-to-br from-slate-50 via-zinc-100 to-white">
@@ -50,7 +59,7 @@ export default function Page_ProposalChapterCover({
                         whiteSpace: 'pre-line',
                     }}
                 >
-                    {title}
+                    {coverTitle}
                 </h1>
             )}
 

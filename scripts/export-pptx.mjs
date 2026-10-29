@@ -11,7 +11,7 @@
  *
  * 用法：
  *   npm run export:pptx -- [选项]
- *     --output=<路径>      输出文件，默认 Presentation_2026.pptx
+ *     --output=<路径>      输出文件，默认 Awada_GEO阶段性报告_2026年10月.pptx
  *     --url=<地址>         导出已在运行的地址，跳过构建与静态服务
  *     --no-build           复用现有 dist，不重新构建
  *     --build              强制重新构建
@@ -38,7 +38,7 @@ const flag = (name, fallback) => {
 const has = (name) => args.includes(`--${name}`);
 
 const EXTERNAL_URL = flag('url', null);
-const OUTPUT = path.resolve(root, flag('output', 'Presentation_2026.pptx'));
+const OUTPUT = path.resolve(root, flag('output', 'Awada_GEO阶段性报告_2026年10月.pptx'));
 const FORMAT = flag('format', 'png');
 const QUALITY = Number(flag('quality', 92));
 const SCALE = Number(flag('scale', 2));

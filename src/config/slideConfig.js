@@ -33,7 +33,7 @@ export const slideConfig = [
     backgroundImage: '/proposal-cover/proposal-cover-new.png',
     brand: 'GEO 索引未来',
     subtitle: 'Awada GEO \n 阶段性报告',
-    date: 'September 2026',
+    date: 'October 2026',
   },
 
   {
@@ -51,11 +51,11 @@ export const slideConfig = [
   { type: 'section', title: '竞品分析' },
   { type: 'page', title: 'Awada 竞品分析', component: Page_CompetitorAnalysis },
 
-  { type: 'chapter', title: '投放内容与引用明细', subtitle: 'CONTENT DETAILS', backgroundImage: '/proposal-chapters/proposal-chapter-cover-03.jpg' },
+  { type: 'chapter', title: '投放内容与引用明细', subtitle: 'CONTENT DETAILS', backgroundImage: '' },
   { type: 'section', title: '引用渠道与数据明细' },
   { type: 'page', title: 'Awada 投放明细', component: Page_ContentDetails },
 
-  { type: 'chapter', title: '词条数据明细', subtitle: 'KEYWORD DETAILS', backgroundImage: '/proposal-chapters/proposal-chapter-cover-03.jpg' },
+  { type: 'chapter', title: '词条数据明细', subtitle: 'KEYWORD DETAILS', backgroundImage: '' },
   { type: 'section', title: '词条监测明细' },
   { type: 'page', title: 'Awada 词条数据明细', components: KeywordPages },
 ];
