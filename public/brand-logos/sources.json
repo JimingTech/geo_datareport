@@ -1,0 +1,42 @@
+{
+  "retrievedAt": "2026-10-29",
+  "usage": "Original brand assets, displayed proportionally without modification in the competitor comparison slide.",
+  "brands": [
+    {
+      "name": "曼可顿",
+      "file": "mankattan.png",
+      "sourcePage": "https://www.grupobimbo.com/en/brands/asia/china",
+      "sourceImage": "https://d2rwhogv2mrkk6.cloudfront.net/s3fs-public/styles/medium/public/marcas/mankattan.png?VersionId=oCAN9Um8.ri3v7y6pESNIJe9K04YHRaP&itok=Qdm2n_Zk"
+    },
+    {
+      "name": "宾堡",
+      "file": "bimbo.jpg",
+      "sourcePage": "https://www.grupobimbo.com/en/brands/asia/china",
+      "sourceImage": "https://d2rwhogv2mrkk6.cloudfront.net/s3fs-public/styles/medium/public/marcas/OsitoBimbo.jpg?VersionId=R1ZSPTfoz5RqH8fQ0fK_JqU1wpLjxnmx&itok=ZgyoWN-e"
+    },
+    {
+      "name": "立高",
+      "file": "ligao.png",
+      "sourcePage": "https://www.ligaofoods.com/",
+      "sourceImage": "https://www.ligaofoods.com/vancheerfile/images/2023/12/2023120615235551.png"
+    },
+    {
+      "name": "恩喜村",
+      "file": "evirth.png",
+      "sourcePage": "https://www.evirthfood.com/",
+      "sourceImage": "https://www.evirthfood.com/Uploads/Temp/image/20241126/6745743174a7d.png"
+    },
+    {
+      "name": "南侨",
+      "file": "namchow.png",
+      "sourcePage": "https://www.ncbakery.com/",
+      "sourceImage": "https://www.ncbakery.com/images/logo.png"
+    },
+    {
+      "name": "美焙辰",
+      "file": "meibeichen.png",
+      "sourcePage": "http://www.dali-group.com/Pr_index_gci_15.html",
+      "sourceImage": "http://www.dali-group.com/SdwlUploads/Cc/62da9bd4e6904.png"
+    }
+  ]
+}

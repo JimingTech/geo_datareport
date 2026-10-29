@@ -5,6 +5,10 @@ import Page_ContentDetails from '../pages/Page_ContentDetails';
 import Page_ContentDetails_AI from '../pages/Page_ContentDetails_AI';
 import Page_CompetitorAnalysis_AI from '../pages/Page_CompetitorAnalysis_AI';
 import Page_QueryDataSystemLink from '../pages/Page_QueryDataSystemLink';
+import Page_Q2TobResearch from '../pages/Page_Q2TobResearch';
+import Page_Q2TobResearchNecessity from '../pages/Page_Q2TobResearchNecessity';
+import Page_Q2SeasonalPlan from '../pages/Page_Q2SeasonalPlan';
+import Page_Q2WorkPlan from '../pages/Page_Q2WorkPlan';
 
 const PLATFORM_IDS = [1, 2, 5]; // DeepSeek / 豆包 / 通义千问
 const ENTRY_PAGE_SIZE = 15;
@@ -60,6 +64,15 @@ export const slideConfig = [
   { type: 'section', title: '投放渠道与数据明细' },
   { type: 'page', title: '桃李面包 ToC 投放明细', component: Page_ContentDetails },
   { type: 'page', title: '桃李面包 ToB 投放明细', component: Page_ContentDetails_AI },
+
+  { type: 'chapter', title: '第二季度\n工作安排', subtitle: 'Q2 WORK PLAN', backgroundImage: '/proposal-chapters/proposal-chapter-cover-03.jpg' },
+  { type: 'section', title: 'ToB代工场景专项调研' },
+  { type: 'page', title: 'ToB代工场景专项调研（一）', component: Page_Q2TobResearch },
+  { type: 'page', title: 'ToB代工场景专项调研（二）', component: Page_Q2TobResearchNecessity },
+  { type: 'section', title: '季节性产品规划' },
+  { type: 'page', title: '季节性产品规划', component: Page_Q2SeasonalPlan },
+  { type: 'section', title: '二季度工作安排' },
+  { type: 'page', title: '二季度工作安排', component: Page_Q2WorkPlan },
 
   { type: 'chapter', title: '词条数据明细', subtitle: 'KEYWORD DETAILS', backgroundImage: '/proposal-chapters/proposal-chapter-cover-03.jpg' },
   { type: 'section', title: '桃李面包 ToC 平台明细' },

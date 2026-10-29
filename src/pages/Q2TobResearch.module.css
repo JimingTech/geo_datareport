@@ -1,0 +1,59 @@
+/* Fixed presentation canvas; body copy stays at 30px or larger. */
+.page {
+  --blue: #004ce5;
+  --ink: #18243a;
+  --body: #455268;
+  --rule: #dce5f1;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 22px 64px 28px;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  color: var(--ink);
+  font-family: 'MiSans', sans-serif;
+  font-size: 32px;
+}
+.page *, .page *::before, .page *::after { box-sizing: border-box; }
+.page h1, .page h2, .page h3, .page p { margin: 0; }
+.premiseBlock { margin-top: 28px; border: 1.5px solid #cfddf2; border-radius: 16px; overflow: hidden; flex-shrink: 0; }
+.premise { display: grid; grid-template-columns: 1.1fr 1.1fr 1fr .85fr; align-items: center; gap: 36px; padding: 20px 30px; background: #eef4ff; }
+.premiseTitle h2 { color: var(--blue); font-size: 30px; line-height: 1.3; font-weight: 700; }
+.premiseTitle p { margin-top: 6px; font-size: 34px; line-height: 1.3; font-weight: 700; }
+.premiseMetric { display: flex; flex-direction: column; gap: 7px; }
+.premiseMetric strong { color: var(--blue); font-size: 72px; line-height: 1.12; font-weight: 800; letter-spacing: -.035em; font-variant-numeric: tabular-nums; }
+.premiseMetric span { font-size: 30px; line-height: 1.4; font-weight: 500; }
+.growthDirection { padding: 15px 30px; border-top: 1px solid #d9e4f6; font-size: 32px; line-height: 1.4; font-weight: 500; background: #fbfcff; }
+.growthDirection strong { color: var(--blue); font-weight: 750; }
+.researchComparison { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.04fr); gap: 26px; margin-top: 24px; flex: 1; min-height: 0; }
+.informationPanel { display: flex; flex-direction: column; min-width: 0; min-height: 0; padding: 22px 26px 16px; border: 1.5px solid #d4dfed; border-radius: 16px; background: #fcfdff; }
+.sectionTitle { padding-bottom: 15px; border-bottom: 2px solid #d7e3f4; font-size: 34px; line-height: 1.3; font-weight: 750; flex-shrink: 0; }
+.capabilityRows, .competitorRows, .projectRows { display: grid; grid-template-rows: repeat(3, minmax(0, 1fr)); flex: 1; min-height: 0; }
+.capabilityRow { display: grid; grid-template-columns: 48px minmax(0, 1fr); gap: 16px; align-content: center; align-items: start; padding: 15px 0; }
+.capabilityRow + .capabilityRow, .competitorRow + .competitorRow, .projectRow + .projectRow { border-top: 1px solid var(--rule); }
+.itemNumber { display: flex; align-items: center; justify-content: center; width: 48px; height: 48px; background: #e8f0ff; border-radius: 9px; color: var(--blue); font-family: 'Inter', 'MiSans', sans-serif; font-size: 27px; font-weight: 700; line-height: 1; flex-shrink: 0; }
+.capabilityHeading { display: grid; grid-template-columns: 235px minmax(0, 1fr); gap: 16px; align-items: baseline; }
+.capabilityNumber { display: flex; align-items: baseline; gap: 8px; color: var(--blue); white-space: nowrap; }
+.capabilityNumber strong { font-size: 44px; line-height: 1.12; font-weight: 800; letter-spacing: -.025em; }
+.capabilityNumber span { font-size: 31px; font-weight: 700; }
+.capabilityHeading h3 { font-size: 32px; line-height: 1.4; font-weight: 700; white-space: nowrap; }
+.capabilityRow p { margin-top: 8px; color: var(--body); font-size: 30px; line-height: 1.4; }
+.competitionPanel { background: #fff; }
+.competitorRow { display: flex; flex-direction: column; justify-content: center; padding: 12px 0; }
+.competitorHeading { display: flex; align-items: baseline; justify-content: space-between; gap: 18px; }
+.competitorHeading h3 { font-size: 31px; line-height: 1.35; font-weight: 700; white-space: nowrap; }
+.competitorHeading p { color: var(--body); font-size: 30px; line-height: 1.35; white-space: nowrap; }
+.brandList { display: flex; align-items: center; flex-wrap: nowrap; gap: 16px; margin-top: 10px; min-height: 56px; }
+.brand { display: inline-flex; align-items: center; justify-content: center; min-width: 140px; min-height: 56px; padding: 6px 22px; border: 1.5px solid #cddff7; border-radius: 10px; background: #edf4ff; color: #204d91; font-size: 30px; line-height: 1.35; font-weight: 700; white-space: nowrap; }
+.otherCompetitors { font-size: 30px; line-height: 1.35; font-weight: 500; white-space: nowrap; }
+.reportConclusion { margin-top: 22px !important; padding: 16px 24px; border: 1.5px solid #cfdff8; border-radius: 12px; background: #f3f7ff; font-size: 32px; line-height: 1.45; font-weight: 500; flex-shrink: 0; }
+.reportConclusion strong { color: var(--blue); font-weight: 800; }
+.projectFinding { margin-top: 28px !important; padding: 22px 26px; border: 1.5px solid #d3e1f5; border-radius: 14px; background: #f2f6ff; font-size: 40px; line-height: 1.4; font-weight: 700; flex-shrink: 0; }
+.projectFinding strong { color: var(--blue); font-weight: 800; }
+.projectColumns { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 26px; flex: 1; min-height: 0; margin-top: 24px; }
+.actionsPanel { border-color: #c6d8f6; background: #f7faff; }
+.actionsPanel > h2 { color: var(--blue); }
+.projectRow { display: grid; grid-template-columns: 48px minmax(0, 1fr); gap: 16px; align-content: center; align-items: start; padding: 20px 0; }
+.projectRow h3 { font-size: 33px; line-height: 1.4; font-weight: 750; }
+.projectRow p { margin-top: 10px; color: var(--body); font-size: 30px; line-height: 1.5; white-space: pre-line; }
