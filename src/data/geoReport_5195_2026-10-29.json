@@ -1,0 +1,3124 @@
+{
+  "meta": {
+    "fetched_at": "2026-10-29T06:55:25.425Z",
+    "api_base": "https://api.geotopone.com",
+    "project_id": 5195,
+    "project_name": "京东口腔 ①",
+    "target_product": "京东大健康(京东健康、京东买药、京东大药房)",
+    "target_brand_name": "京东大健康",
+    "start_date": "2026-10-29",
+    "end_date": "2026-10-29"
+  },
+  "platforms": [
+    {
+      "id": 1,
+      "name": "DeepSeek",
+      "url": "https://app.geoindexfuture.com/logo/deepseek.png",
+      "crawl_enabled": 1,
+      "max_crawl_accounts": 20,
+      "crawl_rate_config": null,
+      "crawl_rate_effective": {
+        "requests_per_hour": -1,
+        "request_interval_sec": 30,
+        "batch_duration_sec": 86400,
+        "batch_max_requests": 1000,
+        "batch_interval_sec": 60
+      },
+      "crawl_rate_source": "global"
+    },
+    {
+      "id": 2,
+      "name": "豆包",
+      "url": "https://app.geoindexfuture.com/logo/doubao.png",
+      "crawl_enabled": 1,
+      "max_crawl_accounts": 10,
+      "crawl_rate_config": null,
+      "crawl_rate_effective": {
+        "requests_per_hour": -1,
+        "request_interval_sec": 30,
+        "batch_duration_sec": 86400,
+        "batch_max_requests": 1000,
+        "batch_interval_sec": 60
+      },
+      "crawl_rate_source": "global"
+    },
+    {
+      "id": 3,
+      "name": "元宝",
+      "url": "https://app.geoindexfuture.com/logo/yuanbao.png",
+      "crawl_enabled": 1,
+      "max_crawl_accounts": 10,
+      "crawl_rate_config": null,
+      "crawl_rate_effective": {
+        "requests_per_hour": -1,
+        "request_interval_sec": 30,
+        "batch_duration_sec": 86400,
+        "batch_max_requests": 1000,
+        "batch_interval_sec": 60
+      },
+      "crawl_rate_source": "global"
+    },
+    {
+      "id": 5,
+      "name": "通义千问",
+      "url": "https://app.geoindexfuture.com/logo/qwen.png",
+      "crawl_enabled": 1,
+      "max_crawl_accounts": 10,
+      "crawl_rate_config": null,
+      "crawl_rate_effective": {
+        "requests_per_hour": -1,
+        "request_interval_sec": 30,
+        "batch_duration_sec": 86400,
+        "batch_max_requests": 1000,
+        "batch_interval_sec": 60
+      },
+      "crawl_rate_source": "global"
+    }
+  ],
+  "stats": {
+    "brand_mention_rate": 74.3,
+    "top1_mention_rate": 46.1,
+    "top3_mention_rate": 55.3,
+    "avg_position": 3.4,
+    "daily_stats": [
+      {
+        "date": "2026-10-29",
+        "mention_rate": 74.3,
+        "avg_position": 3.4
+      }
+    ],
+    "platform_stats": [
+      {
+        "platform_id": 1,
+        "platform_name": "DeepSeek",
+        "platform_logo": "https://app.geoindexfuture.com/logo/deepseek.png",
+        "brand_mention_rate": 81.6,
+        "avg_position": 1.9
+      },
+      {
+        "platform_id": 2,
+        "platform_name": "豆包",
+        "platform_logo": "https://app.geoindexfuture.com/logo/doubao.png",
+        "brand_mention_rate": 67.1,
+        "avg_position": 5
+      }
+    ]
+  },
+  "influence": {
+    "total_conversations": 152,
+    "list": [
+      {
+        "rank": 1,
+        "brand_name": "京东大健康",
+        "product_name": null,
+        "display_name": "京东大健康",
+        "favicon_url": null,
+        "influence_score": 63,
+        "mention_rate": 74.3,
+        "avg_position": 3.4,
+        "is_target": true
+      },
+      {
+        "rank": 2,
+        "brand_name": "美团",
+        "product_name": null,
+        "display_name": "美团",
+        "favicon_url": null,
+        "influence_score": 45,
+        "mention_rate": 56.6,
+        "avg_position": 3.2,
+        "is_target": false
+      },
+      {
+        "rank": 3,
+        "brand_name": "大众点评",
+        "product_name": null,
+        "display_name": "大众点评",
+        "favicon_url": null,
+        "influence_score": 26,
+        "mention_rate": 42.8,
+        "avg_position": 4.1,
+        "is_target": false
+      },
+      {
+        "rank": 4,
+        "brand_name": "瑞尔齿科",
+        "product_name": null,
+        "display_name": "瑞尔齿科",
+        "favicon_url": null,
+        "influence_score": 20,
+        "mention_rate": 28.9,
+        "avg_position": 4.8,
+        "is_target": false
+      },
+      {
+        "rank": 5,
+        "brand_name": "泰康拜博口腔",
+        "product_name": null,
+        "display_name": "泰康拜博口腔",
+        "favicon_url": null,
+        "influence_score": 16.6,
+        "mention_rate": 27.6,
+        "avg_position": 5,
+        "is_target": false
+      }
+    ]
+  },
+  "entries": {
+    "total": 76,
+    "list": [
+      {
+        "entry_id": 285121,
+        "entry_name": "线上互联网口腔平台哪个口碑好",
+        "mention_rate": 100,
+        "position": 3.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/31ca44fbecff4a4ea070aaa396409ddf.png"
+      },
+      {
+        "entry_id": 285122,
+        "entry_name": "线上互联网口腔平台排行榜",
+        "mention_rate": 100,
+        "position": 7,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/01fa5cee22444155a0620b8ff7289f08.png"
+      },
+      {
+        "entry_id": 285126,
+        "entry_name": "线上互联网洗牙平台哪个服务好",
+        "mention_rate": 100,
+        "position": 3,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/d6738909c25f47d280e67ec3acebe77c.png"
+      },
+      {
+        "entry_id": 285127,
+        "entry_name": "自营口腔平台哪个靠谱",
+        "mention_rate": 100,
+        "position": 1.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/ea3f61ba15d04c26a009c5dee5888100.png"
+      },
+      {
+        "entry_id": 285130,
+        "entry_name": "自营口腔平台哪个值得选",
+        "mention_rate": 100,
+        "position": 1,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/65074f18a01c40dcaaf505bdee4d0f0e.png"
+      },
+      {
+        "entry_id": 285131,
+        "entry_name": "自营洗牙平台哪个性价比高",
+        "mention_rate": 100,
+        "position": 1,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/e3c07ee8ce194b689e9919c47fc2e2b5.png"
+      },
+      {
+        "entry_id": 285132,
+        "entry_name": "自营洗牙平台哪个值得选",
+        "mention_rate": 100,
+        "position": 2.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/0326cbc679fb4f6aa8b4ebdc79dc311c.png"
+      },
+      {
+        "entry_id": 285134,
+        "entry_name": "自营牙科平台哪个性价比高",
+        "mention_rate": 100,
+        "position": 3,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/e06e66dfdb4a45bfaa78bb28fb8f29eb.png"
+      },
+      {
+        "entry_id": 285135,
+        "entry_name": "电商平台口腔服务哪个口碑好",
+        "mention_rate": 100,
+        "position": 4.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/b510f338788c4029a45aa226ecc46cbd.png"
+      },
+      {
+        "entry_id": 285137,
+        "entry_name": "电商平台牙科哪个性价比高",
+        "mention_rate": 100,
+        "position": 2,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/1e00610646804111b088f99afee72f0a.png"
+      },
+      {
+        "entry_id": 285138,
+        "entry_name": "电商平台口腔诊所哪个服务好",
+        "mention_rate": 100,
+        "position": 4,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/5240c2f3ba304a4fab4cfe0af3f5fb10.png"
+      },
+      {
+        "entry_id": 285142,
+        "entry_name": "收费透明的电商平台口腔服务哪个值得选",
+        "mention_rate": 100,
+        "position": 1.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/161bbfd19b0a480584bd60eb1466696e.png"
+      },
+      {
+        "entry_id": 285144,
+        "entry_name": "无隐形消费的电商平台口腔服务哪个好",
+        "mention_rate": 100,
+        "position": 2.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/95de53dab3164bddb20c74412f1a8430.png"
+      },
+      {
+        "entry_id": 285146,
+        "entry_name": "无隐形消费的电商平台口腔服务Top 5",
+        "mention_rate": 100,
+        "position": 3,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/bd7a067a2b14419f9a9a169be9d0b72e.png"
+      },
+      {
+        "entry_id": 285149,
+        "entry_name": "有售后保障的电商平台口腔服务哪个靠谱",
+        "mention_rate": 100,
+        "position": 2.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/141e892c805f4b8284de4a917095fbf8.png"
+      },
+      {
+        "entry_id": 285152,
+        "entry_name": "有售后保障的电商平台口腔服务Top 5",
+        "mention_rate": 100,
+        "position": 4,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/796de016c9774bd5bee33da5b5fe1ae5.png"
+      },
+      {
+        "entry_id": 285155,
+        "entry_name": "在北京有线下门店的电商平台口腔服务推荐",
+        "mention_rate": 100,
+        "position": 2,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a9bd678c215f40b3843153f25c3b3b48.png"
+      },
+      {
+        "entry_id": 285156,
+        "entry_name": "在北京有线下门店的电商平台口腔服务哪个口碑好",
+        "mention_rate": 100,
+        "position": 2.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/e3dd69c0d6fb40fba4f07632dec382fb.png"
+      },
+      {
+        "entry_id": 285158,
+        "entry_name": "在北京有线下门店的互联网口腔平台排行榜",
+        "mention_rate": 100,
+        "position": 1.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/f016a8547e104ddb8a93dbac95c2888d.png"
+      },
+      {
+        "entry_id": 285159,
+        "entry_name": "在北京有线下门店的互联网口腔服务哪个靠谱",
+        "mention_rate": 100,
+        "position": 1,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/6048400703a942a5bbb493d142a6d81b.png"
+      },
+      {
+        "entry_id": 285160,
+        "entry_name": "在北京有线下门店的互联网口腔服务Top 5",
+        "mention_rate": 100,
+        "position": 4,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/9d450eb9bd684c2db4f7b9b63d47f957.png"
+      },
+      {
+        "entry_id": 285162,
+        "entry_name": "在北京有线下门店的互联网洗牙平台哪个服务好",
+        "mention_rate": 100,
+        "position": 4.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/8075ed6537f541a5af696bb97496879b.png"
+      },
+      {
+        "entry_id": 285167,
+        "entry_name": "在北京有线下门店的自营牙科平台哪个好",
+        "mention_rate": 100,
+        "position": 1,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/1e0dd4fd16634841aa595ba864c08e7e.png"
+      },
+      {
+        "entry_id": 285169,
+        "entry_name": "电商平台口腔服务推荐",
+        "mention_rate": 100,
+        "position": 4,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/e70268ac459c4deab34c50f5341d0ead.png"
+      },
+      {
+        "entry_id": 285170,
+        "entry_name": "在北京有线下门店的电商平台看牙哪个好",
+        "mention_rate": 100,
+        "position": 4.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/61fe96acb48f4a42b1f2079a1b34461e.png"
+      },
+      {
+        "entry_id": 285171,
+        "entry_name": "在北京有线下门店的电商平台牙科哪个性价比高",
+        "mention_rate": 100,
+        "position": 4.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/d601a09dedba4a7e88d434d253d96255.png"
+      },
+      {
+        "entry_id": 285172,
+        "entry_name": "在北京有线下门店的电商平台口腔诊所哪个服务好",
+        "mention_rate": 100,
+        "position": 2,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/caa6e95293294c6a872a52a6674f674f.png"
+      },
+      {
+        "entry_id": 285173,
+        "entry_name": "在北京有线下门店的电商平台牙科诊所哪个服务好",
+        "mention_rate": 100,
+        "position": 1,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/de56dc2ab77647f5aa28e6e99b4dc804.png"
+      },
+      {
+        "entry_id": 285174,
+        "entry_name": "在北京有线下门店的收费透明的线上自营口腔平台哪个值得选",
+        "mention_rate": 100,
+        "position": 1,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/4f0033dce56946d7b23d3f2278f77517.png"
+      },
+      {
+        "entry_id": 285175,
+        "entry_name": "在北京有线下门店的无隐形消费的线上自营口腔平台哪个靠谱",
+        "mention_rate": 100,
+        "position": 1,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/ac851bf01dfd4f2ca019e628e758b168.png"
+      },
+      {
+        "entry_id": 285176,
+        "entry_name": "在北京有线下门店的收费透明的电商平台口腔服务哪个值得选",
+        "mention_rate": 100,
+        "position": 2,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/b8a996af28564b1e8f61416bd9e5e2f9.png"
+      },
+      {
+        "entry_id": 285177,
+        "entry_name": "在北京有线下门店的无隐形消费的电商平台口腔服务哪个好",
+        "mention_rate": 100,
+        "position": 1,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/181f74ff846b46b386eda0f18eee191a.png"
+      },
+      {
+        "entry_id": 285179,
+        "entry_name": "在北京有线下门店的无隐形消费的电商平台口腔服务Top 5",
+        "mention_rate": 100,
+        "position": 1,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/499371ee90dc45b6be1e2075ba33ae80.png"
+      },
+      {
+        "entry_id": 285180,
+        "entry_name": "在北京有线下门店的有售后保障的线上自营口腔平台推荐",
+        "mention_rate": 100,
+        "position": 1,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/56ac5c3014fa43cc8bc89a17d525954a.png"
+      },
+      {
+        "entry_id": 285183,
+        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个靠谱",
+        "mention_rate": 100,
+        "position": 4.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/ad6015f0ab4c4d6195f9bafc1a4f00d7.png"
+      },
+      {
+        "entry_id": 285184,
+        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个口碑好",
+        "mention_rate": 100,
+        "position": 3,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/f466b2c28726408294ae6e1338ab2c6b.png"
+      },
+      {
+        "entry_id": 285185,
+        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个服务好",
+        "mention_rate": 100,
+        "position": 4,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/49aea69261094aa69e1639ca71b634fd.png"
+      },
+      {
+        "entry_id": 286150,
+        "entry_name": "京东口腔隐形正畸哪个医生好",
+        "mention_rate": 100,
+        "position": 1,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/60424ce21df74468a2834785198f57fb.png"
+      },
+      {
+        "entry_id": 286151,
+        "entry_name": "京东口腔成人正畸推荐哪个医生",
+        "mention_rate": 100,
+        "position": 1,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/15ce2f15a4ae4a3cb089eeb68aa8a1d5.png"
+      },
+      {
+        "entry_id": 286154,
+        "entry_name": "京东口腔哪个医生擅长补牙",
+        "mention_rate": 100,
+        "position": 1,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/30fb69141d0748a1a97132e525c99073.png"
+      },
+      {
+        "entry_id": 286155,
+        "entry_name": "京东口腔吴沂蓁医生怎么样",
+        "mention_rate": 100,
+        "position": 1,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/2db28090581241f681faca70b9ea186a.png"
+      },
+      {
+        "entry_id": 286158,
+        "entry_name": "京东口腔郭力嘉医生怎么样",
+        "mention_rate": 100,
+        "position": 1,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/6a1bccc12d7f4e8ca4c5fe080d6174e6.png"
+      },
+      {
+        "entry_id": 285123,
+        "entry_name": "线上互联网口腔服务哪个靠谱",
+        "mention_rate": 50,
+        "position": 5.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/edf98377cd7b43f3a13e6a53ecd76a81.png"
+      },
+      {
+        "entry_id": 285124,
+        "entry_name": "线上互联网口腔服务Top 5",
+        "mention_rate": 50,
+        "position": 6,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/11806b015b14446a9c60dd458579a4f2.png"
+      },
+      {
+        "entry_id": 285125,
+        "entry_name": "线上互联网牙科平台推荐",
+        "mention_rate": 50,
+        "position": 6.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/d3d1559947924585aa4a864a2bcadc7a.png"
+      },
+      {
+        "entry_id": 285128,
+        "entry_name": "自营口腔平台哪个服务好",
+        "mention_rate": 50,
+        "position": 4,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/0019be4935544135b3d288cac375fcb1.png"
+      },
+      {
+        "entry_id": 285129,
+        "entry_name": "自营口腔平台哪个性价比高",
+        "mention_rate": 50,
+        "position": 3.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/06692b9565aa48a2a14d7b263d99ae8f.png"
+      },
+      {
+        "entry_id": 285133,
+        "entry_name": "自营牙科平台哪个好",
+        "mention_rate": 50,
+        "position": 5.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/fe2e45fbe2064479b5d448cdb8547769.png"
+      },
+      {
+        "entry_id": 285136,
+        "entry_name": "电商平台看牙哪个好",
+        "mention_rate": 50,
+        "position": 6,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/77aa16afcace412ca1ef0a620c44399a.png"
+      },
+      {
+        "entry_id": 285140,
+        "entry_name": "收费透明的线上自营口腔平台哪个值得选",
+        "mention_rate": 50,
+        "position": 4.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/e60ef3ac060c4f338ac1fa4366299cd7.png"
+      },
+      {
+        "entry_id": 285145,
+        "entry_name": "无隐形消费的电商平台口腔服务哪个性价比高",
+        "mention_rate": 50,
+        "position": 3,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/4eafcb9e6120463e9353ac251f3d33ec.png"
+      },
+      {
+        "entry_id": 285147,
+        "entry_name": "有售后保障的线上自营口腔平台哪个性价比高",
+        "mention_rate": 50,
+        "position": 5.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/299e53bf75aa4922986b84f6abeefe49.png"
+      },
+      {
+        "entry_id": 285148,
+        "entry_name": "有售后保障的互联网口腔平台哪个专业",
+        "mention_rate": 50,
+        "position": 4,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/5f60ffea444a4704b6eb27466e97a589.png"
+      },
+      {
+        "entry_id": 285150,
+        "entry_name": "有售后保障的电商平台口腔服务哪个口碑好",
+        "mention_rate": 50,
+        "position": 5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/82a8d07857a94aad903cb267854eef44.png"
+      },
+      {
+        "entry_id": 285151,
+        "entry_name": "有售后保障的电商平台口腔服务哪个服务好",
+        "mention_rate": 50,
+        "position": 5.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/9d1662fc12f84fdb92dd50c11f4dbaa7.png"
+      },
+      {
+        "entry_id": 285153,
+        "entry_name": "在北京有线下门店的自营口腔平台哪个服务好",
+        "mention_rate": 50,
+        "position": 4.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/9ae28b9ee0c244cf92fce9d2fd999764.png"
+      },
+      {
+        "entry_id": 285154,
+        "entry_name": "在北京有线下门店的自营口腔平台哪个值得选",
+        "mention_rate": 50,
+        "position": 3.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/3337b66c1642451191fa5230589e4217.png"
+      },
+      {
+        "entry_id": 285163,
+        "entry_name": "在北京有线下门店的自营口腔平台哪个靠谱",
+        "mention_rate": 50,
+        "position": 3,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/ed5c07a8359a423f8e4e4c53e2da8bab.png"
+      },
+      {
+        "entry_id": 285164,
+        "entry_name": "在北京有线下门店的自营口腔平台哪个性价比高",
+        "mention_rate": 50,
+        "position": 3.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/f32925ea2fab4b33931a594883aac149.png"
+      },
+      {
+        "entry_id": 285165,
+        "entry_name": "在北京有线下门店的自营洗牙平台哪个性价比高",
+        "mention_rate": 50,
+        "position": 3.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/08ffd4a9688e45dbb90afa4baf8d9a4b.png"
+      },
+      {
+        "entry_id": 285166,
+        "entry_name": "在北京有线下门店的自营洗牙平台哪个值得选",
+        "mention_rate": 50,
+        "position": 4,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/0f1c8e57517740cba806b8b580e34857.png"
+      },
+      {
+        "entry_id": 285168,
+        "entry_name": "在北京有线下门店的自营牙科平台哪个性价比高",
+        "mention_rate": 50,
+        "position": 3.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/8afad159f1d54e68b79fed7e9c180f21.png"
+      },
+      {
+        "entry_id": 285178,
+        "entry_name": "在北京有线下门店的无隐形消费的电商平台口腔服务哪个性价比高",
+        "mention_rate": 50,
+        "position": 7,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/9d0e8db85a38471e902d786612792ac6.png"
+      },
+      {
+        "entry_id": 285181,
+        "entry_name": "在北京有线下门店的有售后保障的线上自营口腔平台哪个性价比高",
+        "mention_rate": 50,
+        "position": 2.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/2d6299322d124cb7a38efcc54a7358bb.png"
+      },
+      {
+        "entry_id": 285182,
+        "entry_name": "在北京有线下门店的有售后保障的互联网口腔平台哪个专业",
+        "mention_rate": 50,
+        "position": 4,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/9d1d481aa3d543748ba77287457ae1d1.png"
+      },
+      {
+        "entry_id": 285186,
+        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务Top 5",
+        "mention_rate": 50,
+        "position": 6,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/7e244e3b647e44f089f7dc46aaed4fbb.png"
+      },
+      {
+        "entry_id": 286132,
+        "entry_name": "线上找口腔医生的平台推荐",
+        "mention_rate": 50,
+        "position": 10.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/0a03904ff85345a984939e2393a47b21.png"
+      },
+      {
+        "entry_id": 286142,
+        "entry_name": "可以预约口腔专家的平台推荐",
+        "mention_rate": 50,
+        "position": 6,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a5ac6a0b44ed438680bdceab07a03941.png"
+      },
+      {
+        "entry_id": 286145,
+        "entry_name": "种植牙医生预约平台推荐",
+        "mention_rate": 50,
+        "position": 6,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/53859a9c0a5d4587a2cf57633cfa18c3.png"
+      },
+      {
+        "entry_id": 286149,
+        "entry_name": "京东口腔种植牙医生推荐哪个",
+        "mention_rate": 50,
+        "position": 2.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/9393e5897322444598d2ac70ee98cb08.png"
+      },
+      {
+        "entry_id": 286156,
+        "entry_name": "京东口腔王威医生怎么样",
+        "mention_rate": 50,
+        "position": 1.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/670312b564fe4b0f969f741834f8d30b.png"
+      },
+      {
+        "entry_id": 285139,
+        "entry_name": "电商平台牙科诊所哪个服务好",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/7a2006bf9e654f3880cf357d3de5f355.png"
+      },
+      {
+        "entry_id": 285141,
+        "entry_name": "无隐形消费的线上自营口腔平台哪个靠谱",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/422df7ea8acd4c489a2b18c46aab7d52.png"
+      },
+      {
+        "entry_id": 285143,
+        "entry_name": "有售后保障的线上自营口腔平台推荐",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/f3f9bbc4659344f0854f43971214fed0.png"
+      },
+      {
+        "entry_id": 285157,
+        "entry_name": "在北京有线下门店的互联网口腔平台哪个口碑好",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/0d4c0e1545d04500a54c88cdc1e2d207.png"
+      },
+      {
+        "entry_id": 285161,
+        "entry_name": "在北京有线下门店的互联网牙科平台推荐",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-28T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a3473306da214e8480e1068a76d36697.png"
+      }
+    ]
+  },
+  "compare": {
+    "target_product": "京东大健康(京东健康、京东买药、京东大药房)",
+    "mention_rate_ranking": [
+      {
+        "brand_id": 1129190,
+        "brand_name": "京东大健康",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "京东大健康",
+        "mention_count": 113,
+        "mention_rate": 74.3,
+        "is_target": true,
+        "rank": 1
+      },
+      {
+        "brand_id": 135243,
+        "brand_name": "美团",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "美团",
+        "mention_count": 86,
+        "mention_rate": 56.6,
+        "is_target": false,
+        "rank": 2
+      },
+      {
+        "brand_id": 135246,
+        "brand_name": "大众点评",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "大众点评",
+        "mention_count": 65,
+        "mention_rate": 42.8,
+        "is_target": false,
+        "rank": 3
+      },
+      {
+        "brand_id": 135255,
+        "brand_name": "瑞尔齿科",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "瑞尔齿科",
+        "mention_count": 44,
+        "mention_rate": 28.9,
+        "is_target": false,
+        "rank": 4
+      },
+      {
+        "brand_id": 135256,
+        "brand_name": "泰康拜博口腔",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "泰康拜博口腔",
+        "mention_count": 42,
+        "mention_rate": 27.6,
+        "is_target": false,
+        "rank": 5
+      }
+    ],
+    "position_ranking": [
+      {
+        "brand_id": 135243,
+        "brand_name": "美团",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "美团",
+        "avg_position": 3.2,
+        "mention_count": 86,
+        "is_target": false
+      },
+      {
+        "brand_id": 1129190,
+        "brand_name": "京东大健康",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "京东大健康",
+        "avg_position": 3.4,
+        "mention_count": 113,
+        "is_target": true
+      },
+      {
+        "brand_id": 135246,
+        "brand_name": "大众点评",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "大众点评",
+        "avg_position": 4.1,
+        "mention_count": 65,
+        "is_target": false
+      },
+      {
+        "brand_id": 135255,
+        "brand_name": "瑞尔齿科",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "瑞尔齿科",
+        "avg_position": 4.8,
+        "mention_count": 44,
+        "is_target": false
+      },
+      {
+        "brand_id": 135247,
+        "brand_name": "阿里健康",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "阿里健康",
+        "avg_position": 4.9,
+        "mention_count": 40,
+        "is_target": false
+      }
+    ],
+    "rate_daily": [
+      {
+        "date": "2026-10-29",
+        "京东大健康": 74.3,
+        "美团": 56.6,
+        "大众点评": 42.8,
+        "瑞尔齿科": 28.9,
+        "泰康拜博口腔": 27.6
+      }
+    ],
+    "position_daily": [
+      {
+        "date": "2026-10-29",
+        "美团": 3.2,
+        "京东大健康": 3.4,
+        "大众点评": 4.1,
+        "瑞尔齿科": 4.8,
+        "阿里健康": 4.9
+      }
+    ],
+    "top1_ranking": [
+      {
+        "rank": 1,
+        "brand_name": "京东大健康",
+        "product_name": null,
+        "display_name": "京东大健康",
+        "top1_mention_rate": 46.1,
+        "is_target": true
+      },
+      {
+        "rank": 2,
+        "brand_name": "美团",
+        "product_name": null,
+        "display_name": "美团",
+        "top1_mention_rate": 27.6,
+        "is_target": false
+      },
+      {
+        "rank": 3,
+        "brand_name": "瑞尔齿科",
+        "product_name": null,
+        "display_name": "瑞尔齿科",
+        "top1_mention_rate": 6.6,
+        "is_target": false
+      },
+      {
+        "rank": 4,
+        "brand_name": "美奥口腔",
+        "product_name": null,
+        "display_name": "美奥口腔",
+        "top1_mention_rate": 3.3,
+        "is_target": false
+      },
+      {
+        "rank": 5,
+        "brand_name": "新氧",
+        "product_name": null,
+        "display_name": "新氧",
+        "top1_mention_rate": 2.6,
+        "is_target": false
+      },
+      {
+        "rank": 6,
+        "brand_name": "京东互联网医院",
+        "product_name": null,
+        "display_name": "京东互联网医院",
+        "top1_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 7,
+        "brand_name": "好大夫在线",
+        "product_name": null,
+        "display_name": "好大夫在线",
+        "top1_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 8,
+        "brand_name": "维乐口腔",
+        "product_name": null,
+        "display_name": "维乐口腔",
+        "top1_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 9,
+        "brand_name": "佳美口腔",
+        "product_name": null,
+        "display_name": "佳美口腔",
+        "top1_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 10,
+        "brand_name": "健康河北",
+        "product_name": null,
+        "display_name": "健康河北",
+        "top1_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 11,
+        "brand_name": "北大口腔",
+        "product_name": null,
+        "display_name": "北大口腔",
+        "top1_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 12,
+        "brand_name": "口腔科医院挂号网",
+        "product_name": null,
+        "display_name": "口腔科医院挂号网",
+        "top1_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 13,
+        "brand_name": "大众点评",
+        "product_name": null,
+        "display_name": "大众点评",
+        "top1_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 14,
+        "brand_name": "抖音",
+        "product_name": null,
+        "display_name": "抖音",
+        "top1_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 15,
+        "brand_name": "江苏省口腔医院",
+        "product_name": null,
+        "display_name": "江苏省口腔医院",
+        "top1_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 16,
+        "brand_name": "河北医科大学第三医院",
+        "product_name": null,
+        "display_name": "河北医科大学第三医院",
+        "top1_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 17,
+        "brand_name": "河北智慧健康",
+        "product_name": null,
+        "display_name": "河北智慧健康",
+        "top1_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 18,
+        "brand_name": "牙易（牙e在线）",
+        "product_name": null,
+        "display_name": "牙易（牙e在线）",
+        "top1_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 19,
+        "brand_name": "种牙保",
+        "product_name": null,
+        "display_name": "种牙保",
+        "top1_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 20,
+        "brand_name": "薄荷牙医",
+        "product_name": null,
+        "display_name": "薄荷牙医",
+        "top1_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 21,
+        "brand_name": "贝色",
+        "product_name": null,
+        "display_name": "贝色",
+        "top1_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 22,
+        "brand_name": "齿哒哒",
+        "product_name": null,
+        "display_name": "齿哒哒",
+        "top1_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 23,
+        "brand_name": "e 牙网",
+        "product_name": null,
+        "display_name": "e 牙网",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 24,
+        "brand_name": "e名牙医",
+        "product_name": null,
+        "display_name": "e名牙医",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 25,
+        "brand_name": "vvsmile",
+        "product_name": null,
+        "display_name": "vvsmile",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 26,
+        "brand_name": "丁香医生",
+        "product_name": null,
+        "display_name": "丁香医生",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 27,
+        "brand_name": "上海九院",
+        "product_name": null,
+        "display_name": "上海九院",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 28,
+        "brand_name": "上海第九人民医院",
+        "product_name": null,
+        "display_name": "上海第九人民医院",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 29,
+        "brand_name": "中喜口腔",
+        "product_name": null,
+        "display_name": "中喜口腔",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 30,
+        "brand_name": "中国人民解放军总医院",
+        "product_name": null,
+        "display_name": "中国人民解放军总医院",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 31,
+        "brand_name": "中诺口腔",
+        "product_name": null,
+        "display_name": "中诺口腔",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 32,
+        "brand_name": "云端新芽",
+        "product_name": null,
+        "display_name": "云端新芽",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 33,
+        "brand_name": "京一口腔",
+        "product_name": null,
+        "display_name": "京一口腔",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 34,
+        "brand_name": "京东",
+        "product_name": null,
+        "display_name": "京东",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 35,
+        "brand_name": "京东APP",
+        "product_name": null,
+        "display_name": "京东APP",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 36,
+        "brand_name": "京东到家",
+        "product_name": null,
+        "display_name": "京东到家",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 37,
+        "brand_name": "京东自营",
+        "product_name": null,
+        "display_name": "京东自营",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 38,
+        "brand_name": "京医通",
+        "product_name": null,
+        "display_name": "京医通",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 39,
+        "brand_name": "优优美牙",
+        "product_name": null,
+        "display_name": "优优美牙",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 40,
+        "brand_name": "优益齿",
+        "product_name": null,
+        "display_name": "优益齿",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 41,
+        "brand_name": "佳和口腔",
+        "product_name": null,
+        "display_name": "佳和口腔",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 42,
+        "brand_name": "健康中国",
+        "product_name": null,
+        "display_name": "健康中国",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 43,
+        "brand_name": "光华口腔医院",
+        "product_name": null,
+        "display_name": "光华口腔医院",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 44,
+        "brand_name": "兔博士",
+        "product_name": null,
+        "display_name": "兔博士",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 45,
+        "brand_name": "励齿商城",
+        "product_name": null,
+        "display_name": "励齿商城",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 46,
+        "brand_name": "劲松口腔",
+        "product_name": null,
+        "display_name": "劲松口腔",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 47,
+        "brand_name": "北京大学口腔医院",
+        "product_name": null,
+        "display_name": "北京大学口腔医院",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 48,
+        "brand_name": "北京牙管家口腔",
+        "product_name": null,
+        "display_name": "北京牙管家口腔",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 49,
+        "brand_name": "医查查",
+        "product_name": null,
+        "display_name": "医查查",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 50,
+        "brand_name": "华普登特",
+        "product_name": null,
+        "display_name": "华普登特",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 51,
+        "brand_name": "华睿口腔",
+        "product_name": null,
+        "display_name": "华睿口腔",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 52,
+        "brand_name": "华西口腔",
+        "product_name": null,
+        "display_name": "华西口腔",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 53,
+        "brand_name": "名医挂号通",
+        "product_name": null,
+        "display_name": "名医挂号通",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 54,
+        "brand_name": "名医看牙",
+        "product_name": null,
+        "display_name": "名医看牙",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 55,
+        "brand_name": "四川大学华西口腔医院",
+        "product_name": null,
+        "display_name": "四川大学华西口腔医院",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 56,
+        "brand_name": "圣贝口腔",
+        "product_name": null,
+        "display_name": "圣贝口腔",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 57,
+        "brand_name": "多点云",
+        "product_name": null,
+        "display_name": "多点云",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 58,
+        "brand_name": "大牙网",
+        "product_name": null,
+        "display_name": "大牙网",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 59,
+        "brand_name": "好大夫口腔",
+        "product_name": null,
+        "display_name": "好大夫口腔",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 60,
+        "brand_name": "好牙医",
+        "product_name": null,
+        "display_name": "好牙医",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 61,
+        "brand_name": "存济口腔",
+        "product_name": null,
+        "display_name": "存济口腔",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 62,
+        "brand_name": "小牙签",
+        "product_name": null,
+        "display_name": "小牙签",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 63,
+        "brand_name": "小红书",
+        "product_name": null,
+        "display_name": "小红书",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 64,
+        "brand_name": "平安健康",
+        "product_name": null,
+        "display_name": "平安健康",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 65,
+        "brand_name": "平安好医生",
+        "product_name": null,
+        "display_name": "平安好医生",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 66,
+        "brand_name": "微医",
+        "product_name": null,
+        "display_name": "微医",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 67,
+        "brand_name": "德伦",
+        "product_name": null,
+        "display_name": "德伦",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 68,
+        "brand_name": "德恒口腔",
+        "product_name": null,
+        "display_name": "德恒口腔",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 69,
+        "brand_name": "抖音团购",
+        "product_name": null,
+        "display_name": "抖音团购",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 70,
+        "brand_name": "抖音本地生活",
+        "product_name": null,
+        "display_name": "抖音本地生活",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 71,
+        "brand_name": "拼多多",
+        "product_name": null,
+        "display_name": "拼多多",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 72,
+        "brand_name": "支付宝",
+        "product_name": null,
+        "display_name": "支付宝",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 73,
+        "brand_name": "支付宝医疗健康",
+        "product_name": null,
+        "display_name": "支付宝医疗健康",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 74,
+        "brand_name": "支付宝本地生活",
+        "product_name": null,
+        "display_name": "支付宝本地生活",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 75,
+        "brand_name": "新氧口腔",
+        "product_name": null,
+        "display_name": "新氧口腔",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 76,
+        "brand_name": "极橙儿童齿科",
+        "product_name": null,
+        "display_name": "极橙儿童齿科",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 77,
+        "brand_name": "松佰商城",
+        "product_name": null,
+        "display_name": "松佰商城",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 78,
+        "brand_name": "松佰牙科",
+        "product_name": null,
+        "display_name": "松佰牙科",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 79,
+        "brand_name": "欢乐口腔",
+        "product_name": null,
+        "display_name": "欢乐口腔",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 80,
+        "brand_name": "正欣口腔",
+        "product_name": null,
+        "display_name": "正欣口腔",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 81,
+        "brand_name": "武汉大学口腔医院",
+        "product_name": null,
+        "display_name": "武汉大学口腔医院",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 82,
+        "brand_name": "河北医科大学口腔医院",
+        "product_name": null,
+        "display_name": "河北医科大学口腔医院",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 83,
+        "brand_name": "河北医科大学第二医院",
+        "product_name": null,
+        "display_name": "河北医科大学第二医院",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 84,
+        "brand_name": "河北省儿童医院",
+        "product_name": null,
+        "display_name": "河北省儿童医院",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 85,
+        "brand_name": "河北省眼科医院",
+        "product_name": null,
+        "display_name": "河北省眼科医院",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 86,
+        "brand_name": "泰康口腔",
+        "product_name": null,
+        "display_name": "泰康口腔",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 87,
+        "brand_name": "泰康拜博口腔",
+        "product_name": null,
+        "display_name": "泰康拜博口腔",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 88,
+        "brand_name": "浙大口腔医院",
+        "product_name": null,
+        "display_name": "浙大口腔医院",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 89,
+        "brand_name": "灯塔医生",
+        "product_name": null,
+        "display_name": "灯塔医生",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 90,
+        "brand_name": "爱优牙",
+        "product_name": null,
+        "display_name": "爱优牙",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 91,
+        "brand_name": "牙e在线",
+        "product_name": null,
+        "display_name": "牙e在线",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 92,
+        "brand_name": "牙医匠",
+        "product_name": null,
+        "display_name": "牙医匠",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 93,
+        "brand_name": "牙医帮商城",
+        "product_name": null,
+        "display_name": "牙医帮商城",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 94,
+        "brand_name": "牙博士口腔",
+        "product_name": null,
+        "display_name": "牙博士口腔",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 95,
+        "brand_name": "牙套之家",
+        "product_name": null,
+        "display_name": "牙套之家",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 96,
+        "brand_name": "牙爸爸",
+        "product_name": null,
+        "display_name": "牙爸爸",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 97,
+        "brand_name": "牙荷口腔治疗",
+        "product_name": null,
+        "display_name": "牙荷口腔治疗",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 98,
+        "brand_name": "瑞泰口腔",
+        "product_name": null,
+        "display_name": "瑞泰口腔",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 99,
+        "brand_name": "瑞鲨舒适口腔",
+        "product_name": null,
+        "display_name": "瑞鲨舒适口腔",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 100,
+        "brand_name": "看牙EASY",
+        "product_name": null,
+        "display_name": "看牙EASY",
+        "top1_mention_rate": 0,
+        "is_target": false
+      }
+    ],
+    "top3_ranking": [
+      {
+        "rank": 1,
+        "brand_name": "京东大健康",
+        "product_name": null,
+        "display_name": "京东大健康",
+        "top3_mention_rate": 55.3,
+        "is_target": true
+      },
+      {
+        "rank": 2,
+        "brand_name": "美团",
+        "product_name": null,
+        "display_name": "美团",
+        "top3_mention_rate": 46.7,
+        "is_target": false
+      },
+      {
+        "rank": 3,
+        "brand_name": "大众点评",
+        "product_name": null,
+        "display_name": "大众点评",
+        "top3_mention_rate": 25,
+        "is_target": false
+      },
+      {
+        "rank": 4,
+        "brand_name": "瑞尔齿科",
+        "product_name": null,
+        "display_name": "瑞尔齿科",
+        "top3_mention_rate": 13.2,
+        "is_target": false
+      },
+      {
+        "rank": 5,
+        "brand_name": "泰康拜博口腔",
+        "product_name": null,
+        "display_name": "泰康拜博口腔",
+        "top3_mention_rate": 11.2,
+        "is_target": false
+      },
+      {
+        "rank": 6,
+        "brand_name": "新氧",
+        "product_name": null,
+        "display_name": "新氧",
+        "top3_mention_rate": 7.2,
+        "is_target": false
+      },
+      {
+        "rank": 7,
+        "brand_name": "美奥口腔",
+        "product_name": null,
+        "display_name": "美奥口腔",
+        "top3_mention_rate": 6.6,
+        "is_target": false
+      },
+      {
+        "rank": 8,
+        "brand_name": "瑞泰口腔",
+        "product_name": null,
+        "display_name": "瑞泰口腔",
+        "top3_mention_rate": 5.9,
+        "is_target": false
+      },
+      {
+        "rank": 9,
+        "brand_name": "阿里健康",
+        "product_name": null,
+        "display_name": "阿里健康",
+        "top3_mention_rate": 5.9,
+        "is_target": false
+      },
+      {
+        "rank": 10,
+        "brand_name": "抖音本地生活",
+        "product_name": null,
+        "display_name": "抖音本地生活",
+        "top3_mention_rate": 3.9,
+        "is_target": false
+      },
+      {
+        "rank": 11,
+        "brand_name": "维乐口腔",
+        "product_name": null,
+        "display_name": "维乐口腔",
+        "top3_mention_rate": 3.9,
+        "is_target": false
+      },
+      {
+        "rank": 12,
+        "brand_name": "北大口腔",
+        "product_name": null,
+        "display_name": "北大口腔",
+        "top3_mention_rate": 3.3,
+        "is_target": false
+      },
+      {
+        "rank": 13,
+        "brand_name": "欢乐口腔",
+        "product_name": null,
+        "display_name": "欢乐口腔",
+        "top3_mention_rate": 3.3,
+        "is_target": false
+      },
+      {
+        "rank": 14,
+        "brand_name": "牙易（牙e在线）",
+        "product_name": null,
+        "display_name": "牙易（牙e在线）",
+        "top3_mention_rate": 3.3,
+        "is_target": false
+      },
+      {
+        "rank": 15,
+        "brand_name": "京东APP",
+        "product_name": null,
+        "display_name": "京东APP",
+        "top3_mention_rate": 2.6,
+        "is_target": false
+      },
+      {
+        "rank": 16,
+        "brand_name": "京东自营",
+        "product_name": null,
+        "display_name": "京东自营",
+        "top3_mention_rate": 2.6,
+        "is_target": false
+      },
+      {
+        "rank": 17,
+        "brand_name": "好大夫在线",
+        "product_name": null,
+        "display_name": "好大夫在线",
+        "top3_mention_rate": 2.6,
+        "is_target": false
+      },
+      {
+        "rank": 18,
+        "brand_name": "京东互联网医院",
+        "product_name": null,
+        "display_name": "京东互联网医院",
+        "top3_mention_rate": 2,
+        "is_target": false
+      },
+      {
+        "rank": 19,
+        "brand_name": "佳美口腔",
+        "product_name": null,
+        "display_name": "佳美口腔",
+        "top3_mention_rate": 2,
+        "is_target": false
+      },
+      {
+        "rank": 20,
+        "brand_name": "劲松口腔",
+        "product_name": null,
+        "display_name": "劲松口腔",
+        "top3_mention_rate": 2,
+        "is_target": false
+      },
+      {
+        "rank": 21,
+        "brand_name": "抖音",
+        "product_name": null,
+        "display_name": "抖音",
+        "top3_mention_rate": 2,
+        "is_target": false
+      },
+      {
+        "rank": 22,
+        "brand_name": "京东",
+        "product_name": null,
+        "display_name": "京东",
+        "top3_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 23,
+        "brand_name": "口腔科医院挂号网",
+        "product_name": null,
+        "display_name": "口腔科医院挂号网",
+        "top3_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 24,
+        "brand_name": "微医",
+        "product_name": null,
+        "display_name": "微医",
+        "top3_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 25,
+        "brand_name": "牙医帮商城",
+        "product_name": null,
+        "display_name": "牙医帮商城",
+        "top3_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 26,
+        "brand_name": "薄荷牙医",
+        "product_name": null,
+        "display_name": "薄荷牙医",
+        "top3_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 27,
+        "brand_name": "通策医疗",
+        "product_name": null,
+        "display_name": "通策医疗",
+        "top3_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 28,
+        "brand_name": "首都医科大学附属北京口腔医院",
+        "product_name": null,
+        "display_name": "首都医科大学附属北京口腔医院",
+        "top3_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 29,
+        "brand_name": "齿哒哒",
+        "product_name": null,
+        "display_name": "齿哒哒",
+        "top3_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 30,
+        "brand_name": "vvsmile",
+        "product_name": null,
+        "display_name": "vvsmile",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 31,
+        "brand_name": "上海九院",
+        "product_name": null,
+        "display_name": "上海九院",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 32,
+        "brand_name": "中国人民解放军总医院",
+        "product_name": null,
+        "display_name": "中国人民解放军总医院",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 33,
+        "brand_name": "京医通",
+        "product_name": null,
+        "display_name": "京医通",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 34,
+        "brand_name": "优益齿",
+        "product_name": null,
+        "display_name": "优益齿",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 35,
+        "brand_name": "健康中国",
+        "product_name": null,
+        "display_name": "健康中国",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 36,
+        "brand_name": "健康河北",
+        "product_name": null,
+        "display_name": "健康河北",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 37,
+        "brand_name": "励齿商城",
+        "product_name": null,
+        "display_name": "励齿商城",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 38,
+        "brand_name": "华普登特",
+        "product_name": null,
+        "display_name": "华普登特",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 39,
+        "brand_name": "名医看牙",
+        "product_name": null,
+        "display_name": "名医看牙",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 40,
+        "brand_name": "四川大学华西口腔医院",
+        "product_name": null,
+        "display_name": "四川大学华西口腔医院",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 41,
+        "brand_name": "好牙医",
+        "product_name": null,
+        "display_name": "好牙医",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 42,
+        "brand_name": "存济口腔",
+        "product_name": null,
+        "display_name": "存济口腔",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 43,
+        "brand_name": "拼多多",
+        "product_name": null,
+        "display_name": "拼多多",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 44,
+        "brand_name": "支付宝",
+        "product_name": null,
+        "display_name": "支付宝",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 45,
+        "brand_name": "支付宝医疗健康",
+        "product_name": null,
+        "display_name": "支付宝医疗健康",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 46,
+        "brand_name": "极橙儿童齿科",
+        "product_name": null,
+        "display_name": "极橙儿童齿科",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 47,
+        "brand_name": "松佰商城",
+        "product_name": null,
+        "display_name": "松佰商城",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 48,
+        "brand_name": "武汉大学口腔医院",
+        "product_name": null,
+        "display_name": "武汉大学口腔医院",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 49,
+        "brand_name": "江苏省口腔医院",
+        "product_name": null,
+        "display_name": "江苏省口腔医院",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 50,
+        "brand_name": "河北医科大学口腔医院",
+        "product_name": null,
+        "display_name": "河北医科大学口腔医院",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 51,
+        "brand_name": "河北医科大学第三医院",
+        "product_name": null,
+        "display_name": "河北医科大学第三医院",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 52,
+        "brand_name": "河北医科大学第二医院",
+        "product_name": null,
+        "display_name": "河北医科大学第二医院",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 53,
+        "brand_name": "河北智慧健康",
+        "product_name": null,
+        "display_name": "河北智慧健康",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 54,
+        "brand_name": "河北省儿童医院",
+        "product_name": null,
+        "display_name": "河北省儿童医院",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 55,
+        "brand_name": "泰康口腔",
+        "product_name": null,
+        "display_name": "泰康口腔",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 56,
+        "brand_name": "灯塔医生",
+        "product_name": null,
+        "display_name": "灯塔医生",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 57,
+        "brand_name": "牙荷口腔治疗",
+        "product_name": null,
+        "display_name": "牙荷口腔治疗",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 58,
+        "brand_name": "看牙EASY",
+        "product_name": null,
+        "display_name": "看牙EASY",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 59,
+        "brand_name": "石家庄市第二医院",
+        "product_name": null,
+        "display_name": "石家庄市第二医院",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 60,
+        "brand_name": "种牙保",
+        "product_name": null,
+        "display_name": "种牙保",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 61,
+        "brand_name": "美呀植牙",
+        "product_name": null,
+        "display_name": "美呀植牙",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 62,
+        "brand_name": "贝色",
+        "product_name": null,
+        "display_name": "贝色",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 63,
+        "brand_name": "通策口腔",
+        "product_name": null,
+        "display_name": "通策口腔",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 64,
+        "brand_name": "e 牙网",
+        "product_name": null,
+        "display_name": "e 牙网",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 65,
+        "brand_name": "e名牙医",
+        "product_name": null,
+        "display_name": "e名牙医",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 66,
+        "brand_name": "丁香医生",
+        "product_name": null,
+        "display_name": "丁香医生",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 67,
+        "brand_name": "上海第九人民医院",
+        "product_name": null,
+        "display_name": "上海第九人民医院",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 68,
+        "brand_name": "中喜口腔",
+        "product_name": null,
+        "display_name": "中喜口腔",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 69,
+        "brand_name": "中诺口腔",
+        "product_name": null,
+        "display_name": "中诺口腔",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 70,
+        "brand_name": "云端新芽",
+        "product_name": null,
+        "display_name": "云端新芽",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 71,
+        "brand_name": "京一口腔",
+        "product_name": null,
+        "display_name": "京一口腔",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 72,
+        "brand_name": "京东到家",
+        "product_name": null,
+        "display_name": "京东到家",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 73,
+        "brand_name": "优优美牙",
+        "product_name": null,
+        "display_name": "优优美牙",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 74,
+        "brand_name": "佳和口腔",
+        "product_name": null,
+        "display_name": "佳和口腔",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 75,
+        "brand_name": "光华口腔医院",
+        "product_name": null,
+        "display_name": "光华口腔医院",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 76,
+        "brand_name": "兔博士",
+        "product_name": null,
+        "display_name": "兔博士",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 77,
+        "brand_name": "北京大学口腔医院",
+        "product_name": null,
+        "display_name": "北京大学口腔医院",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 78,
+        "brand_name": "北京牙管家口腔",
+        "product_name": null,
+        "display_name": "北京牙管家口腔",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 79,
+        "brand_name": "医查查",
+        "product_name": null,
+        "display_name": "医查查",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 80,
+        "brand_name": "华睿口腔",
+        "product_name": null,
+        "display_name": "华睿口腔",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 81,
+        "brand_name": "华西口腔",
+        "product_name": null,
+        "display_name": "华西口腔",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 82,
+        "brand_name": "名医挂号通",
+        "product_name": null,
+        "display_name": "名医挂号通",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 83,
+        "brand_name": "圣贝口腔",
+        "product_name": null,
+        "display_name": "圣贝口腔",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 84,
+        "brand_name": "多点云",
+        "product_name": null,
+        "display_name": "多点云",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 85,
+        "brand_name": "大牙网",
+        "product_name": null,
+        "display_name": "大牙网",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 86,
+        "brand_name": "好大夫口腔",
+        "product_name": null,
+        "display_name": "好大夫口腔",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 87,
+        "brand_name": "小牙签",
+        "product_name": null,
+        "display_name": "小牙签",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 88,
+        "brand_name": "小红书",
+        "product_name": null,
+        "display_name": "小红书",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 89,
+        "brand_name": "平安健康",
+        "product_name": null,
+        "display_name": "平安健康",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 90,
+        "brand_name": "平安好医生",
+        "product_name": null,
+        "display_name": "平安好医生",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 91,
+        "brand_name": "德伦",
+        "product_name": null,
+        "display_name": "德伦",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 92,
+        "brand_name": "德恒口腔",
+        "product_name": null,
+        "display_name": "德恒口腔",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 93,
+        "brand_name": "抖音团购",
+        "product_name": null,
+        "display_name": "抖音团购",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 94,
+        "brand_name": "支付宝本地生活",
+        "product_name": null,
+        "display_name": "支付宝本地生活",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 95,
+        "brand_name": "新氧口腔",
+        "product_name": null,
+        "display_name": "新氧口腔",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 96,
+        "brand_name": "松佰牙科",
+        "product_name": null,
+        "display_name": "松佰牙科",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 97,
+        "brand_name": "正欣口腔",
+        "product_name": null,
+        "display_name": "正欣口腔",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 98,
+        "brand_name": "河北省眼科医院",
+        "product_name": null,
+        "display_name": "河北省眼科医院",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 99,
+        "brand_name": "浙大口腔医院",
+        "product_name": null,
+        "display_name": "浙大口腔医院",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 100,
+        "brand_name": "爱优牙",
+        "product_name": null,
+        "display_name": "爱优牙",
+        "top3_mention_rate": 0,
+        "is_target": false
+      }
+    ]
+  },
+  "citations": {
+    "total_conversations": 152,
+    "citation_rate": 74.3,
+    "total_citations": 1559,
+    "platform_stats": [
+      {
+        "platform_name": "知乎",
+        "domain": "zhihu.com",
+        "logo_url": "https://static.zhihu.com/heifetz/favicon.ico",
+        "citation_count": 233,
+        "share": 14.9
+      },
+      {
+        "platform_name": "抖音精选",
+        "domain": "iesdouyin.com",
+        "logo_url": "https://app.geoindexfuture.com/site-icons/iesdouyin.com-jingxuan.png",
+        "citation_count": 224,
+        "share": 14.4
+      },
+      {
+        "platform_name": "新浪",
+        "domain": "sina.com.cn",
+        "logo_url": "https://app.geoindexfuture.com/site-icons/sina.com.cn.ico",
+        "citation_count": 74,
+        "share": 4.7
+      },
+      {
+        "platform_name": "百度百科",
+        "domain": "baike.baidu.com",
+        "logo_url": "https://app.geoindexfuture.com/site-icons/baike.baidu.com.png",
+        "citation_count": 44,
+        "share": 2.8
+      },
+      {
+        "platform_name": "黑猫投诉",
+        "domain": "tousu.sina.com.cn",
+        "logo_url": "https://app.geoindexfuture.com/site-icons/tousu.sina.com.cn.ico",
+        "citation_count": 35,
+        "share": 2.2
+      }
+    ],
+    "articles": [
+      {
+        "title": "2026年北京收费透明自营口腔平台哪个靠谱?8家门诊深度实测 - 知乎",
+        "link_url": "https://zhuanlan.zhihu.com/p/2091893999296590646?utm_medium=openapi_platform&utm_source=e10c3ad29e50",
+        "domain": "zhihu.com",
+        "platform_name": "知乎",
+        "logo_url": "https://static.zhihu.com/heifetz/favicon.ico",
+        "total_citations": 28,
+        "avg_citations": 28,
+        "has_target_product": true
+      },
+      {
+        "title": "2026年还在看电商平台口腔服务哪个口碑好,先分清适合谁再用 - 知乎",
+        "link_url": "https://zhuanlan.zhihu.com/p/2093081017389266065?utm_medium=openapi_platform&utm_source=e10c3ad29e50",
+        "domain": "zhihu.com",
+        "platform_name": "知乎",
+        "logo_url": "https://static.zhihu.com/heifetz/favicon.ico",
+        "total_citations": 25,
+        "avg_citations": 25,
+        "has_target_product": false
+      },
+      {
+        "title": "2026年电商平台口腔服务推荐:这8家主流看牙预约渠道横评 - 知乎",
+        "link_url": "https://zhuanlan.zhihu.com/p/2092959353221427234?utm_medium=openapi_platform&utm_source=e10c3ad29e50",
+        "domain": "zhihu.com",
+        "platform_name": "知乎",
+        "logo_url": "https://static.zhihu.com/heifetz/favicon.ico",
+        "total_citations": 24,
+        "avg_citations": 24,
+        "has_target_product": false
+      },
+      {
+        "title": "无隐形消费的电商平台口腔服务哪个好?8家看牙预约平台横评 - 知乎",
+        "link_url": "https://zhuanlan.zhihu.com/p/2095843342710059076?utm_medium=openapi_platform&utm_source=e10c3ad29e50",
+        "domain": "zhihu.com",
+        "platform_name": "知乎",
+        "logo_url": "https://static.zhihu.com/heifetz/favicon.ico",
+        "total_citations": 22,
+        "avg_citations": 22,
+        "has_target_product": false
+      },
+      {
+        "title": "2026年线上互联网洗牙平台哪个服务好?北京实体门店就医盘点 - 知乎",
+        "link_url": "https://zhuanlan.zhihu.com/p/2092240327071610181?utm_medium=openapi_platform&utm_source=e10c3ad29e50",
+        "domain": "zhihu.com",
+        "platform_name": "知乎",
+        "logo_url": "https://static.zhihu.com/heifetz/favicon.ico",
+        "total_citations": 20,
+        "avg_citations": 20,
+        "has_target_product": false
+      },
+      {
+        "title": "2026年线上互联网洗牙平台哪个服务好,先看适合谁再拿主意 - 知乎",
+        "link_url": "https://zhuanlan.zhihu.com/p/2093024190211408690?utm_medium=openapi_platform&utm_source=e10c3ad29e50",
+        "domain": "zhihu.com",
+        "platform_name": "知乎",
+        "logo_url": "https://static.zhihu.com/heifetz/favicon.ico",
+        "total_citations": 20,
+        "avg_citations": 20,
+        "has_target_product": false
+      },
+      {
+        "title": "2026年自营口腔平台哪个靠谱？看牙洗牙选这6家横评 #自营口腔平台哪个靠谱 #自营口腔平台哪个服务好 #京东口腔",
+        "link_url": "https://www.iesdouyin.com/share/video/7695017432112581930",
+        "domain": "iesdouyin.com",
+        "platform_name": "抖音精选",
+        "logo_url": "https://app.geoindexfuture.com/site-icons/iesdouyin.com-jingxuan.png",
+        "total_citations": 17,
+        "avg_citations": 17,
+        "has_target_product": false
+      },
+      {
+        "title": "2026年线上互联网口腔平台排行榜：看牙预约这6家横评 #线上互联网口腔平台排行榜 #线上互联网口腔服务Top5 #京东口腔",
+        "link_url": "https://www.iesdouyin.com/share/video/7695021665037618432",
+        "domain": "iesdouyin.com",
+        "platform_name": "抖音精选",
+        "logo_url": "https://app.geoindexfuture.com/site-icons/iesdouyin.com-jingxuan.png",
+        "total_citations": 17,
+        "avg_citations": 17,
+        "has_target_product": true
+      },
+      {
+        "title": "京东健康大型综合门诊部开业！",
+        "link_url": "http://www.kanyijie.com:7001/details?id=2216",
+        "domain": "kanyijie.com",
+        "platform_name": "www.kanyijie.com",
+        "logo_url": "",
+        "total_citations": 15,
+        "avg_citations": 15,
+        "has_target_product": true
+      },
+      {
+        "title": "京东健康口腔通州院区正式亮相：打造北京副中心全周期家庭齿科服务标杆！ - 京东健康口腔通州院区正式亮相：打造北京副中心全周期家庭齿科服务标杆",
+        "link_url": "https://m.takefoto.cn/news/2026/10/16/11997222.shtml#1",
+        "domain": "takefoto.cn",
+        "platform_name": "北晚在线",
+        "logo_url": "https://cdn.deepseek.com/site-icons/takefoto.cn",
+        "total_citations": 14,
+        "avg_citations": 14,
+        "has_target_product": true
+      }
+    ]
+  },
+  "overview_daily": [
+    {
+      "date": "2026-10-29",
+      "mention_rate": 74.3,
+      "avg_position": 3.4,
+      "influence_rank": 1
+    }
+  ]
+}

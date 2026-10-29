@@ -1,5 +1,5 @@
 import React from 'react';
-import report from '../data/awadaSeptemberReport.json';
+import report from '../data/jingdongReport.json';
 
 const platformData = report.platform_entries;
 
@@ -22,14 +22,14 @@ const LOGOS = {
 };
 
 const PRODUCT_META = {
-  668: { short: 'Awada', full: 'Awada' },
+  5195: { short: '京东口腔①', full: '京东大健康(京东健康、京东买药、京东大药房)' },
 };
 
 export default function Page_QueryDataSystemLink({
-  projectId = 668,
+  projectId = 5195,
   platformId = 1,
   pageIndex = 0,
-  pageSize = 16,
+  pageSize = 19,
 }) {
   const allData = platformData[String(platformId)] || [];
   const total = allData.length;
@@ -38,7 +38,7 @@ export default function Page_QueryDataSystemLink({
   const data = allData.slice(safePage * pageSize, safePage * pageSize + pageSize);
   const startRank = safePage * pageSize;
 
-  const product = PRODUCT_META[projectId] || { short: 'Awada', full: 'Awada' };
+  const product = PRODUCT_META[projectId] || { short: '京东口腔①', full: '京东大健康(京东健康、京东买药、京东大药房)' };
   const platformName = PLATFORM_NAMES[platformId] || '';
   const slideTitle = `${product.short}词条数据明细（${platformName}）`;
 
@@ -48,7 +48,7 @@ export default function Page_QueryDataSystemLink({
         <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
         <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4">
           {slideTitle}
-          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年9月）</span>
+          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年10月）</span>
         </h1>
       </div>
 
@@ -57,7 +57,7 @@ export default function Page_QueryDataSystemLink({
           <div className="flex items-center gap-1.5 bg-white border border-zinc-200/80 rounded-md px-3 py-1.5 shadow-[0_1px_2px_rgba(0,0,0,0.02)]">
             <span className="text-zinc-400 text-xs">📅</span>
             <span>日期</span>
-            <span className="text-zinc-400 text-[10px] ml-1">{report.meta.september_date.slice(5)}</span>
+            <span className="text-zinc-400 text-[10px] ml-1">{report.meta.october_date.slice(5)}</span>
             <span className="text-zinc-300 text-[9px] ml-1">▼</span>
           </div>
 

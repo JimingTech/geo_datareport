@@ -1,30 +1,32 @@
 import React from 'react';
-import report from '../data/awadaSeptemberReport.json';
+import report from '../data/jingdongReport.json';
 
-const { scope, before, september } = report;
+const { scope, before, october } = report;
 
 function fmtPct(v) {
   return `${Number(v)}%`;
 }
 
-const BEFORE_LABEL = report.meta.before_label;
-const SEPT_LABEL = report.meta.september_label;
+const BEFORE_LABEL = '优化前';
+const OCT_LABEL = '10月31日';
+
+const uncovered = scope.entries - october.covered_entries;
 
 export default function Page_CoreDataOverview() {
-  const rows = [{ key: 'all', name: 'Awada', before, september }];
+  const rows = [{ key: 'all', name: '京东口腔①', before, october }];
 
   return (
     <div className="w-full h-full flex flex-col px-12 sm:px-16 pt-[22px] pb-8 text-zinc-800 font-sans overflow-hidden">
       <div className="flex items-center shrink-0 mb-[27px]">
         <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
         <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4">
-          核心数据总览 <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年9月）</span>
+          核心数据总览 <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年10月）</span>
         </h1>
       </div>
 
       <div className="rounded-xl border border-zinc-200 bg-slate-50/40 py-3.5 px-6 shrink-0 mb-4">
         <p className="text-[1.35rem] leading-relaxed text-zinc-500 font-bold">
-          本次监测周期覆盖 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">{scope.platforms}</span> 个核心AI平台，针对重点监测词条 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">{scope.entries}</span> 个进行查询，追踪相关问答数据共计 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">{scope.conversations.toLocaleString()}</span> 篇次，整体项目持续推进。
+          本次监测覆盖 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">{scope.platforms}</span> 个核心 AI 平台，针对重点监测词条 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">{scope.entries}</span> 个进行查询，追踪相关问答数据共计 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">{scope.conversations.toLocaleString()}</span> 篇次。下表对比优化前（10月9日）与 10月31日。
         </p>
       </div>
 
@@ -42,7 +44,7 @@ export default function Page_CoreDataOverview() {
               {[0, 1, 2, 3].map((i) => (
                 <React.Fragment key={i}>
                   <th className="py-2.5 px-1 text-center border-l border-zinc-200 w-[10.75%] whitespace-nowrap">{BEFORE_LABEL}</th>
-                  <th className="py-2.5 px-1 text-center border-l border-zinc-200 border-r-2 border-[#004CE5]/15 w-[10.75%] whitespace-nowrap">{SEPT_LABEL}</th>
+                  <th className="py-2.5 px-1 text-center border-l border-zinc-200 border-r-2 border-[#004CE5]/15 w-[10.75%] whitespace-nowrap">{OCT_LABEL}</th>
                 </React.Fragment>
               ))}
             </tr>
@@ -50,17 +52,17 @@ export default function Page_CoreDataOverview() {
           <tbody>
             {rows.map((row) => (
               <tr key={row.key} className="border-b border-zinc-200 bg-white hover:bg-slate-50/20 transition-colors">
-                <td className="py-[60px] px-4 border-r border-zinc-200 bg-slate-50/10 text-center font-black text-3xl text-zinc-800">
+                <td className="py-[60px] px-4 border-r border-zinc-200 bg-slate-50/10 text-center font-black text-3xl text-zinc-800 whitespace-nowrap">
                   {row.name}
                 </td>
                 <td className="py-[60px] px-2 text-center border-r border-zinc-200 text-5xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(row.before.mention_rate)}</td>
-                <td className="py-[60px] px-2 text-center border-r-2 border-[#004CE5]/15 text-5xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(row.september.mention_rate)}</td>
+                <td className="py-[60px] px-2 text-center border-r-2 border-[#004CE5]/15 text-5xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(row.october.mention_rate)}</td>
                 <td className="py-[60px] px-2 text-center border-r border-zinc-200 text-5xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(row.before.top1_mention_rate)}</td>
-                <td className="py-[60px] px-2 text-center border-r-2 border-[#004CE5]/15 text-5xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(row.september.top1_mention_rate)}</td>
+                <td className="py-[60px] px-2 text-center border-r-2 border-[#004CE5]/15 text-5xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(row.october.top1_mention_rate)}</td>
                 <td className="py-[60px] px-2 text-center border-r border-zinc-200 text-5xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(row.before.top3_mention_rate)}</td>
-                <td className="py-[60px] px-2 text-center border-r-2 border-[#004CE5]/15 text-5xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(row.september.top3_mention_rate)}</td>
+                <td className="py-[60px] px-2 text-center border-r-2 border-[#004CE5]/15 text-5xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(row.october.top3_mention_rate)}</td>
                 <td className="py-[60px] px-2 text-center border-r border-zinc-200 text-5xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">NO. {row.before.influence_rank}</td>
-                <td className="py-[60px] px-2 text-center border-r-2 border-[#004CE5]/15 text-5xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">NO. {row.september.influence_rank}</td>
+                <td className="py-[60px] px-2 text-center border-r-2 border-[#004CE5]/15 text-5xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">NO. {row.october.influence_rank}</td>
               </tr>
             ))}
           </tbody>
@@ -75,15 +77,15 @@ export default function Page_CoreDataOverview() {
           </div>
           <div className="flex-1 flex flex-col justify-evenly min-h-0">
             <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-              1. 提及率由优化前的1.9%升至6.9%，综合竞品排名由NO.43进至NO.16，是本月进位幅度最大的户外餐厨品牌之一。
+              1. 提及率由 42.1% 升至 73.7%，综合竞品排名由 NO.2 升至 NO.1。
             </p>
             <div className="h-px bg-[#004CE5]/10" />
             <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-              2. DeepSeek从7.5%升至10%；豆包、元宝、通义千问由0分别做到7.5%、5%、5%，四端均已破零，后两端仍落后。
+              2. DeepSeek 由 11.8% 升至 88.2%；豆包由 72.4% 降至 59.2%，两端还没拉齐。
             </p>
             <div className="h-px bg-[#004CE5]/10" />
             <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-              3. 40个监测词条的有效覆盖由3个增至10个；Top1提及率升至1.3%，Top3仍为1.3%，刚拿到首推，还没铺开前三。
+              3. {scope.entries} 个监测词条已覆盖 {october.covered_entries} 个。Top1 提及率由 11.8% 升至 48.7%，Top3 提及率由 29.6% 升至 60.5%。
             </p>
           </div>
         </div>
@@ -95,9 +97,9 @@ export default function Page_CoreDataOverview() {
           </div>
           <div className="flex-1 flex flex-col justify-evenly min-h-0">
             {[
-              { num: '01', title: '复制成功路径', desc: 'DeepSeek与豆包已有声量，把专业餐厨、精致露营、泛选购大词同步到元宝、通义千问，拉平四端差距。' },
-              { num: '02', title: '补齐词条覆盖', desc: '针对40个词条中尚未破零的30个补充语料，优先攻「露营厨具哪个牌子好」等仍为0的泛选购大词。' },
-              { num: '03', title: '放大首推成果', desc: 'Top1刚到1.3%，在已覆盖的10个词条里强化第一顺位表达，把曝光转化成稳定首推。' },
+              { num: '01', title: '稳住 DeepSeek', desc: 'DeepSeek 已到 88.2%。沿用知乎、抖音上已经起量的内容结构，把单日提及率守在 70% 以上。' },
+              { num: '02', title: '拉回豆包', desc: '豆包由 72.4% 降到 59.2%。把预约、自营门店类语料补到豆包，缩小和 DeepSeek 的差距。' },
+              { num: '03', title: '补齐剩余词条', desc: `还剩 ${uncovered} 个词条未覆盖，优先补自营牙科、电商口腔服务、专家预约和补牙医生。` },
             ].map((strat) => (
               <div key={strat.num} className="flex items-start gap-3">
                 <span className="text-emerald-600 font-black text-2xl shrink-0 mt-0.5 font-['Montserrat',sans-serif]">{strat.num}</span>

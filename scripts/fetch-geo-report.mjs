@@ -85,9 +85,11 @@ async function login() {
   });
   const json = await res.json();
   if (!json.ok) throw new Error(`登录失败: ${json.error}`);
-  cookie = (res.headers.getSetCookie?.() || [res.headers.get('set-cookie')])
+  const setCookies = res.headers.getSetCookie?.() || [res.headers.get('set-cookie')];
+  cookie = setCookies
     .filter(Boolean)
     .map((c) => c.split(';')[0])
+    .filter((kv) => kv.split('=')[1])
     .join('; ');
   return json.user;
 }

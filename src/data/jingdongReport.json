@@ -1,0 +1,3707 @@
+{
+  "meta": {
+    "project_id": 5195,
+    "project_name": "京东口腔 ①",
+    "product": "京东口腔 ①",
+    "target_product": "京东大健康(京东健康、京东买药、京东大药房)",
+    "brand": "京东大健康",
+    "label": "2026年10月",
+    "project_start_date": "2026-09-23",
+    "before_date": "2026-10-09",
+    "october_date": "2026-10-31",
+    "september_date": "2026-10-31",
+    "before_label": "优化前（42.1%）",
+    "october_label": "优化后（10/31）",
+    "september_label": "优化后（10/31）"
+  },
+  "kpi": {
+    "pass_line": 60,
+    "target_days": 20,
+    "project_start_date": "2026-09-23",
+    "before_date": "2026-10-09",
+    "before_mention_rate": 42.1,
+    "latest_date": "2026-10-31",
+    "latest_mention_rate": 73.7,
+    "qualified_days_count": 21,
+    "qualified_start_date": "2026-10-11",
+    "qualified_end_date": "2026-10-31",
+    "min_qualified_rate": 61.8,
+    "max_qualified_rate": 78.3,
+    "max_qualified_date": "2026-10-26",
+    "avg_qualified_rate": 72.2,
+    "range_21d_stats": {
+      "mention_rate": 72.2,
+      "top1_mention_rate": 43.4,
+      "top3_mention_rate": 58.5,
+      "influence_score": 60.7,
+      "influence_rank": 1,
+      "conversations": 3192,
+      "covered_entries": 76,
+      "platforms": [
+        {
+          "name": "DeepSeek",
+          "mention_rate": 69.5
+        },
+        {
+          "name": "豆包",
+          "mention_rate": 74.9
+        }
+      ]
+    },
+    "daily_trend": [
+      {
+        "date": "2026-10-09",
+        "mention_rate": 42.1,
+        "passed": false
+      },
+      {
+        "date": "2026-10-10",
+        "mention_rate": 40.8,
+        "passed": false
+      },
+      {
+        "date": "2026-10-11",
+        "mention_rate": 61.8,
+        "passed": true
+      },
+      {
+        "date": "2026-10-12",
+        "mention_rate": 64.5,
+        "passed": true
+      },
+      {
+        "date": "2026-10-13",
+        "mention_rate": 69.1,
+        "passed": true
+      },
+      {
+        "date": "2026-10-14",
+        "mention_rate": 67.8,
+        "passed": true
+      },
+      {
+        "date": "2026-10-15",
+        "mention_rate": 69.1,
+        "passed": true
+      },
+      {
+        "date": "2026-10-16",
+        "mention_rate": 71.7,
+        "passed": true
+      },
+      {
+        "date": "2026-10-17",
+        "mention_rate": 72.4,
+        "passed": true
+      },
+      {
+        "date": "2026-10-18",
+        "mention_rate": 70.4,
+        "passed": true
+      },
+      {
+        "date": "2026-10-19",
+        "mention_rate": 75,
+        "passed": true
+      },
+      {
+        "date": "2026-10-20",
+        "mention_rate": 74.3,
+        "passed": true
+      },
+      {
+        "date": "2026-10-21",
+        "mention_rate": 76.3,
+        "passed": true
+      },
+      {
+        "date": "2026-10-22",
+        "mention_rate": 72.4,
+        "passed": true
+      },
+      {
+        "date": "2026-10-23",
+        "mention_rate": 71.7,
+        "passed": true
+      },
+      {
+        "date": "2026-10-24",
+        "mention_rate": 74.3,
+        "passed": true
+      },
+      {
+        "date": "2026-10-25",
+        "mention_rate": 73.7,
+        "passed": true
+      },
+      {
+        "date": "2026-10-26",
+        "mention_rate": 78.3,
+        "passed": true
+      },
+      {
+        "date": "2026-10-27",
+        "mention_rate": 73,
+        "passed": true
+      },
+      {
+        "date": "2026-10-28",
+        "mention_rate": 75.7,
+        "passed": true
+      },
+      {
+        "date": "2026-10-29",
+        "mention_rate": 74.3,
+        "passed": true
+      },
+      {
+        "date": "2026-10-30",
+        "mention_rate": 77,
+        "passed": true
+      },
+      {
+        "date": "2026-10-31",
+        "mention_rate": 73.7,
+        "passed": true
+      }
+    ],
+    "all_daily": [
+      {
+        "date": "2026-09-20",
+        "mention_rate": 37.5,
+        "passed": false
+      },
+      {
+        "date": "2026-10-09",
+        "mention_rate": 42.1,
+        "passed": false
+      },
+      {
+        "date": "2026-10-10",
+        "mention_rate": 40.8,
+        "passed": false
+      },
+      {
+        "date": "2026-10-11",
+        "mention_rate": 61.8,
+        "passed": true
+      },
+      {
+        "date": "2026-10-12",
+        "mention_rate": 64.5,
+        "passed": true
+      },
+      {
+        "date": "2026-10-13",
+        "mention_rate": 69.1,
+        "passed": true
+      },
+      {
+        "date": "2026-10-14",
+        "mention_rate": 67.8,
+        "passed": true
+      },
+      {
+        "date": "2026-10-15",
+        "mention_rate": 69.1,
+        "passed": true
+      },
+      {
+        "date": "2026-10-16",
+        "mention_rate": 71.7,
+        "passed": true
+      },
+      {
+        "date": "2026-10-17",
+        "mention_rate": 72.4,
+        "passed": true
+      },
+      {
+        "date": "2026-10-18",
+        "mention_rate": 70.4,
+        "passed": true
+      },
+      {
+        "date": "2026-10-19",
+        "mention_rate": 75,
+        "passed": true
+      },
+      {
+        "date": "2026-10-20",
+        "mention_rate": 74.3,
+        "passed": true
+      },
+      {
+        "date": "2026-10-21",
+        "mention_rate": 76.3,
+        "passed": true
+      },
+      {
+        "date": "2026-10-22",
+        "mention_rate": 72.4,
+        "passed": true
+      },
+      {
+        "date": "2026-10-23",
+        "mention_rate": 71.7,
+        "passed": true
+      },
+      {
+        "date": "2026-10-24",
+        "mention_rate": 74.3,
+        "passed": true
+      },
+      {
+        "date": "2026-10-25",
+        "mention_rate": 73.7,
+        "passed": true
+      },
+      {
+        "date": "2026-10-26",
+        "mention_rate": 78.3,
+        "passed": true
+      },
+      {
+        "date": "2026-10-27",
+        "mention_rate": 73,
+        "passed": true
+      },
+      {
+        "date": "2026-10-28",
+        "mention_rate": 75.7,
+        "passed": true
+      },
+      {
+        "date": "2026-10-29",
+        "mention_rate": 74.3,
+        "passed": true
+      },
+      {
+        "date": "2026-10-30",
+        "mention_rate": 77,
+        "passed": true
+      },
+      {
+        "date": "2026-10-31",
+        "mention_rate": 73.7,
+        "passed": true
+      }
+    ]
+  },
+  "scope": {
+    "platforms": 4,
+    "platform_names": [
+      "DeepSeek",
+      "豆包",
+      "元宝",
+      "通义千问"
+    ],
+    "entries": 76,
+    "conversations": 3800,
+    "daily_conversations": 152
+  },
+  "before": {
+    "mention_rate": 42.1,
+    "top1_mention_rate": 11.8,
+    "top3_mention_rate": 29.6,
+    "influence_score": 30,
+    "influence_rank": 2,
+    "conversations": 152,
+    "covered_entries": 55,
+    "platforms": [
+      {
+        "name": "DeepSeek",
+        "mention_rate": 11.8
+      },
+      {
+        "name": "豆包",
+        "mention_rate": 72.4
+      }
+    ]
+  },
+  "october": {
+    "mention_rate": 73.7,
+    "top1_mention_rate": 48.7,
+    "top3_mention_rate": 60.5,
+    "influence_score": 63.7,
+    "influence_rank": 1,
+    "conversations": 152,
+    "covered_entries": 72,
+    "platforms": [
+      {
+        "name": "DeepSeek",
+        "mention_rate": 88.2
+      },
+      {
+        "name": "豆包",
+        "mention_rate": 59.2
+      }
+    ]
+  },
+  "september": {
+    "mention_rate": 73.7,
+    "top1_mention_rate": 48.7,
+    "top3_mention_rate": 60.5,
+    "influence_score": 63.7,
+    "influence_rank": 1,
+    "conversations": 152,
+    "covered_entries": 72,
+    "platforms": [
+      {
+        "name": "DeepSeek",
+        "mention_rate": 88.2
+      },
+      {
+        "name": "豆包",
+        "mention_rate": 59.2
+      }
+    ]
+  },
+  "compare": {
+    "mention_rate": [
+      {
+        "name": "京东大健康",
+        "value": "73.7%",
+        "isTarget": true,
+        "rank": 1
+      },
+      {
+        "name": "美团",
+        "value": "54.6%",
+        "isTarget": false,
+        "rank": 2
+      },
+      {
+        "name": "大众点评",
+        "value": "34.9%",
+        "isTarget": false,
+        "rank": 3
+      },
+      {
+        "name": "泰康拜博口腔",
+        "value": "34.2%",
+        "isTarget": false,
+        "rank": 4
+      },
+      {
+        "name": "瑞尔齿科",
+        "value": "30.3%",
+        "isTarget": false,
+        "rank": 5
+      }
+    ],
+    "top1": [
+      {
+        "name": "京东大健康",
+        "value": "48.7%",
+        "isTarget": true,
+        "rank": 1
+      },
+      {
+        "name": "美团",
+        "value": "25.7%",
+        "isTarget": false,
+        "rank": 2
+      },
+      {
+        "name": "瑞尔齿科",
+        "value": "8.6%",
+        "isTarget": false,
+        "rank": 3
+      },
+      {
+        "name": "新氧",
+        "value": "3.9%",
+        "isTarget": false,
+        "rank": 4
+      },
+      {
+        "name": "美奥口腔",
+        "value": "3.9%",
+        "isTarget": false,
+        "rank": 5
+      }
+    ],
+    "influence": [
+      {
+        "name": "京东大健康",
+        "value": "NO. 1",
+        "isTarget": true,
+        "rank": 1
+      },
+      {
+        "name": "美团",
+        "value": "NO. 2",
+        "isTarget": false,
+        "rank": 2
+      },
+      {
+        "name": "瑞尔齿科",
+        "value": "NO. 3",
+        "isTarget": false,
+        "rank": 3
+      },
+      {
+        "name": "大众点评",
+        "value": "NO. 4",
+        "isTarget": false,
+        "rank": 4
+      },
+      {
+        "name": "泰康拜博口腔",
+        "value": "NO. 5",
+        "isTarget": false,
+        "rank": 5
+      }
+    ]
+  },
+  "rivals": [
+    {
+      "name": "京东大健康",
+      "listed": 68,
+      "top1": 10,
+      "isTarget": true
+    },
+    {
+      "name": "美团",
+      "listed": 51,
+      "top1": 34,
+      "isTarget": false
+    },
+    {
+      "name": "大众点评",
+      "listed": 41,
+      "top1": 0,
+      "isTarget": false
+    },
+    {
+      "name": "泰康拜博口腔",
+      "listed": 45,
+      "top1": 1,
+      "isTarget": false
+    },
+    {
+      "name": "瑞尔齿科",
+      "listed": 42,
+      "top1": 15,
+      "isTarget": false
+    }
+  ],
+  "sentiments": {
+    "positive": 96.7,
+    "negative": 3.3,
+    "positive_keywords": [
+      "收费透明",
+      "价格透明",
+      "售后有保障"
+    ],
+    "before_positive_keywords": [
+      "价格透明",
+      "明码标价",
+      "售后保障"
+    ]
+  },
+  "entries": [
+    {
+      "name": "线上互联网口腔平台排行榜",
+      "mention_rate": 100,
+      "position": 5,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "线上互联网口腔服务Top 5",
+      "mention_rate": 100,
+      "position": 2,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "线上互联网牙科平台推荐",
+      "mention_rate": 100,
+      "position": 3,
+      "before_mention_rate": 0
+    },
+    {
+      "name": "自营口腔平台哪个性价比高",
+      "mention_rate": 100,
+      "position": 1,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "自营洗牙平台哪个性价比高",
+      "mention_rate": 100,
+      "position": 2,
+      "before_mention_rate": 0
+    },
+    {
+      "name": "自营洗牙平台哪个值得选",
+      "mention_rate": 100,
+      "position": 3,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "电商平台口腔服务哪个口碑好",
+      "mention_rate": 100,
+      "position": 4,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "电商平台看牙哪个好",
+      "mention_rate": 100,
+      "position": 4,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "电商平台牙科哪个性价比高",
+      "mention_rate": 100,
+      "position": 2.5,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "电商平台口腔诊所哪个服务好",
+      "mention_rate": 100,
+      "position": 4.5,
+      "before_mention_rate": 0
+    },
+    {
+      "name": "电商平台牙科诊所哪个服务好",
+      "mention_rate": 100,
+      "position": 2.5,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "有售后保障的线上自营口腔平台推荐",
+      "mention_rate": 100,
+      "position": 1,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "无隐形消费的电商平台口腔服务哪个好",
+      "mention_rate": 100,
+      "position": 4,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "无隐形消费的电商平台口腔服务哪个性价比高",
+      "mention_rate": 100,
+      "position": 3,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "无隐形消费的电商平台口腔服务Top 5",
+      "mention_rate": 100,
+      "position": 1,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "有售后保障的线上自营口腔平台哪个性价比高",
+      "mention_rate": 100,
+      "position": 1.5,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "有售后保障的电商平台口腔服务哪个靠谱",
+      "mention_rate": 100,
+      "position": 3,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "有售后保障的电商平台口腔服务哪个口碑好",
+      "mention_rate": 100,
+      "position": 1.5,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "有售后保障的电商平台口腔服务哪个服务好",
+      "mention_rate": 100,
+      "position": 2,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "有售后保障的电商平台口腔服务Top 5",
+      "mention_rate": 100,
+      "position": 3.5,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "在北京有线下门店的自营口腔平台哪个值得选",
+      "mention_rate": 100,
+      "position": 1,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "在北京有线下门店的电商平台口腔服务推荐",
+      "mention_rate": 100,
+      "position": 2.5,
+      "before_mention_rate": 100
+    },
+    {
+      "name": "在北京有线下门店的互联网洗牙平台哪个服务好",
+      "mention_rate": 100,
+      "position": 3.5,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "在北京有线下门店的自营口腔平台哪个靠谱",
+      "mention_rate": 100,
+      "position": 1,
+      "before_mention_rate": 0
+    },
+    {
+      "name": "在北京有线下门店的电商平台牙科哪个性价比高",
+      "mention_rate": 100,
+      "position": 2,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "在北京有线下门店的电商平台牙科诊所哪个服务好",
+      "mention_rate": 100,
+      "position": 1,
+      "before_mention_rate": 100
+    },
+    {
+      "name": "在北京有线下门店的收费透明的线上自营口腔平台哪个值得选",
+      "mention_rate": 100,
+      "position": 1.5,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "在北京有线下门店的无隐形消费的电商平台口腔服务哪个好",
+      "mention_rate": 100,
+      "position": 4.5,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "在北京有线下门店的无隐形消费的电商平台口腔服务哪个性价比高",
+      "mention_rate": 100,
+      "position": 2.5,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "在北京有线下门店的无隐形消费的电商平台口腔服务Top 5",
+      "mention_rate": 100,
+      "position": 2,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "在北京有线下门店的有售后保障的线上自营口腔平台推荐",
+      "mention_rate": 100,
+      "position": 3,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个靠谱",
+      "mention_rate": 100,
+      "position": 1.5,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个口碑好",
+      "mention_rate": 100,
+      "position": 2,
+      "before_mention_rate": 100
+    },
+    {
+      "name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个服务好",
+      "mention_rate": 100,
+      "position": 1,
+      "before_mention_rate": 100
+    },
+    {
+      "name": "在北京有线下门店的有售后保障的电商平台口腔服务Top 5",
+      "mention_rate": 100,
+      "position": 1,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "京东口腔隐形正畸哪个医生好",
+      "mention_rate": 100,
+      "position": 1,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "京东口腔成人正畸推荐哪个医生",
+      "mention_rate": 100,
+      "position": 2,
+      "before_mention_rate": 100
+    },
+    {
+      "name": "京东口腔吴沂蓁医生怎么样",
+      "mention_rate": 100,
+      "position": 1,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "京东口腔王威医生怎么样",
+      "mention_rate": 100,
+      "position": 1,
+      "before_mention_rate": 100
+    },
+    {
+      "name": "京东口腔郭力嘉医生怎么样",
+      "mention_rate": 100,
+      "position": 1,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "线上互联网口腔平台哪个口碑好",
+      "mention_rate": 50,
+      "position": 5,
+      "before_mention_rate": 0
+    },
+    {
+      "name": "线上互联网口腔服务哪个靠谱",
+      "mention_rate": 50,
+      "position": 6,
+      "before_mention_rate": 0
+    },
+    {
+      "name": "线上互联网洗牙平台哪个服务好",
+      "mention_rate": 50,
+      "position": 3.5,
+      "before_mention_rate": 0
+    },
+    {
+      "name": "自营口腔平台哪个靠谱",
+      "mention_rate": 50,
+      "position": 2.5,
+      "before_mention_rate": 0
+    },
+    {
+      "name": "自营口腔平台哪个服务好",
+      "mention_rate": 50,
+      "position": 3,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "自营口腔平台哪个值得选",
+      "mention_rate": 50,
+      "position": 4,
+      "before_mention_rate": 0
+    },
+    {
+      "name": "自营牙科平台哪个性价比高",
+      "mention_rate": 50,
+      "position": 5.5,
+      "before_mention_rate": 0
+    },
+    {
+      "name": "收费透明的线上自营口腔平台哪个值得选",
+      "mention_rate": 50,
+      "position": 4.5,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "无隐形消费的线上自营口腔平台哪个靠谱",
+      "mention_rate": 50,
+      "position": 2.5,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "收费透明的电商平台口腔服务哪个值得选",
+      "mention_rate": 50,
+      "position": 3.5,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "有售后保障的互联网口腔平台哪个专业",
+      "mention_rate": 50,
+      "position": 4.5,
+      "before_mention_rate": 0
+    },
+    {
+      "name": "在北京有线下门店的自营口腔平台哪个服务好",
+      "mention_rate": 50,
+      "position": 3.5,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "在北京有线下门店的电商平台口腔服务哪个口碑好",
+      "mention_rate": 50,
+      "position": 3,
+      "before_mention_rate": 100
+    },
+    {
+      "name": "在北京有线下门店的互联网口腔平台哪个口碑好",
+      "mention_rate": 50,
+      "position": 3.5,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "在北京有线下门店的互联网口腔平台排行榜",
+      "mention_rate": 50,
+      "position": 5.5,
+      "before_mention_rate": 0
+    },
+    {
+      "name": "在北京有线下门店的互联网口腔服务哪个靠谱",
+      "mention_rate": 50,
+      "position": 4,
+      "before_mention_rate": 0
+    },
+    {
+      "name": "在北京有线下门店的互联网口腔服务Top 5",
+      "mention_rate": 50,
+      "position": 4.5,
+      "before_mention_rate": 0
+    },
+    {
+      "name": "在北京有线下门店的互联网牙科平台推荐",
+      "mention_rate": 50,
+      "position": 5.5,
+      "before_mention_rate": 0
+    },
+    {
+      "name": "在北京有线下门店的自营口腔平台哪个性价比高",
+      "mention_rate": 50,
+      "position": 4.5,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "在北京有线下门店的自营洗牙平台哪个性价比高",
+      "mention_rate": 50,
+      "position": 4.5,
+      "before_mention_rate": 0
+    },
+    {
+      "name": "在北京有线下门店的自营洗牙平台哪个值得选",
+      "mention_rate": 50,
+      "position": 4,
+      "before_mention_rate": 0
+    },
+    {
+      "name": "在北京有线下门店的自营牙科平台哪个好",
+      "mention_rate": 50,
+      "position": 3.5,
+      "before_mention_rate": 0
+    },
+    {
+      "name": "在北京有线下门店的自营牙科平台哪个性价比高",
+      "mention_rate": 50,
+      "position": 3.5,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "在北京有线下门店的电商平台看牙哪个好",
+      "mention_rate": 50,
+      "position": 5.5,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "在北京有线下门店的电商平台口腔诊所哪个服务好",
+      "mention_rate": 50,
+      "position": 4.5,
+      "before_mention_rate": 100
+    },
+    {
+      "name": "在北京有线下门店的无隐形消费的线上自营口腔平台哪个靠谱",
+      "mention_rate": 50,
+      "position": 4.5,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "在北京有线下门店的收费透明的电商平台口腔服务哪个值得选",
+      "mention_rate": 50,
+      "position": 5,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "在北京有线下门店的有售后保障的线上自营口腔平台哪个性价比高",
+      "mention_rate": 50,
+      "position": 3,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "在北京有线下门店的有售后保障的互联网口腔平台哪个专业",
+      "mention_rate": 50,
+      "position": 4.5,
+      "before_mention_rate": 100
+    },
+    {
+      "name": "线上找口腔医生的平台推荐",
+      "mention_rate": 50,
+      "position": 4,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "种植牙医生预约平台推荐",
+      "mention_rate": 50,
+      "position": 5,
+      "before_mention_rate": 0
+    },
+    {
+      "name": "京东口腔种植牙医生推荐哪个",
+      "mention_rate": 50,
+      "position": 1,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "自营牙科平台哪个好",
+      "mention_rate": 0,
+      "position": null,
+      "before_mention_rate": 0
+    },
+    {
+      "name": "电商平台口腔服务推荐",
+      "mention_rate": 0,
+      "position": null,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "可以预约口腔专家的平台推荐",
+      "mention_rate": 0,
+      "position": null,
+      "before_mention_rate": 0
+    },
+    {
+      "name": "京东口腔哪个医生擅长补牙",
+      "mention_rate": 0,
+      "position": null,
+      "before_mention_rate": 50
+    }
+  ],
+  "citations": {
+    "before": {
+      "citation_rate": 96.7,
+      "total_citations": 2754,
+      "platform_stats": [
+        {
+          "platform_name": "抖音精选",
+          "domain": "iesdouyin.com",
+          "logo_url": "https://app.geoindexfuture.com/site-icons/iesdouyin.com-jingxuan.png",
+          "citation_count": 453,
+          "share": 16.4
+        },
+        {
+          "platform_name": "知乎",
+          "domain": "zhihu.com",
+          "logo_url": "https://static.zhihu.com/heifetz/favicon.ico",
+          "citation_count": 155,
+          "share": 5.6
+        },
+        {
+          "platform_name": "新浪",
+          "domain": "sina.com.cn",
+          "logo_url": "https://app.geoindexfuture.com/site-icons/sina.com.cn.ico",
+          "citation_count": 78,
+          "share": 2.8
+        },
+        {
+          "platform_name": "首都医科大学附属北京口腔医院",
+          "domain": "dentist.org.cn",
+          "logo_url": "https://app.geoindexfuture.com/site-icons/dentist.org.cn.png",
+          "citation_count": 74,
+          "share": 2.7
+        },
+        {
+          "platform_name": "百度百科",
+          "domain": "baike.baidu.com",
+          "logo_url": "https://app.geoindexfuture.com/site-icons/baike.baidu.com.png",
+          "citation_count": 71,
+          "share": 2.6
+        }
+      ]
+    },
+    "october": {
+      "citation_rate": 72.4,
+      "total_citations": 1540,
+      "platform_stats": [
+        {
+          "platform_name": "知乎",
+          "domain": "zhihu.com",
+          "logo_url": "https://static.zhihu.com/heifetz/favicon.ico",
+          "citation_count": 259,
+          "share": 16.8
+        },
+        {
+          "platform_name": "抖音精选",
+          "domain": "iesdouyin.com",
+          "logo_url": "https://app.geoindexfuture.com/site-icons/iesdouyin.com-jingxuan.png",
+          "citation_count": 160,
+          "share": 10.4
+        },
+        {
+          "platform_name": "新浪",
+          "domain": "sina.com.cn",
+          "logo_url": "https://app.geoindexfuture.com/site-icons/sina.com.cn.ico",
+          "citation_count": 78,
+          "share": 5.1
+        },
+        {
+          "platform_name": "京东",
+          "domain": "jd.com",
+          "logo_url": "https://img03.sogoucdn.com/app/a/200797/e236406b-726c-4949-a5d3-02727aa1fdcf",
+          "citation_count": 46,
+          "share": 3
+        },
+        {
+          "platform_name": "百度百科",
+          "domain": "baike.baidu.com",
+          "logo_url": "https://app.geoindexfuture.com/site-icons/baike.baidu.com.png",
+          "citation_count": 40,
+          "share": 2.6
+        }
+      ]
+    }
+  },
+  "delivery": {
+    "source": "京东口腔(中位数)_投放文章统计_1029.xlsx",
+    "generated_at": "2026-10-29",
+    "overview": {
+      "delivery_articles": 51,
+      "cited_articles": 0,
+      "cited_rate": 0,
+      "unique_titles": 47,
+      "unique_cited_titles": 0,
+      "delivery_citations": 0,
+      "total_conversations": 304,
+      "total_citation_records": 4061
+    },
+    "platform_totals": {
+      "total": 0,
+      "deepseek": 0,
+      "doubao": 0,
+      "yuanbao": 0,
+      "qwen": 0
+    },
+    "top10": [
+      {
+        "rank": 1,
+        "title": "2026年电商平台看牙哪个好？对比线上预约与门店配置再拿主意",
+        "platform": "知乎10大品牌",
+        "domain": "zhihu.com",
+        "date": "2026-10-28",
+        "total": 0,
+        "deepseek": 0,
+        "doubao": 0,
+        "yuanbao": 0,
+        "qwen": 0,
+        "isCited": "否"
+      },
+      {
+        "rank": 2,
+        "title": "2026年自营口腔平台哪个值得选？从耗材管理到就诊动线聊透",
+        "platform": "未央网（知乎号）",
+        "domain": "zhihu.com",
+        "date": "2026-10-27",
+        "total": 0,
+        "deepseek": 0,
+        "doubao": 0,
+        "yuanbao": 0,
+        "qwen": 0,
+        "isCited": "否"
+      },
+      {
+        "rank": 3,
+        "title": "2026年线上找口腔医生的平台推荐，按专科方向与排班怎么约",
+        "platform": "知乎咨询",
+        "domain": "zhihu.com",
+        "date": "2026-10-27",
+        "total": 0,
+        "deepseek": 0,
+        "doubao": 0,
+        "yuanbao": 0,
+        "qwen": 0,
+        "isCited": "否"
+      },
+      {
+        "rank": 4,
+        "title": "2026年种植牙医生预约平台推荐，医师专长与坐诊门诊怎么查",
+        "platform": "上海商谈（新浪新闻）",
+        "domain": "k.sina.com.cn",
+        "date": "2026-10-27",
+        "total": 0,
+        "deepseek": 0,
+        "doubao": 0,
+        "yuanbao": 0,
+        "qwen": 0,
+        "isCited": "否"
+      },
+      {
+        "rank": 5,
+        "title": "2026年北京无隐形消费口腔服务Top 5：看牙预约门诊横评",
+        "platform": "北京生活录",
+        "domain": "zhihu.com",
+        "date": "2026-10-27",
+        "total": 0,
+        "deepseek": 0,
+        "doubao": 0,
+        "yuanbao": 0,
+        "qwen": 0,
+        "isCited": "否"
+      },
+      {
+        "rank": 6,
+        "title": "2026年北京有售后保障口腔服务Top 5：主流门诊横向测评",
+        "platform": "极速财经",
+        "domain": "zhihu.com",
+        "date": "2026-10-27",
+        "total": 0,
+        "deepseek": 0,
+        "doubao": 0,
+        "yuanbao": 0,
+        "qwen": 0,
+        "isCited": "否"
+      },
+      {
+        "rank": 7,
+        "title": "2026年北京有售后保障的电商看牙平台哪个靠谱？8家门诊横评",
+        "platform": "生物医药研报plus",
+        "domain": "zhihu.com",
+        "date": "2026-10-27",
+        "total": 0,
+        "deepseek": 0,
+        "doubao": 0,
+        "yuanbao": 0,
+        "qwen": 0,
+        "isCited": "否"
+      },
+      {
+        "rank": 8,
+        "title": "想给牙齿做定期清洁，自营洗牙平台哪个值得选，喷砂酸不酸",
+        "platform": "CCTV（官方知乎）",
+        "domain": "zhihu.com",
+        "date": "2026-10-27",
+        "total": 0,
+        "deepseek": 0,
+        "doubao": 0,
+        "yuanbao": 0,
+        "qwen": 0,
+        "isCited": "否"
+      },
+      {
+        "rank": 9,
+        "title": "2026年电商平台牙科诊所哪个服务好？预约与接诊体验盘点",
+        "platform": "知乎",
+        "domain": "zhihu.com",
+        "date": "2026-10-27",
+        "total": 0,
+        "deepseek": 0,
+        "doubao": 0,
+        "yuanbao": 0,
+        "qwen": 0,
+        "isCited": "否"
+      },
+      {
+        "rank": 10,
+        "title": "2026年有售后保障的线上自营口腔平台推荐，质保条款怎么看",
+        "platform": "知乎专栏",
+        "domain": "zhihu.com",
+        "date": "2026-10-27",
+        "total": 0,
+        "deepseek": 0,
+        "doubao": 0,
+        "yuanbao": 0,
+        "qwen": 0,
+        "isCited": "否"
+      }
+    ],
+    "top_channels": [
+      {
+        "channel": "中国医药卫生网",
+        "articles": 4,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "39健康网（官方）",
+        "articles": 4,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "医学界",
+        "articles": 3,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "上海商谈（新浪新闻）",
+        "articles": 2,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "知乎",
+        "articles": 2,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "知乎专栏",
+        "articles": 2,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "知乎生活（优）",
+        "articles": 2,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "寻医问药网（官方）",
+        "articles": 2,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "知乎10大品牌",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "未央网（知乎号）",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "知乎咨询",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "北京生活录",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "极速财经",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "生物医药研报plus",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "CCTV（官方知乎）",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "一财网（搜狐新闻）",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "家庭医生快讯",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "健康周刊",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "大健康信息网",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "百信健康网",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "知乎专栏(商业新地图)",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "知乎专栏(互联网科技资讯)",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "知乎专栏(知乎健康)",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "知乎专栏(省心消费精选馆)",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "知乎专栏(智能时代播报)",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "搜狐健康栏目",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "新浪爱问医生",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "抖音（健康每日谈）",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "抖音（宁阳广播电视台综合频道）",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "抖音（健康知讯）",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "抖音（抢先见闻）",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "抖音（健康新视角）",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "生命时报",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "知乎健康（优）",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "健康时报",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "今日头条客户端（可发医疗）",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "腾讯新闻客户端（可发医疗）",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "腾讯新闻（可发医疗）",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      }
+    ],
+    "domain_stats": [
+      {
+        "channel": "知乎",
+        "articles": 24,
+        "cited": 0,
+        "citations": 0
+      },
+      {
+        "channel": "抖音",
+        "articles": 5,
+        "cited": 0,
+        "citations": 0
+      },
+      {
+        "channel": "中国医药卫生网",
+        "articles": 4,
+        "cited": 0,
+        "citations": 0
+      },
+      {
+        "channel": "39健康网",
+        "articles": 4,
+        "cited": 0,
+        "citations": 0
+      },
+      {
+        "channel": "医学界",
+        "articles": 3,
+        "cited": 0,
+        "citations": 0
+      },
+      {
+        "channel": "新浪",
+        "articles": 2,
+        "cited": 0,
+        "citations": 0
+      },
+      {
+        "channel": "寻医问药网",
+        "articles": 2,
+        "cited": 0,
+        "citations": 0
+      },
+      {
+        "channel": "微信公众号",
+        "articles": 2,
+        "cited": 0,
+        "citations": 0
+      },
+      {
+        "channel": "搜狐",
+        "articles": 1,
+        "cited": 0,
+        "citations": 0
+      },
+      {
+        "channel": "百家号",
+        "articles": 1,
+        "cited": 0,
+        "citations": 0
+      },
+      {
+        "channel": "东方财富",
+        "articles": 1,
+        "cited": 0,
+        "citations": 0
+      },
+      {
+        "channel": "健康时报",
+        "articles": 1,
+        "cited": 0,
+        "citations": 0
+      },
+      {
+        "channel": "今日头条",
+        "articles": 1,
+        "cited": 0,
+        "citations": 0
+      }
+    ]
+  },
+  "platform_entries": {
+    "1": [
+      {
+        "entry_name": "线上互联网口腔平台排行榜",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/4a2d4cedb72644379798f2ae77746efc.png"
+      },
+      {
+        "entry_name": "线上互联网口腔服务Top 5",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/1d283819579a4a3399634ff4fd7ef78d.png"
+      },
+      {
+        "entry_name": "线上互联网牙科平台推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/b6563af820824f6b8e4cce5055fc2db8.png"
+      },
+      {
+        "entry_name": "线上互联网洗牙平台哪个服务好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/2e72d770e7a542e5a60615589cdec681.png"
+      },
+      {
+        "entry_name": "自营口腔平台哪个靠谱",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/12a50e8ff05c4d51a8dc672f8db545e5.png"
+      },
+      {
+        "entry_name": "自营口腔平台哪个服务好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/e34339ecb4904816a258d6b2815d7ca6.png"
+      },
+      {
+        "entry_name": "自营口腔平台哪个性价比高",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/13933af6bbc741f8a9fc6a756eed20f7.png"
+      },
+      {
+        "entry_name": "自营口腔平台哪个值得选",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/fff8f0a6ba264aaca9fb7023c2af176a.png"
+      },
+      {
+        "entry_name": "自营洗牙平台哪个性价比高",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/e665d1e00f9e4da4b6d345fd8b8ce0e0.png"
+      },
+      {
+        "entry_name": "自营洗牙平台哪个值得选",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/f38637685c9d46f9be00502b1eaf774a.png"
+      },
+      {
+        "entry_name": "自营牙科平台哪个性价比高",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/7773039008084e958c5f9d20f2542ac8.png"
+      },
+      {
+        "entry_name": "电商平台口腔服务哪个口碑好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a352f0f2943f4e57a8d9efbdaf02ba52.png"
+      },
+      {
+        "entry_name": "电商平台看牙哪个好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/d0bc6b85f34242f99c37328ce92fe6b2.png"
+      },
+      {
+        "entry_name": "电商平台牙科哪个性价比高",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/211efeffcc2344e1921119218bc35d0c.png"
+      },
+      {
+        "entry_name": "电商平台口腔诊所哪个服务好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/3c8bc1cbaba149d9a42187d8a72b6dc2.png"
+      },
+      {
+        "entry_name": "电商平台牙科诊所哪个服务好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/f3b4ace89337439d9f4282cf9cfa43fe.png"
+      },
+      {
+        "entry_name": "收费透明的线上自营口腔平台哪个值得选",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a638e262e3234f278fa8289f9c1af0f7.png"
+      },
+      {
+        "entry_name": "无隐形消费的线上自营口腔平台哪个靠谱",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/94474ce96f7a4af79d2bd4877fbe4554.png"
+      },
+      {
+        "entry_name": "收费透明的电商平台口腔服务哪个值得选",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/da3d2b55368c44b9821875b4d4e21e86.png"
+      },
+      {
+        "entry_name": "有售后保障的线上自营口腔平台推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/6b4b6b5af84a4a4986d6acc4568cc7c0.png"
+      },
+      {
+        "entry_name": "无隐形消费的电商平台口腔服务哪个好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/2a27374b7f0d4f22a1bdb4fa9dd57440.png"
+      },
+      {
+        "entry_name": "无隐形消费的电商平台口腔服务哪个性价比高",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/0fc5d38ea0da406e929e7511e80491f6.png"
+      },
+      {
+        "entry_name": "无隐形消费的电商平台口腔服务Top 5",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/4c27bcb8e7924272afb9cd75d633b844.png"
+      },
+      {
+        "entry_name": "有售后保障的线上自营口腔平台哪个性价比高",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/03f15782d47a41ca83ab0eeb30d53f9b.png"
+      },
+      {
+        "entry_name": "有售后保障的互联网口腔平台哪个专业",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/014bd0de86ef46d397aadf7f950b9a55.png"
+      },
+      {
+        "entry_name": "有售后保障的电商平台口腔服务哪个靠谱",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/f02a370369764600a3769b18536383e3.png"
+      },
+      {
+        "entry_name": "有售后保障的电商平台口腔服务哪个口碑好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/4441db437b4a465eafe596b83489bf8e.png"
+      },
+      {
+        "entry_name": "有售后保障的电商平台口腔服务哪个服务好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/04035215a4584c8e86bcf9cb5ac711f7.png"
+      },
+      {
+        "entry_name": "有售后保障的电商平台口腔服务Top 5",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/ed3ce9510bcc4d409bf9465f549d7753.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的自营口腔平台哪个服务好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/f9399efc3f6142248adf01efcaedeca1.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的自营口腔平台哪个值得选",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/bef27f96f59846d09b0848780925a120.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的电商平台口腔服务推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/62aa69fb05bc4cb7880b2ba6b5b1f850.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的电商平台口腔服务哪个口碑好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/e2c14b3538a1480ca9f60d1d5d964870.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的互联网口腔平台哪个口碑好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/0a106c9f544940d9b75ad56a7cdcb991.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的互联网口腔平台排行榜",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/84678e09c9514132a79436af73d92d77.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的互联网口腔服务哪个靠谱",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/75970c1431c64d86966f190e6e43a2c5.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的互联网口腔服务Top 5",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/b283e693490044e4a5f88c9239a3f6c1.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的互联网牙科平台推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/efbdecc905004f2eb73a38982ad7b12e.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的互联网洗牙平台哪个服务好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/010134cf53f440c784f9e19410aef82a.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的自营口腔平台哪个靠谱",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/46157e6d6d9e4984b25fd039b16f4eef.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的自营口腔平台哪个性价比高",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/065c32b3d23f45b2ac0f581698dd544b.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的自营洗牙平台哪个性价比高",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/4fed25323ae44ea8973a8477ace96166.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的自营洗牙平台哪个值得选",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/ea74678d1bb049b784adf4535f407faf.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的自营牙科平台哪个好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/2895171532ff4d23ae1566db43684786.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的自营牙科平台哪个性价比高",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/df9662582e3242b0b69fe53508b2e7ea.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的电商平台看牙哪个好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/75d562a50c654e3ea68bf7c76fe4d494.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的电商平台牙科哪个性价比高",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/e95e92628c244e50b0132d398b231042.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的电商平台口腔诊所哪个服务好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/6aff0c2809c04de1a71265da552dfbcd.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的电商平台牙科诊所哪个服务好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/35dbc48005c04bc0a122434621ce6b91.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的收费透明的线上自营口腔平台哪个值得选",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/d5c42d9881f540b4b2539c138d5c3d0f.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的无隐形消费的线上自营口腔平台哪个靠谱",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/63b8b37133f04bc6b40863c5095c4611.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的收费透明的电商平台口腔服务哪个值得选",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/8b751d7fc9204c96aecdd6829914f401.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的无隐形消费的电商平台口腔服务哪个好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/1f97121a8238443ca4bb71345bd8ef42.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的无隐形消费的电商平台口腔服务哪个性价比高",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a081d24224b047249c5a2a2993e29ada.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的无隐形消费的电商平台口腔服务Top 5",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/8e06f23fa53140be8624a761714ef777.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的有售后保障的线上自营口腔平台推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/83e64cb4399344bc8231b53817716c43.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的有售后保障的线上自营口腔平台哪个性价比高",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/e68c37b5a9234777a572334ed3785d19.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的有售后保障的互联网口腔平台哪个专业",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/8bc07279201a4e55b32b53b87f408ad5.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个靠谱",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/c38f500d6877410a93edc7dc0828f7fd.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个口碑好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/1c34da1b320b4140a73dc49095bfd919.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个服务好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/856e5f49a09d49eca5b9d085126bf0fb.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务Top 5",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/bbf830ce1da24e99a4772fdb269170d1.png"
+      },
+      {
+        "entry_name": "京东口腔隐形正畸哪个医生好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/05e5b034c4bc4af0bc97fb7977929ff5.png"
+      },
+      {
+        "entry_name": "京东口腔成人正畸推荐哪个医生",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/64811e0732ee4fd8addcb6bbcb3c355a.png"
+      },
+      {
+        "entry_name": "京东口腔吴沂蓁医生怎么样",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/f79b0c6646614cbabe69038a6e951c04.png"
+      },
+      {
+        "entry_name": "京东口腔王威医生怎么样",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/16c624c2f4484cf5a2d116fe0bae90ad.png"
+      },
+      {
+        "entry_name": "京东口腔郭力嘉医生怎么样",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/2124dda7a8304e5b81633e0715d50418.png"
+      },
+      {
+        "entry_name": "线上互联网口腔平台哪个口碑好",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/4f7df462eabb4237bb5572515286b94a.png"
+      },
+      {
+        "entry_name": "线上互联网口腔服务哪个靠谱",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/92b2758b4764460abc19fb6b8d2f8bc9.png"
+      },
+      {
+        "entry_name": "自营牙科平台哪个好",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/4e4a11300289432e8472493d037267ca.png"
+      },
+      {
+        "entry_name": "电商平台口腔服务推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a63eb5e8b4294b8f9a0d672dcc099114.png"
+      },
+      {
+        "entry_name": "线上找口腔医生的平台推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/80323f76595a4fde89b5b2e6a96a449b.png"
+      },
+      {
+        "entry_name": "可以预约口腔专家的平台推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/efe8c6147ef043369cb57f8d8b4cc6ea.png"
+      },
+      {
+        "entry_name": "种植牙医生预约平台推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/1205e3c80c224a279da47baf65a162fe.png"
+      },
+      {
+        "entry_name": "京东口腔种植牙医生推荐哪个",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/e012afeb3e4e43ca8702ea029432315d.png"
+      },
+      {
+        "entry_name": "京东口腔哪个医生擅长补牙",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/802642b20b4546c1a074e2cea516f19d.png"
+      }
+    ],
+    "2": [
+      {
+        "entry_name": "线上互联网口腔平台哪个口碑好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/5ef23336c26842b8b0e5e32a2fcdacd5.png"
+      },
+      {
+        "entry_name": "线上互联网口腔平台排行榜",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/b1de44d5b30a47cea05f64b7e72b3649.png"
+      },
+      {
+        "entry_name": "线上互联网口腔服务哪个靠谱",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/032c38654fc049b0b85add2af3146f79.png"
+      },
+      {
+        "entry_name": "线上互联网口腔服务Top 5",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/22211131f7ee457da5b7b5374a2f42b3.png"
+      },
+      {
+        "entry_name": "线上互联网牙科平台推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/f88dbb24ce7a482b9e15707f4cea6bd6.png"
+      },
+      {
+        "entry_name": "自营口腔平台哪个性价比高",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/09d5663aa5e74155a61649c478a73045.png"
+      },
+      {
+        "entry_name": "自营洗牙平台哪个性价比高",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/70a92871306f47ceb81b98643f5736bb.png"
+      },
+      {
+        "entry_name": "自营洗牙平台哪个值得选",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/d9ea86d191204ba48195d7371f4deb24.png"
+      },
+      {
+        "entry_name": "电商平台口腔服务哪个口碑好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/37f9bc4fe1204986b68932ae9f265bcd.png"
+      },
+      {
+        "entry_name": "电商平台看牙哪个好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/172a7cceeff64e6fbf25f6d9d535d223.png"
+      },
+      {
+        "entry_name": "电商平台牙科哪个性价比高",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/7da4c35f723f48979fe373452b071d84.png"
+      },
+      {
+        "entry_name": "电商平台口腔诊所哪个服务好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a33a2caec640406786b964980e0bac01.png"
+      },
+      {
+        "entry_name": "电商平台牙科诊所哪个服务好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/2d42e704dce64255bbcaeb1b54d20055.png"
+      },
+      {
+        "entry_name": "有售后保障的线上自营口腔平台推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/7ad6483d735f4067acf7156ee5ad65b6.png"
+      },
+      {
+        "entry_name": "无隐形消费的电商平台口腔服务哪个好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/89d471db3fad492c8a378cc4067f5139.png"
+      },
+      {
+        "entry_name": "无隐形消费的电商平台口腔服务哪个性价比高",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/5c2ca475c51f4fa5a28556ba330f73d6.png"
+      },
+      {
+        "entry_name": "无隐形消费的电商平台口腔服务Top 5",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/7d0c209b347d432ca9eba10361cb0cb4.png"
+      },
+      {
+        "entry_name": "有售后保障的线上自营口腔平台哪个性价比高",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/085149f1a97e42288bd11967b857c170.png"
+      },
+      {
+        "entry_name": "有售后保障的电商平台口腔服务哪个靠谱",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/138b0bc9db2c45388d0baac260eacf2a.png"
+      },
+      {
+        "entry_name": "有售后保障的电商平台口腔服务哪个口碑好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/58ad91d1828a46b8b0bf1e652cdf3169.png"
+      },
+      {
+        "entry_name": "有售后保障的电商平台口腔服务哪个服务好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/3a3dc4b1a41f40679f0605d052119c84.png"
+      },
+      {
+        "entry_name": "有售后保障的电商平台口腔服务Top 5",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/811a1b0030c249058542bcad83ccece4.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的自营口腔平台哪个值得选",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/42949f0818e64ec2845cbca7ec43804e.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的电商平台口腔服务推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a38733faed494e72ac60b1b93256a3e1.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的互联网洗牙平台哪个服务好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/8e4e06676b984e47aa8c83cd41d7006f.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的自营口腔平台哪个靠谱",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/1f8752060dc648d5850e77761a0544f2.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的电商平台牙科哪个性价比高",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/fc22ed8a3341409298c1afe4bbdf18aa.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的电商平台牙科诊所哪个服务好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/1245458b6ee44f2b977b8652883d0ad0.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的收费透明的线上自营口腔平台哪个值得选",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/63d5964318d14bdb90804ec06bba3a07.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的无隐形消费的电商平台口腔服务哪个好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/93c269ac4d6949f597c702b7e57a9b49.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的无隐形消费的电商平台口腔服务哪个性价比高",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a9139ad1ca1840f2afbf0b103f3cac74.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的无隐形消费的电商平台口腔服务Top 5",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/c1337d3233a44ecaaf6351c58c02c94a.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的有售后保障的线上自营口腔平台推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/7a1c1bccfadc4146a0c8c2513e52c1d9.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个靠谱",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/ee79035335554967a7654ec3892089c2.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个口碑好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/9e08027902694b5d9bba20023faf1619.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个服务好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/6b37cfc003954933b6e6a2f359c5f105.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务Top 5",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/c0fd10e2d3b8467c89b598c08b932853.png"
+      },
+      {
+        "entry_name": "线上找口腔医生的平台推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/5254b94a6dd14d58a9039f3d5948ec22.png"
+      },
+      {
+        "entry_name": "种植牙医生预约平台推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/53141adb2e2c45d4853ba72ceeaa4f2d.png"
+      },
+      {
+        "entry_name": "京东口腔种植牙医生推荐哪个",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/821d939b89ec400899797cee1127318f.png"
+      },
+      {
+        "entry_name": "京东口腔隐形正畸哪个医生好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/0cfb507609384597bfef80536773f61f.png"
+      },
+      {
+        "entry_name": "京东口腔成人正畸推荐哪个医生",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a5bd5bc92a98421c82d5cb34ff705f97.png"
+      },
+      {
+        "entry_name": "京东口腔吴沂蓁医生怎么样",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/832aa15e587e4258878df3239c56d4d7.png"
+      },
+      {
+        "entry_name": "京东口腔王威医生怎么样",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/903164c1c3f4461ba7883a442e8a6148.png"
+      },
+      {
+        "entry_name": "京东口腔郭力嘉医生怎么样",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/6fd7494521734c1abb180987e416cbfe.png"
+      },
+      {
+        "entry_name": "线上互联网洗牙平台哪个服务好",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/20f142cdc7f3496b91ab508b15eb5466.png"
+      },
+      {
+        "entry_name": "自营口腔平台哪个靠谱",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/0a12656f78994ca7a14c07cdcb40ab2f.png"
+      },
+      {
+        "entry_name": "自营口腔平台哪个服务好",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/8dff440a47084d9e9134fe98bd589ad1.png"
+      },
+      {
+        "entry_name": "自营口腔平台哪个值得选",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a1b57605f9eb4357972533e9f7e972c0.png"
+      },
+      {
+        "entry_name": "自营牙科平台哪个好",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/58e34963bbb94d6da7a37f188bd8f3ff.png"
+      },
+      {
+        "entry_name": "自营牙科平台哪个性价比高",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a0fcd62699024f99a4fa61ed0d084692.png"
+      },
+      {
+        "entry_name": "收费透明的线上自营口腔平台哪个值得选",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/c4fcf78b9faa49b5bd63cc5b841dd668.png"
+      },
+      {
+        "entry_name": "无隐形消费的线上自营口腔平台哪个靠谱",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/9302a8698b3346b3ba89131963b37254.png"
+      },
+      {
+        "entry_name": "收费透明的电商平台口腔服务哪个值得选",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/63679e8876d14baab41248e4ebb301ae.png"
+      },
+      {
+        "entry_name": "有售后保障的互联网口腔平台哪个专业",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/0f25c9c3615f441489932872ea2f0c55.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的自营口腔平台哪个服务好",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/84adf8ca3d534a4cbabbe669496763c9.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的电商平台口腔服务哪个口碑好",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a1b09b19fac24736a43353e092808c54.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的互联网口腔平台哪个口碑好",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/53d40ec84454441fb22d269ce127b9d8.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的互联网口腔平台排行榜",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/102a0465138d43118169f4287e4617da.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的互联网口腔服务哪个靠谱",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/853bc68ab29343aeb70333dc38f1bee8.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的互联网口腔服务Top 5",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a79d308c7c9443cf8de67609ba524bae.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的互联网牙科平台推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/82d07ddb85c2492094603b034f15c46f.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的自营口腔平台哪个性价比高",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/59746a94263c400e804b953d09f638ca.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的自营洗牙平台哪个性价比高",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/5670058072354f478cd14b20920072cb.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的自营洗牙平台哪个值得选",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/f1fa8147b9ba429898bce9469eec6001.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的自营牙科平台哪个好",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/ae71455901ef4ecb8cb8a53ff11dd605.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的自营牙科平台哪个性价比高",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/5bffa250658a439184fcf329a1d8c548.png"
+      },
+      {
+        "entry_name": "电商平台口腔服务推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/51de4b2807814857b925ee2071735530.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的电商平台看牙哪个好",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/db90ac52bf3e443bb5bee606c6c502ac.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的电商平台口腔诊所哪个服务好",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/363978d6acdb45aa9287d4b6a912bc56.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的无隐形消费的线上自营口腔平台哪个靠谱",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/d239d832163546b9bf99de5b95bd0753.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的收费透明的电商平台口腔服务哪个值得选",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/ce8d348c835741b3ad632564451e98e2.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的有售后保障的线上自营口腔平台哪个性价比高",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/6e45e65b550249de9e93252fd0e2e1a4.png"
+      },
+      {
+        "entry_name": "在北京有线下门店的有售后保障的互联网口腔平台哪个专业",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/f55f60c7551a4145a8265b7416577be2.png"
+      },
+      {
+        "entry_name": "可以预约口腔专家的平台推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/ec9ec70673fb4fbf81d6903dcf8f2210.png"
+      },
+      {
+        "entry_name": "京东口腔哪个医生擅长补牙",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/2688989541c849d0afbaa497a64cdc77.png"
+      }
+    ],
+    "3": [
+      {
+        "entry_name": "线上互联网口腔平台哪个口碑好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "线上互联网口腔平台排行榜",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "线上互联网口腔服务哪个靠谱",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "线上互联网口腔服务Top 5",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "线上互联网牙科平台推荐",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "线上互联网洗牙平台哪个服务好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "自营口腔平台哪个靠谱",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "自营口腔平台哪个服务好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "自营口腔平台哪个性价比高",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "自营口腔平台哪个值得选",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "自营洗牙平台哪个性价比高",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "自营洗牙平台哪个值得选",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "自营牙科平台哪个好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "自营牙科平台哪个性价比高",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "电商平台口腔服务哪个口碑好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "电商平台看牙哪个好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "电商平台牙科哪个性价比高",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "电商平台口腔诊所哪个服务好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "电商平台牙科诊所哪个服务好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "收费透明的线上自营口腔平台哪个值得选",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "无隐形消费的线上自营口腔平台哪个靠谱",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "收费透明的电商平台口腔服务哪个值得选",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "有售后保障的线上自营口腔平台推荐",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "无隐形消费的电商平台口腔服务哪个好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "无隐形消费的电商平台口腔服务哪个性价比高",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "无隐形消费的电商平台口腔服务Top 5",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "有售后保障的线上自营口腔平台哪个性价比高",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "有售后保障的互联网口腔平台哪个专业",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "有售后保障的电商平台口腔服务哪个靠谱",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "有售后保障的电商平台口腔服务哪个口碑好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "有售后保障的电商平台口腔服务哪个服务好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "有售后保障的电商平台口腔服务Top 5",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的自营口腔平台哪个服务好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的自营口腔平台哪个值得选",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的电商平台口腔服务推荐",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的电商平台口腔服务哪个口碑好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的互联网口腔平台哪个口碑好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的互联网口腔平台排行榜",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的互联网口腔服务哪个靠谱",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的互联网口腔服务Top 5",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的互联网牙科平台推荐",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的互联网洗牙平台哪个服务好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的自营口腔平台哪个靠谱",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的自营口腔平台哪个性价比高",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的自营洗牙平台哪个性价比高",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的自营洗牙平台哪个值得选",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的自营牙科平台哪个好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的自营牙科平台哪个性价比高",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "电商平台口腔服务推荐",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的电商平台看牙哪个好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的电商平台牙科哪个性价比高",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的电商平台口腔诊所哪个服务好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的电商平台牙科诊所哪个服务好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的收费透明的线上自营口腔平台哪个值得选",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的无隐形消费的线上自营口腔平台哪个靠谱",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的收费透明的电商平台口腔服务哪个值得选",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的无隐形消费的电商平台口腔服务哪个好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的无隐形消费的电商平台口腔服务哪个性价比高",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的无隐形消费的电商平台口腔服务Top 5",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的有售后保障的线上自营口腔平台推荐",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的有售后保障的线上自营口腔平台哪个性价比高",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的有售后保障的互联网口腔平台哪个专业",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个靠谱",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个口碑好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个服务好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务Top 5",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "线上找口腔医生的平台推荐",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "可以预约口腔专家的平台推荐",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "种植牙医生预约平台推荐",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "京东口腔种植牙医生推荐哪个",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "京东口腔隐形正畸哪个医生好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "京东口腔成人正畸推荐哪个医生",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "京东口腔哪个医生擅长补牙",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "京东口腔吴沂蓁医生怎么样",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "京东口腔王威医生怎么样",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "京东口腔郭力嘉医生怎么样",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      }
+    ],
+    "5": [
+      {
+        "entry_name": "线上互联网口腔平台哪个口碑好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "线上互联网口腔平台排行榜",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "线上互联网口腔服务哪个靠谱",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "线上互联网口腔服务Top 5",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "线上互联网牙科平台推荐",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "线上互联网洗牙平台哪个服务好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "自营口腔平台哪个靠谱",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "自营口腔平台哪个服务好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "自营口腔平台哪个性价比高",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "自营口腔平台哪个值得选",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "自营洗牙平台哪个性价比高",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "自营洗牙平台哪个值得选",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "自营牙科平台哪个好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "自营牙科平台哪个性价比高",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "电商平台口腔服务哪个口碑好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "电商平台看牙哪个好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "电商平台牙科哪个性价比高",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "电商平台口腔诊所哪个服务好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "电商平台牙科诊所哪个服务好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "收费透明的线上自营口腔平台哪个值得选",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "无隐形消费的线上自营口腔平台哪个靠谱",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "收费透明的电商平台口腔服务哪个值得选",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "有售后保障的线上自营口腔平台推荐",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "无隐形消费的电商平台口腔服务哪个好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "无隐形消费的电商平台口腔服务哪个性价比高",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "无隐形消费的电商平台口腔服务Top 5",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "有售后保障的线上自营口腔平台哪个性价比高",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "有售后保障的互联网口腔平台哪个专业",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "有售后保障的电商平台口腔服务哪个靠谱",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "有售后保障的电商平台口腔服务哪个口碑好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "有售后保障的电商平台口腔服务哪个服务好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "有售后保障的电商平台口腔服务Top 5",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的自营口腔平台哪个服务好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的自营口腔平台哪个值得选",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的电商平台口腔服务推荐",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的电商平台口腔服务哪个口碑好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的互联网口腔平台哪个口碑好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的互联网口腔平台排行榜",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的互联网口腔服务哪个靠谱",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的互联网口腔服务Top 5",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的互联网牙科平台推荐",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的互联网洗牙平台哪个服务好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的自营口腔平台哪个靠谱",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的自营口腔平台哪个性价比高",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的自营洗牙平台哪个性价比高",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的自营洗牙平台哪个值得选",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的自营牙科平台哪个好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的自营牙科平台哪个性价比高",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "电商平台口腔服务推荐",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的电商平台看牙哪个好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的电商平台牙科哪个性价比高",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的电商平台口腔诊所哪个服务好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的电商平台牙科诊所哪个服务好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的收费透明的线上自营口腔平台哪个值得选",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的无隐形消费的线上自营口腔平台哪个靠谱",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的收费透明的电商平台口腔服务哪个值得选",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的无隐形消费的电商平台口腔服务哪个好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的无隐形消费的电商平台口腔服务哪个性价比高",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的无隐形消费的电商平台口腔服务Top 5",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的有售后保障的线上自营口腔平台推荐",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的有售后保障的线上自营口腔平台哪个性价比高",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的有售后保障的互联网口腔平台哪个专业",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个靠谱",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个口碑好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个服务好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务Top 5",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "线上找口腔医生的平台推荐",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "可以预约口腔专家的平台推荐",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "种植牙医生预约平台推荐",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "京东口腔种植牙医生推荐哪个",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "京东口腔隐形正畸哪个医生好",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "京东口腔成人正畸推荐哪个医生",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "京东口腔哪个医生擅长补牙",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "京东口腔吴沂蓁医生怎么样",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "京东口腔王威医生怎么样",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      },
+      {
+        "entry_name": "京东口腔郭力嘉医生怎么样",
+        "mention_rate": "--",
+        "top1_mention_rate": "--",
+        "last_conversation_time": "--",
+        "last_screenshot_url": null
+      }
+    ]
+  },
+  "platforms": [
+    {
+      "id": 1,
+      "name": "DeepSeek",
+      "url": "https://app.geoindexfuture.com/logo/deepseek.png"
+    },
+    {
+      "id": 2,
+      "name": "豆包",
+      "url": "https://app.geoindexfuture.com/logo/doubao.png"
+    },
+    {
+      "id": 3,
+      "name": "元宝",
+      "url": "https://app.geoindexfuture.com/logo/yuanbao.png"
+    },
+    {
+      "id": 5,
+      "name": "通义千问",
+      "url": "https://app.geoindexfuture.com/logo/qwen.png"
+    }
+  ]
+}
