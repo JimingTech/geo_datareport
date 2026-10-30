@@ -55,28 +55,24 @@ export default function Page_QueryDataSystemLink({
       <div className="flex items-center justify-between p-1 mb-1.5 shrink-0 text-[13px] font-medium text-zinc-500">
         <div className="flex items-center gap-3">
           <div className="flex items-center gap-1.5 bg-white border border-zinc-200/80 rounded-md px-3 py-1.5 shadow-[0_1px_2px_rgba(0,0,0,0.02)]">
-            <span className="text-zinc-400 text-xs">📅</span>
             <span>日期</span>
             <span className="text-zinc-400 text-[10px] ml-1">{report.meta.october_date.slice(5)}</span>
             <span className="text-zinc-300 text-[9px] ml-1">▼</span>
           </div>
 
           <div className="flex items-center gap-1.5 bg-white border border-zinc-200/80 rounded-md px-3 py-1.5 shadow-[0_1px_2px_rgba(0,0,0,0.02)]">
-            <span className="text-zinc-400 text-xs">🤖</span>
             <span>平台</span>
             <span className="text-zinc-800 font-bold ml-1">{platformName}</span>
             <span className="text-zinc-300 text-[9px] ml-1">▼</span>
           </div>
 
           <div className="flex items-center gap-1.5 bg-white border border-zinc-200/80 rounded-md px-3 py-1.5 shadow-[0_1px_2px_rgba(0,0,0,0.02)]">
-            <span className="text-zinc-400 text-xs">📝</span>
             <span>词条</span>
             <span className="text-zinc-400 text-[10px] ml-1">全部</span>
             <span className="text-zinc-300 text-[9px] ml-1">▼</span>
           </div>
 
           <div className="flex items-center gap-1.5 bg-[#f0f4ff] border border-[#dbe4ff] rounded-md px-3 py-1.5 text-[#004CE5] font-extrabold text-[12px] shadow-sm ml-1">
-            <span className="text-[#004CE5] text-xs">❖</span>
             <span>目标产品 | {product.full}</span>
           </div>
         </div>
@@ -89,7 +85,7 @@ export default function Page_QueryDataSystemLink({
             </div>
           </div>
           <button type="button" className="border border-zinc-200 bg-white rounded-md px-3 py-1.5 shadow-sm text-zinc-650 flex items-center gap-1">
-            ⚙ 管理列
+            管理列
           </button>
         </div>
       </div>
@@ -99,16 +95,16 @@ export default function Page_QueryDataSystemLink({
           <table className="w-full text-left border-collapse table-fixed">
             <thead>
               <tr className="bg-white border-b border-zinc-150 text-[13px] font-extrabold text-zinc-400">
-                <th className="py-1.5 px-3 w-[5%] text-center">
+                <th className="py-1.5 px-3 w-[4%] text-center">
                   <div className="w-3.5 h-3.5 rounded-full border border-zinc-300 bg-white mx-auto" />
                 </th>
-                <th className="py-1.5 px-2 w-[6%] text-center">序号</th>
-                <th className="py-1.5 px-4 w-[36%] text-left font-black text-zinc-500">词条</th>
-                <th className="py-1.5 px-3 w-[12%] text-center font-black text-zinc-500">提及率 ↓</th>
-                <th className="py-1.5 px-3 w-[16%] text-center font-black text-zinc-500 whitespace-nowrap">top1提及率</th>
-                <th className="py-1.5 px-3 w-[12%] text-center font-black text-zinc-500">监测平台</th>
-                <th className="py-1.5 px-3 w-[11%] text-center font-black text-zinc-500">会话截图</th>
-                <th className="py-1.5 px-4 w-[12%] text-center font-black text-zinc-500">最近更新时间</th>
+                <th className="py-1.5 px-2 w-[5%] text-center">序号</th>
+                <th className="py-1.5 px-4 w-[38%] text-left font-black text-zinc-500">词条</th>
+                <th className="py-1.5 px-3 w-[11%] text-center font-black text-zinc-500">提及率 ↓</th>
+                <th className="py-1.5 px-3 w-[14%] text-center font-black text-zinc-500 whitespace-nowrap">top1提及率</th>
+                <th className="py-1.5 px-3 w-[9%] text-center font-black text-zinc-500">监测平台</th>
+                <th className="py-1.5 px-3 w-[9%] text-center font-black text-zinc-500">会话截图</th>
+                <th className="py-1.5 px-4 w-[10%] text-center font-black text-zinc-500">最近更新时间</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-zinc-100 text-[13px] font-medium text-zinc-650">

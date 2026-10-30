@@ -40,6 +40,9 @@ export default defineConfig({
     port: 7649,
     strictPort: true,
     allowedHosts: true,
+    watch: {
+      ignored: ['**/*.pptx'],
+    },
   },
   preview: {
     host: true,

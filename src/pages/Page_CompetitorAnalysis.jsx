@@ -140,7 +140,7 @@ export default function Page_CompetitorAnalysis() {
             </h2>
             <div className="flex-grow rounded-2xl bg-[#004CE5]/[0.015] border border-[#004CE5]/15 p-5 flex flex-col justify-evenly min-h-0">
               {[
-                { num: '01', title: '压制美团团购心智', desc: '针对洗牙、补牙、团购比价类词条，突出京东自营口腔「价格透明、无隐形消费、售后保障」差异化优势，持续扩大对美团的领先身位。' },
+                { num: '01', title: '压制美团团购心智', desc: '针对洗牙、补牙、团购比价类词条，突出京东自营口腔「价格透明、无隐形消费、售后保障」差异化优势，持续扩大对美团的领先优势。' },
                 { num: '02', title: '拦截线下连锁对比', desc: '在对比瑞尔齿科、泰康拜博口腔、劲松口腔的横评语料中，强化京东健康线上预约+北京线下自营门诊的一体化闭环体验。' },
                 { num: '03', title: '深化专科项目首推', desc: '在种植牙、正畸、儿童齿科及专家预约等高客单价词条中加密首推语料，将 Top1 提及率稳定在 50% 以上。' },
               ].map((strat, idx) => (

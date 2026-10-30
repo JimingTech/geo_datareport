@@ -1,5 +1,4 @@
 import React from 'react';
-import Page_CoreDataOverview from '../pages/Page_CoreDataOverview';
 import Page_KpiAcceptance from '../pages/Page_KpiAcceptance';
 import Page_CompetitorAnalysis from '../pages/Page_CompetitorAnalysis';
 import Page_ContentDetails from '../pages/Page_ContentDetails';
@@ -46,9 +45,8 @@ export const slideConfig = [
     serviceGuide: 'GEO DATA REPORT',
   },
 
-  { type: 'chapter', title: '核心数据与竞品分析', subtitle: 'DATA OVERVIEW & COMPETITOR ANALYSIS', backgroundImage: '' },
-  { type: 'section', title: '核心数据与达标情况' },
-  { type: 'page', title: '核心数据总览', component: Page_CoreDataOverview },
+  { type: 'chapter', title: 'KPI 达标与竞品分析', subtitle: 'KPI ACCEPTANCE & COMPETITOR ANALYSIS', backgroundImage: '' },
+  { type: 'section', title: 'KPI 达标验收情况' },
   { type: 'page', title: 'KPI 达标验收情况', component: Page_KpiAcceptance },
   { type: 'section', title: '竞品分析' },
   { type: 'page', title: '京东口腔① 竞品分析', component: Page_CompetitorAnalysis },

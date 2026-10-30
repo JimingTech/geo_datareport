@@ -4,6 +4,7 @@ import report from '../data/jingdongReport.json';
 const { overview: ov, platform_totals: plat, top10, generated_at, domain_stats: domains } = report.delivery;
 const [year, month, day] = generated_at.split('-');
 const sourceDate = `${year}/${Number(month)}/${Number(day)}`;
+const hasMorePlatforms = (plat.yuanbao || 0) > 0 || (plat.qwen || 0) > 0;
 
 const channelLead = domains
   .slice()
@@ -78,28 +79,41 @@ export default function Page_ContentDetails() {
               <span className="text-sm font-extrabold text-zinc-400 uppercase tracking-widest font-['Montserrat']">EFFECTIVE CITATIONS</span>
             </div>
             <div className="flex items-baseline gap-1 mt-1">
-              <span className="text-6xl font-black text-zinc-900 font-['Montserrat',sans-serif]">{plat.total}</span>
+              <span className="text-6xl font-black text-zinc-900 font-['Montserrat',sans-serif]">{plat.total.toLocaleString()}</span>
               <span className="text-2xl font-black text-zinc-800 ml-1">次</span>
             </div>
-            <div className="text-[1.12rem] font-bold text-zinc-500">TOP 10 文章累计引用频次</div>
-            <div className="grid grid-cols-2 gap-x-4 gap-y-1 mt-1.5">
-              <span className="text-[1rem] font-bold text-zinc-500 flex items-center gap-1.5">
-                <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
-                DeepSeek：<strong className="text-zinc-800 font-['Montserrat']">{plat.deepseek}</strong>
-              </span>
-              <span className="text-[1rem] font-bold text-zinc-500 flex items-center gap-1.5">
-                <span className="w-1.5 h-1.5 rounded-full bg-blue-500" />
-                豆包：<strong className="text-zinc-800 font-['Montserrat']">{plat.doubao}</strong>
-              </span>
-              <span className="text-[1rem] font-bold text-zinc-500 flex items-center gap-1.5">
-                <span className="w-1.5 h-1.5 rounded-full bg-amber-500" />
-                元宝：<strong className="text-zinc-800 font-['Montserrat']">{plat.yuanbao}</strong>
-              </span>
-              <span className="text-[1rem] font-bold text-zinc-500 flex items-center gap-1.5">
-                <span className="w-1.5 h-1.5 rounded-full bg-violet-500" />
-                通义千问：<strong className="text-zinc-800 font-['Montserrat']">{plat.qwen}</strong>
-              </span>
-            </div>
+            <div className="text-[1.12rem] font-bold text-zinc-500">全量投放文章累计被引用总频次</div>
+            {hasMorePlatforms ? (
+              <div className="grid grid-cols-2 gap-x-4 gap-y-1 mt-1.5">
+                <span className="text-[1rem] font-bold text-zinc-500 flex items-center gap-1.5">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
+                  DeepSeek：<strong className="text-zinc-800 font-['Montserrat']">{plat.deepseek.toLocaleString()}</strong>
+                </span>
+                <span className="text-[1rem] font-bold text-zinc-500 flex items-center gap-1.5">
+                  <span className="w-1.5 h-1.5 rounded-full bg-blue-500" />
+                  豆包：<strong className="text-zinc-800 font-['Montserrat']">{plat.doubao.toLocaleString()}</strong>
+                </span>
+                <span className="text-[1rem] font-bold text-zinc-500 flex items-center gap-1.5">
+                  <span className="w-1.5 h-1.5 rounded-full bg-amber-500" />
+                  元宝：<strong className="text-zinc-800 font-['Montserrat']">{plat.yuanbao.toLocaleString()}</strong>
+                </span>
+                <span className="text-[1rem] font-bold text-zinc-500 flex items-center gap-1.5">
+                  <span className="w-1.5 h-1.5 rounded-full bg-violet-500" />
+                  通义千问：<strong className="text-zinc-800 font-['Montserrat']">{plat.qwen.toLocaleString()}</strong>
+                </span>
+              </div>
+            ) : (
+              <div className="flex items-center gap-8 mt-1.5">
+                <span className="text-[1.05rem] font-bold text-zinc-500 flex items-center gap-2">
+                  <span className="w-2 h-2 rounded-full bg-emerald-500" />
+                  DeepSeek：<strong className="text-zinc-900 font-black font-['Montserrat'] text-xl">{plat.deepseek.toLocaleString()}</strong> 次
+                </span>
+                <span className="text-[1.05rem] font-bold text-zinc-500 flex items-center gap-2">
+                  <span className="w-2 h-2 rounded-full bg-blue-500" />
+                  豆包：<strong className="text-zinc-900 font-black font-['Montserrat'] text-xl">{plat.doubao.toLocaleString()}</strong> 次
+                </span>
+              </div>
+            )}
           </div>
         </div>
 
@@ -115,15 +129,15 @@ export default function Page_ContentDetails() {
                 <thead>
                   <tr className="bg-slate-50/50 border-b border-zinc-200 text-[0.92rem] font-extrabold text-zinc-700">
                     <th className="py-1.5 px-3 w-[5%] text-center">排序</th>
-                    <th className="py-1.5 px-3 w-[36%]">文章标题</th>
-                    <th className="py-1.5 px-3 w-[14%]">发布渠道</th>
-                    <th className="py-1.5 px-3 w-[9%] text-center">发布时间</th>
-                    <th className="py-1.5 px-3 w-[7%] text-center">总引用数</th>
-                    <th className="py-1.5 px-3 w-[7%] text-center">DeepSeek</th>
-                    <th className="py-1.5 px-3 w-[6%] text-center">豆包</th>
-                    <th className="py-1.5 px-3 w-[6%] text-center">元宝</th>
-                    <th className="py-1.5 px-3 w-[6%] text-center">通义</th>
-                    <th className="py-1.5 px-3 w-[4%] text-center">是否被引</th>
+                    <th className={`py-1.5 px-3 ${hasMorePlatforms ? 'w-[36%]' : 'w-[43%]'}`}>文章标题</th>
+                    <th className={`py-1.5 px-3 ${hasMorePlatforms ? 'w-[14%]' : 'w-[18%]'}`}>发布渠道</th>
+                    <th className={`py-1.5 px-3 ${hasMorePlatforms ? 'w-[9%]' : 'w-[10%]'} text-center`}>发布时间</th>
+                    <th className={`py-1.5 px-3 ${hasMorePlatforms ? 'w-[7%]' : 'w-[8%]'} text-center`}>总引用数</th>
+                    <th className={`py-1.5 px-3 ${hasMorePlatforms ? 'w-[7%]' : 'w-[8%]'} text-center`}>DeepSeek</th>
+                    <th className={`py-1.5 px-3 ${hasMorePlatforms ? 'w-[6%]' : 'w-[8%]'} text-center`}>豆包</th>
+                    {hasMorePlatforms && <th className="py-1.5 px-3 w-[6%] text-center">元宝</th>}
+                    {hasMorePlatforms && <th className="py-1.5 px-3 w-[6%] text-center">通义</th>}
+                    <th className={`py-1.5 px-3 ${hasMorePlatforms ? 'w-[4%]' : 'w-[5%]'} text-center`}>是否被引</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-zinc-100 text-[0.95rem] font-bold text-zinc-750">
@@ -132,11 +146,11 @@ export default function Page_ContentDetails() {
                     <td className="py-1.5 px-3 text-[1rem]">【全量 {ov.delivery_articles} 篇总计】</td>
                     <td className="py-1.5 px-3 text-zinc-400">—</td>
                     <td className="py-1.5 px-3 text-zinc-400 text-center">—</td>
-                    <td className="py-1.5 px-3 text-base font-black text-center text-[#004CE5] font-['Montserrat',sans-serif]">{plat.total}</td>
-                    <td className="py-1.5 px-3 text-[0.95rem] font-black text-center text-zinc-800 font-['Montserrat',sans-serif]">{plat.deepseek}</td>
-                    <td className="py-1.5 px-3 text-[0.95rem] font-black text-center text-zinc-800 font-['Montserrat',sans-serif]">{plat.doubao}</td>
-                    <td className="py-1.5 px-3 text-[0.95rem] font-black text-center text-zinc-800 font-['Montserrat',sans-serif]">{plat.yuanbao}</td>
-                    <td className="py-1.5 px-3 text-[0.95rem] font-black text-center text-zinc-800 font-['Montserrat',sans-serif]">{plat.qwen}</td>
+                    <td className="py-1.5 px-3 text-base font-black text-center text-[#004CE5] font-['Montserrat',sans-serif]">{plat.total.toLocaleString()}</td>
+                    <td className="py-1.5 px-3 text-[0.95rem] font-black text-center text-zinc-800 font-['Montserrat',sans-serif]">{plat.deepseek.toLocaleString()}</td>
+                    <td className="py-1.5 px-3 text-[0.95rem] font-black text-center text-zinc-800 font-['Montserrat',sans-serif]">{plat.doubao.toLocaleString()}</td>
+                    {hasMorePlatforms && <td className="py-1.5 px-3 text-[0.95rem] font-black text-center text-zinc-800 font-['Montserrat',sans-serif]">{plat.yuanbao.toLocaleString()}</td>}
+                    {hasMorePlatforms && <td className="py-1.5 px-3 text-[0.95rem] font-black text-center text-zinc-800 font-['Montserrat',sans-serif]">{plat.qwen.toLocaleString()}</td>}
                     <td className="py-1.5 px-3 text-[0.95rem] font-black text-center text-emerald-600 font-['Montserrat',sans-serif]">{ov.cited_articles}/{ov.delivery_articles}</td>
                   </tr>
 
@@ -146,17 +160,17 @@ export default function Page_ContentDetails() {
                       <td className="py-2 px-3 text-[0.95rem] font-bold text-zinc-900 truncate max-w-0" title={row.title}>{row.title}</td>
                       <td className="py-2 px-3 text-[0.9rem] font-black text-zinc-800 truncate max-w-0" title={row.platform}>{row.platform}</td>
                       <td className="py-2 px-3 text-[0.9rem] font-extrabold text-zinc-400 font-['Montserrat',sans-serif] text-center">{row.date}</td>
-                      <td className="py-2 px-3 text-base font-black text-center text-[#004CE5] font-['Montserrat',sans-serif]">{row.total}</td>
-                      <td className="py-2 px-3 text-[0.9rem] font-extrabold text-center text-zinc-700 font-['Montserrat',sans-serif]">{row.deepseek}</td>
-                      <td className="py-2 px-3 text-[0.9rem] font-extrabold text-center text-zinc-700 font-['Montserrat',sans-serif]">{row.doubao}</td>
-                      <td className="py-2 px-3 text-[0.9rem] font-extrabold text-center text-zinc-700 font-['Montserrat',sans-serif]">{row.yuanbao}</td>
-                      <td className="py-2 px-3 text-[0.9rem] font-extrabold text-center text-zinc-700 font-['Montserrat',sans-serif]">{row.qwen}</td>
+                      <td className="py-2 px-3 text-base font-black text-center text-[#004CE5] font-['Montserrat',sans-serif]">{row.total.toLocaleString()}</td>
+                      <td className="py-2 px-3 text-[0.9rem] font-extrabold text-center text-zinc-700 font-['Montserrat',sans-serif]">{row.deepseek.toLocaleString()}</td>
+                      <td className="py-2 px-3 text-[0.9rem] font-extrabold text-center text-zinc-700 font-['Montserrat',sans-serif]">{row.doubao.toLocaleString()}</td>
+                      {hasMorePlatforms && <td className="py-2 px-3 text-[0.9rem] font-extrabold text-center text-zinc-700 font-['Montserrat',sans-serif]">{row.yuanbao.toLocaleString()}</td>}
+                      {hasMorePlatforms && <td className="py-2 px-3 text-[0.9rem] font-extrabold text-center text-zinc-700 font-['Montserrat',sans-serif]">{row.qwen.toLocaleString()}</td>}
                       <td className={`py-2 px-3 text-[0.9rem] font-black text-center ${row.isCited === '是' ? 'text-emerald-600' : 'text-zinc-300'}`}>{row.isCited}</td>
                     </tr>
                   ))}
 
                   <tr className="bg-white">
-                    <td colSpan={10} className="py-2.5 text-center text-zinc-400 font-black text-xl tracking-widest leading-none select-none border-t border-zinc-200 bg-slate-50/20">
+                    <td colSpan={hasMorePlatforms ? 10 : 8} className="py-2.5 text-center text-zinc-400 font-black text-xl tracking-widest leading-none select-none border-t border-zinc-200 bg-slate-50/20">
                       •••
                     </td>
                   </tr>

@@ -6,7 +6,7 @@
  *   · 项目开始时间 = 2026-09-23
  *   · 优化前基准 = 2026-10-09（提及率 42.1%，Top1 11.8%，Top3 29.6%，竞品排名 NO.2）
  *   · 优化后最新 = 2026-10-31（提及率 73.7%，Top1 48.7%，Top3 60.5%，竞品排名 NO.1）
- *   · 达标要求 = 20天提及率达到60%以上（10/11~10/31 连续 21 天全部 ≥60%，已超额达成）
+ *   · 达标要求 = 任意 20 天提及率达到 60% 以上（不必连续；10/11~10/31 共 21 天全部 ≥60%，已超额达成）
  */
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 import path from 'path';
@@ -117,28 +117,51 @@ let delivery = null;
 const jdExcelPath = path.join(root, 'scripts/_excel_dump_jingdong.json');
 if (existsSync(jdExcelPath)) {
   const excel = read('scripts/_excel_dump_jingdong.json');
-  const overviewSheet = excel['数据概览'];
-  const detailSheet = excel['文章引用明细'].slice(1).filter((r) => Number.isFinite(Number(r[0])) && r[0] !== '');
-  const channelSheet = excel['平台与渠道分析'].slice(1);
+  const overviewSheet = excel['数据概览'] || [];
+  const header = excel['文章引用明细']?.[0] || [];
+  const detailSheet = (excel['文章引用明细'] || [])
+    .slice(1)
+    .filter((r) => Number.isInteger(Number(r[0])) && Number(r[0]) > 0 && r[1] !== '【汇总】');
+  const channelSheet = (excel['平台与渠道分析'] || []).slice(1);
+
+  const colIdx = {
+    rank: header.findIndex((h) => String(h).includes('排名')),
+    title: header.findIndex((h) => String(h).includes('标题')),
+    platform: header.findIndex((h) => String(h).includes('发布平台') || String(h).includes('渠道')),
+    domain: header.findIndex((h) => String(h).includes('域名')),
+    date: header.findIndex((h) => String(h).includes('时间')),
+    total: header.findIndex((h) => String(h).includes('总引用')),
+    deepseek: header.findIndex((h) => /deepseek/i.test(String(h))),
+    doubao: header.findIndex((h) => /豆包/i.test(String(h))),
+    yuanbao: header.findIndex((h) => /元宝/i.test(String(h))),
+    qwen: header.findIndex((h) => /通义|千问|qwen/i.test(String(h))),
+    isCited: header.findIndex((h) => String(h).includes('是否被引用')),
+    url: header.findIndex((h) => String(h).includes('文章链接') || (String(h).includes('链接') && !String(h).includes('域名'))),
+  };
+
+  const getCol = (r, idx, fallbackIdx, defVal = '') => (idx >= 0 ? r[idx] : (fallbackIdx >= 0 ? r[fallbackIdx] : defVal));
+  const sumCol = (idx) => (idx >= 0 ? detailSheet.reduce((acc, r) => acc + (Number(r[idx]) || 0), 0) : 0);
+
   const cell = (row, col) => overviewSheet[row - 1]?.[col];
   const totalConversations = cell(6, 1);
   const totalCitationRecords = cell(6, 4);
-  const deliveryCitations = cell(10, 1);
-  const deliveryArticles = cell(14, 1);
-  const citedArticles = cell(14, 4);
-  const sum = (idx) => detailSheet.reduce((acc, r) => acc + (Number(r[idx]) || 0), 0);
+  const deliveryCitations = cell(10, 1) ?? sumCol(colIdx.total);
+  const deliveryArticles = cell(14, 1) ?? detailSheet.length;
+  const citedArticles = cell(14, 4) ?? detailSheet.filter((r) => getCol(r, colIdx.isCited, 8) === '是').length;
+
   const top10 = detailSheet.slice(0, 10).map((r) => ({
-    rank: r[0],
-    title: r[1],
-    platform: r[2],
-    domain: r[3],
-    date: r[4],
-    total: Number(r[5]) || 0,
-    deepseek: Number(r[6]) || 0,
-    doubao: Number(r[7]) || 0,
-    yuanbao: Number(r[8]) || 0,
-    qwen: Number(r[9]) || 0,
-    isCited: r[10],
+    rank: getCol(r, colIdx.rank, 0),
+    title: getCol(r, colIdx.title, 1),
+    platform: getCol(r, colIdx.platform, 2),
+    domain: getCol(r, colIdx.domain, 3),
+    date: getCol(r, colIdx.date, 4),
+    total: Number(getCol(r, colIdx.total, 5, 0)) || 0,
+    deepseek: colIdx.deepseek >= 0 ? (Number(r[colIdx.deepseek]) || 0) : 0,
+    doubao: colIdx.doubao >= 0 ? (Number(r[colIdx.doubao]) || 0) : 0,
+    yuanbao: colIdx.yuanbao >= 0 ? (Number(r[colIdx.yuanbao]) || 0) : 0,
+    qwen: colIdx.qwen >= 0 ? (Number(r[colIdx.qwen]) || 0) : 0,
+    isCited: getCol(r, colIdx.isCited, 8, '否') === '是' ? '是' : '否',
+    url: getCol(r, colIdx.url, 9, ''),
   }));
   const DOMAIN_NAMES = {
     'mp.weixin.qq.com': '微信公众号',
@@ -163,11 +186,13 @@ if (existsSync(jdExcelPath)) {
   };
   const byDomain = new Map();
   for (const r of detailSheet) {
-    const name = DOMAIN_NAMES[r[3]] || r[2] || r[3];
+    const domainVal = getCol(r, colIdx.domain, 3);
+    const platVal = getCol(r, colIdx.platform, 2);
+    const name = DOMAIN_NAMES[domainVal] || platVal || domainVal;
     const acc = byDomain.get(name) || { channel: name, articles: 0, cited: 0, citations: 0 };
     acc.articles += 1;
-    if (r[10] === '是') acc.cited += 1;
-    acc.citations += Number(r[5]) || 0;
+    if (getCol(r, colIdx.isCited, 8) === '是') acc.cited += 1;
+    acc.citations += Number(getCol(r, colIdx.total, 5, 0)) || 0;
     byDomain.set(name, acc);
   }
   const domainStats = [...byDomain.values()].sort((a, b) => b.citations - a.citations || b.articles - a.articles);
@@ -183,7 +208,7 @@ if (existsSync(jdExcelPath)) {
     }));
 
   delivery = {
-    source: '京东口腔(中位数)_投放文章统计_1029.xlsx',
+    source: '京东口腔①（中位数）_投放文章统计_1029.xlsx',
     generated_at: excel['数据概览']?.[2]?.[1]?.match(/生成时间：(\d{4})\/(\d{1,2})\/(\d{1,2})/)
       ? `${RegExp.$1}-${String(RegExp.$2).padStart(2, '0')}-${String(RegExp.$3).padStart(2, '0')}`
       : '2026-10-29',
@@ -191,18 +216,18 @@ if (existsSync(jdExcelPath)) {
       delivery_articles: deliveryArticles,
       cited_articles: citedArticles,
       cited_rate: Number(((citedArticles / deliveryArticles) * 100).toFixed(1)),
-      unique_titles: new Set(detailSheet.map((r) => r[1])).size,
-      unique_cited_titles: new Set(detailSheet.filter((r) => r[10] === '是').map((r) => r[1])).size,
+      unique_titles: new Set(detailSheet.map((r) => getCol(r, colIdx.title, 1))).size,
+      unique_cited_titles: new Set(detailSheet.filter((r) => getCol(r, colIdx.isCited, 8) === '是').map((r) => getCol(r, colIdx.title, 1))).size,
       delivery_citations: deliveryCitations,
       total_conversations: totalConversations,
       total_citation_records: totalCitationRecords,
     },
     platform_totals: {
-      total: sum(5),
-      deepseek: sum(6),
-      doubao: sum(7),
-      yuanbao: sum(8),
-      qwen: sum(9),
+      total: sumCol(colIdx.total),
+      deepseek: sumCol(colIdx.deepseek),
+      doubao: sumCol(colIdx.doubao),
+      yuanbao: sumCol(colIdx.yuanbao),
+      qwen: sumCol(colIdx.qwen),
     },
     top10,
     top_channels: topChannels,
@@ -294,8 +319,8 @@ const report = {
     all_daily: allDaily,
   },
   scope: {
-    platforms: extra.platforms.length,
-    platform_names: extra.platforms.map((p) => p.name),
+    platforms: october.stats.platform_stats?.length || 2,
+    platform_names: (october.stats.platform_stats || []).map((p) => p.platform_name),
     entries: october.entries.total,
     conversations: full.influence.total_conversations,
     daily_conversations: october.influence.total_conversations,

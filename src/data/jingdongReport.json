@@ -289,12 +289,10 @@
     ]
   },
   "scope": {
-    "platforms": 4,
+    "platforms": 2,
     "platform_names": [
       "DeepSeek",
-      "豆包",
-      "元宝",
-      "通义千问"
+      "豆包"
     ],
     "entries": 76,
     "conversations": 3800,
@@ -1044,158 +1042,266 @@
     }
   },
   "delivery": {
-    "source": "京东口腔(中位数)_投放文章统计_1029.xlsx",
+    "source": "京东口腔①（中位数）_投放文章统计_1029.xlsx",
     "generated_at": "2026-10-29",
     "overview": {
       "delivery_articles": 51,
-      "cited_articles": 0,
-      "cited_rate": 0,
+      "cited_articles": 15,
+      "cited_rate": 29.4,
       "unique_titles": 47,
-      "unique_cited_titles": 0,
-      "delivery_citations": 0,
-      "total_conversations": 304,
-      "total_citation_records": 4061
+      "unique_cited_titles": 15,
+      "delivery_citations": 8331,
+      "total_conversations": 6688,
+      "total_citation_records": 83172
     },
     "platform_totals": {
-      "total": 0,
-      "deepseek": 0,
-      "doubao": 0,
+      "total": 8331,
+      "deepseek": 6883,
+      "doubao": 1448,
       "yuanbao": 0,
       "qwen": 0
     },
     "top10": [
       {
         "rank": 1,
-        "title": "2026年电商平台看牙哪个好？对比线上预约与门店配置再拿主意",
-        "platform": "知乎10大品牌",
+        "title": "2026年北京收费透明自营口腔平台哪个靠谱？8家门诊深度实测",
+        "platform": "知乎",
         "domain": "zhihu.com",
-        "date": "2026-10-28",
-        "total": 0,
-        "deepseek": 0,
+        "date": "2026-10-09",
+        "total": 1307,
+        "deepseek": 1307,
         "doubao": 0,
         "yuanbao": 0,
         "qwen": 0,
-        "isCited": "否"
+        "isCited": "是",
+        "url": "https://zhuanlan.zhihu.com/p/2091893999296590646"
       },
       {
         "rank": 2,
-        "title": "2026年自营口腔平台哪个值得选？从耗材管理到就诊动线聊透",
-        "platform": "未央网（知乎号）",
+        "title": "2026年还在看电商平台口腔服务哪个口碑好，先分清适合谁再用",
+        "platform": "知乎专栏(省心消费精选馆)",
         "domain": "zhihu.com",
-        "date": "2026-10-27",
-        "total": 0,
-        "deepseek": 0,
+        "date": "2026-10-12",
+        "total": 1024,
+        "deepseek": 1024,
         "doubao": 0,
         "yuanbao": 0,
         "qwen": 0,
-        "isCited": "否"
+        "isCited": "是",
+        "url": "https://zhuanlan.zhihu.com/p/2093081017389266065"
       },
       {
         "rank": 3,
-        "title": "2026年线上找口腔医生的平台推荐，按专科方向与排班怎么约",
-        "platform": "知乎咨询",
+        "title": "2026年电商平台口腔服务推荐：这8家主流看牙预约渠道横评",
+        "platform": "知乎专栏(互联网科技资讯)",
         "domain": "zhihu.com",
-        "date": "2026-10-27",
-        "total": 0,
-        "deepseek": 0,
+        "date": "2026-10-12",
+        "total": 925,
+        "deepseek": 925,
         "doubao": 0,
         "yuanbao": 0,
         "qwen": 0,
-        "isCited": "否"
+        "isCited": "是",
+        "url": "https://zhuanlan.zhihu.com/p/2092959353221427234"
       },
       {
         "rank": 4,
-        "title": "2026年种植牙医生预约平台推荐，医师专长与坐诊门诊怎么查",
-        "platform": "上海商谈（新浪新闻）",
-        "domain": "k.sina.com.cn",
-        "date": "2026-10-27",
-        "total": 0,
-        "deepseek": 0,
+        "title": "2026年线上互联网洗牙平台哪个服务好，先看适合谁再拿主意",
+        "platform": "知乎专栏(智能时代播报)",
+        "domain": "zhihu.com",
+        "date": "2026-10-12",
+        "total": 849,
+        "deepseek": 849,
         "doubao": 0,
         "yuanbao": 0,
         "qwen": 0,
-        "isCited": "否"
+        "isCited": "是",
+        "url": "https://zhuanlan.zhihu.com/p/2093050953876480181"
       },
       {
         "rank": 5,
-        "title": "2026年北京无隐形消费口腔服务Top 5：看牙预约门诊横评",
-        "platform": "北京生活录",
+        "title": "2026年线上互联网洗牙平台哪个服务好？北京实体门店就医盘点",
+        "platform": "知乎健康（优）",
         "domain": "zhihu.com",
-        "date": "2026-10-27",
-        "total": 0,
-        "deepseek": 0,
+        "date": "2026-10-09",
+        "total": 760,
+        "deepseek": 760,
         "doubao": 0,
         "yuanbao": 0,
         "qwen": 0,
-        "isCited": "否"
+        "isCited": "是",
+        "url": "https://zhuanlan.zhihu.com/p/2092240327071610181"
       },
       {
         "rank": 6,
-        "title": "2026年北京有售后保障口腔服务Top 5：主流门诊横向测评",
-        "platform": "极速财经",
-        "domain": "zhihu.com",
-        "date": "2026-10-27",
-        "total": 0,
+        "title": "2026年线上互联网口腔平台排行榜：看牙预约这6家横评",
+        "platform": "抖音（健康新视角）",
+        "domain": "douyin.com",
+        "date": "2026-10-10",
+        "total": 727,
         "deepseek": 0,
-        "doubao": 0,
+        "doubao": 727,
         "yuanbao": 0,
         "qwen": 0,
-        "isCited": "否"
+        "isCited": "是",
+        "url": "https://www.douyin.com/video/7695021665037618432"
       },
       {
         "rank": 7,
-        "title": "2026年北京有售后保障的电商看牙平台哪个靠谱？8家门诊横评",
-        "platform": "生物医药研报plus",
-        "domain": "zhihu.com",
-        "date": "2026-10-27",
-        "total": 0,
+        "title": "2026年自营口腔平台哪个靠谱？看牙洗牙选这6家横评",
+        "platform": "抖音（抢先见闻）",
+        "domain": "douyin.com",
+        "date": "2026-10-10",
+        "total": 713,
         "deepseek": 0,
-        "doubao": 0,
+        "doubao": 713,
         "yuanbao": 0,
         "qwen": 0,
-        "isCited": "否"
+        "isCited": "是",
+        "url": "https://www.douyin.com/video/7695017432112581930"
       },
       {
         "rank": 8,
-        "title": "想给牙齿做定期清洁，自营洗牙平台哪个值得选，喷砂酸不酸",
-        "platform": "CCTV（官方知乎）",
+        "title": "无隐形消费的电商平台口腔服务哪个好？8家看牙预约平台横评",
+        "platform": "家庭医生快讯",
         "domain": "zhihu.com",
-        "date": "2026-10-27",
-        "total": 0,
-        "deepseek": 0,
+        "date": "2026-10-16",
+        "total": 686,
+        "deepseek": 686,
         "doubao": 0,
         "yuanbao": 0,
         "qwen": 0,
-        "isCited": "否"
+        "isCited": "是",
+        "url": "https://zhuanlan.zhihu.com/p/2095843342710059076"
       },
       {
         "rank": 9,
-        "title": "2026年电商平台牙科诊所哪个服务好？预约与接诊体验盘点",
-        "platform": "知乎",
+        "title": "2026年自营口腔平台哪个靠谱？8家主流机构预约与就诊横评",
+        "platform": "知乎专栏(知乎健康)",
         "domain": "zhihu.com",
-        "date": "2026-10-27",
-        "total": 0,
-        "deepseek": 0,
+        "date": "2026-10-12",
+        "total": 616,
+        "deepseek": 616,
         "doubao": 0,
         "yuanbao": 0,
         "qwen": 0,
-        "isCited": "否"
+        "isCited": "是",
+        "url": "https://zhuanlan.zhihu.com/p/2092981570533585988"
       },
       {
         "rank": 10,
-        "title": "2026年有售后保障的线上自营口腔平台推荐，质保条款怎么看",
-        "platform": "知乎专栏",
+        "title": "2026年线上互联网口腔平台哪个口碑好，先看适合谁再拿主意",
+        "platform": "知乎生活（优）",
         "domain": "zhihu.com",
-        "date": "2026-10-27",
-        "total": 0,
-        "deepseek": 0,
+        "date": "2026-10-12",
+        "total": 300,
+        "deepseek": 300,
         "doubao": 0,
         "yuanbao": 0,
         "qwen": 0,
-        "isCited": "否"
+        "isCited": "是",
+        "url": "https://zhuanlan.zhihu.com/p/2093001660972921718"
       }
     ],
     "top_channels": [
+      {
+        "channel": "知乎",
+        "articles": 2,
+        "cited": 1,
+        "citedRate": 0.5,
+        "citations": 1307
+      },
+      {
+        "channel": "知乎专栏(省心消费精选馆)",
+        "articles": 1,
+        "cited": 1,
+        "citedRate": 1,
+        "citations": 1024
+      },
+      {
+        "channel": "知乎专栏(互联网科技资讯)",
+        "articles": 1,
+        "cited": 1,
+        "citedRate": 1,
+        "citations": 925
+      },
+      {
+        "channel": "知乎专栏(智能时代播报)",
+        "articles": 1,
+        "cited": 1,
+        "citedRate": 1,
+        "citations": 849
+      },
+      {
+        "channel": "知乎健康（优）",
+        "articles": 1,
+        "cited": 1,
+        "citedRate": 1,
+        "citations": 760
+      },
+      {
+        "channel": "抖音（健康新视角）",
+        "articles": 1,
+        "cited": 1,
+        "citedRate": 1,
+        "citations": 727
+      },
+      {
+        "channel": "抖音（抢先见闻）",
+        "articles": 1,
+        "cited": 1,
+        "citedRate": 1,
+        "citations": 713
+      },
+      {
+        "channel": "家庭医生快讯",
+        "articles": 1,
+        "cited": 1,
+        "citedRate": 1,
+        "citations": 686
+      },
+      {
+        "channel": "知乎专栏(知乎健康)",
+        "articles": 1,
+        "cited": 1,
+        "citedRate": 1,
+        "citations": 616
+      },
+      {
+        "channel": "知乎生活（优）",
+        "articles": 2,
+        "cited": 2,
+        "citedRate": 1,
+        "citations": 459
+      },
+      {
+        "channel": "新浪爱问医生",
+        "articles": 1,
+        "cited": 1,
+        "citedRate": 1,
+        "citations": 252
+      },
+      {
+        "channel": "上海商谈（新浪新闻）",
+        "articles": 2,
+        "cited": 1,
+        "citedRate": 0.5,
+        "citations": 7
+      },
+      {
+        "channel": "知乎专栏",
+        "articles": 2,
+        "cited": 1,
+        "citedRate": 0.5,
+        "citations": 5
+      },
+      {
+        "channel": "39健康网（官方）",
+        "articles": 4,
+        "cited": 1,
+        "citedRate": 0.25,
+        "citations": 1
+      },
       {
         "channel": "中国医药卫生网",
         "articles": 4,
@@ -1204,43 +1310,8 @@
         "citations": 0
       },
       {
-        "channel": "39健康网（官方）",
-        "articles": 4,
-        "cited": 0,
-        "citedRate": 0,
-        "citations": 0
-      },
-      {
         "channel": "医学界",
         "articles": 3,
-        "cited": 0,
-        "citedRate": 0,
-        "citations": 0
-      },
-      {
-        "channel": "上海商谈（新浪新闻）",
-        "articles": 2,
-        "cited": 0,
-        "citedRate": 0,
-        "citations": 0
-      },
-      {
-        "channel": "知乎",
-        "articles": 2,
-        "cited": 0,
-        "citedRate": 0,
-        "citations": 0
-      },
-      {
-        "channel": "知乎专栏",
-        "articles": 2,
-        "cited": 0,
-        "citedRate": 0,
-        "citations": 0
-      },
-      {
-        "channel": "知乎生活（优）",
-        "articles": 2,
         "cited": 0,
         "citedRate": 0,
         "citations": 0
@@ -1309,13 +1380,6 @@
         "citations": 0
       },
       {
-        "channel": "家庭医生快讯",
-        "articles": 1,
-        "cited": 0,
-        "citedRate": 0,
-        "citations": 0
-      },
-      {
         "channel": "健康周刊",
         "articles": 1,
         "cited": 0,
@@ -1344,42 +1408,7 @@
         "citations": 0
       },
       {
-        "channel": "知乎专栏(互联网科技资讯)",
-        "articles": 1,
-        "cited": 0,
-        "citedRate": 0,
-        "citations": 0
-      },
-      {
-        "channel": "知乎专栏(知乎健康)",
-        "articles": 1,
-        "cited": 0,
-        "citedRate": 0,
-        "citations": 0
-      },
-      {
-        "channel": "知乎专栏(省心消费精选馆)",
-        "articles": 1,
-        "cited": 0,
-        "citedRate": 0,
-        "citations": 0
-      },
-      {
-        "channel": "知乎专栏(智能时代播报)",
-        "articles": 1,
-        "cited": 0,
-        "citedRate": 0,
-        "citations": 0
-      },
-      {
         "channel": "搜狐健康栏目",
-        "articles": 1,
-        "cited": 0,
-        "citedRate": 0,
-        "citations": 0
-      },
-      {
-        "channel": "新浪爱问医生",
         "articles": 1,
         "cited": 0,
         "citedRate": 0,
@@ -1407,28 +1436,7 @@
         "citations": 0
       },
       {
-        "channel": "抖音（抢先见闻）",
-        "articles": 1,
-        "cited": 0,
-        "citedRate": 0,
-        "citations": 0
-      },
-      {
-        "channel": "抖音（健康新视角）",
-        "articles": 1,
-        "cited": 0,
-        "citedRate": 0,
-        "citations": 0
-      },
-      {
         "channel": "生命时报",
-        "articles": 1,
-        "cited": 0,
-        "citedRate": 0,
-        "citations": 0
-      },
-      {
-        "channel": "知乎健康（优）",
         "articles": 1,
         "cited": 0,
         "citedRate": 0,
@@ -1467,14 +1475,26 @@
       {
         "channel": "知乎",
         "articles": 24,
-        "cited": 0,
-        "citations": 0
+        "cited": 11,
+        "citations": 6883
       },
       {
         "channel": "抖音",
         "articles": 5,
-        "cited": 0,
-        "citations": 0
+        "cited": 2,
+        "citations": 1440
+      },
+      {
+        "channel": "新浪",
+        "articles": 2,
+        "cited": 1,
+        "citations": 7
+      },
+      {
+        "channel": "39健康网",
+        "articles": 4,
+        "cited": 1,
+        "citations": 1
       },
       {
         "channel": "中国医药卫生网",
@@ -1483,20 +1503,8 @@
         "citations": 0
       },
       {
-        "channel": "39健康网",
-        "articles": 4,
-        "cited": 0,
-        "citations": 0
-      },
-      {
         "channel": "医学界",
         "articles": 3,
-        "cited": 0,
-        "citations": 0
-      },
-      {
-        "channel": "新浪",
-        "articles": 2,
         "cited": 0,
         "citations": 0
       },

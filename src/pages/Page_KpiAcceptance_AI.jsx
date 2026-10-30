@@ -4,7 +4,7 @@ export default function Page_KpiAcceptance_AI() {
   const [imgError, setImgError] = useState(false);
   const [imgSrc] = useState(`/report/kpi_acceptance_chart_ai.png?t=${Date.now()}`);
 
-  const criteriaTags = ['提及率 ≥ 65%', '平均位次 ≤ 4'];
+  const criteriaTags = ['提及率 ≥ 65%', 'top1提及率 ≥ 40%'];
 
   return (
     <div className="w-full h-full flex flex-col px-12 sm:px-16 pb-2 text-zinc-900 font-sans">
