@@ -182,7 +182,7 @@ async function main() {
           headless: 'new',
           executablePath: existsSync(chromePath) ? chromePath : undefined,
           args: ['--no-sandbox', '--disable-setuid-sandbox'],
-          protocolTimeout: 120000,
+          protocolTimeout: 300000,
         });
         browsers.push(browser);
 

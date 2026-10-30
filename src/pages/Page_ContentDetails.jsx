@@ -1,7 +1,10 @@
 import React from 'react';
 import report from '../data/jingdongReport.json';
 
-const { overview: ov, platform_totals: plat, top10, generated_at, domain_stats: domains } = report.delivery;
+const delivery = report.delivery;
+const { overview: ov, platform_totals: plat, top10, generated_at, domain_stats: domains } = delivery.pending
+  ? { overview: null, platform_totals: null, top10: [], generated_at: delivery.generated_at, domain_stats: [] }
+  : delivery;
 const [year, month, day] = generated_at.split('-');
 const sourceDate = `${year}/${Number(month)}/${Number(day)}`;
 
@@ -28,12 +31,30 @@ const citedNote = citedLead
   : '截至统计日，投放文章尚未匹配到 AI 引用记录。';
 
 export default function Page_ContentDetails() {
+  if (delivery.pending) {
+    return (
+      <div className="w-full h-full flex flex-col px-12 sm:px-16 pt-[22px] pb-8 text-zinc-900 font-sans bg-white">
+        <div className="flex items-center shrink-0 mb-3">
+          <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
+          <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4 flex items-center">
+            {report.meta.product} 投放明细
+            <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年10月）</span>
+          </h1>
+        </div>
+        <div className="flex-1 min-h-0 rounded-2xl border border-dashed border-zinc-300 bg-slate-50/70 flex flex-col items-center justify-center gap-4">
+          <p className="text-3xl font-black text-zinc-800">引用文章明细待接入</p>
+          <p className="text-xl font-bold text-zinc-500">投放文章统计表到位后，再填这一页的渠道和 TOP 10。</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="w-full h-full flex flex-col px-12 sm:px-16 pt-[22px] pb-8 text-zinc-900 font-sans bg-white">
       <div className="flex items-center shrink-0 mb-3">
         <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
         <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4 flex items-center">
-          京东口腔① 投放明细
+          {report.meta.product} 投放明细
           <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年10月）</span>
         </h1>
       </div>
@@ -81,7 +102,7 @@ export default function Page_ContentDetails() {
               <span className="text-6xl font-black text-zinc-900 font-['Montserrat',sans-serif]">{plat.total}</span>
               <span className="text-2xl font-black text-zinc-800 ml-1">次</span>
             </div>
-            <div className="text-[1.12rem] font-bold text-zinc-500">TOP 10 文章累计引用频次</div>
+            <div className="text-[1.12rem] font-bold text-zinc-500">投放文章有效引用频次</div>
             <div className="grid grid-cols-2 gap-x-4 gap-y-1 mt-1.5">
               <span className="text-[1rem] font-bold text-zinc-500 flex items-center gap-1.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />

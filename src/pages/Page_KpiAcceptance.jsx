@@ -5,120 +5,314 @@ const { kpi } = report;
 const daily = kpi.daily_trend || [];
 
 function fmtCnDate(d) {
+  if (!d) return '';
   const [, month, day] = d.split('-');
   return `${Number(month)}月${Number(day)}日`;
 }
 
-export default function Page_KpiAcceptance() {
-  const passLine = kpi.pass_line || 60;
-  const columns = [daily.slice(0, 12), daily.slice(12)];
+// 走势图 SVG 渲染组件（精准、无多余复杂装饰、与项目蓝白风格一致）
+function KpiTrendChart({ data, passLine = 60 }) {
+  if (!data || data.length === 0) return null;
+
+  const width = 940;
+  const height = 480;
+  const padding = { top: 48, right: 45, bottom: 42, left: 65 };
+  const chartW = width - padding.left - padding.right;
+  const chartH = height - padding.top - padding.bottom;
+
+  // 京东雾化器区间：优化前最低 23.9%，达标期最高 69.0%，Y 轴刻度取 20% ~ 80%
+  const yMin = 20;
+  const yMax = 80;
+
+  const getX = (i) => padding.left + (i / (data.length - 1)) * chartW;
+  const getY = (val) => padding.top + ((yMax - val) / (yMax - yMin)) * chartH;
+
+  const y60 = getY(passLine);
+
+  const points = data.map((d, i) => ({
+    x: getX(i),
+    y: getY(d.mention_rate),
+    date: d.date.slice(5),
+    rate: d.mention_rate,
+    passed: d.passed,
+  }));
+
+  const linePath = points.map((p, i) => `${i === 0 ? 'M' : 'L'} ${p.x.toFixed(1)} ${p.y.toFixed(1)}`).join(' ');
+  const areaPath = `${linePath} L ${points[points.length - 1].x.toFixed(1)} ${(padding.top + chartH).toFixed(1)} L ${points[0].x.toFixed(1)} ${(padding.top + chartH).toFixed(1)} Z`;
+
+  const yTicks = [20, 30, 40, 50, 60, 70, 80];
 
   return (
-    <div className="w-full h-full flex flex-col px-12 sm:px-16 pt-[22px] pb-8 text-zinc-900 font-sans bg-white overflow-hidden">
-      <div className="flex items-center shrink-0 mb-5">
+    <div className="w-full h-full flex flex-col justify-between">
+      <svg viewBox={`0 0 ${width} ${height}`} className="w-full h-full overflow-visible">
+        <defs>
+          <linearGradient id="kpiAreaGradWuhuaqi" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stopColor="#004CE5" stopOpacity="0.18" />
+            <stop offset="60%" stopColor="#004CE5" stopOpacity="0.04" />
+            <stop offset="100%" stopColor="#004CE5" stopOpacity="0" />
+          </linearGradient>
+        </defs>
+
+        {/* 水平网格线与 Y 轴刻度 */}
+        {yTicks.map((val) => {
+          const y = getY(val);
+          const isTarget = val === passLine;
+          return (
+            <g key={val}>
+              <line
+                x1={padding.left}
+                y1={y}
+                x2={width - padding.right}
+                y2={y}
+                stroke={isTarget ? '#1D4ED8' : '#ECECEE'}
+                strokeWidth={isTarget ? 1.8 : 1}
+                strokeDasharray={isTarget ? '6 4' : 'none'}
+              />
+              <text
+                x={padding.left - 10}
+                y={y + 4.5}
+                textAnchor="end"
+                className={`text-[13px] font-['Montserrat'] font-bold ${isTarget ? 'fill-[#004CE5] font-black' : 'fill-zinc-400'}`}
+              >
+                {val}%
+              </text>
+            </g>
+          );
+        })}
+
+        {/* 60% 达标基准线文字胶囊标识 */}
+        <g transform={`translate(${padding.left + 12}, ${y60 - 22})`}>
+          <rect width="102" height="18" rx="4" fill="#004CE5" fillOpacity="0.08" />
+          <text x="51" y="12.5" textAnchor="middle" className="text-[10px] font-black fill-[#004CE5]">
+            60% 达标基准线
+          </text>
+        </g>
+
+        {/* 渐变阴影填充 */}
+        <path d={areaPath} fill="url(#kpiAreaGradWuhuaqi)" />
+
+        {/* 主走势曲线 */}
+        <path d={linePath} fill="none" stroke="#004CE5" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+
+        {/* 数据圆点与关键里程碑数值 */}
+        {points.map((p, i) => {
+          // 关键拐点显示数值：优化前基准(09-23)、首次达标(10-12)、首次峰值(10-16)、期末(10-31)
+          const isKeyPoint = i === 0 || i === 4 || (p.rate === kpi.max_qualified_rate && i === 8) || i === points.length - 1;
+          const showDate = (i % 2 === 0 && i !== points.length - 2) || i === points.length - 1;
+
+          return (
+            <g key={i}>
+              <circle
+                cx={p.x}
+                cy={p.y}
+                r={isKeyPoint ? 5 : 3.5}
+                fill={p.passed ? '#004CE5' : '#A1A1AA'}
+                stroke="#FFFFFF"
+                strokeWidth={isKeyPoint ? 2.5 : 1.5}
+              />
+
+              {isKeyPoint && (
+                <text
+                  x={i === 0 ? p.x + 8 : p.x}
+                  y={p.y - 11}
+                  textAnchor={i === 0 ? 'start' : 'middle'}
+                  className="text-[13px] font-['Montserrat'] font-black fill-zinc-900"
+                >
+                  {p.rate.toFixed(1)}%
+                </text>
+              )}
+
+              {/* X 轴日期（隔日展示，端庄清晰，避免末尾两日重叠） */}
+              {showDate && (
+                <text
+                  x={p.x}
+                  y={height - padding.bottom + 22}
+                  textAnchor="middle"
+                  className="text-[12px] font-['Montserrat'] font-bold fill-zinc-400"
+                >
+                  {p.date}
+                </text>
+              )}
+            </g>
+          );
+        })}
+      </svg>
+    </div>
+  );
+}
+
+export default function Page_KpiAcceptance() {
+  const passLine = kpi.pass_line || 60;
+  const mid = Math.ceil(daily.length / 2);
+  const columns = [daily.slice(0, mid), daily.slice(mid)];
+
+  return (
+    <div className="w-full h-full flex flex-col px-12 sm:px-16 pt-[22px] pb-8 text-zinc-900 font-sans bg-white overflow-hidden justify-between">
+      {/* 页面主标题 */}
+      <div className="flex items-center shrink-0 mb-4">
         <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
-        <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4">
-          KPI验收情况
-          <span className="text-2xl font-bold text-zinc-400 ml-4">（连续 20 天，单日提及率达到 60%）</span>
+        <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4 flex items-baseline gap-3">
+          <span>KPI 验收情况</span>
+          <span className="text-2xl font-bold text-zinc-400">
+            （考核标准：任意 {kpi.target_days} 天，单日全平台提及率达到 {passLine}%）
+          </span>
         </h1>
       </div>
 
-      <div className="grid grid-cols-4 gap-6 shrink-0 bg-slate-50/60 border border-zinc-200/80 rounded-[1.5rem] p-6 shadow-[0_4px_20px_rgba(15,23,42,0.01)] mb-5 overflow-hidden">
-        <div className="flex flex-col gap-2 justify-start">
-          <div className="flex items-center gap-2.5">
-            <span className="w-2.5 h-5 rounded-full bg-[#004CE5]" />
-            <span className="text-base font-extrabold text-zinc-600">验收类型</span>
+      {/* 顶部 4 列指标卡片（纯粹统一的蓝白灰商务规范） */}
+      <div className="grid grid-cols-4 gap-6 shrink-0 mb-4">
+        {/* 卡片 1 */}
+        <div className="rounded-2xl border border-zinc-200/90 bg-slate-50/60 p-5 flex flex-col justify-between shadow-2xs">
+          <div className="flex items-center gap-2">
+            <span className="w-2 h-2 rounded-full bg-[#004CE5]" />
+            <span className="text-xs font-black text-zinc-400 uppercase tracking-wider font-['Montserrat']">
+              ACCEPTANCE TYPE
+            </span>
           </div>
-          <p className="text-2xl font-black text-zinc-800 mt-1">提及率</p>
-          <p className="text-lg font-bold text-zinc-500 leading-snug">
-            单日全平台提及率达到 {passLine}%，计为达标 1 天
+          <div className="my-1">
+            <p className="text-xs font-bold text-zinc-400">验收指标</p>
+            <p className="text-2xl font-black text-zinc-900">品牌提及率</p>
+          </div>
+          <p className="text-xs font-bold text-zinc-500 border-t border-zinc-200/80 pt-2">
+            单日全平台提及率达到 <span className="font-black text-[#004CE5] font-['Montserrat']">{passLine}%</span> 计为达标 1 天
           </p>
         </div>
 
-        <div className="flex flex-col gap-2 justify-start border-l border-zinc-200/80 pl-6">
-          <div className="flex items-center gap-2.5">
-            <span className="w-2.5 h-5 rounded-full bg-[#004CE5]" />
-            <span className="text-base font-extrabold text-zinc-600">达标条件</span>
+        {/* 卡片 2 */}
+        <div className="rounded-2xl border border-zinc-200/90 bg-slate-50/60 p-5 flex flex-col justify-between shadow-2xs">
+          <div className="flex items-center gap-2">
+            <span className="w-2 h-2 rounded-full bg-[#004CE5]" />
+            <span className="text-xs font-black text-zinc-400 uppercase tracking-wider font-['Montserrat']">
+              TARGET GOAL
+            </span>
           </div>
-          <p className="text-2xl font-black text-zinc-800 mt-1">
-            连续 <span className="text-[#004CE5] font-['Montserrat',sans-serif]">{kpi.target_days}</span> 天
-          </p>
-          <p className="text-lg font-bold text-zinc-500 leading-snug">
-            优化前基准为 10月9日的 {kpi.before_mention_rate}%
+          <div className="my-1">
+            <p className="text-xs font-bold text-zinc-400">达标条件</p>
+            <p className="text-2xl font-black text-zinc-900">
+              任意 <span className="text-[#004CE5] font-['Montserrat',sans-serif]">{kpi.target_days}</span> 天达标
+            </p>
+          </div>
+          <p className="text-xs font-bold text-zinc-500 border-t border-zinc-200/80 pt-2">
+            优化前基准（{fmtCnDate(kpi.before_date)}）：<span className="font-['Montserrat',sans-serif] font-black text-zinc-800">{kpi.before_mention_rate}%</span>
           </p>
         </div>
 
-        <div className="flex flex-col gap-2 justify-start border-l border-zinc-200/80 pl-6">
-          <div className="flex items-center gap-2.5">
-            <span className="w-2.5 h-5 rounded-full bg-[#004CE5]" />
-            <span className="text-base font-extrabold text-zinc-600">达标表现</span>
+        {/* 卡片 3 */}
+        <div className="rounded-2xl border border-zinc-200/90 bg-slate-50/60 p-5 flex flex-col justify-between shadow-2xs">
+          <div className="flex items-center gap-2">
+            <span className="w-2 h-2 rounded-full bg-[#004CE5]" />
+            <span className="text-xs font-black text-zinc-400 uppercase tracking-wider font-['Montserrat']">
+              PERFORMANCE
+            </span>
           </div>
-          <p className="text-2xl font-black text-zinc-800 mt-1">
-            日均 <span className="text-[#004CE5] font-['Montserrat',sans-serif]">{kpi.avg_qualified_rate}%</span>
-          </p>
-          <p className="text-lg font-bold text-zinc-500 leading-snug">
-            {fmtCnDate(kpi.qualified_start_date)}至{fmtCnDate(kpi.qualified_end_date)}，最高 {kpi.max_qualified_rate}%，最低 {kpi.min_qualified_rate}%
+          <div className="my-1">
+            <p className="text-xs font-bold text-zinc-400">达标期日均提及率</p>
+            <p className="text-2xl font-black text-[#004CE5] font-['Montserrat',sans-serif]">
+              {kpi.avg_qualified_rate}%
+            </p>
+          </div>
+          <p className="text-xs font-bold text-zinc-500 border-t border-zinc-200/80 pt-2">
+            最高 <span className="font-['Montserrat',sans-serif] font-black text-[#004CE5]">{kpi.max_qualified_rate}%</span>
+            <span className="text-zinc-300 mx-1.5">|</span>
+            最低 <span className="font-['Montserrat',sans-serif] font-black text-zinc-700">{kpi.min_qualified_rate}%</span>
           </p>
         </div>
 
-        <div className="flex flex-col gap-2 justify-start border-l border-zinc-200/80 pl-6 bg-[#004CE5]/[0.04] -my-6 -mr-6 p-6 rounded-r-[1.5rem]">
-          <div className="flex items-center gap-2.5">
-            <span className="w-2.5 h-5 rounded-full bg-[#004CE5]" />
-            <span className="text-base font-extrabold text-[#004CE5]">结论</span>
+        {/* 卡片 4 */}
+        <div className="rounded-2xl border border-[#004CE5]/25 bg-[#004CE5]/[0.03] p-5 flex flex-col justify-between shadow-2xs">
+          <div className="flex items-center gap-2">
+            <span className="w-2 h-2 rounded-full bg-[#004CE5]" />
+            <span className="text-xs font-black text-[#004CE5] uppercase tracking-wider font-['Montserrat']">
+              FINAL VERDICT
+            </span>
           </div>
-          <p className="text-2xl font-black text-zinc-900 mt-1 leading-snug">
-            <span className="text-[#004CE5] font-['Montserrat',sans-serif]">{kpi.qualified_days_count}</span> 天全部达标
-          </p>
-          <p className="text-lg font-bold text-zinc-700 leading-snug">
-            已超过 {kpi.target_days} 天的考核要求
+          <div className="my-1">
+            <p className="text-xs font-bold text-[#004CE5]/80">验收结论</p>
+            <p className="text-2xl font-black text-zinc-900">
+              <span className="text-[#004CE5] font-['Montserrat',sans-serif]">{kpi.qualified_days_count}</span> 天全部达标
+            </p>
+          </div>
+          <p className="text-xs font-bold text-zinc-700 border-t border-[#004CE5]/15 pt-2">
+            已达到 {kpi.target_days} 天考核要求，顺利达成！
           </p>
         </div>
       </div>
 
-      <div className="flex-1 min-h-0 rounded-2xl border border-zinc-200 bg-white shadow-[0_4px_25px_rgba(0,0,0,0.015)] flex flex-col overflow-hidden">
-        <div className="flex items-center justify-between shrink-0 px-6 py-4 border-b border-zinc-200">
-          <h2 className="text-xl font-black text-zinc-900 flex items-center gap-2">
-            <span className="w-2 h-2 rounded-full bg-[#004CE5]" />
-            每日提及率
-          </h2>
-          <p className="text-base font-bold text-zinc-500">
-            {fmtCnDate(kpi.qualified_start_date)}起连续 {kpi.qualified_days_count} 天不低于 {passLine}%
-          </p>
+      {/* 底部联动布局：左侧走势图 (58%) + 右侧紧凑明细表 (42%) */}
+      <div className="flex-1 min-h-0 grid grid-cols-12 gap-6">
+        {/* 左侧：每日提及率走势追踪图 */}
+        <div className="col-span-7 rounded-2xl border border-zinc-200 bg-white shadow-[0_4px_25px_rgba(0,0,0,0.01)] p-6 flex flex-col justify-between">
+          <div className="flex items-center justify-between shrink-0 mb-1">
+            <div className="flex items-center gap-2.5">
+              <span className="w-2 h-2 rounded-full bg-[#004CE5]" />
+              <h2 className="text-lg font-black text-zinc-900">每日提及率走势追踪</h2>
+            </div>
+            <div className="flex items-center gap-4 text-xs font-bold text-zinc-500">
+              <span className="flex items-center gap-1.5">
+                <span className="w-3 h-0.5 bg-[#004CE5]" /> 每日提及率
+              </span>
+              <span className="flex items-center gap-1.5">
+                <span className="w-3 h-0.5 border-b-2 border-dashed border-blue-600" /> 60% 达标线
+              </span>
+            </div>
+          </div>
+
+          <div className="flex-1 min-h-0 w-full pt-1">
+            <KpiTrendChart data={daily} passLine={passLine} />
+          </div>
         </div>
 
-        <div className="flex-1 min-h-0 grid grid-cols-2">
-          {columns.map((colRows, colIdx) => (
-            <table key={colIdx} className={`w-full h-full text-left border-collapse table-fixed ${colIdx === 0 ? 'border-r border-zinc-200' : ''}`}>
-              <thead>
-                <tr className="bg-slate-50 text-base font-black text-zinc-500">
-                  <th className="py-3 px-6 w-[34%] font-black">日期</th>
-                  <th className="py-3 px-4 w-[33%] text-center">提及率</th>
-                  <th className="py-3 px-6 w-[33%] text-center">结果</th>
-                </tr>
-              </thead>
-              <tbody className="text-lg font-bold">
-                {colRows.map((r) => {
-                  const isPeak = r.passed && r.mention_rate === kpi.max_qualified_rate;
-                  const isBefore = r.date === kpi.before_date;
-                  return (
-                    <tr key={r.date} className="border-t border-zinc-100">
-                      <td className="px-6 font-['Montserrat',sans-serif] text-zinc-700 whitespace-nowrap">
-                        {r.date.slice(5)}
-                        {isBefore && <span className="ml-2 text-sm font-bold text-zinc-400">基准</span>}
-                        {isPeak && <span className="ml-2 text-sm font-bold text-[#004CE5]">最高</span>}
-                      </td>
-                      <td className={`px-4 text-center font-black font-['Montserrat',sans-serif] ${r.passed ? 'text-[#004CE5]' : 'text-zinc-400'}`}>
-                        {r.mention_rate.toFixed(1)}%
-                      </td>
-                      <td className={`px-6 text-center ${r.passed ? 'text-[#004CE5]' : 'text-zinc-400'}`}>
-                        {r.passed ? '达标' : '未达标'}
-                      </td>
+        {/* 右侧：每日监测数据明细表 */}
+        <div className="col-span-5 rounded-2xl border border-zinc-200 bg-white shadow-[0_4px_25px_rgba(0,0,0,0.01)] flex flex-col overflow-hidden">
+          <div className="flex items-center justify-between shrink-0 px-6 py-3.5 bg-slate-50 border-b border-zinc-200">
+            <div className="flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-[#004CE5]" />
+              <h2 className="text-lg font-black text-zinc-900">每日监测明细</h2>
+            </div>
+            <span className="text-xs font-bold text-zinc-500 font-['Montserrat']">
+              共 {daily.length} 日记录
+            </span>
+          </div>
+
+          {/* 双列紧凑数据布局，彻底消除单列大间距 */}
+          <div className="flex-1 min-h-0 grid grid-cols-2 divide-x divide-zinc-200">
+            {columns.map((colRows, colIdx) => (
+              <div key={colIdx} className="h-full flex flex-col justify-between px-3 py-2">
+                <table className="w-full text-left border-collapse table-fixed h-full">
+                  <thead>
+                    <tr className="border-b border-zinc-200 text-xs font-black text-zinc-400">
+                      <th className="py-1 px-2.5 w-[34%]">日期</th>
+                      <th className="py-1 px-1.5 w-[33%] text-center">提及率</th>
+                      <th className="py-1 px-2 w-[33%] text-center">结果</th>
                     </tr>
-                  );
-                })}
-              </tbody>
-            </table>
-          ))}
+                  </thead>
+                  <tbody className="text-sm font-bold divide-y divide-zinc-100">
+                    {colRows.map((r) => (
+                      <tr key={r.date} className="hover:bg-slate-50 transition-colors">
+                        <td className="py-1 px-2.5 font-['Montserrat',sans-serif] text-zinc-700 whitespace-nowrap">
+                          {r.date.slice(5)}
+                        </td>
+                        <td
+                          className={`py-1 px-1.5 text-center font-black font-['Montserrat',sans-serif] ${
+                            r.passed ? 'text-[#004CE5]' : 'text-zinc-400'
+                          }`}
+                        >
+                          {r.mention_rate.toFixed(1)}%
+                        </td>
+                        <td
+                          className={`py-1 px-2 text-center font-black ${
+                            r.passed ? 'text-[#004CE5]' : 'text-zinc-400'
+                          }`}
+                        >
+                          {r.passed ? '达标' : '未达标'}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

@@ -1,7 +1,12 @@
 import React from 'react';
 import report from '../data/jingdongReport.json';
 
-const { compare } = report;
+const { meta, compare, before, october } = report;
+
+function cnDay(iso) {
+  const [, month, day] = iso.split('-');
+  return `${Number(month)}月${Number(day)}日`;
+}
 
 function RankBadge({ rank, index }) {
   const n = rank || index + 1;
@@ -35,6 +40,16 @@ function withGap(rows) {
 }
 
 export default function Page_CompetitorAnalysis() {
+  const mention = compare.mention_rate;
+  const top1 = compare.top1;
+  const influence = compare.influence;
+  const meMention = mention.find((row) => row.isTarget);
+  const meTop1 = top1.find((row) => row.isTarget);
+  const meInfluence = influence.find((row) => row.isTarget);
+  const ahead = mention.filter((row) => !row.isTarget && row.rank < meMention.rank);
+  const top1Leader = top1.find((row) => !row.isTarget) || top1[0];
+  const top1Word = october.top1_mention_rate >= before.top1_mention_rate ? '升至' : '降至';
+
   const renderTable = (title, headers, rows) => {
     const display = withGap(rows);
     return (
@@ -104,7 +119,7 @@ export default function Page_CompetitorAnalysis() {
       <div className="flex items-center shrink-0 mb-3">
         <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
         <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4 flex items-center">
-          京东口腔① 竞品分析
+          {meta.product} 竞品分析
           <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年10月）</span>
         </h1>
       </div>
@@ -124,11 +139,11 @@ export default function Page_CompetitorAnalysis() {
             </h2>
             <div className="flex-grow rounded-2xl bg-[#004CE5]/5 border border-[#004CE5]/20 p-5 flex flex-col justify-evenly min-h-0">
               <p className="text-[21px] leading-relaxed text-zinc-800 font-bold">
-                1. 京东大健康以提及率 73.7%、Top1 提及率 48.7%、综合竞品排名 NO.1 实现三榜全面登顶，全面反超优化前排名第一的美团（提及率 54.6%、Top1 25.7%）。
+                1. 京东大健康提及率 {meMention.value}、Top1 提及率 {meTop1.value}，提及率排名第 {meMention.rank}，综合竞品排名 {meInfluence.value}。优化前（{cnDay(meta.before_date)}）提及率 {before.mention_rate}%、综合竞品排名 NO.{before.influence_rank}。
               </p>
               <div className="h-px bg-[#004CE5]/10 my-1" />
               <p className="text-[21px] leading-relaxed text-zinc-800 font-bold">
-                2. 大众点评（34.9%）、泰康拜博口腔（34.2%）、瑞尔齿科（30.3%）位居第二梯队；京东大健康首推占比已拉开第二名美团 23 个百分点，在线上口腔平台与北京自营门店问法中占据绝对主导。
+                2. {ahead.map((row) => `${row.name}（${row.value}）`).join('、')}仍排在本品之前。Top1 榜首是{top1Leader.name}（{top1Leader.value}），本品 Top1 提及率由 {before.top1_mention_rate}% {top1Word} {october.top1_mention_rate}%。
               </p>
             </div>
           </div>
@@ -140,9 +155,9 @@ export default function Page_CompetitorAnalysis() {
             </h2>
             <div className="flex-grow rounded-2xl bg-[#004CE5]/[0.015] border border-[#004CE5]/15 p-5 flex flex-col justify-evenly min-h-0">
               {[
-                { num: '01', title: '压制美团团购心智', desc: '针对洗牙、补牙、团购比价类词条，突出京东自营口腔「价格透明、无隐形消费、售后保障」差异化优势，持续扩大对美团的领先身位。' },
-                { num: '02', title: '拦截线下连锁对比', desc: '在对比瑞尔齿科、泰康拜博口腔、劲松口腔的横评语料中，强化京东健康线上预约+北京线下自营门诊的一体化闭环体验。' },
-                { num: '03', title: '深化专科项目首推', desc: '在种植牙、正畸、儿童齿科及专家预约等高客单价词条中加密首推语料，将 Top1 提及率稳定在 50% 以上。' },
+                { num: '01', title: `追赶${ahead[0]?.name || '榜首'}`, desc: `${ahead[0]?.name || '榜首'}提及率 ${ahead[0]?.value || '-'}。线上平台、货源靠谱、隐私包装类词条里，把京东大药房的正品和履约写进回答前段。` },
+                { num: '02', title: '收回京东自营首推', desc: `${top1Leader.name}占据 Top1（${top1Leader.value}）。问法里同时出现京东自营和京东大健康时，把首推固定到京东大健康。` },
+                { num: '03', title: '补齐售后与正品', desc: '还没覆盖的词条集中在假货辨别、买错处理和售后。这几条补上之后，71 个监测词条才能全部有提及。' },
               ].map((strat, idx) => (
                 <div key={idx} className="flex items-start gap-3">
                   <span className="text-[#004CE5] font-black text-2xl shrink-0 mt-0.5">{strat.num}</span>

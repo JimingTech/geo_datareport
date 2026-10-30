@@ -1,19 +1,36 @@
 import React from 'react';
 import report from '../data/jingdongReport.json';
 
-const { scope, before, october } = report;
+const { meta, scope, before, october } = report;
 
 function fmtPct(v) {
   return `${Number(v)}%`;
 }
 
+function cnDay(iso) {
+  const [, month, day] = iso.split('-');
+  return `${Number(month)}月${Number(day)}日`;
+}
+
+function platRate(snap, name) {
+  return snap.platforms.find((p) => p.name === name)?.mention_rate;
+}
+
+function trend(from, to, upWord = '升至', downWord = '降至') {
+  return Number(to) >= Number(from) ? upWord : downWord;
+}
+
 const BEFORE_LABEL = '优化前';
 const OCT_LABEL = '10月31日';
-
+const beforeDay = cnDay(meta.before_date);
 const uncovered = scope.entries - october.covered_entries;
+const dsBefore = platRate(before, 'DeepSeek');
+const dsAfter = platRate(october, 'DeepSeek');
+const dbBefore = platRate(before, '豆包');
+const dbAfter = platRate(october, '豆包');
 
 export default function Page_CoreDataOverview() {
-  const rows = [{ key: 'all', name: '京东口腔①', before, october }];
+  const rows = [{ key: 'all', name: meta.product, before, october }];
 
   return (
     <div className="w-full h-full flex flex-col px-12 sm:px-16 pt-[22px] pb-8 text-zinc-800 font-sans overflow-hidden">
@@ -26,7 +43,7 @@ export default function Page_CoreDataOverview() {
 
       <div className="rounded-xl border border-zinc-200 bg-slate-50/40 py-3.5 px-6 shrink-0 mb-4">
         <p className="text-[1.35rem] leading-relaxed text-zinc-500 font-bold">
-          本次监测覆盖 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">{scope.platforms}</span> 个核心 AI 平台，针对重点监测词条 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">{scope.entries}</span> 个进行查询，追踪相关问答数据共计 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">{scope.conversations.toLocaleString()}</span> 篇次。下表对比优化前（10月9日）与 10月31日。
+          本次监测覆盖 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">{scope.platforms}</span> 个核心 AI 平台，针对重点监测词条 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">{scope.entries}</span> 个进行查询，追踪相关问答数据共计 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">{scope.conversations.toLocaleString()}</span> 篇次。下表对比优化前（{beforeDay}）与 10月31日。项目自 9月23日启动。
         </p>
       </div>
 
@@ -77,15 +94,15 @@ export default function Page_CoreDataOverview() {
           </div>
           <div className="flex-1 flex flex-col justify-evenly min-h-0">
             <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-              1. 提及率由 42.1% 升至 73.7%，综合竞品排名由 NO.2 升至 NO.1。
+              1. 提及率由 {fmtPct(before.mention_rate)} {trend(before.mention_rate, october.mention_rate)} {fmtPct(october.mention_rate)}，综合竞品排名由 NO.{before.influence_rank} {trend(october.influence_rank, before.influence_rank)} NO.{october.influence_rank}。
             </p>
             <div className="h-px bg-[#004CE5]/10" />
             <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-              2. DeepSeek 由 11.8% 升至 88.2%；豆包由 72.4% 降至 59.2%，两端还没拉齐。
+              2. DeepSeek 由 {fmtPct(dsBefore)} {trend(dsBefore, dsAfter)} {fmtPct(dsAfter)}；豆包由 {fmtPct(dbBefore)} {trend(dbBefore, dbAfter)} {fmtPct(dbAfter)}。10月31日的监测落在这两个平台。
             </p>
             <div className="h-px bg-[#004CE5]/10" />
             <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-              3. {scope.entries} 个监测词条已覆盖 {october.covered_entries} 个。Top1 提及率由 11.8% 升至 48.7%，Top3 提及率由 29.6% 升至 60.5%。
+              3. {scope.entries} 个监测词条已覆盖 {october.covered_entries} 个。Top1 提及率由 {fmtPct(before.top1_mention_rate)} {trend(before.top1_mention_rate, october.top1_mention_rate)} {fmtPct(october.top1_mention_rate)}，Top3 提及率由 {fmtPct(before.top3_mention_rate)} {trend(before.top3_mention_rate, october.top3_mention_rate)} {fmtPct(october.top3_mention_rate)}。
             </p>
           </div>
         </div>
@@ -97,9 +114,9 @@ export default function Page_CoreDataOverview() {
           </div>
           <div className="flex-1 flex flex-col justify-evenly min-h-0">
             {[
-              { num: '01', title: '稳住 DeepSeek', desc: 'DeepSeek 已到 88.2%。沿用知乎、抖音上已经起量的内容结构，把单日提及率守在 70% 以上。' },
-              { num: '02', title: '拉回豆包', desc: '豆包由 72.4% 降到 59.2%。把预约、自营门店类语料补到豆包，缩小和 DeepSeek 的差距。' },
-              { num: '03', title: '补齐剩余词条', desc: `还剩 ${uncovered} 个词条未覆盖，优先补自营牙科、电商口腔服务、专家预约和补牙医生。` },
+              { num: '01', title: '补齐 DeepSeek', desc: `豆包已到 ${fmtPct(dbAfter)}，DeepSeek 还在 ${fmtPct(dsAfter)}。把隐私包装、当天送达、货源靠谱这些豆包已经打透的问法补到 DeepSeek。` },
+              { num: '02', title: '收回首推', desc: '10月31日京东自营 Top1 提及率 48.6%，本品 15.5%。同一问法里把首推口径固定到京东大健康，不要落在「京东自营」。' },
+              { num: '03', title: '补齐剩余词条', desc: `还剩 ${uncovered} 个词条未覆盖，集中在正品辨别和售后处理。` },
             ].map((strat) => (
               <div key={strat.num} className="flex items-start gap-3">
                 <span className="text-emerald-600 font-black text-2xl shrink-0 mt-0.5 font-['Montserrat',sans-serif]">{strat.num}</span>

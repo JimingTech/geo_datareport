@@ -1,23 +1,24 @@
 #!/usr/bin/env node
 /**
- * 组装 京东口腔 ① (项目 5195) 报告数据 -> src/data/jingdongReport.json
+ * 组装 京东雾化器 (项目 5203) 报告数据 -> src/data/jingdongReport.json
  *
  * 数据来源：
- *   · 项目开始时间 = 2026-09-23
- *   · 优化前基准 = 2026-10-09（提及率 42.1%，Top1 11.8%，Top3 29.6%，竞品排名 NO.2）
- *   · 优化后最新 = 2026-10-31（提及率 73.7%，Top1 48.7%，Top3 60.5%，竞品排名 NO.1）
- *   · 达标要求 = 20天提及率达到60%以上（10/11~10/31 连续 21 天全部 ≥60%，已超额达成）
+ *   · 项目开始 / 优化前 = 2026-09-23（本品提及率 28.2%，Top1 21.1%，Top3 25%，竞品排名 NO.6）
+ *   · 同日美团提及率 30.3%，不是本品口径
+ *   · 优化后最新 = 2026-10-31（提及率 66.9%，Top1 15.5%，Top3 49.3%，竞品排名 NO.3）
+ *   · 达标要求：任意 20 天单日提及率达到 60% 以上（10/12~10/31 共 20 天全部 ≥60%）
  */
 import { readFileSync, writeFileSync, existsSync } from 'fs';
+import { execSync } from 'child_process';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = (p) => JSON.parse(readFileSync(path.join(root, p), 'utf8'));
 
-const PROJECT_ID = 5195;
+const PROJECT_ID = 5203;
 const START_DATE = '2026-09-23';
-const BEFORE_DATE = '2026-10-09';
+const BEFORE_DATE = '2026-09-23';
 const OCT_DATE = '2026-10-31';
 const PASS_LINE = 60;
 const TARGET_DAYS = 20;
@@ -25,7 +26,7 @@ const TARGET_DAYS = 20;
 const full = read(`src/data/geoReport_${PROJECT_ID}.json`);
 const before = read(`src/data/geoReport_${PROJECT_ID}_${BEFORE_DATE}.json`);
 const october = read(`src/data/geoReport_${PROJECT_ID}_${OCT_DATE}.json`);
-const range21 = read(`src/data/geoReport_${PROJECT_ID}_2026-10-11_10-31.json`);
+const qualifiedRange = read(`src/data/geoReport_${PROJECT_ID}_2026-10-12_10-31.json`);
 const extra = read('src/data/jingdong_extra.json');
 
 const pct = (v) => (v == null ? '-' : `${Number(v)}%`);
@@ -114,32 +115,65 @@ const avgGe60 = ratesGe60.length
 
 // 投放明细：若已有新 Excel dump 则读取，否则先基于数据系统引用文章与占位生成（等待用户提供投放文章统计文件）
 let delivery = null;
-const jdExcelPath = path.join(root, 'scripts/_excel_dump_jingdong.json');
+const DELIVERY_XLSX = 'd:\\下载\\雾化器（中位数）_投放文章统计_1029.xlsx';
+const jdExcelPath = path.join(root, 'scripts/_excel_dump_wuhuaqi.json');
+
+if (existsSync(DELIVERY_XLSX)) {
+  try {
+    execSync(`python "${path.join(root, 'scripts/dump-excel.py')}" "${DELIVERY_XLSX}" "${jdExcelPath}"`, { stdio: 'inherit' });
+  } catch (err) {
+    console.warn('dump-excel.py 执行异常，将尝试直接读取现有 dump json:', err.message);
+  }
+}
+
 if (existsSync(jdExcelPath)) {
-  const excel = read('scripts/_excel_dump_jingdong.json');
+  const excel = read('scripts/_excel_dump_wuhuaqi.json');
   const overviewSheet = excel['数据概览'];
-  const detailSheet = excel['文章引用明细'].slice(1).filter((r) => Number.isFinite(Number(r[0])) && r[0] !== '');
+  const header = excel['文章引用明细'][0] || [];
+  const col = {
+    rank: header.indexOf('排名'),
+    title: header.indexOf('文章标题'),
+    platform: header.indexOf('发布平台'),
+    domain: header.indexOf('链接域名'),
+    date: header.indexOf('发布时间'),
+    total: header.indexOf('总引用次数'),
+    deepseek: header.findIndex((h) => h && h.toLowerCase().includes('deepseek')),
+    doubao: header.findIndex((h) => h && h.includes('豆包')),
+    yuanbao: header.findIndex((h) => h && h.includes('元宝')),
+    qwen: header.findIndex((h) => h && (h.includes('通义') || h.includes('千问'))),
+    isCited: header.indexOf('是否被引用'),
+    url: header.indexOf('文章链接'),
+  };
+
+  const detailSheet = excel['文章引用明细']
+    .slice(1)
+    .filter((r) => Number.isFinite(Number(r[0])) && r[0] !== '' && r[0] != null);
   const channelSheet = excel['平台与渠道分析'].slice(1);
-  const cell = (row, col) => overviewSheet[row - 1]?.[col];
+  const cell = (row, colIdx) => overviewSheet[row - 1]?.[colIdx];
   const totalConversations = cell(6, 1);
   const totalCitationRecords = cell(6, 4);
   const deliveryCitations = cell(10, 1);
   const deliveryArticles = cell(14, 1);
   const citedArticles = cell(14, 4);
-  const sum = (idx) => detailSheet.reduce((acc, r) => acc + (Number(r[idx]) || 0), 0);
+
+  const sumCol = (idx) => (idx !== -1 ? detailSheet.reduce((acc, r) => acc + (Number(r[idx]) || 0), 0) : 0);
+
+  const isCitedRow = (r) => (col.isCited !== -1 ? r[col.isCited] === '是' : (Number(r[col.total]) || 0) > 0);
+
   const top10 = detailSheet.slice(0, 10).map((r) => ({
-    rank: r[0],
-    title: r[1],
-    platform: r[2],
-    domain: r[3],
-    date: r[4],
-    total: Number(r[5]) || 0,
-    deepseek: Number(r[6]) || 0,
-    doubao: Number(r[7]) || 0,
-    yuanbao: Number(r[8]) || 0,
-    qwen: Number(r[9]) || 0,
-    isCited: r[10],
+    rank: r[col.rank !== -1 ? col.rank : 0],
+    title: r[col.title !== -1 ? col.title : 1],
+    platform: r[col.platform !== -1 ? col.platform : 2],
+    domain: r[col.domain !== -1 ? col.domain : 3],
+    date: r[col.date !== -1 ? col.date : 4],
+    total: Number(r[col.total !== -1 ? col.total : 5]) || 0,
+    deepseek: col.deepseek !== -1 ? Number(r[col.deepseek]) || 0 : 0,
+    doubao: col.doubao !== -1 ? Number(r[col.doubao]) || 0 : 0,
+    yuanbao: col.yuanbao !== -1 ? Number(r[col.yuanbao]) || 0 : 0,
+    qwen: col.qwen !== -1 ? Number(r[col.qwen]) || 0 : 0,
+    isCited: col.isCited !== -1 ? r[col.isCited] : ((Number(r[col.total]) || 0) > 0 ? '是' : '否'),
   }));
+
   const DOMAIN_NAMES = {
     'mp.weixin.qq.com': '微信公众号',
     'post.smzdm.com': '什么值得买',
@@ -155,19 +189,29 @@ if (existsSync(jdExcelPath)) {
     'sina.com.cn': '新浪',
     'k.sina.com.cn': '新浪',
     'medicinesx.com': '中国医药卫生网',
+    'news.pharmnet.com.cn': '中国医药网',
+    'news.fh21.com.cn': '复禾医药网',
+    '1545ts.com': '泰山网',
+    'news.xnnews.com.cn': '咸宁新闻网',
+    'medicinal.cn': '医药网',
+    'wanliancm.com': '万联网',
+    'weibo.com': '微博',
     'yxj.net.cn': '医学界',
     'zl.39.net': '39健康网',
     'news.xywy.com': '寻医问药网',
     'caifuhao.eastmoney.com': '东方财富',
     'health-times.cn': '健康时报',
   };
+
   const byDomain = new Map();
   for (const r of detailSheet) {
-    const name = DOMAIN_NAMES[r[3]] || r[2] || r[3];
+    const domain = r[col.domain !== -1 ? col.domain : 3];
+    const platform = r[col.platform !== -1 ? col.platform : 2];
+    const name = DOMAIN_NAMES[domain] || platform || domain;
     const acc = byDomain.get(name) || { channel: name, articles: 0, cited: 0, citations: 0 };
     acc.articles += 1;
-    if (r[10] === '是') acc.cited += 1;
-    acc.citations += Number(r[5]) || 0;
+    if (isCitedRow(r)) acc.cited += 1;
+    acc.citations += Number(r[col.total !== -1 ? col.total : 5]) || 0;
     byDomain.set(name, acc);
   }
   const domainStats = [...byDomain.values()].sort((a, b) => b.citations - a.citations || b.articles - a.articles);
@@ -183,7 +227,7 @@ if (existsSync(jdExcelPath)) {
     }));
 
   delivery = {
-    source: '京东口腔(中位数)_投放文章统计_1029.xlsx',
+    source: '雾化器（中位数）_投放文章统计_1029.xlsx',
     generated_at: excel['数据概览']?.[2]?.[1]?.match(/生成时间：(\d{4})\/(\d{1,2})\/(\d{1,2})/)
       ? `${RegExp.$1}-${String(RegExp.$2).padStart(2, '0')}-${String(RegExp.$3).padStart(2, '0')}`
       : '2026-10-29',
@@ -191,78 +235,36 @@ if (existsSync(jdExcelPath)) {
       delivery_articles: deliveryArticles,
       cited_articles: citedArticles,
       cited_rate: Number(((citedArticles / deliveryArticles) * 100).toFixed(1)),
-      unique_titles: new Set(detailSheet.map((r) => r[1])).size,
-      unique_cited_titles: new Set(detailSheet.filter((r) => r[10] === '是').map((r) => r[1])).size,
+      unique_titles: new Set(detailSheet.map((r) => r[col.title !== -1 ? col.title : 1])).size,
+      unique_cited_titles: new Set(detailSheet.filter(isCitedRow).map((r) => r[col.title !== -1 ? col.title : 1])).size,
       delivery_citations: deliveryCitations,
       total_conversations: totalConversations,
       total_citation_records: totalCitationRecords,
     },
     platform_totals: {
-      total: sum(5),
-      deepseek: sum(6),
-      doubao: sum(7),
-      yuanbao: sum(8),
-      qwen: sum(9),
+      total: sumCol(col.total !== -1 ? col.total : 5),
+      deepseek: sumCol(col.deepseek),
+      doubao: sumCol(col.doubao),
+      yuanbao: sumCol(col.yuanbao),
+      qwen: sumCol(col.qwen),
     },
     top10,
     top_channels: topChannels,
     domain_stats: domainStats,
   };
 } else {
-  // 基于 GEO ONE citations 临时构建（待用户上传投放文章统计 Excel 后自动切换）
-  const articles = full.citations.articles || [];
-  const pStats = full.citations.platform_stats || [];
-  const totalCit = articles.reduce((s, a) => s + (Number(a.total_citations) || 0), 0);
-  const top10 = articles.slice(0, 10).map((a, idx) => ({
-    rank: idx + 1,
-    title: a.title,
-    platform: a.platform_name,
-    domain: a.domain,
-    date: '2026-10',
-    total: a.total_citations,
-    deepseek: '--',
-    doubao: '--',
-    yuanbao: '--',
-    qwen: '--',
-    isCited: '是',
-  }));
-  const domainStats = pStats.map((p) => ({
-    channel: p.platform_name,
-    articles: p.citation_count,
-    cited: p.citation_count,
-    citations: p.citation_count,
-  }));
   delivery = {
-    source: 'GEO ONE 引用统计（待导入投放统计表）',
+    pending: true,
+    source: '待导入投放文章统计',
     generated_at: OCT_DATE,
-    overview: {
-      delivery_articles: articles.length,
-      cited_articles: articles.length,
-      cited_rate: full.citations.citation_rate || 85.8,
-      unique_titles: articles.length,
-      unique_cited_titles: articles.length,
-      delivery_citations: full.citations.total_citations,
-      total_conversations: full.citations.total_conversations,
-      total_citation_records: full.citations.total_citations,
-    },
-    platform_totals: {
-      total: totalCit,
-      deepseek: '--',
-      doubao: '--',
-      yuanbao: '--',
-      qwen: '--',
-    },
-    top10,
-    top_channels: domainStats,
-    domain_stats: domainStats,
   };
 }
 
 const report = {
   meta: {
     project_id: PROJECT_ID,
-    project_name: '京东口腔 ①',
-    product: '京东口腔 ①',
+    project_name: '京东雾化器',
+    product: '京东雾化器',
     target_product: full.meta.target_product,
     brand: '京东大健康',
     label: '2026年10月',
@@ -270,7 +272,7 @@ const report = {
     before_date: BEFORE_DATE,
     october_date: OCT_DATE,
     september_date: OCT_DATE, // 兼容旧字段名
-    before_label: '优化前（42.1%）',
+    before_label: `优化前（${before.stats.brand_mention_rate}%）`,
     october_label: '优化后（10/31）',
     september_label: '优化后（10/31）', // 兼容旧字段名
   },
@@ -279,7 +281,7 @@ const report = {
     target_days: TARGET_DAYS,
     project_start_date: START_DATE,
     before_date: BEFORE_DATE,
-    before_mention_rate: 42.1,
+    before_mention_rate: before.stats.brand_mention_rate,
     latest_date: OCT_DATE,
     latest_mention_rate: october.stats.brand_mention_rate,
     qualified_days_count: qualifiedDays.length,
@@ -289,13 +291,13 @@ const report = {
     max_qualified_rate: maxGe60,
     max_qualified_date: qualifiedDays.find((d) => d.mention_rate === maxGe60)?.date || '2026-10-26',
     avg_qualified_rate: avgGe60,
-    range_21d_stats: snapshot(range21),
+    range_qualified_stats: snapshot(qualifiedRange),
     daily_trend: postStartDaily,
     all_daily: allDaily,
   },
   scope: {
-    platforms: extra.platforms.length,
-    platform_names: extra.platforms.map((p) => p.name),
+    platforms: snapshot(october).platforms.length,
+    platform_names: snapshot(october).platforms.map((p) => p.name),
     entries: october.entries.total,
     conversations: full.influence.total_conversations,
     daily_conversations: october.influence.total_conversations,
@@ -312,7 +314,7 @@ const report = {
     name,
     listed: octListed[name]?.listed ?? 0,
     top1: octListed[name]?.top1 ?? 0,
-    isTarget: name === '京东大健康',
+    isTarget: mentionLeaders.some((b) => b.is_target && productFullName(b) === name),
   })),
   sentiments: {
     positive: extra.october.sentiments?.positive_percentage ?? null,
@@ -325,7 +327,7 @@ const report = {
     return october.entries.list.map((e) => ({
       name: e.entry_name,
       mention_rate: e.mention_rate,
-      position: e.position,
+      top1_mention_rate: e.top1_mention_rate,
       before_mention_rate: beforeMap[e.entry_name]?.mention_rate ?? null,
     }));
   })(),

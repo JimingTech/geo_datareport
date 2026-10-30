@@ -1,0 +1,3567 @@
+{
+  "meta": {
+    "fetched_at": "2026-10-29T08:23:10.308Z",
+    "api_base": "https://api.geotopone.com",
+    "project_id": 5203,
+    "project_name": "雾化器",
+    "target_product": "京东大健康(京东健康、京东买药、京东大药房)",
+    "target_brand_name": "京东大健康",
+    "start_date": "2026-10-12",
+    "end_date": "2026-10-31"
+  },
+  "platforms": [
+    {
+      "id": 1,
+      "name": "DeepSeek",
+      "url": "https://app.geoindexfuture.com/logo/deepseek.png",
+      "crawl_enabled": 1,
+      "max_crawl_accounts": 20,
+      "crawl_rate_config": null,
+      "crawl_rate_effective": {
+        "requests_per_hour": -1,
+        "request_interval_sec": 30,
+        "batch_duration_sec": 86400,
+        "batch_max_requests": 1000,
+        "batch_interval_sec": 60
+      },
+      "crawl_rate_source": "global"
+    },
+    {
+      "id": 2,
+      "name": "豆包",
+      "url": "https://app.geoindexfuture.com/logo/doubao.png",
+      "crawl_enabled": 1,
+      "max_crawl_accounts": 10,
+      "crawl_rate_config": null,
+      "crawl_rate_effective": {
+        "requests_per_hour": -1,
+        "request_interval_sec": 30,
+        "batch_duration_sec": 86400,
+        "batch_max_requests": 1000,
+        "batch_interval_sec": 60
+      },
+      "crawl_rate_source": "global"
+    },
+    {
+      "id": 3,
+      "name": "元宝",
+      "url": "https://app.geoindexfuture.com/logo/yuanbao.png",
+      "crawl_enabled": 1,
+      "max_crawl_accounts": 10,
+      "crawl_rate_config": null,
+      "crawl_rate_effective": {
+        "requests_per_hour": -1,
+        "request_interval_sec": 30,
+        "batch_duration_sec": 86400,
+        "batch_max_requests": 1000,
+        "batch_interval_sec": 60
+      },
+      "crawl_rate_source": "global"
+    },
+    {
+      "id": 5,
+      "name": "通义千问",
+      "url": "https://app.geoindexfuture.com/logo/qwen.png",
+      "crawl_enabled": 1,
+      "max_crawl_accounts": 10,
+      "crawl_rate_config": null,
+      "crawl_rate_effective": {
+        "requests_per_hour": -1,
+        "request_interval_sec": 30,
+        "batch_duration_sec": 86400,
+        "batch_max_requests": 1000,
+        "batch_interval_sec": 60
+      },
+      "crawl_rate_source": "global"
+    }
+  ],
+  "stats": {
+    "brand_mention_rate": 67,
+    "top1_mention_rate": 20,
+    "top3_mention_rate": 53.1,
+    "avg_position": 3.4,
+    "daily_stats": [
+      {
+        "date": "2026-10-12",
+        "mention_rate": 62,
+        "avg_position": 3.5
+      },
+      {
+        "date": "2026-10-13",
+        "mention_rate": 68.3,
+        "avg_position": 3.3
+      },
+      {
+        "date": "2026-10-14",
+        "mention_rate": 65.5,
+        "avg_position": 3.6
+      },
+      {
+        "date": "2026-10-15",
+        "mention_rate": 66.2,
+        "avg_position": 3.3
+      },
+      {
+        "date": "2026-10-16",
+        "mention_rate": 69,
+        "avg_position": 3
+      },
+      {
+        "date": "2026-10-17",
+        "mention_rate": 67.6,
+        "avg_position": 3.1
+      },
+      {
+        "date": "2026-10-18",
+        "mention_rate": 67.6,
+        "avg_position": 3.1
+      },
+      {
+        "date": "2026-10-19",
+        "mention_rate": 68.3,
+        "avg_position": 3.1
+      },
+      {
+        "date": "2026-10-20",
+        "mention_rate": 65.5,
+        "avg_position": 3.2
+      },
+      {
+        "date": "2026-10-21",
+        "mention_rate": 66.2,
+        "avg_position": 3.2
+      },
+      {
+        "date": "2026-10-22",
+        "mention_rate": 68.3,
+        "avg_position": 3.1
+      },
+      {
+        "date": "2026-10-23",
+        "mention_rate": 69,
+        "avg_position": 3.2
+      },
+      {
+        "date": "2026-10-24",
+        "mention_rate": 67.6,
+        "avg_position": 3.7
+      },
+      {
+        "date": "2026-10-25",
+        "mention_rate": 66.9,
+        "avg_position": 3.5
+      },
+      {
+        "date": "2026-10-26",
+        "mention_rate": 68.3,
+        "avg_position": 3.3
+      },
+      {
+        "date": "2026-10-27",
+        "mention_rate": 65.5,
+        "avg_position": 3.7
+      },
+      {
+        "date": "2026-10-28",
+        "mention_rate": 67.6,
+        "avg_position": 3.6
+      },
+      {
+        "date": "2026-10-29",
+        "mention_rate": 66.2,
+        "avg_position": 3.6
+      },
+      {
+        "date": "2026-10-30",
+        "mention_rate": 68.3,
+        "avg_position": 3.4
+      },
+      {
+        "date": "2026-10-31",
+        "mention_rate": 66.9,
+        "avg_position": 3.4
+      }
+    ],
+    "platform_stats": [
+      {
+        "platform_id": 1,
+        "platform_name": "DeepSeek",
+        "platform_logo": "https://app.geoindexfuture.com/logo/deepseek.png",
+        "brand_mention_rate": 50.2,
+        "avg_position": 3.6
+      },
+      {
+        "platform_id": 2,
+        "platform_name": "豆包",
+        "platform_logo": "https://app.geoindexfuture.com/logo/doubao.png",
+        "brand_mention_rate": 83.9,
+        "avg_position": 3.1
+      }
+    ]
+  },
+  "influence": {
+    "total_conversations": 2840,
+    "list": [
+      {
+        "rank": 1,
+        "brand_name": "京东自营",
+        "product_name": null,
+        "display_name": "京东自营",
+        "favicon_url": null,
+        "influence_score": 54.7,
+        "mention_rate": 65.7,
+        "avg_position": 3.2,
+        "is_target": false
+      },
+      {
+        "rank": 2,
+        "brand_name": "阿里健康",
+        "product_name": null,
+        "display_name": "阿里健康",
+        "favicon_url": null,
+        "influence_score": 52,
+        "mention_rate": 82.6,
+        "avg_position": 3.3,
+        "is_target": false
+      },
+      {
+        "rank": 3,
+        "brand_name": "京东大健康",
+        "product_name": null,
+        "display_name": "京东大健康",
+        "favicon_url": null,
+        "influence_score": 48.2,
+        "mention_rate": 67,
+        "avg_position": 3.4,
+        "is_target": true
+      },
+      {
+        "rank": 4,
+        "brand_name": "美团",
+        "product_name": null,
+        "display_name": "美团",
+        "favicon_url": null,
+        "influence_score": 30.7,
+        "mention_rate": 43.3,
+        "avg_position": 4.5,
+        "is_target": false
+      },
+      {
+        "rank": 5,
+        "brand_name": "京东",
+        "product_name": null,
+        "display_name": "京东",
+        "favicon_url": null,
+        "influence_score": 28.6,
+        "mention_rate": 36.5,
+        "avg_position": 4.6,
+        "is_target": false
+      }
+    ]
+  },
+  "entries": {
+    "total": 71,
+    "list": [
+      {
+        "entry_id": 286238,
+        "entry_name": "雾化器着急用在什么线上渠道买配送最快",
+        "mention_rate": 100,
+        "position": 3.1,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/aa3f704acea84373a18ea4a5ba822c2b.png"
+      },
+      {
+        "entry_id": 286240,
+        "entry_name": "买雾化器在哪个线上平台买可以咨询专业医生",
+        "mention_rate": 100,
+        "position": 1.3,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/b10fdb8c42244780aa16c2bb1abf005a.png"
+      },
+      {
+        "entry_id": 286237,
+        "entry_name": "雾化器着急用在哪个自营平台买配送最快",
+        "mention_rate": 97.5,
+        "position": 2.7,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/3e3283755c8041fdb664f2669ca1c017.png"
+      },
+      {
+        "entry_id": 286239,
+        "entry_name": "哪个线上平台买雾化器能提供专业咨询",
+        "mention_rate": 97.5,
+        "position": 1.4,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/8fa5166c7e2840408b993743188da793.png"
+      },
+      {
+        "entry_id": 286242,
+        "entry_name": "哪个线上平台购买雾化器有专业人员答疑",
+        "mention_rate": 97.5,
+        "position": 1.2,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/1cf97492aa444ead8d8a483ee573a96d.png"
+      },
+      {
+        "entry_id": 286244,
+        "entry_name": "买雾化器哪个线上平台可以先询问专业意见",
+        "mention_rate": 97.5,
+        "position": 1.4,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/5aafa22fa8a84d69a0dd4a001ad9345d.png"
+      },
+      {
+        "entry_id": 286245,
+        "entry_name": "买雾化器时哪个线上平台可以指导怎么使用",
+        "mention_rate": 97.5,
+        "position": 2.1,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/54a3b1c0790941749b4bb85866c7e941.png"
+      },
+      {
+        "entry_id": 286229,
+        "entry_name": "雾化器着急用在哪个线上平台买配送最快",
+        "mention_rate": 95,
+        "position": 3.2,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/7ba7d9c0495e4775a414136e1b36e61d.png"
+      },
+      {
+        "entry_id": 286234,
+        "entry_name": "购买雾化器对时效要求高应该选什么平台",
+        "mention_rate": 95,
+        "position": 3.3,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/0fec64b125a7440e8a014ceb9c3125ad.png"
+      },
+      {
+        "entry_id": 286247,
+        "entry_name": "哪个自营平台买雾化器能提供专业咨询",
+        "mention_rate": 95,
+        "position": 1.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/c4de90bfdde64dafa3336cda28c25779.png"
+      },
+      {
+        "entry_id": 286243,
+        "entry_name": "买雾化器哪个线上平台能根据情况给专业购买建议",
+        "mention_rate": 92.5,
+        "position": 1.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/7eaca3e25275423d9db5599d235ae619.png"
+      },
+      {
+        "entry_id": 286248,
+        "entry_name": "什么线上渠道买雾化器能提供专业咨询",
+        "mention_rate": 92.5,
+        "position": 1.8,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/088d62a35430424582e122a2dff693ae.png"
+      },
+      {
+        "entry_id": 286228,
+        "entry_name": "附近能送到的买雾化器的线上平台推荐",
+        "mention_rate": 90,
+        "position": 3.8,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/f613581d6e1a4e28ad40673270eb4720.png"
+      },
+      {
+        "entry_id": 286227,
+        "entry_name": "晚上急需雾化器哪个线上平台能买到",
+        "mention_rate": 87.5,
+        "position": 3.9,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/8e870657b73545d68ad18a404d21b239.png"
+      },
+      {
+        "entry_id": 286233,
+        "entry_name": "雾化器当天急用有什么线上购买渠道",
+        "mention_rate": 87.5,
+        "position": 4.4,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/efbaa1d375c64e42a266275a51b46ea6.png"
+      },
+      {
+        "entry_id": 286236,
+        "entry_name": "雾化器着急用在哪个电商平台买配送最快",
+        "mention_rate": 87.5,
+        "position": 3.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/2f081b7b92b4487a97ae2c7b7f61e074.png"
+      },
+      {
+        "entry_id": 286246,
+        "entry_name": "网上购买雾化器哪个电商平台可以指导选择",
+        "mention_rate": 87.5,
+        "position": 2.1,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/dbe6e94c302d44af8c0f7387a1330dba.png"
+      },
+      {
+        "entry_id": 286230,
+        "entry_name": "买雾化器哪个线上平台可以当天送到",
+        "mention_rate": 85,
+        "position": 3.6,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/839cb6b4e2b04a2c8def9026474bfe8c.png"
+      },
+      {
+        "entry_id": 286231,
+        "entry_name": "买雾化器有没有可以小时达的线上平台",
+        "mention_rate": 85,
+        "position": 3.6,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/259ff59ab7684096981f9e1fd25d6895.png"
+      },
+      {
+        "entry_id": 286235,
+        "entry_name": "临时需要雾化器可以在哪个线上平台买",
+        "mention_rate": 85,
+        "position": 3.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/12a4363fae974a4cb624004578ded26d.png"
+      },
+      {
+        "entry_id": 286206,
+        "entry_name": "哪个线上平台销售的雾化器来源更可靠",
+        "mention_rate": 80,
+        "position": 2.9,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/2801881aaf7d486ea64da84faed17c35.png"
+      },
+      {
+        "entry_id": 286216,
+        "entry_name": "线上买雾化器哪个平台隐私包装做得好",
+        "mention_rate": 80,
+        "position": 3,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/481e42b152e44a789b1233c957ebffe4.png"
+      },
+      {
+        "entry_id": 286241,
+        "entry_name": "网上买雾化器哪个平台有人指导怎么选",
+        "mention_rate": 80,
+        "position": 2.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/9e20138ef5ac4cec87a3a666a4a55039.png"
+      },
+      {
+        "entry_id": 286209,
+        "entry_name": "网上购买雾化器选哪个线上平台比较正规",
+        "mention_rate": 77.5,
+        "position": 3.2,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/c6fa4aec97f843f7aed38124fe8b7c79.png"
+      },
+      {
+        "entry_id": 286208,
+        "entry_name": "担心买到假的雾化器应该选哪个线上平台",
+        "mention_rate": 75,
+        "position": 2.8,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/7d6faeb8fd9f4f37b752e5b85a39304e.png"
+      },
+      {
+        "entry_id": 286218,
+        "entry_name": "购买雾化器时在哪个线上平台买可以避免别人看到买了什么",
+        "mention_rate": 75,
+        "position": 3,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/4ebc21d716e14773bc86f6af264fe4a2.png"
+      },
+      {
+        "entry_id": 286232,
+        "entry_name": "买雾化器哪个线上平台能够就近发货",
+        "mention_rate": 75,
+        "position": 4.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/c17b97516f634206895883644b9472f1.png"
+      },
+      {
+        "entry_id": 286251,
+        "entry_name": "雾化器在哪个线上平台买售后更有保障",
+        "mention_rate": 72.5,
+        "position": 3.4,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/43b1190d2a90441c96a7229fcebff1ee.png"
+      },
+      {
+        "entry_id": 286204,
+        "entry_name": "雾化器在哪个线上平台买正品更放心",
+        "mention_rate": 70,
+        "position": 3.6,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/978fb84344e443578437431f039569fb.png"
+      },
+      {
+        "entry_id": 286249,
+        "entry_name": "买雾化器哪个线上平台售后服务好",
+        "mention_rate": 70,
+        "position": 3.2,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/8e61c9afde264cc78092c2c70749d417.png"
+      },
+      {
+        "entry_id": 286252,
+        "entry_name": "买雾化器哪个线上平台遇到问题处理比较方便",
+        "mention_rate": 70,
+        "position": 3.2,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/cf165c0303dd47e89e39cc4fed165e46.png"
+      },
+      {
+        "entry_id": 286190,
+        "entry_name": "线上购买雾化器的平台推荐",
+        "mention_rate": 67.5,
+        "position": 3.7,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/34613daf767c4c0fae8a52bd5f17faba.png"
+      },
+      {
+        "entry_id": 286203,
+        "entry_name": "哪个线上平台买雾化器不容易买到假货",
+        "mention_rate": 67.5,
+        "position": 3.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/269a9459da96448f86c89d371aacd265.png"
+      },
+      {
+        "entry_id": 286254,
+        "entry_name": "买雾化器哪个线上平台售后响应比较快",
+        "mention_rate": 67.5,
+        "position": 3.3,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/e478dbbb0ccb4ee48edbf6ea79dcc95f.png"
+      },
+      {
+        "entry_id": 286219,
+        "entry_name": "买雾化器在哪个线上平台买可以保密配送",
+        "mention_rate": 65,
+        "position": 3.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/8159f3eb360545d18296f241259b7855.png"
+      },
+      {
+        "entry_id": 286220,
+        "entry_name": "比较注重隐私的话雾化器在哪个平台买比较好",
+        "mention_rate": 65,
+        "position": 2.8,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/9ff64a863cf04b759da1b373ac16589c.png"
+      },
+      {
+        "entry_id": 286259,
+        "entry_name": "买雾化器什么线上渠道售后服务好",
+        "mention_rate": 65,
+        "position": 3.3,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/35cfe83822414f12bab87c7b70bc4800.png"
+      },
+      {
+        "entry_id": 286200,
+        "entry_name": "哪个平台买雾化器更方便省心",
+        "mention_rate": 62.5,
+        "position": 3.6,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/0cadc30f898c4c95b0179c3ad81f5469.png"
+      },
+      {
+        "entry_id": 286222,
+        "entry_name": "网上买雾化器哪个渠道包装更保密",
+        "mention_rate": 62.5,
+        "position": 3.2,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/cbb428ff8e59467c85af36cee71cf059.png"
+      },
+      {
+        "entry_id": 286226,
+        "entry_name": "买雾化器什么线上渠道隐私包装做得好",
+        "mention_rate": 62.5,
+        "position": 3.3,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/8b3bc50e29944811ad0a551579c08dc5.png"
+      },
+      {
+        "entry_id": 286191,
+        "entry_name": "买雾化器在哪个线上平台比较方便",
+        "mention_rate": 60,
+        "position": 4.1,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/5c04fbbba1844edca024d61391b37752.png"
+      },
+      {
+        "entry_id": 286197,
+        "entry_name": "买雾化器的自营平台哪个比较靠谱",
+        "mention_rate": 60,
+        "position": 2.7,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/7c321c3ddae24a80bdd41cf0d97a030c.png"
+      },
+      {
+        "entry_id": 286198,
+        "entry_name": "购买雾化器有哪些靠谱的线上渠道",
+        "mention_rate": 60,
+        "position": 4.2,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/f4c3244a0e8a4bf9823d9d929c3c844e.png"
+      },
+      {
+        "entry_id": 286213,
+        "entry_name": "买雾化器什么线上渠道有正品保障",
+        "mention_rate": 60,
+        "position": 4.3,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/50defcaec7434e9e82cf18a7d9dc40d6.png"
+      },
+      {
+        "entry_id": 286215,
+        "entry_name": "哪个线上平台购买雾化器不会在包裹上写商品名称",
+        "mention_rate": 60,
+        "position": 3.8,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/00d20edb0630448ba80eaedfb65746af.png"
+      },
+      {
+        "entry_id": 286223,
+        "entry_name": "买雾化器哪些电商平台支持隐私包装",
+        "mention_rate": 60,
+        "position": 3.8,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/737ab5895bab42a9bb0fc5dca1f53ed6.png"
+      },
+      {
+        "entry_id": 286195,
+        "entry_name": "买雾化器的电商平台哪个比较靠谱",
+        "mention_rate": 57.5,
+        "position": 3.6,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/0ba4ef5b623642c6aa94e5909aa47b1d.png"
+      },
+      {
+        "entry_id": 286207,
+        "entry_name": "网上买雾化器哪个线上平台质量更有保障",
+        "mention_rate": 57.5,
+        "position": 3.8,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/23b85f57f7a14fc98b5ac700a7d9b14f.png"
+      },
+      {
+        "entry_id": 286210,
+        "entry_name": "买雾化器哪个线上平台货源比较靠谱",
+        "mention_rate": 57.5,
+        "position": 3.9,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a50d068363ac46ff96461cba56273460.png"
+      },
+      {
+        "entry_id": 286258,
+        "entry_name": "买雾化器哪个自营平台售后服务好",
+        "mention_rate": 57.5,
+        "position": 2.8,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/83f94694e24a481db2fd166aa4a6b75b.png"
+      },
+      {
+        "entry_id": 286201,
+        "entry_name": "线上哪里买雾化器有正品保障",
+        "mention_rate": 55,
+        "position": 4.6,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/bcddeda9edcf41238fe63a92e3d1c77f.png"
+      },
+      {
+        "entry_id": 286217,
+        "entry_name": "哪个线上平台买雾化器包装比较低调",
+        "mention_rate": 55,
+        "position": 3.1,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/0f25be5297204f87a3c83f760869761f.png"
+      },
+      {
+        "entry_id": 286192,
+        "entry_name": "买雾化器的线上平台推荐top3",
+        "mention_rate": 52.5,
+        "position": 3,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/e39f3038a88541868a10adce76cefdd2.png"
+      },
+      {
+        "entry_id": 286212,
+        "entry_name": "买雾化器哪个自营平台有正品保障",
+        "mention_rate": 52.5,
+        "position": 3,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/db116d8e13af4674b440dbb70792c886.png"
+      },
+      {
+        "entry_id": 286193,
+        "entry_name": "买雾化器的线上平台排行榜",
+        "mention_rate": 50,
+        "position": 3.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/86e73ade42b34b72ad0b8368758f38cb.png"
+      },
+      {
+        "entry_id": 286202,
+        "entry_name": "网上买雾化器哪个平台能保证正品",
+        "mention_rate": 50,
+        "position": 4.1,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/7a36f411fafb439aa4f853cffdf91ed5.png"
+      },
+      {
+        "entry_id": 286194,
+        "entry_name": "买雾化器的电商平台推荐",
+        "mention_rate": 47.5,
+        "position": 4,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/758b292cf1194807ae74cfde1e366c74.png"
+      },
+      {
+        "entry_id": 286196,
+        "entry_name": "买雾化器的自营平台推荐",
+        "mention_rate": 47.5,
+        "position": 3.1,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/4461c7d6a7344621937f44e2aba9aca2.png"
+      },
+      {
+        "entry_id": 286211,
+        "entry_name": "买雾化器哪个电商平台有正品保障",
+        "mention_rate": 47.5,
+        "position": 4.2,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/20a84af338d34fb2ba3869e662967aa9.png"
+      },
+      {
+        "entry_id": 286214,
+        "entry_name": "网上买雾化器哪里可以隐私发货",
+        "mention_rate": 47.5,
+        "position": 4.3,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/d8d7ae070bc34a73af1029e5157edcd2.png"
+      },
+      {
+        "entry_id": 286221,
+        "entry_name": "买雾化器在哪个线上平台买可以隐藏订单信息",
+        "mention_rate": 47.5,
+        "position": 3.8,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/e68a365c5a2f41eba4a939fd74f56423.png"
+      },
+      {
+        "entry_id": 286189,
+        "entry_name": "买雾化器在哪个线上平台比较好",
+        "mention_rate": 45,
+        "position": 4.3,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/1f0b404644c245a4b9dc7f42bccec3ce.png"
+      },
+      {
+        "entry_id": 286199,
+        "entry_name": "买雾化器，用什么平台体验比较好",
+        "mention_rate": 42.5,
+        "position": 4,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/064e444307f4472ebc7183ede0fa5606.png"
+      },
+      {
+        "entry_id": 286205,
+        "entry_name": "买雾化器在哪个渠道买可信度比较高",
+        "mention_rate": 42.5,
+        "position": 4.8,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/1408c6c21b614c60978fc5b6853f31a2.png"
+      },
+      {
+        "entry_id": 286253,
+        "entry_name": "哪个线上平台购买雾化器退换货流程比较简单",
+        "mention_rate": 42.5,
+        "position": 3.9,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/7b38dc9a218f4124aad34d78f20d1d93.png"
+      },
+      {
+        "entry_id": 286257,
+        "entry_name": "买雾化器哪个电商平台售后服务好",
+        "mention_rate": 37.5,
+        "position": 4.3,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/2dcc7aeea8fc4142a3aaa57c3c148586.png"
+      },
+      {
+        "entry_id": 286225,
+        "entry_name": "买雾化器哪个自营平台隐私包装做得好",
+        "mention_rate": 35,
+        "position": 3.2,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/210a816154e3440790349484673ce894.png"
+      },
+      {
+        "entry_id": 286250,
+        "entry_name": "网上买雾化器哪个线上平台退换货方便",
+        "mention_rate": 32.5,
+        "position": 4.2,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a8a0016e5d8542f69718db4b1df59dfe.png"
+      },
+      {
+        "entry_id": 286224,
+        "entry_name": "买雾化器哪个电商平台隐私包装做得好",
+        "mention_rate": 30,
+        "position": 4.4,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/fa450e3396a743c985a3559a37ac164c.png"
+      },
+      {
+        "entry_id": 286255,
+        "entry_name": "买错雾化器在哪个线上平台比较容易处理",
+        "mention_rate": 25,
+        "position": 4.4,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/ed8e0a37b58343d79cbae85649c84e34.png"
+      },
+      {
+        "entry_id": 286256,
+        "entry_name": "比较关心售后的话雾化器去哪里买比较好",
+        "mention_rate": 22.5,
+        "position": 4.6,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-10-30T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/bdaf052ee8ee46b0a4eed36e3478c275.png"
+      }
+    ]
+  },
+  "compare": {
+    "target_product": "京东大健康(京东健康、京东买药、京东大药房)",
+    "mention_rate_ranking": [
+      {
+        "brand_id": 218955,
+        "brand_name": "阿里健康",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "阿里健康",
+        "mention_count": 2347,
+        "mention_rate": 82.6,
+        "is_target": false,
+        "rank": 1
+      },
+      {
+        "brand_id": 1129190,
+        "brand_name": "京东大健康",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "京东大健康",
+        "mention_count": 1904,
+        "mention_rate": 67,
+        "is_target": true,
+        "rank": 2
+      },
+      {
+        "brand_id": 70449,
+        "brand_name": "京东自营",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "京东自营",
+        "mention_count": 1867,
+        "mention_rate": 65.7,
+        "is_target": false,
+        "rank": 3
+      },
+      {
+        "brand_id": 218951,
+        "brand_name": "美团",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "美团",
+        "mention_count": 1231,
+        "mention_rate": 43.3,
+        "is_target": false,
+        "rank": 4
+      },
+      {
+        "brand_id": 218950,
+        "brand_name": "拼多多",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "拼多多",
+        "mention_count": 1185,
+        "mention_rate": 41.7,
+        "is_target": false,
+        "rank": 5
+      }
+    ],
+    "position_ranking": [
+      {
+        "brand_id": 70449,
+        "brand_name": "京东自营",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "京东自营",
+        "avg_position": 3.2,
+        "mention_count": 1867,
+        "is_target": false
+      },
+      {
+        "brand_id": 218955,
+        "brand_name": "阿里健康",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "阿里健康",
+        "avg_position": 3.3,
+        "mention_count": 2347,
+        "is_target": false
+      },
+      {
+        "brand_id": 1129190,
+        "brand_name": "京东大健康",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "京东大健康",
+        "avg_position": 3.4,
+        "mention_count": 1904,
+        "is_target": true
+      },
+      {
+        "brand_id": 218951,
+        "brand_name": "美团",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "美团",
+        "avg_position": 4.5,
+        "mention_count": 1231,
+        "is_target": false
+      },
+      {
+        "brand_id": 219056,
+        "brand_name": "京东",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "京东",
+        "avg_position": 4.6,
+        "mention_count": 1038,
+        "is_target": false
+      }
+    ],
+    "rate_daily": [
+      {
+        "date": "2026-10-12",
+        "阿里健康": 83.1,
+        "京东大健康": 62,
+        "京东自营": 51.4,
+        "美团": 42.3,
+        "拼多多": 39.4
+      },
+      {
+        "date": "2026-10-13",
+        "阿里健康": 83.8,
+        "京东大健康": 68.3,
+        "京东自营": 54.9,
+        "美团": 43.7,
+        "拼多多": 40.8
+      },
+      {
+        "date": "2026-10-14",
+        "阿里健康": 90.8,
+        "京东大健康": 65.5,
+        "京东自营": 65.5,
+        "美团": 44.4,
+        "拼多多": 51.4
+      },
+      {
+        "date": "2026-10-15",
+        "阿里健康": 83.8,
+        "京东大健康": 66.2,
+        "京东自营": 58.5,
+        "美团": 42.3,
+        "拼多多": 38.7
+      },
+      {
+        "date": "2026-10-16",
+        "阿里健康": 78.2,
+        "京东大健康": 69,
+        "京东自营": 59.2,
+        "美团": 35.2,
+        "拼多多": 38
+      },
+      {
+        "date": "2026-10-17",
+        "阿里健康": 78.2,
+        "京东大健康": 67.6,
+        "京东自营": 66.2,
+        "美团": 43.7,
+        "拼多多": 41.5
+      },
+      {
+        "date": "2026-10-18",
+        "阿里健康": 82.4,
+        "京东大健康": 67.6,
+        "京东自营": 65.5,
+        "美团": 47.2,
+        "拼多多": 35.2
+      },
+      {
+        "date": "2026-10-19",
+        "阿里健康": 81.7,
+        "京东大健康": 68.3,
+        "京东自营": 71.1,
+        "美团": 49.3,
+        "拼多多": 39.4
+      },
+      {
+        "date": "2026-10-20",
+        "阿里健康": 84.5,
+        "京东大健康": 65.5,
+        "京东自营": 70.4,
+        "美团": 54.9,
+        "拼多多": 38.7
+      },
+      {
+        "date": "2026-10-21",
+        "阿里健康": 83.8,
+        "京东大健康": 66.2,
+        "京东自营": 69.7,
+        "美团": 51.4,
+        "拼多多": 44.4
+      },
+      {
+        "date": "2026-10-22",
+        "阿里健康": 78.2,
+        "京东大健康": 68.3,
+        "京东自营": 68.3,
+        "美团": 50.7,
+        "拼多多": 42.3
+      },
+      {
+        "date": "2026-10-23",
+        "阿里健康": 83.8,
+        "京东大健康": 69,
+        "京东自营": 66.2,
+        "美团": 38.7,
+        "拼多多": 43
+      },
+      {
+        "date": "2026-10-24",
+        "阿里健康": 83.8,
+        "京东大健康": 67.6,
+        "京东自营": 62.7,
+        "美团": 35.9,
+        "拼多多": 43.7
+      },
+      {
+        "date": "2026-10-25",
+        "阿里健康": 83.1,
+        "京东大健康": 66.9,
+        "京东自营": 68.3,
+        "美团": 40.8,
+        "拼多多": 43
+      },
+      {
+        "date": "2026-10-26",
+        "阿里健康": 81.7,
+        "京东大健康": 68.3,
+        "京东自营": 67.6,
+        "美团": 38,
+        "拼多多": 46.5
+      },
+      {
+        "date": "2026-10-27",
+        "阿里健康": 83.8,
+        "京东大健康": 65.5,
+        "京东自营": 70.4,
+        "美团": 42.3,
+        "拼多多": 40.8
+      },
+      {
+        "date": "2026-10-28",
+        "阿里健康": 84.5,
+        "京东大健康": 67.6,
+        "京东自营": 73.2,
+        "美团": 40.1,
+        "拼多多": 45.8
+      },
+      {
+        "date": "2026-10-29",
+        "阿里健康": 81,
+        "京东大健康": 66.2,
+        "京东自营": 66.9,
+        "美团": 39.4,
+        "拼多多": 40.8
+      },
+      {
+        "date": "2026-10-30",
+        "阿里健康": 82.4,
+        "京东大健康": 68.3,
+        "京东自营": 69.7,
+        "美团": 41.5,
+        "拼多多": 43
+      },
+      {
+        "date": "2026-10-31",
+        "阿里健康": 80.3,
+        "京东大健康": 66.9,
+        "京东自营": 69,
+        "美团": 45.1,
+        "拼多多": 38
+      }
+    ],
+    "position_daily": [
+      {
+        "date": "2026-10-12",
+        "京东自营": 3.8,
+        "阿里健康": 3.2,
+        "京东大健康": 3.5,
+        "美团": 4.6,
+        "京东": 3.9
+      },
+      {
+        "date": "2026-10-13",
+        "京东自营": 3.9,
+        "阿里健康": 3.3,
+        "京东大健康": 3.3,
+        "美团": 4.7,
+        "京东": 4.3
+      },
+      {
+        "date": "2026-10-14",
+        "京东自营": 3.4,
+        "阿里健康": 3.3,
+        "京东大健康": 3.6,
+        "美团": 4.6,
+        "京东": 4.3
+      },
+      {
+        "date": "2026-10-15",
+        "京东自营": 3.5,
+        "阿里健康": 3.4,
+        "京东大健康": 3.3,
+        "美团": 4.5,
+        "京东": 4.2
+      },
+      {
+        "date": "2026-10-16",
+        "京东自营": 3.2,
+        "阿里健康": 3.2,
+        "京东大健康": 3,
+        "美团": 4.5,
+        "京东": 4.4
+      },
+      {
+        "date": "2026-10-17",
+        "京东自营": 3.2,
+        "阿里健康": 3.4,
+        "京东大健康": 3.1,
+        "美团": 4.6,
+        "京东": 4.6
+      },
+      {
+        "date": "2026-10-18",
+        "京东自营": 2.9,
+        "阿里健康": 3.3,
+        "京东大健康": 3.1,
+        "美团": 4.2,
+        "京东": 4.8
+      },
+      {
+        "date": "2026-10-19",
+        "京东自营": 3,
+        "阿里健康": 3.4,
+        "京东大健康": 3.1,
+        "美团": 4.3,
+        "京东": 4.7
+      },
+      {
+        "date": "2026-10-20",
+        "京东自营": 3,
+        "阿里健康": 3.2,
+        "京东大健康": 3.2,
+        "美团": 4.3,
+        "京东": 5.2
+      },
+      {
+        "date": "2026-10-21",
+        "京东自营": 3.3,
+        "阿里健康": 3.5,
+        "京东大健康": 3.2,
+        "美团": 4.3,
+        "京东": 5
+      },
+      {
+        "date": "2026-10-22",
+        "京东自营": 3,
+        "阿里健康": 3.4,
+        "京东大健康": 3.1,
+        "美团": 4.2,
+        "京东": 5
+      },
+      {
+        "date": "2026-10-23",
+        "京东自营": 3.4,
+        "阿里健康": 3.2,
+        "京东大健康": 3.2,
+        "美团": 4.4,
+        "京东": 4.5
+      },
+      {
+        "date": "2026-10-24",
+        "京东自营": 3.5,
+        "阿里健康": 3.3,
+        "京东大健康": 3.7,
+        "美团": 5,
+        "京东": 4.3
+      },
+      {
+        "date": "2026-10-25",
+        "京东自营": 3.2,
+        "阿里健康": 3.2,
+        "京东大健康": 3.5,
+        "美团": 4.6,
+        "京东": 4.3
+      },
+      {
+        "date": "2026-10-26",
+        "京东自营": 3.2,
+        "阿里健康": 3.4,
+        "京东大健康": 3.3,
+        "美团": 4.7,
+        "京东": 4.4
+      },
+      {
+        "date": "2026-10-27",
+        "京东自营": 3,
+        "阿里健康": 3.4,
+        "京东大健康": 3.7,
+        "美团": 4.5,
+        "京东": 4.7
+      },
+      {
+        "date": "2026-10-28",
+        "京东自营": 2.9,
+        "阿里健康": 3.4,
+        "京东大健康": 3.6,
+        "美团": 4.6,
+        "京东": 4.8
+      },
+      {
+        "date": "2026-10-29",
+        "京东自营": 3.2,
+        "阿里健康": 3.3,
+        "京东大健康": 3.6,
+        "美团": 4.6,
+        "京东": 4.5
+      },
+      {
+        "date": "2026-10-30",
+        "京东自营": 3.3,
+        "阿里健康": 3.4,
+        "京东大健康": 3.4,
+        "美团": 4.5,
+        "京东": 4.8
+      },
+      {
+        "date": "2026-10-31",
+        "京东自营": 3,
+        "阿里健康": 3.5,
+        "京东大健康": 3.4,
+        "美团": 4.4,
+        "京东": 5
+      }
+    ],
+    "top1_ranking": [
+      {
+        "rank": 1,
+        "brand_name": "京东自营",
+        "product_name": null,
+        "display_name": "京东自营",
+        "top1_mention_rate": 38.1,
+        "is_target": false
+      },
+      {
+        "rank": 2,
+        "brand_name": "京东大健康",
+        "product_name": null,
+        "display_name": "京东大健康",
+        "top1_mention_rate": 20,
+        "is_target": true
+      },
+      {
+        "rank": 3,
+        "brand_name": "京东",
+        "product_name": null,
+        "display_name": "京东",
+        "top1_mention_rate": 16.7,
+        "is_target": false
+      },
+      {
+        "rank": 4,
+        "brand_name": "美团",
+        "product_name": null,
+        "display_name": "美团",
+        "top1_mention_rate": 11.9,
+        "is_target": false
+      },
+      {
+        "rank": 5,
+        "brand_name": "阿里健康",
+        "product_name": null,
+        "display_name": "阿里健康",
+        "top1_mention_rate": 6,
+        "is_target": false
+      },
+      {
+        "rank": 6,
+        "brand_name": "方舟健客",
+        "product_name": null,
+        "display_name": "方舟健客",
+        "top1_mention_rate": 2.8,
+        "is_target": false
+      },
+      {
+        "rank": 7,
+        "brand_name": "叮当健康",
+        "product_name": null,
+        "display_name": "叮当健康",
+        "top1_mention_rate": 0.9,
+        "is_target": false
+      },
+      {
+        "rank": 8,
+        "brand_name": "叮当快药",
+        "product_name": null,
+        "display_name": "叮当快药",
+        "top1_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 9,
+        "brand_name": "拼多多",
+        "product_name": null,
+        "display_name": "拼多多",
+        "top1_mention_rate": 0.4,
+        "is_target": false
+      },
+      {
+        "rank": 10,
+        "brand_name": "益丰",
+        "product_name": null,
+        "display_name": "益丰",
+        "top1_mention_rate": 0.2,
+        "is_target": false
+      },
+      {
+        "rank": 11,
+        "brand_name": "饿了么",
+        "product_name": null,
+        "display_name": "饿了么",
+        "top1_mention_rate": 0.2,
+        "is_target": false
+      },
+      {
+        "rank": 12,
+        "brand_name": "鱼跃",
+        "product_name": null,
+        "display_name": "鱼跃",
+        "top1_mention_rate": 0.2,
+        "is_target": false
+      },
+      {
+        "rank": 13,
+        "brand_name": "京东到家",
+        "product_name": null,
+        "display_name": "京东到家",
+        "top1_mention_rate": 0.2,
+        "is_target": false
+      },
+      {
+        "rank": 14,
+        "brand_name": "微信微商",
+        "product_name": null,
+        "display_name": "微信微商",
+        "top1_mention_rate": 0.2,
+        "is_target": false
+      },
+      {
+        "rank": 15,
+        "brand_name": "老百姓",
+        "product_name": null,
+        "display_name": "老百姓",
+        "top1_mention_rate": 0.2,
+        "is_target": false
+      },
+      {
+        "rank": 16,
+        "brand_name": "欧姆龙",
+        "product_name": null,
+        "display_name": "欧姆龙",
+        "top1_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 17,
+        "brand_name": "1药网自营",
+        "product_name": null,
+        "display_name": "1药网自营",
+        "top1_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 18,
+        "brand_name": "药房网商城",
+        "product_name": null,
+        "display_name": "药房网商城",
+        "top1_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 19,
+        "brand_name": "全国统一电子烟交易管理平台",
+        "product_name": null,
+        "display_name": "全国统一电子烟交易管理平台",
+        "top1_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 20,
+        "brand_name": "大参林",
+        "product_name": null,
+        "display_name": "大参林",
+        "top1_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 21,
+        "brand_name": "布咳乐",
+        "product_name": null,
+        "display_name": "布咳乐",
+        "top1_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 22,
+        "brand_name": "广济大药房",
+        "product_name": null,
+        "display_name": "广济大药房",
+        "top1_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 23,
+        "brand_name": "淘宝闪购",
+        "product_name": null,
+        "display_name": "淘宝闪购",
+        "top1_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 24,
+        "brand_name": "丁香医生",
+        "product_name": null,
+        "display_name": "丁香医生",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 25,
+        "brand_name": "京东 App",
+        "product_name": null,
+        "display_name": "京东 App",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 26,
+        "brand_name": "京东品牌官方旗舰店",
+        "product_name": null,
+        "display_name": "京东品牌官方旗舰店",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 27,
+        "brand_name": "京东第三方店铺",
+        "product_name": null,
+        "display_name": "京东第三方店铺",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 28,
+        "brand_name": "健客网",
+        "product_name": null,
+        "display_name": "健客网",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 29,
+        "brand_name": "八百方网上药店",
+        "product_name": null,
+        "display_name": "八百方网上药店",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 30,
+        "brand_name": "好药师自营",
+        "product_name": null,
+        "display_name": "好药师自营",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 31,
+        "brand_name": "帕瑞",
+        "product_name": null,
+        "display_name": "帕瑞",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 32,
+        "brand_name": "惠民康恩e家",
+        "product_name": null,
+        "display_name": "惠民康恩e家",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 33,
+        "brand_name": "拼多多普通店铺",
+        "product_name": null,
+        "display_name": "拼多多普通店铺",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 34,
+        "brand_name": "顺丰",
+        "product_name": null,
+        "display_name": "顺丰",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 35,
+        "brand_name": "1 号店医药频道",
+        "product_name": null,
+        "display_name": "1 号店医药频道",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 36,
+        "brand_name": "1 药网自营大药房",
+        "product_name": null,
+        "display_name": "1 药网自营大药房",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 37,
+        "brand_name": "111医药馆",
+        "product_name": null,
+        "display_name": "111医药馆",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 38,
+        "brand_name": "12315 小程序",
+        "product_name": null,
+        "display_name": "12315 小程序",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 39,
+        "brand_name": "1688",
+        "product_name": null,
+        "display_name": "1688",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 40,
+        "brand_name": "1号店",
+        "product_name": null,
+        "display_name": "1号店",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 41,
+        "brand_name": "1号药店",
+        "product_name": null,
+        "display_name": "1号药店",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 42,
+        "brand_name": "1药网",
+        "product_name": null,
+        "display_name": "1药网",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 43,
+        "brand_name": "3L",
+        "product_name": null,
+        "display_name": "3L",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 44,
+        "brand_name": "3L 医用制品",
+        "product_name": null,
+        "display_name": "3L 医用制品",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 45,
+        "brand_name": "B站",
+        "product_name": null,
+        "display_name": "B站",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 46,
+        "brand_name": "PARI",
+        "product_name": null,
+        "display_name": "PARI",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 47,
+        "brand_name": "PARI 帕瑞",
+        "product_name": null,
+        "display_name": "PARI 帕瑞",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 48,
+        "brand_name": "SonoHealth",
+        "product_name": null,
+        "display_name": "SonoHealth",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 49,
+        "brand_name": "UU跑腿",
+        "product_name": null,
+        "display_name": "UU跑腿",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 50,
+        "brand_name": "一心堂",
+        "product_name": null,
+        "display_name": "一心堂",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 51,
+        "brand_name": "三禄德院后康复",
+        "product_name": null,
+        "display_name": "三禄德院后康复",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 52,
+        "brand_name": "上海聚慕医疗器械有限公司",
+        "product_name": null,
+        "display_name": "上海聚慕医疗器械有限公司",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 53,
+        "brand_name": "中拓医疗",
+        "product_name": null,
+        "display_name": "中拓医疗",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 54,
+        "brand_name": "中通",
+        "product_name": null,
+        "display_name": "中通",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 55,
+        "brand_name": "义乌市中心医院",
+        "product_name": null,
+        "display_name": "义乌市中心医院",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 56,
+        "brand_name": "九安",
+        "product_name": null,
+        "display_name": "九安",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 57,
+        "brand_name": "九安医疗",
+        "product_name": null,
+        "display_name": "九安医疗",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 58,
+        "brand_name": "二手平台",
+        "product_name": null,
+        "display_name": "二手平台",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 59,
+        "brand_name": "亚马逊",
+        "product_name": null,
+        "display_name": "亚马逊",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 60,
+        "brand_name": "京东七鲜",
+        "product_name": null,
+        "display_name": "京东七鲜",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 61,
+        "brand_name": "京东互联网医院",
+        "product_name": null,
+        "display_name": "京东互联网医院",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 62,
+        "brand_name": "京东京造",
+        "product_name": null,
+        "display_name": "京东京造",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 63,
+        "brand_name": "京东医生",
+        "product_name": null,
+        "display_name": "京东医生",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 64,
+        "brand_name": "京东品牌自营旗舰店",
+        "product_name": null,
+        "display_name": "京东品牌自营旗舰店",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 65,
+        "brand_name": "京东商城",
+        "product_name": null,
+        "display_name": "京东商城",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 66,
+        "brand_name": "京东普通自营",
+        "product_name": null,
+        "display_name": "京东普通自营",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 67,
+        "brand_name": "京东第三方专营店",
+        "product_name": null,
+        "display_name": "京东第三方专营店",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 68,
+        "brand_name": "京东自营医疗器械",
+        "product_name": null,
+        "display_name": "京东自营医疗器械",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 69,
+        "brand_name": "京东自营医疗器械店",
+        "product_name": null,
+        "display_name": "京东自营医疗器械店",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 70,
+        "brand_name": "京东自营医疗器械旗舰店",
+        "product_name": null,
+        "display_name": "京东自营医疗器械旗舰店",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 71,
+        "brand_name": "亮健好药网",
+        "product_name": null,
+        "display_name": "亮健好药网",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 72,
+        "brand_name": "亿生康",
+        "product_name": null,
+        "display_name": "亿生康",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 73,
+        "brand_name": "什么值得买",
+        "product_name": null,
+        "display_name": "什么值得买",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 74,
+        "brand_name": "优佳药房",
+        "product_name": null,
+        "display_name": "优佳药房",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 75,
+        "brand_name": "佛山市恒溪医药有限公司",
+        "product_name": null,
+        "display_name": "佛山市恒溪医药有限公司",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 76,
+        "brand_name": "健民网上药店",
+        "product_name": null,
+        "display_name": "健民网上药店",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 77,
+        "brand_name": "北京儿童医院",
+        "product_name": null,
+        "display_name": "北京儿童医院",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 78,
+        "brand_name": "北京协和医院",
+        "product_name": null,
+        "display_name": "北京协和医院",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 79,
+        "brand_name": "医小租（租赁平台）",
+        "product_name": null,
+        "display_name": "医小租（租赁平台）",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 80,
+        "brand_name": "医护到家",
+        "product_name": null,
+        "display_name": "医护到家",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 81,
+        "brand_name": "医鹿",
+        "product_name": null,
+        "display_name": "医鹿",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 82,
+        "brand_name": "医鹿 App",
+        "product_name": null,
+        "display_name": "医鹿 App",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 83,
+        "brand_name": "华佗药房",
+        "product_name": null,
+        "display_name": "华佗药房",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 84,
+        "brand_name": "博森药房（湘江店）",
+        "product_name": null,
+        "display_name": "博森药房（湘江店）",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 85,
+        "brand_name": "卫民药房",
+        "product_name": null,
+        "display_name": "卫民药房",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 86,
+        "brand_name": "卫民药房大健康",
+        "product_name": null,
+        "display_name": "卫民药房大健康",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 87,
+        "brand_name": "可孚",
+        "product_name": null,
+        "display_name": "可孚",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 88,
+        "brand_name": "同仁堂",
+        "product_name": null,
+        "display_name": "同仁堂",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 89,
+        "brand_name": "同泰大药房",
+        "product_name": null,
+        "display_name": "同泰大药房",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 90,
+        "brand_name": "和普乐",
+        "product_name": null,
+        "display_name": "和普乐",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 91,
+        "brand_name": "唯品会",
+        "product_name": null,
+        "display_name": "唯品会",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 92,
+        "brand_name": "喵速达",
+        "product_name": null,
+        "display_name": "喵速达",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 93,
+        "brand_name": "国大药房",
+        "product_name": null,
+        "display_name": "国大药房",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 94,
+        "brand_name": "国美",
+        "product_name": null,
+        "display_name": "国美",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 95,
+        "brand_name": "国美自营",
+        "product_name": null,
+        "display_name": "国美自营",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 96,
+        "brand_name": "国胜大药房",
+        "product_name": null,
+        "display_name": "国胜大药房",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 97,
+        "brand_name": "国药",
+        "product_name": null,
+        "display_name": "国药",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 98,
+        "brand_name": "国药乐仁堂总店",
+        "product_name": null,
+        "display_name": "国药乐仁堂总店",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 99,
+        "brand_name": "国药商城",
+        "product_name": null,
+        "display_name": "国药商城",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 100,
+        "brand_name": "国药在线",
+        "product_name": null,
+        "display_name": "国药在线",
+        "top1_mention_rate": 0,
+        "is_target": false
+      }
+    ],
+    "top3_ranking": [
+      {
+        "rank": 1,
+        "brand_name": "阿里健康",
+        "product_name": null,
+        "display_name": "阿里健康",
+        "top3_mention_rate": 63.2,
+        "is_target": false
+      },
+      {
+        "rank": 2,
+        "brand_name": "京东自营",
+        "product_name": null,
+        "display_name": "京东自营",
+        "top3_mention_rate": 55.7,
+        "is_target": false
+      },
+      {
+        "rank": 3,
+        "brand_name": "京东大健康",
+        "product_name": null,
+        "display_name": "京东大健康",
+        "top3_mention_rate": 53.1,
+        "is_target": true
+      },
+      {
+        "rank": 4,
+        "brand_name": "京东",
+        "product_name": null,
+        "display_name": "京东",
+        "top3_mention_rate": 29.6,
+        "is_target": false
+      },
+      {
+        "rank": 5,
+        "brand_name": "美团",
+        "product_name": null,
+        "display_name": "美团",
+        "top3_mention_rate": 23.6,
+        "is_target": false
+      },
+      {
+        "rank": 6,
+        "brand_name": "拼多多",
+        "product_name": null,
+        "display_name": "拼多多",
+        "top3_mention_rate": 11,
+        "is_target": false
+      },
+      {
+        "rank": 7,
+        "brand_name": "饿了么",
+        "product_name": null,
+        "display_name": "饿了么",
+        "top3_mention_rate": 10.5,
+        "is_target": false
+      },
+      {
+        "rank": 8,
+        "brand_name": "方舟健客",
+        "product_name": null,
+        "display_name": "方舟健客",
+        "top3_mention_rate": 6,
+        "is_target": false
+      },
+      {
+        "rank": 9,
+        "brand_name": "叮当快药",
+        "product_name": null,
+        "display_name": "叮当快药",
+        "top3_mention_rate": 3.7,
+        "is_target": false
+      },
+      {
+        "rank": 10,
+        "brand_name": "京东到家",
+        "product_name": null,
+        "display_name": "京东到家",
+        "top3_mention_rate": 3.6,
+        "is_target": false
+      },
+      {
+        "rank": 11,
+        "brand_name": "鱼跃",
+        "product_name": null,
+        "display_name": "鱼跃",
+        "top3_mention_rate": 2.8,
+        "is_target": false
+      },
+      {
+        "rank": 12,
+        "brand_name": "叮当健康",
+        "product_name": null,
+        "display_name": "叮当健康",
+        "top3_mention_rate": 2.6,
+        "is_target": false
+      },
+      {
+        "rank": 13,
+        "brand_name": "药房网商城",
+        "product_name": null,
+        "display_name": "药房网商城",
+        "top3_mention_rate": 2.1,
+        "is_target": false
+      },
+      {
+        "rank": 14,
+        "brand_name": "布咳乐",
+        "product_name": null,
+        "display_name": "布咳乐",
+        "top3_mention_rate": 1.9,
+        "is_target": false
+      },
+      {
+        "rank": 15,
+        "brand_name": "欧姆龙",
+        "product_name": null,
+        "display_name": "欧姆龙",
+        "top3_mention_rate": 1.9,
+        "is_target": false
+      },
+      {
+        "rank": 16,
+        "brand_name": "益丰",
+        "product_name": null,
+        "display_name": "益丰",
+        "top3_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 17,
+        "brand_name": "京东 App",
+        "product_name": null,
+        "display_name": "京东 App",
+        "top3_mention_rate": 1,
+        "is_target": false
+      },
+      {
+        "rank": 18,
+        "brand_name": "抖音电商",
+        "product_name": null,
+        "display_name": "抖音电商",
+        "top3_mention_rate": 0.9,
+        "is_target": false
+      },
+      {
+        "rank": 19,
+        "brand_name": "老百姓",
+        "product_name": null,
+        "display_name": "老百姓",
+        "top3_mention_rate": 0.9,
+        "is_target": false
+      },
+      {
+        "rank": 20,
+        "brand_name": "1药网自营",
+        "product_name": null,
+        "display_name": "1药网自营",
+        "top3_mention_rate": 0.7,
+        "is_target": false
+      },
+      {
+        "rank": 21,
+        "brand_name": "平安健康",
+        "product_name": null,
+        "display_name": "平安健康",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 22,
+        "brand_name": "淘宝闪购",
+        "product_name": null,
+        "display_name": "淘宝闪购",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 23,
+        "brand_name": "健客网",
+        "product_name": null,
+        "display_name": "健客网",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 24,
+        "brand_name": "京东互联网医院",
+        "product_name": null,
+        "display_name": "京东互联网医院",
+        "top3_mention_rate": 0.4,
+        "is_target": false
+      },
+      {
+        "rank": 25,
+        "brand_name": "京东品牌官方旗舰店",
+        "product_name": null,
+        "display_name": "京东品牌官方旗舰店",
+        "top3_mention_rate": 0.3,
+        "is_target": false
+      },
+      {
+        "rank": 26,
+        "brand_name": "亮健好药网",
+        "product_name": null,
+        "display_name": "亮健好药网",
+        "top3_mention_rate": 0.3,
+        "is_target": false
+      },
+      {
+        "rank": 27,
+        "brand_name": "大参林",
+        "product_name": null,
+        "display_name": "大参林",
+        "top3_mention_rate": 0.3,
+        "is_target": false
+      },
+      {
+        "rank": 28,
+        "brand_name": "惠民康恩e家",
+        "product_name": null,
+        "display_name": "惠民康恩e家",
+        "top3_mention_rate": 0.3,
+        "is_target": false
+      },
+      {
+        "rank": 29,
+        "brand_name": "国大药房",
+        "product_name": null,
+        "display_name": "国大药房",
+        "top3_mention_rate": 0.3,
+        "is_target": false
+      },
+      {
+        "rank": 30,
+        "brand_name": "康爱多",
+        "product_name": null,
+        "display_name": "康爱多",
+        "top3_mention_rate": 0.3,
+        "is_target": false
+      },
+      {
+        "rank": 31,
+        "brand_name": "微信微商",
+        "product_name": null,
+        "display_name": "微信微商",
+        "top3_mention_rate": 0.2,
+        "is_target": false
+      },
+      {
+        "rank": 32,
+        "brand_name": "1688",
+        "product_name": null,
+        "display_name": "1688",
+        "top3_mention_rate": 0.2,
+        "is_target": false
+      },
+      {
+        "rank": 33,
+        "brand_name": "广济大药房",
+        "product_name": null,
+        "display_name": "广济大药房",
+        "top3_mention_rate": 0.2,
+        "is_target": false
+      },
+      {
+        "rank": 34,
+        "brand_name": "康太太网上药店",
+        "product_name": null,
+        "display_name": "康太太网上药店",
+        "top3_mention_rate": 0.2,
+        "is_target": false
+      },
+      {
+        "rank": 35,
+        "brand_name": "苏宁易购自营",
+        "product_name": null,
+        "display_name": "苏宁易购自营",
+        "top3_mention_rate": 0.2,
+        "is_target": false
+      },
+      {
+        "rank": 36,
+        "brand_name": "京东第三方专营店",
+        "product_name": null,
+        "display_name": "京东第三方专营店",
+        "top3_mention_rate": 0.2,
+        "is_target": false
+      },
+      {
+        "rank": 37,
+        "brand_name": "京东自营医疗器械",
+        "product_name": null,
+        "display_name": "京东自营医疗器械",
+        "top3_mention_rate": 0.2,
+        "is_target": false
+      },
+      {
+        "rank": 38,
+        "brand_name": "八百方网上药店",
+        "product_name": null,
+        "display_name": "八百方网上药店",
+        "top3_mention_rate": 0.2,
+        "is_target": false
+      },
+      {
+        "rank": 39,
+        "brand_name": "智邻商城",
+        "product_name": null,
+        "display_name": "智邻商城",
+        "top3_mention_rate": 0.2,
+        "is_target": false
+      },
+      {
+        "rank": 40,
+        "brand_name": "丁香医生",
+        "product_name": null,
+        "display_name": "丁香医生",
+        "top3_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 41,
+        "brand_name": "博森药房（湘江店）",
+        "product_name": null,
+        "display_name": "博森药房（湘江店）",
+        "top3_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 42,
+        "brand_name": "平安好医生 APP",
+        "product_name": null,
+        "display_name": "平安好医生 APP",
+        "top3_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 43,
+        "brand_name": "康尚",
+        "product_name": null,
+        "display_name": "康尚",
+        "top3_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 44,
+        "brand_name": "抖音商城",
+        "product_name": null,
+        "display_name": "抖音商城",
+        "top3_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 45,
+        "brand_name": "有赞",
+        "product_name": null,
+        "display_name": "有赞",
+        "top3_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 46,
+        "brand_name": "神威大药房",
+        "product_name": null,
+        "display_name": "神威大药房",
+        "top3_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 47,
+        "brand_name": "苏宁",
+        "product_name": null,
+        "display_name": "苏宁",
+        "top3_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 48,
+        "brand_name": "PARI 帕瑞",
+        "product_name": null,
+        "display_name": "PARI 帕瑞",
+        "top3_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 49,
+        "brand_name": "医鹿",
+        "product_name": null,
+        "display_name": "医鹿",
+        "top3_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 50,
+        "brand_name": "好药师自营",
+        "product_name": null,
+        "display_name": "好药师自营",
+        "top3_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 51,
+        "brand_name": "微医",
+        "product_name": null,
+        "display_name": "微医",
+        "top3_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 52,
+        "brand_name": "拼多多百亿补贴品牌店",
+        "product_name": null,
+        "display_name": "拼多多百亿补贴品牌店",
+        "top3_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 53,
+        "brand_name": "拼多多自营",
+        "product_name": null,
+        "display_name": "拼多多自营",
+        "top3_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 54,
+        "brand_name": "支付宝-医疗健康-问医生",
+        "product_name": null,
+        "display_name": "支付宝-医疗健康-问医生",
+        "top3_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 55,
+        "brand_name": "欧姆龙京东自营旗舰店",
+        "product_name": null,
+        "display_name": "欧姆龙京东自营旗舰店",
+        "top3_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 56,
+        "brand_name": "海王星辰",
+        "product_name": null,
+        "display_name": "海王星辰",
+        "top3_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 57,
+        "brand_name": "二手平台",
+        "product_name": null,
+        "display_name": "二手平台",
+        "top3_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 58,
+        "brand_name": "京东七鲜",
+        "product_name": null,
+        "display_name": "京东七鲜",
+        "top3_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 59,
+        "brand_name": "什么值得买",
+        "product_name": null,
+        "display_name": "什么值得买",
+        "top3_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 60,
+        "brand_name": "全国统一电子烟交易管理平台",
+        "product_name": null,
+        "display_name": "全国统一电子烟交易管理平台",
+        "top3_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 61,
+        "brand_name": "医小租（租赁平台）",
+        "product_name": null,
+        "display_name": "医小租（租赁平台）",
+        "top3_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 62,
+        "brand_name": "唯品会",
+        "product_name": null,
+        "display_name": "唯品会",
+        "top3_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 63,
+        "brand_name": "好大夫在线",
+        "product_name": null,
+        "display_name": "好大夫在线",
+        "top3_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 64,
+        "brand_name": "小米有品",
+        "product_name": null,
+        "display_name": "小米有品",
+        "top3_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 65,
+        "brand_name": "拼多多品牌店",
+        "product_name": null,
+        "display_name": "拼多多品牌店",
+        "top3_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 66,
+        "brand_name": "海尔",
+        "product_name": null,
+        "display_name": "海尔",
+        "top3_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 67,
+        "brand_name": "百济新特药房",
+        "product_name": null,
+        "display_name": "百济新特药房",
+        "top3_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 68,
+        "brand_name": "闲鱼",
+        "product_name": null,
+        "display_name": "闲鱼",
+        "top3_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 69,
+        "brand_name": "顺丰",
+        "product_name": null,
+        "display_name": "顺丰",
+        "top3_mention_rate": 0.1,
+        "is_target": false
+      },
+      {
+        "rank": 70,
+        "brand_name": "111医药馆",
+        "product_name": null,
+        "display_name": "111医药馆",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 71,
+        "brand_name": "1药网",
+        "product_name": null,
+        "display_name": "1药网",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 72,
+        "brand_name": "3L 医用制品",
+        "product_name": null,
+        "display_name": "3L 医用制品",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 73,
+        "brand_name": "京东医生",
+        "product_name": null,
+        "display_name": "京东医生",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 74,
+        "brand_name": "京东品牌自营旗舰店",
+        "product_name": null,
+        "display_name": "京东品牌自营旗舰店",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 75,
+        "brand_name": "京东第三方店铺",
+        "product_name": null,
+        "display_name": "京东第三方店铺",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 76,
+        "brand_name": "京东自营医疗器械旗舰店",
+        "product_name": null,
+        "display_name": "京东自营医疗器械旗舰店",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 77,
+        "brand_name": "医鹿 App",
+        "product_name": null,
+        "display_name": "医鹿 App",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 78,
+        "brand_name": "卫民药房",
+        "product_name": null,
+        "display_name": "卫民药房",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 79,
+        "brand_name": "卫民药房大健康",
+        "product_name": null,
+        "display_name": "卫民药房大健康",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 80,
+        "brand_name": "和普乐",
+        "product_name": null,
+        "display_name": "和普乐",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 81,
+        "brand_name": "喵速达",
+        "product_name": null,
+        "display_name": "喵速达",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 82,
+        "brand_name": "国药乐仁堂总店",
+        "product_name": null,
+        "display_name": "国药乐仁堂总店",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 83,
+        "brand_name": "妙手医生",
+        "product_name": null,
+        "display_name": "妙手医生",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 84,
+        "brand_name": "家瑞康",
+        "product_name": null,
+        "display_name": "家瑞康",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 85,
+        "brand_name": "左点",
+        "product_name": null,
+        "display_name": "左点",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 86,
+        "brand_name": "帕瑞",
+        "product_name": null,
+        "display_name": "帕瑞",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 87,
+        "brand_name": "微信小店",
+        "product_name": null,
+        "display_name": "微信小店",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 88,
+        "brand_name": "微信私域",
+        "product_name": null,
+        "display_name": "微信私域",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 89,
+        "brand_name": "抖音品牌官方旗舰店（蓝 V 品牌店）",
+        "product_name": null,
+        "display_name": "抖音品牌官方旗舰店（蓝 V 品牌店）",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 90,
+        "brand_name": "拼多多普通店铺",
+        "product_name": null,
+        "display_name": "拼多多普通店铺",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 91,
+        "brand_name": "支付宝",
+        "product_name": null,
+        "display_name": "支付宝",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 92,
+        "brand_name": "春雨医生",
+        "product_name": null,
+        "display_name": "春雨医生",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 93,
+        "brand_name": "晚趣商城",
+        "product_name": null,
+        "display_name": "晚趣商城",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 94,
+        "brand_name": "朋友圈",
+        "product_name": null,
+        "display_name": "朋友圈",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 95,
+        "brand_name": "海尔医疗",
+        "product_name": null,
+        "display_name": "海尔医疗",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 96,
+        "brand_name": "涵飞医疗",
+        "product_name": null,
+        "display_name": "涵飞医疗",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 97,
+        "brand_name": "漱玉平民",
+        "product_name": null,
+        "display_name": "漱玉平民",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 98,
+        "brand_name": "百度健康",
+        "product_name": null,
+        "display_name": "百度健康",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 99,
+        "brand_name": "百瑞",
+        "product_name": null,
+        "display_name": "百瑞",
+        "top3_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 100,
+        "brand_name": "苏宁易购",
+        "product_name": null,
+        "display_name": "苏宁易购",
+        "top3_mention_rate": 0,
+        "is_target": false
+      }
+    ]
+  },
+  "citations": {
+    "total_conversations": 2840,
+    "citation_rate": 96.6,
+    "total_citations": 44563,
+    "platform_stats": [
+      {
+        "platform_name": "抖音精选",
+        "domain": "iesdouyin.com",
+        "logo_url": "https://app.geoindexfuture.com/site-icons/iesdouyin.com-jingxuan.png",
+        "citation_count": 4017,
+        "share": 9
+      },
+      {
+        "platform_name": "知乎",
+        "domain": "zhihu.com",
+        "logo_url": "https://static.zhihu.com/heifetz/favicon.ico",
+        "citation_count": 3377,
+        "share": 7.6
+      },
+      {
+        "platform_name": "京东",
+        "domain": "jd.com",
+        "logo_url": "https://img03.sogoucdn.com/app/a/200797/e236406b-726c-4949-a5d3-02727aa1fdcf",
+        "citation_count": 3296,
+        "share": 7.4
+      },
+      {
+        "platform_name": "中华医学期刊全文数据库",
+        "domain": "yiigle.com",
+        "logo_url": "https://cdn.deepseek.com/site-icons/yiigle.com",
+        "citation_count": 3127,
+        "share": 7
+      },
+      {
+        "platform_name": "什么值得买",
+        "domain": "smzdm.com",
+        "logo_url": "https://app.geoindexfuture.com/site-icons/smzdm.com.jpg",
+        "citation_count": 1523,
+        "share": 3.4
+      }
+    ],
+    "articles": [
+      {
+        "title": "儿童哮喘常用吸入装置使用方法及质控专家共识",
+        "link_url": "https://rs.yiigle.com/cmaid/1219383#imported-data",
+        "domain": "yiigle.com",
+        "platform_name": "中华医学期刊全文数据库",
+        "logo_url": "https://cdn.deepseek.com/site-icons/yiigle.com",
+        "total_citations": 471,
+        "avg_citations": 23.6,
+        "has_target_product": false
+      },
+      {
+        "title": "雾化吸入疗法在呼吸疾病中的应用专家共识",
+        "link_url": "https://rs.yiigle.com/cmaid/907902#imported-data",
+        "domain": "yiigle.com",
+        "platform_name": "中华医学期刊全文数据库",
+        "logo_url": "https://cdn.deepseek.com/site-icons/yiigle.com",
+        "total_citations": 456,
+        "avg_citations": 22.8,
+        "has_target_product": false
+      },
+      {
+        "title": "雾化吸入疗法合理用药专家共识(2024版)",
+        "link_url": "http://www.ddzxhospital.com/library/up_f/file/20241212/202412120918001837.pdf#imported-data",
+        "domain": "ddzxhospital.com",
+        "platform_name": "丹东市中心医院",
+        "logo_url": "",
+        "total_citations": 448,
+        "avg_citations": 22.4,
+        "has_target_product": false
+      },
+      {
+        "title": "儿童呼吸系统疾病家庭雾化吸入治疗临床实践指南（2025）",
+        "link_url": "https://rs.yiigle.com/cmaid/1524590#imported-data",
+        "domain": "yiigle.com",
+        "platform_name": "中华医学期刊全文数据库",
+        "logo_url": "https://cdn.deepseek.com/site-icons/yiigle.com",
+        "total_citations": 418,
+        "avg_citations": 20.9,
+        "has_target_product": false
+      },
+      {
+        "title": "单款销量上百万台！雾化器卖“爆”了",
+        "link_url": "http://paper.taizhou.com.cn/taizhou/tzwb/pc/attachment/202312/12/dac70bb5-6b3e-4e7e-9436-6fd4b4848c18.pdf#1#1",
+        "domain": "taizhou.com.cn",
+        "platform_name": "中国台州网-台州第一新闻门户网站",
+        "logo_url": "https://cdn-yb.icon.qq.com/zuowei_dir/www_taizhou_com_cn.ico",
+        "total_citations": 404,
+        "avg_citations": 20.2,
+        "has_target_product": false
+      },
+      {
+        "title": "儿童呼吸系统疾病雾化治疗合理应用专家共识",
+        "link_url": "https://rs.yiigle.com/cmaid/1358101#imported-data",
+        "domain": "yiigle.com",
+        "platform_name": "中华医学期刊全文数据库",
+        "logo_url": "https://cdn.deepseek.com/site-icons/yiigle.com",
+        "total_citations": 376,
+        "avg_citations": 18.8,
+        "has_target_product": false
+      },
+      {
+        "title": "雾化治疗专家共识(草案)",
+        "link_url": "https://rs.yiigle.com/cmaid/860070#imported-data",
+        "domain": "yiigle.com",
+        "platform_name": "中华医学期刊全文数据库",
+        "logo_url": "https://cdn.deepseek.com/site-icons/yiigle.com",
+        "total_citations": 361,
+        "avg_citations": 19,
+        "has_target_product": false
+      },
+      {
+        "title": "物联网辅助雾化吸入治疗中国专家共识",
+        "link_url": "https://rs.yiigle.com/cmaid/991904#imported-data",
+        "domain": "yiigle.com",
+        "platform_name": "中华医学期刊全文数据库",
+        "logo_url": "https://cdn.deepseek.com/site-icons/yiigle.com",
+        "total_citations": 360,
+        "avg_citations": 18,
+        "has_target_product": false
+      },
+      {
+        "title": "锐评一下网上6款热门雾化机（无废话总结）#雾化机#雾化机推荐#雾化机测评#孩子雾化#感冒咳嗽有痰",
+        "link_url": "https://www.iesdouyin.com/share/video/7631574438207843941",
+        "domain": "iesdouyin.com",
+        "platform_name": "抖音精选",
+        "logo_url": "https://app.geoindexfuture.com/site-icons/iesdouyin.com-jingxuan.png",
+        "total_citations": 343,
+        "avg_citations": 17.2,
+        "has_target_product": false
+      },
+      {
+        "title": "哪个线上平台销售的雾化器来源更可靠,先看适合谁再拿主意 - 知乎",
+        "link_url": "https://zhuanlan.zhihu.com/p/2093008718266888950?utm_medium=openapi_platform&utm_source=e10c3ad29e50",
+        "domain": "zhihu.com",
+        "platform_name": "知乎",
+        "logo_url": "https://static.zhihu.com/heifetz/favicon.ico",
+        "total_citations": 336,
+        "avg_citations": 18.7,
+        "has_target_product": false
+      }
+    ]
+  },
+  "overview_daily": [
+    {
+      "date": "2026-10-12",
+      "mention_rate": 62,
+      "avg_position": 3.5,
+      "influence_rank": 2
+    },
+    {
+      "date": "2026-10-13",
+      "mention_rate": 68.3,
+      "avg_position": 3.3,
+      "influence_rank": 2
+    },
+    {
+      "date": "2026-10-14",
+      "mention_rate": 65.5,
+      "avg_position": 3.6,
+      "influence_rank": 3
+    },
+    {
+      "date": "2026-10-15",
+      "mention_rate": 66.2,
+      "avg_position": 3.3,
+      "influence_rank": 2
+    },
+    {
+      "date": "2026-10-16",
+      "mention_rate": 69,
+      "avg_position": 3,
+      "influence_rank": 1
+    },
+    {
+      "date": "2026-10-17",
+      "mention_rate": 67.6,
+      "avg_position": 3.1,
+      "influence_rank": 3
+    },
+    {
+      "date": "2026-10-18",
+      "mention_rate": 67.6,
+      "avg_position": 3.1,
+      "influence_rank": 3
+    },
+    {
+      "date": "2026-10-19",
+      "mention_rate": 68.3,
+      "avg_position": 3.1,
+      "influence_rank": 3
+    },
+    {
+      "date": "2026-10-20",
+      "mention_rate": 65.5,
+      "avg_position": 3.2,
+      "influence_rank": 3
+    },
+    {
+      "date": "2026-10-21",
+      "mention_rate": 66.2,
+      "avg_position": 3.2,
+      "influence_rank": 3
+    },
+    {
+      "date": "2026-10-22",
+      "mention_rate": 68.3,
+      "avg_position": 3.1,
+      "influence_rank": 2
+    },
+    {
+      "date": "2026-10-23",
+      "mention_rate": 69,
+      "avg_position": 3.2,
+      "influence_rank": 3
+    },
+    {
+      "date": "2026-10-24",
+      "mention_rate": 67.6,
+      "avg_position": 3.7,
+      "influence_rank": 3
+    },
+    {
+      "date": "2026-10-25",
+      "mention_rate": 66.9,
+      "avg_position": 3.5,
+      "influence_rank": 3
+    },
+    {
+      "date": "2026-10-26",
+      "mention_rate": 68.3,
+      "avg_position": 3.3,
+      "influence_rank": 3
+    },
+    {
+      "date": "2026-10-27",
+      "mention_rate": 65.5,
+      "avg_position": 3.7,
+      "influence_rank": 3
+    },
+    {
+      "date": "2026-10-28",
+      "mention_rate": 67.6,
+      "avg_position": 3.6,
+      "influence_rank": 3
+    },
+    {
+      "date": "2026-10-29",
+      "mention_rate": 66.2,
+      "avg_position": 3.6,
+      "influence_rank": 3
+    },
+    {
+      "date": "2026-10-30",
+      "mention_rate": 68.3,
+      "avg_position": 3.4,
+      "influence_rank": 3
+    },
+    {
+      "date": "2026-10-31",
+      "mention_rate": 66.9,
+      "avg_position": 3.4,
+      "influence_rank": 3
+    }
+  ]
+}

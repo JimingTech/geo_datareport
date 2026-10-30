@@ -1,16 +1,16 @@
 {
   "meta": {
-    "project_id": 5195,
-    "project_name": "京东口腔 ①",
-    "product": "京东口腔 ①",
+    "project_id": 5203,
+    "project_name": "京东雾化器",
+    "product": "京东雾化器",
     "target_product": "京东大健康(京东健康、京东买药、京东大药房)",
     "brand": "京东大健康",
     "label": "2026年10月",
     "project_start_date": "2026-09-23",
-    "before_date": "2026-10-09",
+    "before_date": "2026-09-23",
     "october_date": "2026-10-31",
     "september_date": "2026-10-31",
-    "before_label": "优化前（42.1%）",
+    "before_label": "优化前（28.2%）",
     "october_label": "优化后（10/31）",
     "september_label": "优化后（10/31）"
   },
@@ -18,437 +18,448 @@
     "pass_line": 60,
     "target_days": 20,
     "project_start_date": "2026-09-23",
-    "before_date": "2026-10-09",
-    "before_mention_rate": 42.1,
+    "before_date": "2026-09-23",
+    "before_mention_rate": 28.2,
     "latest_date": "2026-10-31",
-    "latest_mention_rate": 73.7,
-    "qualified_days_count": 21,
-    "qualified_start_date": "2026-10-11",
+    "latest_mention_rate": 66.9,
+    "qualified_days_count": 20,
+    "qualified_start_date": "2026-10-12",
     "qualified_end_date": "2026-10-31",
-    "min_qualified_rate": 61.8,
-    "max_qualified_rate": 78.3,
-    "max_qualified_date": "2026-10-26",
-    "avg_qualified_rate": 72.2,
-    "range_21d_stats": {
-      "mention_rate": 72.2,
-      "top1_mention_rate": 43.4,
-      "top3_mention_rate": 58.5,
-      "influence_score": 60.7,
-      "influence_rank": 1,
-      "conversations": 3192,
-      "covered_entries": 76,
+    "min_qualified_rate": 62,
+    "max_qualified_rate": 69,
+    "max_qualified_date": "2026-10-16",
+    "avg_qualified_rate": 67,
+    "range_qualified_stats": {
+      "mention_rate": 67,
+      "top1_mention_rate": 20,
+      "top3_mention_rate": 53.1,
+      "influence_score": 48.2,
+      "influence_rank": 3,
+      "conversations": 2840,
+      "covered_entries": 71,
       "platforms": [
         {
           "name": "DeepSeek",
-          "mention_rate": 69.5
+          "mention_rate": 50.2
         },
         {
           "name": "豆包",
-          "mention_rate": 74.9
+          "mention_rate": 83.9
         }
       ]
     },
     "daily_trend": [
       {
+        "date": "2026-09-23",
+        "mention_rate": 28.2,
+        "passed": false
+      },
+      {
         "date": "2026-10-09",
-        "mention_rate": 42.1,
+        "mention_rate": 23.9,
         "passed": false
       },
       {
         "date": "2026-10-10",
-        "mention_rate": 40.8,
+        "mention_rate": 33.1,
         "passed": false
       },
       {
         "date": "2026-10-11",
-        "mention_rate": 61.8,
-        "passed": true
+        "mention_rate": 59.2,
+        "passed": false
       },
       {
         "date": "2026-10-12",
-        "mention_rate": 64.5,
+        "mention_rate": 62,
         "passed": true
       },
       {
         "date": "2026-10-13",
-        "mention_rate": 69.1,
+        "mention_rate": 68.3,
         "passed": true
       },
       {
         "date": "2026-10-14",
-        "mention_rate": 67.8,
+        "mention_rate": 65.5,
         "passed": true
       },
       {
         "date": "2026-10-15",
-        "mention_rate": 69.1,
+        "mention_rate": 66.2,
         "passed": true
       },
       {
         "date": "2026-10-16",
-        "mention_rate": 71.7,
+        "mention_rate": 69,
         "passed": true
       },
       {
         "date": "2026-10-17",
-        "mention_rate": 72.4,
+        "mention_rate": 67.6,
         "passed": true
       },
       {
         "date": "2026-10-18",
-        "mention_rate": 70.4,
+        "mention_rate": 67.6,
         "passed": true
       },
       {
         "date": "2026-10-19",
-        "mention_rate": 75,
+        "mention_rate": 68.3,
         "passed": true
       },
       {
         "date": "2026-10-20",
-        "mention_rate": 74.3,
+        "mention_rate": 65.5,
         "passed": true
       },
       {
         "date": "2026-10-21",
-        "mention_rate": 76.3,
+        "mention_rate": 66.2,
         "passed": true
       },
       {
         "date": "2026-10-22",
-        "mention_rate": 72.4,
+        "mention_rate": 68.3,
         "passed": true
       },
       {
         "date": "2026-10-23",
-        "mention_rate": 71.7,
+        "mention_rate": 69,
         "passed": true
       },
       {
         "date": "2026-10-24",
-        "mention_rate": 74.3,
+        "mention_rate": 67.6,
         "passed": true
       },
       {
         "date": "2026-10-25",
-        "mention_rate": 73.7,
+        "mention_rate": 66.9,
         "passed": true
       },
       {
         "date": "2026-10-26",
-        "mention_rate": 78.3,
+        "mention_rate": 68.3,
         "passed": true
       },
       {
         "date": "2026-10-27",
-        "mention_rate": 73,
+        "mention_rate": 65.5,
         "passed": true
       },
       {
         "date": "2026-10-28",
-        "mention_rate": 75.7,
+        "mention_rate": 67.6,
         "passed": true
       },
       {
         "date": "2026-10-29",
-        "mention_rate": 74.3,
+        "mention_rate": 66.2,
         "passed": true
       },
       {
         "date": "2026-10-30",
-        "mention_rate": 77,
+        "mention_rate": 68.3,
         "passed": true
       },
       {
         "date": "2026-10-31",
-        "mention_rate": 73.7,
+        "mention_rate": 66.9,
         "passed": true
       }
     ],
     "all_daily": [
       {
-        "date": "2026-09-20",
-        "mention_rate": 37.5,
+        "date": "2026-09-23",
+        "mention_rate": 28.2,
         "passed": false
       },
       {
         "date": "2026-10-09",
-        "mention_rate": 42.1,
+        "mention_rate": 23.9,
         "passed": false
       },
       {
         "date": "2026-10-10",
-        "mention_rate": 40.8,
+        "mention_rate": 33.1,
         "passed": false
       },
       {
         "date": "2026-10-11",
-        "mention_rate": 61.8,
-        "passed": true
+        "mention_rate": 59.2,
+        "passed": false
       },
       {
         "date": "2026-10-12",
-        "mention_rate": 64.5,
+        "mention_rate": 62,
         "passed": true
       },
       {
         "date": "2026-10-13",
-        "mention_rate": 69.1,
+        "mention_rate": 68.3,
         "passed": true
       },
       {
         "date": "2026-10-14",
-        "mention_rate": 67.8,
+        "mention_rate": 65.5,
         "passed": true
       },
       {
         "date": "2026-10-15",
-        "mention_rate": 69.1,
+        "mention_rate": 66.2,
         "passed": true
       },
       {
         "date": "2026-10-16",
-        "mention_rate": 71.7,
+        "mention_rate": 69,
         "passed": true
       },
       {
         "date": "2026-10-17",
-        "mention_rate": 72.4,
+        "mention_rate": 67.6,
         "passed": true
       },
       {
         "date": "2026-10-18",
-        "mention_rate": 70.4,
+        "mention_rate": 67.6,
         "passed": true
       },
       {
         "date": "2026-10-19",
-        "mention_rate": 75,
+        "mention_rate": 68.3,
         "passed": true
       },
       {
         "date": "2026-10-20",
-        "mention_rate": 74.3,
+        "mention_rate": 65.5,
         "passed": true
       },
       {
         "date": "2026-10-21",
-        "mention_rate": 76.3,
+        "mention_rate": 66.2,
         "passed": true
       },
       {
         "date": "2026-10-22",
-        "mention_rate": 72.4,
+        "mention_rate": 68.3,
         "passed": true
       },
       {
         "date": "2026-10-23",
-        "mention_rate": 71.7,
+        "mention_rate": 69,
         "passed": true
       },
       {
         "date": "2026-10-24",
-        "mention_rate": 74.3,
+        "mention_rate": 67.6,
         "passed": true
       },
       {
         "date": "2026-10-25",
-        "mention_rate": 73.7,
+        "mention_rate": 66.9,
         "passed": true
       },
       {
         "date": "2026-10-26",
-        "mention_rate": 78.3,
+        "mention_rate": 68.3,
         "passed": true
       },
       {
         "date": "2026-10-27",
-        "mention_rate": 73,
+        "mention_rate": 65.5,
         "passed": true
       },
       {
         "date": "2026-10-28",
-        "mention_rate": 75.7,
+        "mention_rate": 67.6,
         "passed": true
       },
       {
         "date": "2026-10-29",
-        "mention_rate": 74.3,
+        "mention_rate": 66.2,
         "passed": true
       },
       {
         "date": "2026-10-30",
-        "mention_rate": 77,
+        "mention_rate": 68.3,
         "passed": true
       },
       {
         "date": "2026-10-31",
-        "mention_rate": 73.7,
+        "mention_rate": 66.9,
         "passed": true
       }
     ]
   },
   "scope": {
-    "platforms": 4,
+    "platforms": 2,
     "platform_names": [
       "DeepSeek",
-      "豆包",
-      "元宝",
-      "通义千问"
+      "豆包"
     ],
-    "entries": 76,
-    "conversations": 3800,
-    "daily_conversations": 152
+    "entries": 71,
+    "conversations": 3550,
+    "daily_conversations": 142
   },
   "before": {
-    "mention_rate": 42.1,
-    "top1_mention_rate": 11.8,
-    "top3_mention_rate": 29.6,
-    "influence_score": 30,
-    "influence_rank": 2,
-    "conversations": 152,
-    "covered_entries": 55,
+    "mention_rate": 28.2,
+    "top1_mention_rate": 21.1,
+    "top3_mention_rate": 25,
+    "influence_score": 25.4,
+    "influence_rank": 6,
+    "conversations": 284,
+    "covered_entries": 47,
     "platforms": [
       {
         "name": "DeepSeek",
-        "mention_rate": 11.8
+        "mention_rate": 14.1
       },
       {
         "name": "豆包",
-        "mention_rate": 72.4
+        "mention_rate": 38
+      },
+      {
+        "name": "元宝",
+        "mention_rate": 42.3
+      },
+      {
+        "name": "通义千问",
+        "mention_rate": 18.3
       }
     ]
   },
   "october": {
-    "mention_rate": 73.7,
-    "top1_mention_rate": 48.7,
-    "top3_mention_rate": 60.5,
-    "influence_score": 63.7,
-    "influence_rank": 1,
-    "conversations": 152,
-    "covered_entries": 72,
+    "mention_rate": 66.9,
+    "top1_mention_rate": 15.5,
+    "top3_mention_rate": 49.3,
+    "influence_score": 46.3,
+    "influence_rank": 3,
+    "conversations": 142,
+    "covered_entries": 66,
     "platforms": [
       {
         "name": "DeepSeek",
-        "mention_rate": 88.2
+        "mention_rate": 43.7
       },
       {
         "name": "豆包",
-        "mention_rate": 59.2
+        "mention_rate": 90.1
       }
     ]
   },
   "september": {
-    "mention_rate": 73.7,
-    "top1_mention_rate": 48.7,
-    "top3_mention_rate": 60.5,
-    "influence_score": 63.7,
-    "influence_rank": 1,
-    "conversations": 152,
-    "covered_entries": 72,
+    "mention_rate": 66.9,
+    "top1_mention_rate": 15.5,
+    "top3_mention_rate": 49.3,
+    "influence_score": 46.3,
+    "influence_rank": 3,
+    "conversations": 142,
+    "covered_entries": 66,
     "platforms": [
       {
         "name": "DeepSeek",
-        "mention_rate": 88.2
+        "mention_rate": 43.7
       },
       {
         "name": "豆包",
-        "mention_rate": 59.2
+        "mention_rate": 90.1
       }
     ]
   },
   "compare": {
     "mention_rate": [
       {
-        "name": "京东大健康",
-        "value": "73.7%",
-        "isTarget": true,
+        "name": "阿里健康",
+        "value": "80.3%",
+        "isTarget": false,
         "rank": 1
       },
       {
-        "name": "美团",
-        "value": "54.6%",
+        "name": "京东自营",
+        "value": "69%",
         "isTarget": false,
         "rank": 2
       },
       {
-        "name": "大众点评",
-        "value": "34.9%",
-        "isTarget": false,
+        "name": "京东大健康",
+        "value": "66.9%",
+        "isTarget": true,
         "rank": 3
       },
       {
-        "name": "泰康拜博口腔",
-        "value": "34.2%",
+        "name": "美团",
+        "value": "45.1%",
         "isTarget": false,
         "rank": 4
       },
       {
-        "name": "瑞尔齿科",
-        "value": "30.3%",
+        "name": "拼多多",
+        "value": "38%",
         "isTarget": false,
         "rank": 5
       }
     ],
     "top1": [
       {
-        "name": "京东大健康",
-        "value": "48.7%",
-        "isTarget": true,
+        "name": "京东自营",
+        "value": "48.6%",
+        "isTarget": false,
         "rank": 1
       },
       {
-        "name": "美团",
-        "value": "25.7%",
-        "isTarget": false,
+        "name": "京东大健康",
+        "value": "15.5%",
+        "isTarget": true,
         "rank": 2
       },
       {
-        "name": "瑞尔齿科",
-        "value": "8.6%",
+        "name": "美团",
+        "value": "12.7%",
         "isTarget": false,
         "rank": 3
       },
       {
-        "name": "新氧",
-        "value": "3.9%",
+        "name": "京东",
+        "value": "10.6%",
         "isTarget": false,
         "rank": 4
       },
       {
-        "name": "美奥口腔",
-        "value": "3.9%",
+        "name": "阿里健康",
+        "value": "5.6%",
         "isTarget": false,
         "rank": 5
       }
     ],
     "influence": [
       {
-        "name": "京东大健康",
+        "name": "京东自营",
         "value": "NO. 1",
-        "isTarget": true,
+        "isTarget": false,
         "rank": 1
       },
       {
-        "name": "美团",
+        "name": "阿里健康",
         "value": "NO. 2",
         "isTarget": false,
         "rank": 2
       },
       {
-        "name": "瑞尔齿科",
+        "name": "京东大健康",
         "value": "NO. 3",
-        "isTarget": false,
+        "isTarget": true,
         "rank": 3
       },
       {
-        "name": "大众点评",
+        "name": "美团",
         "value": "NO. 4",
         "isTarget": false,
         "rank": 4
       },
       {
-        "name": "泰康拜博口腔",
+        "name": "京东",
         "value": "NO. 5",
         "isTarget": false,
         "rank": 5
@@ -457,803 +468,835 @@
   },
   "rivals": [
     {
-      "name": "京东大健康",
+      "name": "阿里健康",
       "listed": 68,
+      "top1": 7,
+      "isTarget": false
+    },
+    {
+      "name": "京东自营",
+      "listed": 61,
+      "top1": 35,
+      "isTarget": false
+    },
+    {
+      "name": "京东大健康",
+      "listed": 64,
       "top1": 10,
       "isTarget": true
     },
     {
       "name": "美团",
-      "listed": 51,
-      "top1": 34,
-      "isTarget": false
-    },
-    {
-      "name": "大众点评",
-      "listed": 41,
-      "top1": 0,
-      "isTarget": false
-    },
-    {
-      "name": "泰康拜博口腔",
       "listed": 45,
-      "top1": 1,
+      "top1": 9,
       "isTarget": false
     },
     {
-      "name": "瑞尔齿科",
-      "listed": 42,
-      "top1": 15,
+      "name": "拼多多",
+      "listed": 37,
+      "top1": 0,
       "isTarget": false
     }
   ],
   "sentiments": {
-    "positive": 96.7,
-    "negative": 3.3,
+    "positive": 97.2,
+    "negative": 2.8,
     "positive_keywords": [
-      "收费透明",
-      "价格透明",
-      "售后有保障"
+      "正品保障",
+      "物流快",
+      "资质齐全"
     ],
     "before_positive_keywords": [
-      "价格透明",
-      "明码标价",
-      "售后保障"
+      "正品保障",
+      "物流快",
+      "售后省心"
     ]
   },
   "entries": [
     {
-      "name": "线上互联网口腔平台排行榜",
+      "name": "哪个平台买雾化器更方便省心",
       "mention_rate": 100,
-      "position": 5,
-      "before_mention_rate": 50
+      "before_mention_rate": 25
     },
     {
-      "name": "线上互联网口腔服务Top 5",
+      "name": "哪个线上平台销售的雾化器来源更可靠",
       "mention_rate": 100,
-      "position": 2,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "线上互联网牙科平台推荐",
-      "mention_rate": 100,
-      "position": 3,
       "before_mention_rate": 0
     },
     {
-      "name": "自营口腔平台哪个性价比高",
+      "name": "担心买到假的雾化器应该选哪个线上平台",
       "mention_rate": 100,
-      "position": 1,
       "before_mention_rate": 50
     },
     {
-      "name": "自营洗牙平台哪个性价比高",
+      "name": "买雾化器哪个线上平台货源比较靠谱",
       "mention_rate": 100,
-      "position": 2,
+      "before_mention_rate": 25
+    },
+    {
+      "name": "哪个线上平台购买雾化器不会在包裹上写商品名称",
+      "mention_rate": 100,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "线上买雾化器哪个平台隐私包装做得好",
+      "mention_rate": 100,
+      "before_mention_rate": 25
+    },
+    {
+      "name": "购买雾化器时在哪个线上平台买可以避免别人看到买了什么",
+      "mention_rate": 100,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "买雾化器在哪个线上平台买可以保密配送",
+      "mention_rate": 100,
+      "before_mention_rate": 25
+    },
+    {
+      "name": "买雾化器在哪个线上平台买可以隐藏订单信息",
+      "mention_rate": 100,
+      "before_mention_rate": 25
+    },
+    {
+      "name": "买雾化器什么线上渠道隐私包装做得好",
+      "mention_rate": 100,
       "before_mention_rate": 0
     },
     {
-      "name": "自营洗牙平台哪个值得选",
+      "name": "晚上急需雾化器哪个线上平台能买到",
       "mention_rate": 100,
-      "position": 3,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "电商平台口腔服务哪个口碑好",
-      "mention_rate": 100,
-      "position": 4,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "电商平台看牙哪个好",
-      "mention_rate": 100,
-      "position": 4,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "电商平台牙科哪个性价比高",
-      "mention_rate": 100,
-      "position": 2.5,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "电商平台口腔诊所哪个服务好",
-      "mention_rate": 100,
-      "position": 4.5,
       "before_mention_rate": 0
     },
     {
-      "name": "电商平台牙科诊所哪个服务好",
+      "name": "附近能送到的买雾化器的线上平台推荐",
       "mention_rate": 100,
-      "position": 2.5,
+      "before_mention_rate": 25
+    },
+    {
+      "name": "雾化器着急用在哪个线上平台买配送最快",
+      "mention_rate": 100,
+      "before_mention_rate": 0
+    },
+    {
+      "name": "买雾化器哪个线上平台可以当天送到",
+      "mention_rate": 100,
+      "before_mention_rate": 0
+    },
+    {
+      "name": "买雾化器有没有可以小时达的线上平台",
+      "mention_rate": 100,
+      "before_mention_rate": 25
+    },
+    {
+      "name": "买雾化器哪个线上平台能够就近发货",
+      "mention_rate": 100,
       "before_mention_rate": 50
     },
     {
-      "name": "有售后保障的线上自营口腔平台推荐",
+      "name": "雾化器当天急用有什么线上购买渠道",
       "mention_rate": 100,
-      "position": 1,
+      "before_mention_rate": 0
+    },
+    {
+      "name": "雾化器着急用在哪个自营平台买配送最快",
+      "mention_rate": 100,
+      "before_mention_rate": 0
+    },
+    {
+      "name": "雾化器着急用在什么线上渠道买配送最快",
+      "mention_rate": 100,
+      "before_mention_rate": 0
+    },
+    {
+      "name": "哪个线上平台买雾化器能提供专业咨询",
+      "mention_rate": 100,
+      "before_mention_rate": 75
+    },
+    {
+      "name": "买雾化器在哪个线上平台买可以咨询专业医生",
+      "mention_rate": 100,
+      "before_mention_rate": 75
+    },
+    {
+      "name": "哪个线上平台购买雾化器有专业人员答疑",
+      "mention_rate": 100,
+      "before_mention_rate": 75
+    },
+    {
+      "name": "买雾化器哪个线上平台能根据情况给专业购买建议",
+      "mention_rate": 100,
+      "before_mention_rate": 75
+    },
+    {
+      "name": "买雾化器哪个线上平台可以先询问专业意见",
+      "mention_rate": 100,
+      "before_mention_rate": 75
+    },
+    {
+      "name": "买雾化器时哪个线上平台可以指导怎么使用",
+      "mention_rate": 100,
       "before_mention_rate": 50
     },
     {
-      "name": "无隐形消费的电商平台口腔服务哪个好",
+      "name": "网上购买雾化器哪个电商平台可以指导选择",
       "mention_rate": 100,
-      "position": 4,
       "before_mention_rate": 50
     },
     {
-      "name": "无隐形消费的电商平台口腔服务哪个性价比高",
+      "name": "哪个自营平台买雾化器能提供专业咨询",
       "mention_rate": 100,
-      "position": 3,
       "before_mention_rate": 50
     },
     {
-      "name": "无隐形消费的电商平台口腔服务Top 5",
+      "name": "什么线上渠道买雾化器能提供专业咨询",
       "mention_rate": 100,
-      "position": 1,
       "before_mention_rate": 50
     },
     {
-      "name": "有售后保障的线上自营口腔平台哪个性价比高",
+      "name": "买雾化器哪个线上平台遇到问题处理比较方便",
       "mention_rate": 100,
-      "position": 1.5,
+      "before_mention_rate": 0
+    },
+    {
+      "name": "买雾化器在哪个线上平台比较好",
+      "mention_rate": 50,
       "before_mention_rate": 50
     },
     {
-      "name": "有售后保障的电商平台口腔服务哪个靠谱",
-      "mention_rate": 100,
-      "position": 3,
+      "name": "线上购买雾化器的平台推荐",
+      "mention_rate": 50,
       "before_mention_rate": 50
     },
     {
-      "name": "有售后保障的电商平台口腔服务哪个口碑好",
-      "mention_rate": 100,
-      "position": 1.5,
+      "name": "买雾化器在哪个线上平台比较方便",
+      "mention_rate": 50,
       "before_mention_rate": 50
     },
     {
-      "name": "有售后保障的电商平台口腔服务哪个服务好",
-      "mention_rate": 100,
-      "position": 2,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "有售后保障的电商平台口腔服务Top 5",
-      "mention_rate": 100,
-      "position": 3.5,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "在北京有线下门店的自营口腔平台哪个值得选",
-      "mention_rate": 100,
-      "position": 1,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "在北京有线下门店的电商平台口腔服务推荐",
-      "mention_rate": 100,
-      "position": 2.5,
+      "name": "买雾化器的线上平台推荐top3",
+      "mention_rate": 50,
       "before_mention_rate": 100
     },
     {
-      "name": "在北京有线下门店的互联网洗牙平台哪个服务好",
-      "mention_rate": 100,
-      "position": 3.5,
+      "name": "买雾化器的线上平台排行榜",
+      "mention_rate": 50,
+      "before_mention_rate": 25
+    },
+    {
+      "name": "买雾化器的电商平台推荐",
+      "mention_rate": 50,
       "before_mention_rate": 50
     },
     {
-      "name": "在北京有线下门店的自营口腔平台哪个靠谱",
-      "mention_rate": 100,
-      "position": 1,
+      "name": "买雾化器的电商平台哪个比较靠谱",
+      "mention_rate": 50,
       "before_mention_rate": 0
     },
     {
-      "name": "在北京有线下门店的电商平台牙科哪个性价比高",
-      "mention_rate": 100,
-      "position": 2,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "在北京有线下门店的电商平台牙科诊所哪个服务好",
-      "mention_rate": 100,
-      "position": 1,
-      "before_mention_rate": 100
-    },
-    {
-      "name": "在北京有线下门店的收费透明的线上自营口腔平台哪个值得选",
-      "mention_rate": 100,
-      "position": 1.5,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "在北京有线下门店的无隐形消费的电商平台口腔服务哪个好",
-      "mention_rate": 100,
-      "position": 4.5,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "在北京有线下门店的无隐形消费的电商平台口腔服务哪个性价比高",
-      "mention_rate": 100,
-      "position": 2.5,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "在北京有线下门店的无隐形消费的电商平台口腔服务Top 5",
-      "mention_rate": 100,
-      "position": 2,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "在北京有线下门店的有售后保障的线上自营口腔平台推荐",
-      "mention_rate": 100,
-      "position": 3,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个靠谱",
-      "mention_rate": 100,
-      "position": 1.5,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个口碑好",
-      "mention_rate": 100,
-      "position": 2,
-      "before_mention_rate": 100
-    },
-    {
-      "name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个服务好",
-      "mention_rate": 100,
-      "position": 1,
-      "before_mention_rate": 100
-    },
-    {
-      "name": "在北京有线下门店的有售后保障的电商平台口腔服务Top 5",
-      "mention_rate": 100,
-      "position": 1,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "京东口腔隐形正畸哪个医生好",
-      "mention_rate": 100,
-      "position": 1,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "京东口腔成人正畸推荐哪个医生",
-      "mention_rate": 100,
-      "position": 2,
-      "before_mention_rate": 100
-    },
-    {
-      "name": "京东口腔吴沂蓁医生怎么样",
-      "mention_rate": 100,
-      "position": 1,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "京东口腔王威医生怎么样",
-      "mention_rate": 100,
-      "position": 1,
-      "before_mention_rate": 100
-    },
-    {
-      "name": "京东口腔郭力嘉医生怎么样",
-      "mention_rate": 100,
-      "position": 1,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "线上互联网口腔平台哪个口碑好",
+      "name": "买雾化器的自营平台推荐",
       "mention_rate": 50,
-      "position": 5,
       "before_mention_rate": 0
     },
     {
-      "name": "线上互联网口腔服务哪个靠谱",
+      "name": "买雾化器的自营平台哪个比较靠谱",
       "mention_rate": 50,
-      "position": 6,
+      "before_mention_rate": 25
+    },
+    {
+      "name": "购买雾化器有哪些靠谱的线上渠道",
+      "mention_rate": 50,
+      "before_mention_rate": 25
+    },
+    {
+      "name": "线上哪里买雾化器有正品保障",
+      "mention_rate": 50,
       "before_mention_rate": 0
     },
     {
-      "name": "线上互联网洗牙平台哪个服务好",
+      "name": "网上买雾化器哪个平台能保证正品",
       "mention_rate": 50,
-      "position": 3.5,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "雾化器在哪个线上平台买正品更放心",
+      "mention_rate": 50,
+      "before_mention_rate": 25
+    },
+    {
+      "name": "买雾化器在哪个渠道买可信度比较高",
+      "mention_rate": 50,
       "before_mention_rate": 0
     },
     {
-      "name": "自营口腔平台哪个靠谱",
+      "name": "网上买雾化器哪个线上平台质量更有保障",
       "mention_rate": 50,
-      "position": 2.5,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "网上购买雾化器选哪个线上平台比较正规",
+      "mention_rate": 50,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "买雾化器哪个电商平台有正品保障",
+      "mention_rate": 50,
+      "before_mention_rate": 25
+    },
+    {
+      "name": "买雾化器哪个自营平台有正品保障",
+      "mention_rate": 50,
+      "before_mention_rate": 25
+    },
+    {
+      "name": "买雾化器什么线上渠道有正品保障",
+      "mention_rate": 50,
+      "before_mention_rate": 25
+    },
+    {
+      "name": "网上买雾化器哪里可以隐私发货",
+      "mention_rate": 50,
+      "before_mention_rate": 25
+    },
+    {
+      "name": "哪个线上平台买雾化器包装比较低调",
+      "mention_rate": 50,
       "before_mention_rate": 0
     },
     {
-      "name": "自营口腔平台哪个服务好",
+      "name": "比较注重隐私的话雾化器在哪个平台买比较好",
       "mention_rate": 50,
-      "position": 3,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "自营口腔平台哪个值得选",
-      "mention_rate": 50,
-      "position": 4,
       "before_mention_rate": 0
     },
     {
-      "name": "自营牙科平台哪个性价比高",
+      "name": "网上买雾化器哪个渠道包装更保密",
       "mention_rate": 50,
-      "position": 5.5,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "买雾化器哪些电商平台支持隐私包装",
+      "mention_rate": 50,
+      "before_mention_rate": 25
+    },
+    {
+      "name": "买雾化器哪个电商平台隐私包装做得好",
+      "mention_rate": 50,
+      "before_mention_rate": 25
+    },
+    {
+      "name": "买雾化器哪个自营平台隐私包装做得好",
+      "mention_rate": 50,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "购买雾化器对时效要求高应该选什么平台",
+      "mention_rate": 50,
       "before_mention_rate": 0
     },
     {
-      "name": "收费透明的线上自营口腔平台哪个值得选",
+      "name": "临时需要雾化器可以在哪个线上平台买",
       "mention_rate": 50,
-      "position": 4.5,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "无隐形消费的线上自营口腔平台哪个靠谱",
-      "mention_rate": 50,
-      "position": 2.5,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "收费透明的电商平台口腔服务哪个值得选",
-      "mention_rate": 50,
-      "position": 3.5,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "有售后保障的互联网口腔平台哪个专业",
-      "mention_rate": 50,
-      "position": 4.5,
       "before_mention_rate": 0
     },
     {
-      "name": "在北京有线下门店的自营口腔平台哪个服务好",
+      "name": "雾化器着急用在哪个电商平台买配送最快",
       "mention_rate": 50,
-      "position": 3.5,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "在北京有线下门店的电商平台口腔服务哪个口碑好",
-      "mention_rate": 50,
-      "position": 3,
-      "before_mention_rate": 100
-    },
-    {
-      "name": "在北京有线下门店的互联网口腔平台哪个口碑好",
-      "mention_rate": 50,
-      "position": 3.5,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "在北京有线下门店的互联网口腔平台排行榜",
-      "mention_rate": 50,
-      "position": 5.5,
       "before_mention_rate": 0
     },
     {
-      "name": "在北京有线下门店的互联网口腔服务哪个靠谱",
+      "name": "网上买雾化器哪个平台有人指导怎么选",
       "mention_rate": 50,
-      "position": 4,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "买雾化器哪个线上平台售后服务好",
+      "mention_rate": 50,
+      "before_mention_rate": 25
+    },
+    {
+      "name": "网上买雾化器哪个线上平台退换货方便",
+      "mention_rate": 50,
+      "before_mention_rate": 25
+    },
+    {
+      "name": "雾化器在哪个线上平台买售后更有保障",
+      "mention_rate": 50,
+      "before_mention_rate": 25
+    },
+    {
+      "name": "哪个线上平台购买雾化器退换货流程比较简单",
+      "mention_rate": 50,
+      "before_mention_rate": 50
+    },
+    {
+      "name": "买雾化器哪个线上平台售后响应比较快",
+      "mention_rate": 50,
       "before_mention_rate": 0
     },
     {
-      "name": "在北京有线下门店的互联网口腔服务Top 5",
+      "name": "买雾化器哪个自营平台售后服务好",
       "mention_rate": 50,
-      "position": 4.5,
       "before_mention_rate": 0
     },
     {
-      "name": "在北京有线下门店的互联网牙科平台推荐",
+      "name": "买雾化器什么线上渠道售后服务好",
       "mention_rate": 50,
-      "position": 5.5,
-      "before_mention_rate": 0
+      "before_mention_rate": 25
     },
     {
-      "name": "在北京有线下门店的自营口腔平台哪个性价比高",
-      "mention_rate": 50,
-      "position": 4.5,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "在北京有线下门店的自营洗牙平台哪个性价比高",
-      "mention_rate": 50,
-      "position": 4.5,
-      "before_mention_rate": 0
-    },
-    {
-      "name": "在北京有线下门店的自营洗牙平台哪个值得选",
-      "mention_rate": 50,
-      "position": 4,
-      "before_mention_rate": 0
-    },
-    {
-      "name": "在北京有线下门店的自营牙科平台哪个好",
-      "mention_rate": 50,
-      "position": 3.5,
-      "before_mention_rate": 0
-    },
-    {
-      "name": "在北京有线下门店的自营牙科平台哪个性价比高",
-      "mention_rate": 50,
-      "position": 3.5,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "在北京有线下门店的电商平台看牙哪个好",
-      "mention_rate": 50,
-      "position": 5.5,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "在北京有线下门店的电商平台口腔诊所哪个服务好",
-      "mention_rate": 50,
-      "position": 4.5,
-      "before_mention_rate": 100
-    },
-    {
-      "name": "在北京有线下门店的无隐形消费的线上自营口腔平台哪个靠谱",
-      "mention_rate": 50,
-      "position": 4.5,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "在北京有线下门店的收费透明的电商平台口腔服务哪个值得选",
-      "mention_rate": 50,
-      "position": 5,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "在北京有线下门店的有售后保障的线上自营口腔平台哪个性价比高",
-      "mention_rate": 50,
-      "position": 3,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "在北京有线下门店的有售后保障的互联网口腔平台哪个专业",
-      "mention_rate": 50,
-      "position": 4.5,
-      "before_mention_rate": 100
-    },
-    {
-      "name": "线上找口腔医生的平台推荐",
-      "mention_rate": 50,
-      "position": 4,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "种植牙医生预约平台推荐",
-      "mention_rate": 50,
-      "position": 5,
-      "before_mention_rate": 0
-    },
-    {
-      "name": "京东口腔种植牙医生推荐哪个",
-      "mention_rate": 50,
-      "position": 1,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "自营牙科平台哪个好",
+      "name": "买雾化器，用什么平台体验比较好",
       "mention_rate": 0,
-      "position": null,
       "before_mention_rate": 0
     },
     {
-      "name": "电商平台口腔服务推荐",
+      "name": "哪个线上平台买雾化器不容易买到假货",
       "mention_rate": 0,
-      "position": null,
-      "before_mention_rate": 50
-    },
-    {
-      "name": "可以预约口腔专家的平台推荐",
-      "mention_rate": 0,
-      "position": null,
       "before_mention_rate": 0
     },
     {
-      "name": "京东口腔哪个医生擅长补牙",
+      "name": "买错雾化器在哪个线上平台比较容易处理",
       "mention_rate": 0,
-      "position": null,
+      "before_mention_rate": 0
+    },
+    {
+      "name": "比较关心售后的话雾化器去哪里买比较好",
+      "mention_rate": 0,
+      "before_mention_rate": 0
+    },
+    {
+      "name": "买雾化器哪个电商平台售后服务好",
+      "mention_rate": 0,
       "before_mention_rate": 50
     }
   ],
   "citations": {
     "before": {
-      "citation_rate": 96.7,
-      "total_citations": 2754,
+      "citation_rate": 98.2,
+      "total_citations": 4252,
       "platform_stats": [
+        {
+          "platform_name": "今日头条",
+          "domain": "toutiao.com",
+          "logo_url": "https://app.geoindexfuture.com/site-icons/toutiao.com.ico",
+          "citation_count": 278,
+          "share": 6.5
+        },
         {
           "platform_name": "抖音精选",
           "domain": "iesdouyin.com",
           "logo_url": "https://app.geoindexfuture.com/site-icons/iesdouyin.com-jingxuan.png",
-          "citation_count": 453,
-          "share": 16.4
-        },
-        {
-          "platform_name": "知乎",
-          "domain": "zhihu.com",
-          "logo_url": "https://static.zhihu.com/heifetz/favicon.ico",
-          "citation_count": 155,
+          "citation_count": 239,
           "share": 5.6
         },
         {
-          "platform_name": "新浪",
-          "domain": "sina.com.cn",
-          "logo_url": "https://app.geoindexfuture.com/site-icons/sina.com.cn.ico",
-          "citation_count": 78,
-          "share": 2.8
+          "platform_name": "中华医学期刊全文数据库",
+          "domain": "yiigle.com",
+          "logo_url": "https://cdn.deepseek.com/site-icons/yiigle.com",
+          "citation_count": 201,
+          "share": 4.7
         },
-        {
-          "platform_name": "首都医科大学附属北京口腔医院",
-          "domain": "dentist.org.cn",
-          "logo_url": "https://app.geoindexfuture.com/site-icons/dentist.org.cn.png",
-          "citation_count": 74,
-          "share": 2.7
-        },
-        {
-          "platform_name": "百度百科",
-          "domain": "baike.baidu.com",
-          "logo_url": "https://app.geoindexfuture.com/site-icons/baike.baidu.com.png",
-          "citation_count": 71,
-          "share": 2.6
-        }
-      ]
-    },
-    "october": {
-      "citation_rate": 72.4,
-      "total_citations": 1540,
-      "platform_stats": [
         {
           "platform_name": "知乎",
           "domain": "zhihu.com",
           "logo_url": "https://static.zhihu.com/heifetz/favicon.ico",
-          "citation_count": 259,
-          "share": 16.8
-        },
-        {
-          "platform_name": "抖音精选",
-          "domain": "iesdouyin.com",
-          "logo_url": "https://app.geoindexfuture.com/site-icons/iesdouyin.com-jingxuan.png",
-          "citation_count": 160,
-          "share": 10.4
-        },
-        {
-          "platform_name": "新浪",
-          "domain": "sina.com.cn",
-          "logo_url": "https://app.geoindexfuture.com/site-icons/sina.com.cn.ico",
-          "citation_count": 78,
-          "share": 5.1
+          "citation_count": 188,
+          "share": 4.4
         },
         {
           "platform_name": "京东",
           "domain": "jd.com",
           "logo_url": "https://img03.sogoucdn.com/app/a/200797/e236406b-726c-4949-a5d3-02727aa1fdcf",
-          "citation_count": 46,
-          "share": 3
+          "citation_count": 178,
+          "share": 4.2
+        }
+      ]
+    },
+    "october": {
+      "citation_rate": 97.2,
+      "total_citations": 1902,
+      "platform_stats": [
+        {
+          "platform_name": "中华医学期刊全文数据库",
+          "domain": "yiigle.com",
+          "logo_url": "https://cdn.deepseek.com/site-icons/yiigle.com",
+          "citation_count": 326,
+          "share": 17.1
         },
         {
-          "platform_name": "百度百科",
-          "domain": "baike.baidu.com",
-          "logo_url": "https://app.geoindexfuture.com/site-icons/baike.baidu.com.png",
-          "citation_count": 40,
-          "share": 2.6
+          "platform_name": "知乎",
+          "domain": "zhihu.com",
+          "logo_url": "https://static.zhihu.com/heifetz/favicon.ico",
+          "citation_count": 139,
+          "share": 7.3
+        },
+        {
+          "platform_name": "京东",
+          "domain": "jd.com",
+          "logo_url": "https://img03.sogoucdn.com/app/a/200797/e236406b-726c-4949-a5d3-02727aa1fdcf",
+          "citation_count": 108,
+          "share": 5.7
+        },
+        {
+          "platform_name": "抖音精选",
+          "domain": "iesdouyin.com",
+          "logo_url": "https://app.geoindexfuture.com/site-icons/iesdouyin.com-jingxuan.png",
+          "citation_count": 84,
+          "share": 4.4
+        },
+        {
+          "platform_name": "什么值得买",
+          "domain": "smzdm.com",
+          "logo_url": "https://app.geoindexfuture.com/site-icons/smzdm.com.jpg",
+          "citation_count": 80,
+          "share": 4.2
         }
       ]
     }
   },
   "delivery": {
-    "source": "京东口腔(中位数)_投放文章统计_1029.xlsx",
+    "source": "雾化器（中位数）_投放文章统计_1029.xlsx",
     "generated_at": "2026-10-29",
     "overview": {
-      "delivery_articles": 51,
-      "cited_articles": 0,
-      "cited_rate": 0,
-      "unique_titles": 47,
-      "unique_cited_titles": 0,
-      "delivery_citations": 0,
-      "total_conversations": 304,
-      "total_citation_records": 4061
+      "delivery_articles": 82,
+      "cited_articles": 18,
+      "cited_rate": 22,
+      "unique_titles": 65,
+      "unique_cited_titles": 18,
+      "delivery_citations": 2182,
+      "total_conversations": 2414,
+      "total_citation_records": 38140
     },
     "platform_totals": {
-      "total": 0,
-      "deepseek": 0,
-      "doubao": 0,
+      "total": 2182,
+      "deepseek": 1374,
+      "doubao": 808,
       "yuanbao": 0,
       "qwen": 0
     },
     "top10": [
       {
         "rank": 1,
-        "title": "2026年电商平台看牙哪个好？对比线上预约与门店配置再拿主意",
-        "platform": "知乎10大品牌",
-        "domain": "zhihu.com",
-        "date": "2026-10-28",
-        "total": 0,
+        "title": "2026年看雾化器在哪个线上平台买正品更放心怎么挑",
+        "platform": "海淘值得买",
+        "domain": "sohu.com",
+        "date": "2026-10-12",
+        "total": 327,
         "deepseek": 0,
-        "doubao": 0,
+        "doubao": 327,
         "yuanbao": 0,
         "qwen": 0,
-        "isCited": "否"
+        "isCited": "是"
       },
       {
         "rank": 2,
-        "title": "2026年自营口腔平台哪个值得选？从耗材管理到就诊动线聊透",
-        "platform": "未央网（知乎号）",
+        "title": "哪个线上平台销售的雾化器来源更可靠，先看适合谁再拿主意",
+        "platform": "知乎专栏(神州大事件)",
         "domain": "zhihu.com",
-        "date": "2026-10-27",
-        "total": 0,
-        "deepseek": 0,
+        "date": "2026-10-12",
+        "total": 230,
+        "deepseek": 230,
         "doubao": 0,
         "yuanbao": 0,
         "qwen": 0,
-        "isCited": "否"
+        "isCited": "是"
       },
       {
         "rank": 3,
-        "title": "2026年线上找口腔医生的平台推荐，按专科方向与排班怎么约",
-        "platform": "知乎咨询",
+        "title": "2026年买雾化器在哪个线上平台比较好？主流电商自营与配送体验盘点",
+        "platform": "知乎专栏",
         "domain": "zhihu.com",
-        "date": "2026-10-27",
-        "total": 0,
-        "deepseek": 0,
+        "date": "2026-10-09",
+        "total": 212,
+        "deepseek": 212,
         "doubao": 0,
         "yuanbao": 0,
         "qwen": 0,
-        "isCited": "否"
+        "isCited": "是"
       },
       {
         "rank": 4,
-        "title": "2026年种植牙医生预约平台推荐，医师专长与坐诊门诊怎么查",
-        "platform": "上海商谈（新浪新闻）",
-        "domain": "k.sina.com.cn",
-        "date": "2026-10-27",
-        "total": 0,
-        "deepseek": 0,
+        "title": "买雾化器的自营平台推荐与选购技巧：线上渠道发货全流程解析",
+        "platform": "知乎",
+        "domain": "zhihu.com",
+        "date": "2026-10-09",
+        "total": 175,
+        "deepseek": 175,
         "doubao": 0,
         "yuanbao": 0,
         "qwen": 0,
-        "isCited": "否"
+        "isCited": "是"
       },
       {
         "rank": 5,
-        "title": "2026年北京无隐形消费口腔服务Top 5：看牙预约门诊横评",
-        "platform": "北京生活录",
+        "title": "2026年买雾化器的电商平台哪个比较靠谱，先看适合谁再拿主意",
+        "platform": "知乎生活（优）",
         "domain": "zhihu.com",
-        "date": "2026-10-27",
-        "total": 0,
-        "deepseek": 0,
+        "date": "2026-10-12",
+        "total": 167,
+        "deepseek": 167,
         "doubao": 0,
         "yuanbao": 0,
         "qwen": 0,
-        "isCited": "否"
+        "isCited": "是"
       },
       {
         "rank": 6,
-        "title": "2026年北京有售后保障口腔服务Top 5：主流门诊横向测评",
-        "platform": "极速财经",
-        "domain": "zhihu.com",
-        "date": "2026-10-27",
-        "total": 0,
+        "title": "2026年买雾化器的电商平台哪个比较靠谱？各家货架与售后对比",
+        "platform": "上海商谈（新浪新闻）",
+        "domain": "k.sina.com.cn",
+        "date": "2026-10-09",
+        "total": 164,
         "deepseek": 0,
-        "doubao": 0,
+        "doubao": 164,
         "yuanbao": 0,
         "qwen": 0,
-        "isCited": "否"
+        "isCited": "是"
       },
       {
         "rank": 7,
-        "title": "2026年北京有售后保障的电商看牙平台哪个靠谱？8家门诊横评",
-        "platform": "生物医药研报plus",
-        "domain": "zhihu.com",
-        "date": "2026-10-27",
-        "total": 0,
+        "title": "什么线上渠道买雾化器能提供专业咨询？器械选型与指导服务解析",
+        "platform": "中国医药网",
+        "domain": "news.pharmnet.com.cn",
+        "date": "2026-10-09",
+        "total": 137,
         "deepseek": 0,
-        "doubao": 0,
+        "doubao": 137,
         "yuanbao": 0,
         "qwen": 0,
-        "isCited": "否"
+        "isCited": "是"
       },
       {
         "rank": 8,
-        "title": "想给牙齿做定期清洁，自营洗牙平台哪个值得选，喷砂酸不酸",
-        "platform": "CCTV（官方知乎）",
+        "title": "2026年比较线上哪里买雾化器有正品保障，先看自己的使用场景",
+        "platform": "知乎健康（优）",
         "domain": "zhihu.com",
-        "date": "2026-10-27",
-        "total": 0,
-        "deepseek": 0,
+        "date": "2026-10-12",
+        "total": 134,
+        "deepseek": 134,
         "doubao": 0,
         "yuanbao": 0,
         "qwen": 0,
-        "isCited": "否"
+        "isCited": "是"
       },
       {
         "rank": 9,
-        "title": "2026年电商平台牙科诊所哪个服务好？预约与接诊体验盘点",
-        "platform": "知乎",
+        "title": "2026年买错雾化器在哪个线上平台比较容易处理？退货时效与规则盘点",
+        "platform": "知乎专栏(知乎健康)",
         "domain": "zhihu.com",
-        "date": "2026-10-27",
-        "total": 0,
-        "deepseek": 0,
+        "date": "2026-10-09",
+        "total": 123,
+        "deepseek": 123,
         "doubao": 0,
         "yuanbao": 0,
         "qwen": 0,
-        "isCited": "否"
+        "isCited": "是"
       },
       {
         "rank": 10,
-        "title": "2026年有售后保障的线上自营口腔平台推荐，质保条款怎么看",
-        "platform": "知乎专栏",
+        "title": "买雾化器在哪个渠道买可信度比较高？多平台选购与自营对比",
+        "platform": "知乎专栏(今日见闻)",
         "domain": "zhihu.com",
-        "date": "2026-10-27",
-        "total": 0,
-        "deepseek": 0,
+        "date": "2026-10-09",
+        "total": 122,
+        "deepseek": 122,
         "doubao": 0,
         "yuanbao": 0,
         "qwen": 0,
-        "isCited": "否"
+        "isCited": "是"
       }
     ],
     "top_channels": [
       {
+        "channel": "海淘值得买",
+        "articles": 1,
+        "cited": 1,
+        "citedRate": 1,
+        "citations": 327
+      },
+      {
+        "channel": "知乎专栏(神州大事件)",
+        "articles": 1,
+        "cited": 1,
+        "citedRate": 1,
+        "citations": 230
+      },
+      {
+        "channel": "知乎专栏",
+        "articles": 3,
+        "cited": 1,
+        "citedRate": 0.3333333333333333,
+        "citations": 212
+      },
+      {
+        "channel": "知乎",
+        "articles": 3,
+        "cited": 1,
+        "citedRate": 0.3333333333333333,
+        "citations": 175
+      },
+      {
+        "channel": "知乎生活（优）",
+        "articles": 1,
+        "cited": 1,
+        "citedRate": 1,
+        "citations": 167
+      },
+      {
+        "channel": "上海商谈（新浪新闻）",
+        "articles": 1,
+        "cited": 1,
+        "citedRate": 1,
+        "citations": 164
+      },
+      {
+        "channel": "中国医药网",
+        "articles": 1,
+        "cited": 1,
+        "citedRate": 1,
+        "citations": 137
+      },
+      {
+        "channel": "知乎健康（优）",
+        "articles": 2,
+        "cited": 1,
+        "citedRate": 0.5,
+        "citations": 134
+      },
+      {
+        "channel": "知乎专栏(知乎健康)",
+        "articles": 1,
+        "cited": 1,
+        "citedRate": 1,
+        "citations": 123
+      },
+      {
+        "channel": "知乎专栏(今日见闻)",
+        "articles": 1,
+        "cited": 1,
+        "citedRate": 1,
+        "citations": 122
+      },
+      {
+        "channel": "抖音（生物医药行业洞察）",
+        "articles": 1,
+        "cited": 1,
+        "citedRate": 1,
+        "citations": 100
+      },
+      {
+        "channel": "极速财经",
+        "articles": 1,
+        "cited": 1,
+        "citedRate": 1,
+        "citations": 83
+      },
+      {
+        "channel": "知乎专栏(科技要闻优选)",
+        "articles": 1,
+        "cited": 1,
+        "citedRate": 1,
+        "citations": 78
+      },
+      {
+        "channel": "知乎专栏(互联网科技资讯)",
+        "articles": 1,
+        "cited": 1,
+        "citedRate": 1,
+        "citations": 50
+      },
+      {
+        "channel": "新浪新闻（媒体号）",
+        "articles": 1,
+        "cited": 1,
+        "citedRate": 1,
+        "citations": 29
+      },
+      {
+        "channel": "抖音（妈妈知识宝典）",
+        "articles": 2,
+        "cited": 1,
+        "citedRate": 0.5,
+        "citations": 23
+      },
+      {
+        "channel": "其他(老何优选阁（什么值得买）)",
+        "articles": 1,
+        "cited": 1,
+        "citedRate": 1,
+        "citations": 21
+      },
+      {
+        "channel": "抖音（健康科普馆）",
+        "articles": 1,
+        "cited": 1,
+        "citedRate": 1,
+        "citations": 7
+      },
+      {
         "channel": "中国医药卫生网",
-        "articles": 4,
+        "articles": 2,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "家庭医药网",
+        "articles": 2,
         "cited": 0,
         "citedRate": 0,
         "citations": 0
       },
       {
         "channel": "39健康网（官方）",
-        "articles": 4,
-        "cited": 0,
-        "citedRate": 0,
-        "citations": 0
-      },
-      {
-        "channel": "医学界",
-        "articles": 3,
-        "cited": 0,
-        "citedRate": 0,
-        "citations": 0
-      },
-      {
-        "channel": "上海商谈（新浪新闻）",
         "articles": 2,
         "cited": 0,
         "citedRate": 0,
         "citations": 0
       },
       {
-        "channel": "知乎",
-        "articles": 2,
+        "channel": "知乎新闻（包收录）",
+        "articles": 1,
         "cited": 0,
         "citedRate": 0,
         "citations": 0
       },
       {
-        "channel": "知乎专栏",
-        "articles": 2,
+        "channel": "抖音（李性消费）",
+        "articles": 1,
         "cited": 0,
         "citedRate": 0,
         "citations": 0
       },
       {
-        "channel": "知乎生活（优）",
-        "articles": 2,
+        "channel": "抖音（我有一盘红豆糕）",
+        "articles": 1,
         "cited": 0,
         "citedRate": 0,
         "citations": 0
       },
       {
-        "channel": "寻医问药网（官方）",
-        "articles": 2,
+        "channel": "泰山网",
+        "articles": 1,
         "cited": 0,
         "citedRate": 0,
         "citations": 0
       },
       {
         "channel": "知乎10大品牌",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "知乎科技（快）",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "知乎教育",
         "articles": 1,
         "cited": 0,
         "citedRate": 0,
@@ -1274,105 +1317,28 @@
         "citations": 0
       },
       {
-        "channel": "北京生活录",
+        "channel": "医药网（中国医药网）可发排名",
         "articles": 1,
         "cited": 0,
         "citedRate": 0,
         "citations": 0
       },
       {
-        "channel": "极速财经",
+        "channel": "健康专栏",
         "articles": 1,
         "cited": 0,
         "citedRate": 0,
         "citations": 0
       },
       {
-        "channel": "生物医药研报plus",
+        "channel": "丁香园健康",
         "articles": 1,
         "cited": 0,
         "citedRate": 0,
         "citations": 0
       },
       {
-        "channel": "CCTV（官方知乎）",
-        "articles": 1,
-        "cited": 0,
-        "citedRate": 0,
-        "citations": 0
-      },
-      {
-        "channel": "一财网（搜狐新闻）",
-        "articles": 1,
-        "cited": 0,
-        "citedRate": 0,
-        "citations": 0
-      },
-      {
-        "channel": "家庭医生快讯",
-        "articles": 1,
-        "cited": 0,
-        "citedRate": 0,
-        "citations": 0
-      },
-      {
-        "channel": "健康周刊",
-        "articles": 1,
-        "cited": 0,
-        "citedRate": 0,
-        "citations": 0
-      },
-      {
-        "channel": "大健康信息网",
-        "articles": 1,
-        "cited": 0,
-        "citedRate": 0,
-        "citations": 0
-      },
-      {
-        "channel": "百信健康网",
-        "articles": 1,
-        "cited": 0,
-        "citedRate": 0,
-        "citations": 0
-      },
-      {
-        "channel": "知乎专栏(商业新地图)",
-        "articles": 1,
-        "cited": 0,
-        "citedRate": 0,
-        "citations": 0
-      },
-      {
-        "channel": "知乎专栏(互联网科技资讯)",
-        "articles": 1,
-        "cited": 0,
-        "citedRate": 0,
-        "citations": 0
-      },
-      {
-        "channel": "知乎专栏(知乎健康)",
-        "articles": 1,
-        "cited": 0,
-        "citedRate": 0,
-        "citations": 0
-      },
-      {
-        "channel": "知乎专栏(省心消费精选馆)",
-        "articles": 1,
-        "cited": 0,
-        "citedRate": 0,
-        "citations": 0
-      },
-      {
-        "channel": "知乎专栏(智能时代播报)",
-        "articles": 1,
-        "cited": 0,
-        "citedRate": 0,
-        "citations": 0
-      },
-      {
-        "channel": "搜狐健康栏目",
+        "channel": "Zaker健康",
         "articles": 1,
         "cited": 0,
         "citedRate": 0,
@@ -1386,28 +1352,161 @@
         "citations": 0
       },
       {
-        "channel": "抖音（健康每日谈）",
+        "channel": "生物医药研报plus",
         "articles": 1,
         "cited": 0,
         "citedRate": 0,
         "citations": 0
       },
       {
-        "channel": "抖音（宁阳广播电视台综合频道）",
+        "channel": "CCTV健康（官方知乎）",
         "articles": 1,
         "cited": 0,
         "citedRate": 0,
         "citations": 0
       },
       {
-        "channel": "抖音（健康知讯）",
+        "channel": "更专业的分享",
         "articles": 1,
         "cited": 0,
         "citedRate": 0,
         "citations": 0
       },
       {
-        "channel": "抖音（抢先见闻）",
+        "channel": "健康生活方式",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "丁香园健康（腾讯新闻）",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "知乎专栏(新快科技)",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "抖音（如意）",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "抖音（好柿朵朵）",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "抖音（奶油不肉）",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "知乎官方认证蓝V",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "好物分享云体验",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "健康快讯",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "星辰健康网",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "健康生活管家",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "抖音（小小赵）",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "抖音（小兔兔）",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "抖音（小baby车）",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "抖音（寻不到你）",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "值得买心选",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "值得买优讯",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "咸宁新闻网（GEO可发排名）",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "新浪健康频道",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "抖音（宁阳广播电视台新闻综合频道）",
         "articles": 1,
         "cited": 0,
         "citedRate": 0,
@@ -1421,21 +1520,21 @@
         "citations": 0
       },
       {
-        "channel": "生命时报",
+        "channel": "抖音（健康观察室）",
         "articles": 1,
         "cited": 0,
         "citedRate": 0,
         "citations": 0
       },
       {
-        "channel": "知乎健康（优）",
+        "channel": "抖音（健康生活家）",
         "articles": 1,
         "cited": 0,
         "citedRate": 0,
         "citations": 0
       },
       {
-        "channel": "健康时报",
+        "channel": "寻医问药网（官方）",
         "articles": 1,
         "cited": 0,
         "citedRate": 0,
@@ -1449,7 +1548,56 @@
         "citations": 0
       },
       {
-        "channel": "腾讯新闻客户端（可发医疗）",
+        "channel": "今日头条(科技创新精英)",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "其他(小峰推荐站（什么值得买）)",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "健康时报",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "其他(苏娜购物经（什么值得买）)",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "知乎专栏(每日见闻)",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "医药网",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "复禾医药网（复禾健康）",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
+      },
+      {
+        "channel": "医学界",
         "articles": 1,
         "cited": 0,
         "citedRate": 0,
@@ -1461,71 +1609,108 @@
         "cited": 0,
         "citedRate": 0,
         "citations": 0
+      },
+      {
+        "channel": "腾讯新闻客户端（可发医疗）",
+        "articles": 1,
+        "cited": 0,
+        "citedRate": 0,
+        "citations": 0
       }
     ],
     "domain_stats": [
       {
         "channel": "知乎",
-        "articles": 24,
-        "cited": 0,
-        "citations": 0
+        "articles": 30,
+        "cited": 10,
+        "citations": 1374
+      },
+      {
+        "channel": "搜狐",
+        "articles": 1,
+        "cited": 1,
+        "citations": 327
+      },
+      {
+        "channel": "新浪",
+        "articles": 2,
+        "cited": 2,
+        "citations": 193
+      },
+      {
+        "channel": "中国医药网",
+        "articles": 2,
+        "cited": 1,
+        "citations": 137
       },
       {
         "channel": "抖音",
+        "articles": 17,
+        "cited": 3,
+        "citations": 130
+      },
+      {
+        "channel": "什么值得买",
+        "articles": 6,
+        "cited": 1,
+        "citations": 21
+      },
+      {
+        "channel": "今日头条",
         "articles": 5,
         "cited": 0,
         "citations": 0
       },
       {
-        "channel": "中国医药卫生网",
-        "articles": 4,
-        "cited": 0,
-        "citations": 0
-      },
-      {
-        "channel": "39健康网",
-        "articles": 4,
-        "cited": 0,
-        "citations": 0
-      },
-      {
-        "channel": "医学界",
+        "channel": "微信公众号",
         "articles": 3,
         "cited": 0,
         "citations": 0
       },
       {
-        "channel": "新浪",
+        "channel": "中国医药卫生网",
         "articles": 2,
-        "cited": 0,
-        "citations": 0
-      },
-      {
-        "channel": "寻医问药网",
-        "articles": 2,
-        "cited": 0,
-        "citations": 0
-      },
-      {
-        "channel": "微信公众号",
-        "articles": 2,
-        "cited": 0,
-        "citations": 0
-      },
-      {
-        "channel": "搜狐",
-        "articles": 1,
         "cited": 0,
         "citations": 0
       },
       {
         "channel": "百家号",
+        "articles": 2,
+        "cited": 0,
+        "citations": 0
+      },
+      {
+        "channel": "万联网",
+        "articles": 2,
+        "cited": 0,
+        "citations": 0
+      },
+      {
+        "channel": "39健康网",
+        "articles": 2,
+        "cited": 0,
+        "citations": 0
+      },
+      {
+        "channel": "泰山网",
         "articles": 1,
         "cited": 0,
         "citations": 0
       },
       {
-        "channel": "东方财富",
+        "channel": "微博",
+        "articles": 1,
+        "cited": 0,
+        "citations": 0
+      },
+      {
+        "channel": "咸宁新闻网",
+        "articles": 1,
+        "cited": 0,
+        "citations": 0
+      },
+      {
+        "channel": "寻医问药网",
         "articles": 1,
         "cited": 0,
         "citations": 0
@@ -1537,7 +1722,19 @@
         "citations": 0
       },
       {
-        "channel": "今日头条",
+        "channel": "医药网",
+        "articles": 1,
+        "cited": 0,
+        "citations": 0
+      },
+      {
+        "channel": "复禾医药网",
+        "articles": 1,
+        "cited": 0,
+        "citations": 0
+      },
+      {
+        "channel": "医学界",
         "articles": 1,
         "cited": 0,
         "citations": 0
@@ -1547,1600 +1744,1495 @@
   "platform_entries": {
     "1": [
       {
-        "entry_name": "线上互联网口腔平台排行榜",
+        "entry_name": "哪个平台买雾化器更方便省心",
         "mention_rate": "100.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/4a2d4cedb72644379798f2ae77746efc.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/b28400b4ce0d477eb05e0f5efba2fde8.png"
       },
       {
-        "entry_name": "线上互联网口腔服务Top 5",
+        "entry_name": "哪个线上平台销售的雾化器来源更可靠",
         "mention_rate": "100.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/1d283819579a4a3399634ff4fd7ef78d.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/0e1aeea4e3b442bfa8f182ead9d71861.png"
       },
       {
-        "entry_name": "线上互联网牙科平台推荐",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/b6563af820824f6b8e4cce5055fc2db8.png"
-      },
-      {
-        "entry_name": "线上互联网洗牙平台哪个服务好",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/2e72d770e7a542e5a60615589cdec681.png"
-      },
-      {
-        "entry_name": "自营口腔平台哪个靠谱",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/12a50e8ff05c4d51a8dc672f8db545e5.png"
-      },
-      {
-        "entry_name": "自营口腔平台哪个服务好",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/e34339ecb4904816a258d6b2815d7ca6.png"
-      },
-      {
-        "entry_name": "自营口腔平台哪个性价比高",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/13933af6bbc741f8a9fc6a756eed20f7.png"
-      },
-      {
-        "entry_name": "自营口腔平台哪个值得选",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/fff8f0a6ba264aaca9fb7023c2af176a.png"
-      },
-      {
-        "entry_name": "自营洗牙平台哪个性价比高",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/e665d1e00f9e4da4b6d345fd8b8ce0e0.png"
-      },
-      {
-        "entry_name": "自营洗牙平台哪个值得选",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/f38637685c9d46f9be00502b1eaf774a.png"
-      },
-      {
-        "entry_name": "自营牙科平台哪个性价比高",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/7773039008084e958c5f9d20f2542ac8.png"
-      },
-      {
-        "entry_name": "电商平台口腔服务哪个口碑好",
+        "entry_name": "担心买到假的雾化器应该选哪个线上平台",
         "mention_rate": "100.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a352f0f2943f4e57a8d9efbdaf02ba52.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/cf14d0ff69f941958b7668f8f3d1828b.png"
       },
       {
-        "entry_name": "电商平台看牙哪个好",
+        "entry_name": "买雾化器哪个线上平台货源比较靠谱",
         "mention_rate": "100.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/d0bc6b85f34242f99c37328ce92fe6b2.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/bcfbd58f346c4717868e9c922eca18ce.png"
       },
       {
-        "entry_name": "电商平台牙科哪个性价比高",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/211efeffcc2344e1921119218bc35d0c.png"
-      },
-      {
-        "entry_name": "电商平台口腔诊所哪个服务好",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/3c8bc1cbaba149d9a42187d8a72b6dc2.png"
-      },
-      {
-        "entry_name": "电商平台牙科诊所哪个服务好",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/f3b4ace89337439d9f4282cf9cfa43fe.png"
-      },
-      {
-        "entry_name": "收费透明的线上自营口腔平台哪个值得选",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a638e262e3234f278fa8289f9c1af0f7.png"
-      },
-      {
-        "entry_name": "无隐形消费的线上自营口腔平台哪个靠谱",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/94474ce96f7a4af79d2bd4877fbe4554.png"
-      },
-      {
-        "entry_name": "收费透明的电商平台口腔服务哪个值得选",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/da3d2b55368c44b9821875b4d4e21e86.png"
-      },
-      {
-        "entry_name": "有售后保障的线上自营口腔平台推荐",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/6b4b6b5af84a4a4986d6acc4568cc7c0.png"
-      },
-      {
-        "entry_name": "无隐形消费的电商平台口腔服务哪个好",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/2a27374b7f0d4f22a1bdb4fa9dd57440.png"
-      },
-      {
-        "entry_name": "无隐形消费的电商平台口腔服务哪个性价比高",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/0fc5d38ea0da406e929e7511e80491f6.png"
-      },
-      {
-        "entry_name": "无隐形消费的电商平台口腔服务Top 5",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/4c27bcb8e7924272afb9cd75d633b844.png"
-      },
-      {
-        "entry_name": "有售后保障的线上自营口腔平台哪个性价比高",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/03f15782d47a41ca83ab0eeb30d53f9b.png"
-      },
-      {
-        "entry_name": "有售后保障的互联网口腔平台哪个专业",
+        "entry_name": "哪个线上平台购买雾化器不会在包裹上写商品名称",
         "mention_rate": "100.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/014bd0de86ef46d397aadf7f950b9a55.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/8b88edfdac6142c3a1a75102f2fa69b5.png"
       },
       {
-        "entry_name": "有售后保障的电商平台口腔服务哪个靠谱",
+        "entry_name": "线上买雾化器哪个平台隐私包装做得好",
         "mention_rate": "100.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/f02a370369764600a3769b18536383e3.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a1e1687ecfe74f35ae2c45927c871131.png"
       },
       {
-        "entry_name": "有售后保障的电商平台口腔服务哪个口碑好",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/4441db437b4a465eafe596b83489bf8e.png"
-      },
-      {
-        "entry_name": "有售后保障的电商平台口腔服务哪个服务好",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/04035215a4584c8e86bcf9cb5ac711f7.png"
-      },
-      {
-        "entry_name": "有售后保障的电商平台口腔服务Top 5",
+        "entry_name": "购买雾化器时在哪个线上平台买可以避免别人看到买了什么",
         "mention_rate": "100.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/ed3ce9510bcc4d409bf9465f549d7753.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/625b2aae93244757aa2c71f1122c0d71.png"
       },
       {
-        "entry_name": "在北京有线下门店的自营口腔平台哪个服务好",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/f9399efc3f6142248adf01efcaedeca1.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的自营口腔平台哪个值得选",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/bef27f96f59846d09b0848780925a120.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的电商平台口腔服务推荐",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/62aa69fb05bc4cb7880b2ba6b5b1f850.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的电商平台口腔服务哪个口碑好",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/e2c14b3538a1480ca9f60d1d5d964870.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的互联网口腔平台哪个口碑好",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/0a106c9f544940d9b75ad56a7cdcb991.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的互联网口腔平台排行榜",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/84678e09c9514132a79436af73d92d77.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的互联网口腔服务哪个靠谱",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/75970c1431c64d86966f190e6e43a2c5.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的互联网口腔服务Top 5",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/b283e693490044e4a5f88c9239a3f6c1.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的互联网牙科平台推荐",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/efbdecc905004f2eb73a38982ad7b12e.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的互联网洗牙平台哪个服务好",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/010134cf53f440c784f9e19410aef82a.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的自营口腔平台哪个靠谱",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/46157e6d6d9e4984b25fd039b16f4eef.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的自营口腔平台哪个性价比高",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/065c32b3d23f45b2ac0f581698dd544b.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的自营洗牙平台哪个性价比高",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/4fed25323ae44ea8973a8477ace96166.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的自营洗牙平台哪个值得选",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/ea74678d1bb049b784adf4535f407faf.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的自营牙科平台哪个好",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/2895171532ff4d23ae1566db43684786.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的自营牙科平台哪个性价比高",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/df9662582e3242b0b69fe53508b2e7ea.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的电商平台看牙哪个好",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/75d562a50c654e3ea68bf7c76fe4d494.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的电商平台牙科哪个性价比高",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/e95e92628c244e50b0132d398b231042.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的电商平台口腔诊所哪个服务好",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/6aff0c2809c04de1a71265da552dfbcd.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的电商平台牙科诊所哪个服务好",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/35dbc48005c04bc0a122434621ce6b91.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的收费透明的线上自营口腔平台哪个值得选",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/d5c42d9881f540b4b2539c138d5c3d0f.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的无隐形消费的线上自营口腔平台哪个靠谱",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/63b8b37133f04bc6b40863c5095c4611.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的收费透明的电商平台口腔服务哪个值得选",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/8b751d7fc9204c96aecdd6829914f401.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的无隐形消费的电商平台口腔服务哪个好",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/1f97121a8238443ca4bb71345bd8ef42.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的无隐形消费的电商平台口腔服务哪个性价比高",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a081d24224b047249c5a2a2993e29ada.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的无隐形消费的电商平台口腔服务Top 5",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/8e06f23fa53140be8624a761714ef777.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的有售后保障的线上自营口腔平台推荐",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/83e64cb4399344bc8231b53817716c43.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的有售后保障的线上自营口腔平台哪个性价比高",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/e68c37b5a9234777a572334ed3785d19.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的有售后保障的互联网口腔平台哪个专业",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/8bc07279201a4e55b32b53b87f408ad5.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个靠谱",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/c38f500d6877410a93edc7dc0828f7fd.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个口碑好",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/1c34da1b320b4140a73dc49095bfd919.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个服务好",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/856e5f49a09d49eca5b9d085126bf0fb.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务Top 5",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/bbf830ce1da24e99a4772fdb269170d1.png"
-      },
-      {
-        "entry_name": "京东口腔隐形正畸哪个医生好",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/05e5b034c4bc4af0bc97fb7977929ff5.png"
-      },
-      {
-        "entry_name": "京东口腔成人正畸推荐哪个医生",
+        "entry_name": "买雾化器在哪个线上平台买可以保密配送",
         "mention_rate": "100.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/64811e0732ee4fd8addcb6bbcb3c355a.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/33cdc784b16d47d28e4d2004e6c270df.png"
       },
       {
-        "entry_name": "京东口腔吴沂蓁医生怎么样",
+        "entry_name": "买雾化器在哪个线上平台买可以隐藏订单信息",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/0cbc503f35a7435886ceade992a96413.png"
+      },
+      {
+        "entry_name": "买雾化器什么线上渠道隐私包装做得好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/6cc93fb843324826b83f4f20cd60634f.png"
+      },
+      {
+        "entry_name": "晚上急需雾化器哪个线上平台能买到",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/7387e6d4e1f148c3ab60ffb36559eac3.png"
+      },
+      {
+        "entry_name": "附近能送到的买雾化器的线上平台推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/d83d7143ae504ee9a0660bf183c0e85e.png"
+      },
+      {
+        "entry_name": "雾化器着急用在哪个线上平台买配送最快",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/6c2eecff94d7428f9baecc9050679c67.png"
+      },
+      {
+        "entry_name": "买雾化器哪个线上平台可以当天送到",
         "mention_rate": "100.0%",
         "top1_mention_rate": "100.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/f79b0c6646614cbabe69038a6e951c04.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/9eddffade6b74a75844f8d6db173af1e.png"
       },
       {
-        "entry_name": "京东口腔王威医生怎么样",
+        "entry_name": "买雾化器有没有可以小时达的线上平台",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/f1e3e56d51224b6aba14e825ff5bb75b.png"
+      },
+      {
+        "entry_name": "买雾化器哪个线上平台能够就近发货",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/7e81a36de90e45cab52e78a7ac4c14bd.png"
+      },
+      {
+        "entry_name": "雾化器当天急用有什么线上购买渠道",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a85b5113e5384fd18565b6f558712ee1.png"
+      },
+      {
+        "entry_name": "雾化器着急用在哪个电商平台买配送最快",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/27301eebfee44685a14e3c860db2b5b5.png"
+      },
+      {
+        "entry_name": "雾化器着急用在哪个自营平台买配送最快",
         "mention_rate": "100.0%",
         "top1_mention_rate": "100.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/16c624c2f4484cf5a2d116fe0bae90ad.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/74462720489f4bc2b64be9700bf38124.png"
       },
       {
-        "entry_name": "京东口腔郭力嘉医生怎么样",
+        "entry_name": "雾化器着急用在什么线上渠道买配送最快",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/1a882bc42bd14011aeefea719f3c50f0.png"
+      },
+      {
+        "entry_name": "哪个线上平台买雾化器能提供专业咨询",
         "mention_rate": "100.0%",
         "top1_mention_rate": "100.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/2124dda7a8304e5b81633e0715d50418.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/22ce1fb0825c4f9cb9ad446b624ca286.png"
       },
       {
-        "entry_name": "线上互联网口腔平台哪个口碑好",
+        "entry_name": "买雾化器在哪个线上平台买可以咨询专业医生",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/392f2ac5fe214599a9595d0406ec88de.png"
+      },
+      {
+        "entry_name": "哪个线上平台购买雾化器有专业人员答疑",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/ee59c75f88144be4a46ded2d5d585973.png"
+      },
+      {
+        "entry_name": "买雾化器哪个线上平台能根据情况给专业购买建议",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/aff4d21430f94ed3bd1f6fa6c675aeaa.png"
+      },
+      {
+        "entry_name": "买雾化器哪个线上平台可以先询问专业意见",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/24aeed8003384efea65964fb77d2cd46.png"
+      },
+      {
+        "entry_name": "买雾化器时哪个线上平台可以指导怎么使用",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/c84dc689ef3b4de8a63bed9cd617c3a2.png"
+      },
+      {
+        "entry_name": "网上购买雾化器哪个电商平台可以指导选择",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a44383c10655449999e582f209a6d759.png"
+      },
+      {
+        "entry_name": "哪个自营平台买雾化器能提供专业咨询",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/7b3e98b24b89462ebff2679d969bb790.png"
+      },
+      {
+        "entry_name": "什么线上渠道买雾化器能提供专业咨询",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/52a73c98620142a8a3ce3f50c781e3cd.png"
+      },
+      {
+        "entry_name": "买雾化器哪个线上平台遇到问题处理比较方便",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/20a15dbf6b4b47e38c374827b6573f96.png"
+      },
+      {
+        "entry_name": "买雾化器哪个线上平台售后响应比较快",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/dd6088e8d1794ab7b0eec8a425f2cd3e.png"
+      },
+      {
+        "entry_name": "买雾化器在哪个线上平台比较好",
         "mention_rate": "0.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/4f7df462eabb4237bb5572515286b94a.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/c85dd8e72dba40aca3c83eeac2bae4ac.png"
       },
       {
-        "entry_name": "线上互联网口腔服务哪个靠谱",
+        "entry_name": "线上购买雾化器的平台推荐",
         "mention_rate": "0.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/92b2758b4764460abc19fb6b8d2f8bc9.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/7b6e761ddeb34109b1bbd02ac6ceb68c.png"
       },
       {
-        "entry_name": "自营牙科平台哪个好",
+        "entry_name": "买雾化器在哪个线上平台比较方便",
         "mention_rate": "0.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/4e4a11300289432e8472493d037267ca.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/ca3e8b363f5841609877ed220ddf0b5e.png"
       },
       {
-        "entry_name": "电商平台口腔服务推荐",
+        "entry_name": "买雾化器的线上平台推荐top3",
         "mention_rate": "0.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a63eb5e8b4294b8f9a0d672dcc099114.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/005eac758eb64e67aff66cbcf52931be.png"
       },
       {
-        "entry_name": "线上找口腔医生的平台推荐",
+        "entry_name": "买雾化器的线上平台排行榜",
         "mention_rate": "0.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/80323f76595a4fde89b5b2e6a96a449b.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a2850ebb63814d2ca8ff42286b90493c.png"
       },
       {
-        "entry_name": "可以预约口腔专家的平台推荐",
+        "entry_name": "买雾化器的电商平台推荐",
         "mention_rate": "0.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/efe8c6147ef043369cb57f8d8b4cc6ea.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/56fc349406ad405e95f23bad6fd33bdc.png"
       },
       {
-        "entry_name": "种植牙医生预约平台推荐",
+        "entry_name": "买雾化器的电商平台哪个比较靠谱",
         "mention_rate": "0.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/1205e3c80c224a279da47baf65a162fe.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/e41bdd3a2c1c4b848b611a831acfc90f.png"
       },
       {
-        "entry_name": "京东口腔种植牙医生推荐哪个",
+        "entry_name": "买雾化器的自营平台推荐",
         "mention_rate": "0.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/e012afeb3e4e43ca8702ea029432315d.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/4faa88437b4a4fa1b6d83d60bcc42441.png"
       },
       {
-        "entry_name": "京东口腔哪个医生擅长补牙",
+        "entry_name": "买雾化器的自营平台哪个比较靠谱",
         "mention_rate": "0.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/802642b20b4546c1a074e2cea516f19d.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/8d117d46ae2141ebbedef947b1b1b8b5.png"
+      },
+      {
+        "entry_name": "购买雾化器有哪些靠谱的线上渠道",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/f7b6a30d11ef4252a2946699e45a2de7.png"
+      },
+      {
+        "entry_name": "买雾化器，用什么平台体验比较好",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/86425bbdc4aa4962a7a468f606a57ac9.png"
+      },
+      {
+        "entry_name": "线上哪里买雾化器有正品保障",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/d0202285bed1410badd5ae4f22391cd4.png"
+      },
+      {
+        "entry_name": "网上买雾化器哪个平台能保证正品",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/0629b1ac447f48a99baec20098b60964.png"
+      },
+      {
+        "entry_name": "哪个线上平台买雾化器不容易买到假货",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a580a797e8934bccbed011b18063883d.png"
+      },
+      {
+        "entry_name": "雾化器在哪个线上平台买正品更放心",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/99ac151621174838a65704168ad60884.png"
+      },
+      {
+        "entry_name": "买雾化器在哪个渠道买可信度比较高",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/1b9ecff0cb5c4c05aee92000e4a9d0ea.png"
+      },
+      {
+        "entry_name": "网上买雾化器哪个线上平台质量更有保障",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/444865b622894485a4ad817e0bf48745.png"
+      },
+      {
+        "entry_name": "网上购买雾化器选哪个线上平台比较正规",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/68b8f7a559aa4528a1391e14b30b3c23.png"
+      },
+      {
+        "entry_name": "买雾化器哪个电商平台有正品保障",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/c33de6c7c00744dbb276bf4421296927.png"
+      },
+      {
+        "entry_name": "买雾化器哪个自营平台有正品保障",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/bfe008df9ecb4f5fafc6f2df28b1da51.png"
+      },
+      {
+        "entry_name": "买雾化器什么线上渠道有正品保障",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/c6f5e8dd650548e7b8a6e4676161ab1f.png"
+      },
+      {
+        "entry_name": "网上买雾化器哪里可以隐私发货",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/efb4df7397be4dffa6e7c57be2dc5091.png"
+      },
+      {
+        "entry_name": "哪个线上平台买雾化器包装比较低调",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/8011c66c84da4ad486fe49167af37ab2.png"
+      },
+      {
+        "entry_name": "比较注重隐私的话雾化器在哪个平台买比较好",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/6c5c5d6de62c49809c001141ae855ba6.png"
+      },
+      {
+        "entry_name": "网上买雾化器哪个渠道包装更保密",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/ae1359dac0024feaa0e055913fb80ec5.png"
+      },
+      {
+        "entry_name": "买雾化器哪些电商平台支持隐私包装",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/abdc354303644f3a967d1041e1fba6d6.png"
+      },
+      {
+        "entry_name": "买雾化器哪个电商平台隐私包装做得好",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/2ca330d2fd214070acfae2cadedbb246.png"
+      },
+      {
+        "entry_name": "买雾化器哪个自营平台隐私包装做得好",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/7749cad0bcb44094936ff84eeb1925c2.png"
+      },
+      {
+        "entry_name": "购买雾化器对时效要求高应该选什么平台",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/2908df2db23b4f2186a5ec7248b366e8.png"
+      },
+      {
+        "entry_name": "临时需要雾化器可以在哪个线上平台买",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/78268fb2f987425cb7f3f0864ec7e9cf.png"
+      },
+      {
+        "entry_name": "网上买雾化器哪个平台有人指导怎么选",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/381ad86681594aff832306bf1b105cd7.png"
+      },
+      {
+        "entry_name": "买雾化器哪个线上平台售后服务好",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/14985d270d974cac9c05e5a2a6cae518.png"
+      },
+      {
+        "entry_name": "网上买雾化器哪个线上平台退换货方便",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/2d6be6fe4fd241469a4b7fed557932ec.png"
+      },
+      {
+        "entry_name": "雾化器在哪个线上平台买售后更有保障",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a20fd6671ddd4725bdfa9159196d69e9.png"
+      },
+      {
+        "entry_name": "哪个线上平台购买雾化器退换货流程比较简单",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/2326a19cea074ca28596b3a9af9debac.png"
+      },
+      {
+        "entry_name": "买错雾化器在哪个线上平台比较容易处理",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/90424bea681f4a9384730f965ea8fd5a.png"
+      },
+      {
+        "entry_name": "比较关心售后的话雾化器去哪里买比较好",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/f7ca4ace4f4948919ee92aff5f95bbdf.png"
+      },
+      {
+        "entry_name": "买雾化器哪个电商平台售后服务好",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/53e238152e8f485ab1f470f91df62340.png"
+      },
+      {
+        "entry_name": "买雾化器哪个自营平台售后服务好",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/52c64c110eac4d46a5968fd1195a8a53.png"
+      },
+      {
+        "entry_name": "买雾化器什么线上渠道售后服务好",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/9ae99fd5acef4c15bfeff166b49c92a1.png"
       }
     ],
     "2": [
       {
-        "entry_name": "线上互联网口腔平台哪个口碑好",
+        "entry_name": "买雾化器在哪个线上平台比较好",
         "mention_rate": "100.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/5ef23336c26842b8b0e5e32a2fcdacd5.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/1f0b404644c245a4b9dc7f42bccec3ce.png"
       },
       {
-        "entry_name": "线上互联网口腔平台排行榜",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/b1de44d5b30a47cea05f64b7e72b3649.png"
-      },
-      {
-        "entry_name": "线上互联网口腔服务哪个靠谱",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/032c38654fc049b0b85add2af3146f79.png"
-      },
-      {
-        "entry_name": "线上互联网口腔服务Top 5",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/22211131f7ee457da5b7b5374a2f42b3.png"
-      },
-      {
-        "entry_name": "线上互联网牙科平台推荐",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/f88dbb24ce7a482b9e15707f4cea6bd6.png"
-      },
-      {
-        "entry_name": "自营口腔平台哪个性价比高",
+        "entry_name": "线上购买雾化器的平台推荐",
         "mention_rate": "100.0%",
         "top1_mention_rate": "100.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/09d5663aa5e74155a61649c478a73045.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/34613daf767c4c0fae8a52bd5f17faba.png"
       },
       {
-        "entry_name": "自营洗牙平台哪个性价比高",
+        "entry_name": "买雾化器在哪个线上平台比较方便",
         "mention_rate": "100.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/70a92871306f47ceb81b98643f5736bb.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/5c04fbbba1844edca024d61391b37752.png"
       },
       {
-        "entry_name": "自营洗牙平台哪个值得选",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/d9ea86d191204ba48195d7371f4deb24.png"
-      },
-      {
-        "entry_name": "电商平台口腔服务哪个口碑好",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/37f9bc4fe1204986b68932ae9f265bcd.png"
-      },
-      {
-        "entry_name": "电商平台看牙哪个好",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/172a7cceeff64e6fbf25f6d9d535d223.png"
-      },
-      {
-        "entry_name": "电商平台牙科哪个性价比高",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/7da4c35f723f48979fe373452b071d84.png"
-      },
-      {
-        "entry_name": "电商平台口腔诊所哪个服务好",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a33a2caec640406786b964980e0bac01.png"
-      },
-      {
-        "entry_name": "电商平台牙科诊所哪个服务好",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/2d42e704dce64255bbcaeb1b54d20055.png"
-      },
-      {
-        "entry_name": "有售后保障的线上自营口腔平台推荐",
+        "entry_name": "买雾化器的线上平台推荐top3",
         "mention_rate": "100.0%",
         "top1_mention_rate": "100.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/7ad6483d735f4067acf7156ee5ad65b6.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/e39f3038a88541868a10adce76cefdd2.png"
       },
       {
-        "entry_name": "无隐形消费的电商平台口腔服务哪个好",
+        "entry_name": "买雾化器的线上平台排行榜",
         "mention_rate": "100.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/89d471db3fad492c8a378cc4067f5139.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/86e73ade42b34b72ad0b8368758f38cb.png"
       },
       {
-        "entry_name": "无隐形消费的电商平台口腔服务哪个性价比高",
+        "entry_name": "买雾化器的电商平台推荐",
         "mention_rate": "100.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/5c2ca475c51f4fa5a28556ba330f73d6.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/758b292cf1194807ae74cfde1e366c74.png"
       },
       {
-        "entry_name": "无隐形消费的电商平台口腔服务Top 5",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/7d0c209b347d432ca9eba10361cb0cb4.png"
-      },
-      {
-        "entry_name": "有售后保障的线上自营口腔平台哪个性价比高",
+        "entry_name": "买雾化器的电商平台哪个比较靠谱",
         "mention_rate": "100.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/085149f1a97e42288bd11967b857c170.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/0ba4ef5b623642c6aa94e5909aa47b1d.png"
       },
       {
-        "entry_name": "有售后保障的电商平台口腔服务哪个靠谱",
+        "entry_name": "买雾化器的自营平台推荐",
         "mention_rate": "100.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/138b0bc9db2c45388d0baac260eacf2a.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/4461c7d6a7344621937f44e2aba9aca2.png"
       },
       {
-        "entry_name": "有售后保障的电商平台口腔服务哪个口碑好",
+        "entry_name": "买雾化器的自营平台哪个比较靠谱",
         "mention_rate": "100.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/58ad91d1828a46b8b0bf1e652cdf3169.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/7c321c3ddae24a80bdd41cf0d97a030c.png"
       },
       {
-        "entry_name": "有售后保障的电商平台口腔服务哪个服务好",
+        "entry_name": "购买雾化器有哪些靠谱的线上渠道",
         "mention_rate": "100.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/3a3dc4b1a41f40679f0605d052119c84.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/f4c3244a0e8a4bf9823d9d929c3c844e.png"
       },
       {
-        "entry_name": "有售后保障的电商平台口腔服务Top 5",
+        "entry_name": "哪个平台买雾化器更方便省心",
         "mention_rate": "100.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/811a1b0030c249058542bcad83ccece4.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/0cadc30f898c4c95b0179c3ad81f5469.png"
       },
       {
-        "entry_name": "在北京有线下门店的自营口腔平台哪个值得选",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/42949f0818e64ec2845cbca7ec43804e.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的电商平台口腔服务推荐",
+        "entry_name": "线上哪里买雾化器有正品保障",
         "mention_rate": "100.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a38733faed494e72ac60b1b93256a3e1.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/bcddeda9edcf41238fe63a92e3d1c77f.png"
       },
       {
-        "entry_name": "在北京有线下门店的互联网洗牙平台哪个服务好",
+        "entry_name": "网上买雾化器哪个平台能保证正品",
         "mention_rate": "100.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/8e4e06676b984e47aa8c83cd41d7006f.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/7a36f411fafb439aa4f853cffdf91ed5.png"
       },
       {
-        "entry_name": "在北京有线下门店的自营口腔平台哪个靠谱",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "100.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/1f8752060dc648d5850e77761a0544f2.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的电商平台牙科哪个性价比高",
+        "entry_name": "雾化器在哪个线上平台买正品更放心",
         "mention_rate": "100.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/fc22ed8a3341409298c1afe4bbdf18aa.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/978fb84344e443578437431f039569fb.png"
       },
       {
-        "entry_name": "在北京有线下门店的电商平台牙科诊所哪个服务好",
+        "entry_name": "买雾化器在哪个渠道买可信度比较高",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/1408c6c21b614c60978fc5b6853f31a2.png"
+      },
+      {
+        "entry_name": "哪个线上平台销售的雾化器来源更可靠",
         "mention_rate": "100.0%",
         "top1_mention_rate": "100.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/1245458b6ee44f2b977b8652883d0ad0.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/2801881aaf7d486ea64da84faed17c35.png"
       },
       {
-        "entry_name": "在北京有线下门店的收费透明的线上自营口腔平台哪个值得选",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/63d5964318d14bdb90804ec06bba3a07.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的无隐形消费的电商平台口腔服务哪个好",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/93c269ac4d6949f597c702b7e57a9b49.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的无隐形消费的电商平台口腔服务哪个性价比高",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a9139ad1ca1840f2afbf0b103f3cac74.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的无隐形消费的电商平台口腔服务Top 5",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/c1337d3233a44ecaaf6351c58c02c94a.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的有售后保障的线上自营口腔平台推荐",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/7a1c1bccfadc4146a0c8c2513e52c1d9.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个靠谱",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/ee79035335554967a7654ec3892089c2.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个口碑好",
-        "mention_rate": "100.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/9e08027902694b5d9bba20023faf1619.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个服务好",
+        "entry_name": "网上买雾化器哪个线上平台质量更有保障",
         "mention_rate": "100.0%",
         "top1_mention_rate": "100.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/6b37cfc003954933b6e6a2f359c5f105.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/23b85f57f7a14fc98b5ac700a7d9b14f.png"
       },
       {
-        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务Top 5",
+        "entry_name": "担心买到假的雾化器应该选哪个线上平台",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/7d6faeb8fd9f4f37b752e5b85a39304e.png"
+      },
+      {
+        "entry_name": "网上购买雾化器选哪个线上平台比较正规",
         "mention_rate": "100.0%",
         "top1_mention_rate": "100.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/c0fd10e2d3b8467c89b598c08b932853.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/c6fa4aec97f843f7aed38124fe8b7c79.png"
       },
       {
-        "entry_name": "线上找口腔医生的平台推荐",
+        "entry_name": "买雾化器哪个线上平台货源比较靠谱",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a50d068363ac46ff96461cba56273460.png"
+      },
+      {
+        "entry_name": "买雾化器哪个电商平台有正品保障",
         "mention_rate": "100.0%",
         "top1_mention_rate": "100.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/5254b94a6dd14d58a9039f3d5948ec22.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/20a84af338d34fb2ba3869e662967aa9.png"
       },
       {
-        "entry_name": "种植牙医生预约平台推荐",
+        "entry_name": "买雾化器哪个自营平台有正品保障",
         "mention_rate": "100.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/53141adb2e2c45d4853ba72ceeaa4f2d.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/db116d8e13af4674b440dbb70792c886.png"
       },
       {
-        "entry_name": "京东口腔种植牙医生推荐哪个",
+        "entry_name": "买雾化器什么线上渠道有正品保障",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/50defcaec7434e9e82cf18a7d9dc40d6.png"
+      },
+      {
+        "entry_name": "网上买雾化器哪里可以隐私发货",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/d8d7ae070bc34a73af1029e5157edcd2.png"
+      },
+      {
+        "entry_name": "哪个线上平台购买雾化器不会在包裹上写商品名称",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/00d20edb0630448ba80eaedfb65746af.png"
+      },
+      {
+        "entry_name": "线上买雾化器哪个平台隐私包装做得好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/481e42b152e44a789b1233c957ebffe4.png"
+      },
+      {
+        "entry_name": "哪个线上平台买雾化器包装比较低调",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/0f25be5297204f87a3c83f760869761f.png"
+      },
+      {
+        "entry_name": "购买雾化器时在哪个线上平台买可以避免别人看到买了什么",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/4ebc21d716e14773bc86f6af264fe4a2.png"
+      },
+      {
+        "entry_name": "买雾化器在哪个线上平台买可以保密配送",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/8159f3eb360545d18296f241259b7855.png"
+      },
+      {
+        "entry_name": "比较注重隐私的话雾化器在哪个平台买比较好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/9ff64a863cf04b759da1b373ac16589c.png"
+      },
+      {
+        "entry_name": "买雾化器在哪个线上平台买可以隐藏订单信息",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/e68a365c5a2f41eba4a939fd74f56423.png"
+      },
+      {
+        "entry_name": "网上买雾化器哪个渠道包装更保密",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/cbb428ff8e59467c85af36cee71cf059.png"
+      },
+      {
+        "entry_name": "买雾化器哪些电商平台支持隐私包装",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/737ab5895bab42a9bb0fc5dca1f53ed6.png"
+      },
+      {
+        "entry_name": "买雾化器哪个电商平台隐私包装做得好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/fa450e3396a743c985a3559a37ac164c.png"
+      },
+      {
+        "entry_name": "买雾化器哪个自营平台隐私包装做得好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/210a816154e3440790349484673ce894.png"
+      },
+      {
+        "entry_name": "买雾化器什么线上渠道隐私包装做得好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/8b3bc50e29944811ad0a551579c08dc5.png"
+      },
+      {
+        "entry_name": "晚上急需雾化器哪个线上平台能买到",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/8e870657b73545d68ad18a404d21b239.png"
+      },
+      {
+        "entry_name": "附近能送到的买雾化器的线上平台推荐",
         "mention_rate": "100.0%",
         "top1_mention_rate": "100.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/821d939b89ec400899797cee1127318f.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/f613581d6e1a4e28ad40673270eb4720.png"
       },
       {
-        "entry_name": "京东口腔隐形正畸哪个医生好",
+        "entry_name": "雾化器着急用在哪个线上平台买配送最快",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/7ba7d9c0495e4775a414136e1b36e61d.png"
+      },
+      {
+        "entry_name": "买雾化器哪个线上平台可以当天送到",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/839cb6b4e2b04a2c8def9026474bfe8c.png"
+      },
+      {
+        "entry_name": "买雾化器有没有可以小时达的线上平台",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/259ff59ab7684096981f9e1fd25d6895.png"
+      },
+      {
+        "entry_name": "买雾化器哪个线上平台能够就近发货",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/c17b97516f634206895883644b9472f1.png"
+      },
+      {
+        "entry_name": "雾化器当天急用有什么线上购买渠道",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/efbaa1d375c64e42a266275a51b46ea6.png"
+      },
+      {
+        "entry_name": "购买雾化器对时效要求高应该选什么平台",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/0fec64b125a7440e8a014ceb9c3125ad.png"
+      },
+      {
+        "entry_name": "临时需要雾化器可以在哪个线上平台买",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/12a4363fae974a4cb624004578ded26d.png"
+      },
+      {
+        "entry_name": "雾化器着急用在哪个自营平台买配送最快",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/3e3283755c8041fdb664f2669ca1c017.png"
+      },
+      {
+        "entry_name": "雾化器着急用在什么线上渠道买配送最快",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/aa3f704acea84373a18ea4a5ba822c2b.png"
+      },
+      {
+        "entry_name": "哪个线上平台买雾化器能提供专业咨询",
         "mention_rate": "100.0%",
         "top1_mention_rate": "100.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/0cfb507609384597bfef80536773f61f.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/8fa5166c7e2840408b993743188da793.png"
       },
       {
-        "entry_name": "京东口腔成人正畸推荐哪个医生",
+        "entry_name": "买雾化器在哪个线上平台买可以咨询专业医生",
         "mention_rate": "100.0%",
         "top1_mention_rate": "100.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a5bd5bc92a98421c82d5cb34ff705f97.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/b10fdb8c42244780aa16c2bb1abf005a.png"
       },
       {
-        "entry_name": "京东口腔吴沂蓁医生怎么样",
+        "entry_name": "网上买雾化器哪个平台有人指导怎么选",
         "mention_rate": "100.0%",
         "top1_mention_rate": "100.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/832aa15e587e4258878df3239c56d4d7.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/9e20138ef5ac4cec87a3a666a4a55039.png"
       },
       {
-        "entry_name": "京东口腔王威医生怎么样",
+        "entry_name": "哪个线上平台购买雾化器有专业人员答疑",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/1cf97492aa444ead8d8a483ee573a96d.png"
+      },
+      {
+        "entry_name": "买雾化器哪个线上平台能根据情况给专业购买建议",
         "mention_rate": "100.0%",
         "top1_mention_rate": "100.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/903164c1c3f4461ba7883a442e8a6148.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/7eaca3e25275423d9db5599d235ae619.png"
       },
       {
-        "entry_name": "京东口腔郭力嘉医生怎么样",
+        "entry_name": "买雾化器哪个线上平台可以先询问专业意见",
         "mention_rate": "100.0%",
         "top1_mention_rate": "100.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/6fd7494521734c1abb180987e416cbfe.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/5aafa22fa8a84d69a0dd4a001ad9345d.png"
       },
       {
-        "entry_name": "线上互联网洗牙平台哪个服务好",
+        "entry_name": "买雾化器时哪个线上平台可以指导怎么使用",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/54a3b1c0790941749b4bb85866c7e941.png"
+      },
+      {
+        "entry_name": "网上购买雾化器哪个电商平台可以指导选择",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/dbe6e94c302d44af8c0f7387a1330dba.png"
+      },
+      {
+        "entry_name": "哪个自营平台买雾化器能提供专业咨询",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/c4de90bfdde64dafa3336cda28c25779.png"
+      },
+      {
+        "entry_name": "什么线上渠道买雾化器能提供专业咨询",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/088d62a35430424582e122a2dff693ae.png"
+      },
+      {
+        "entry_name": "买雾化器哪个线上平台售后服务好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/8e61c9afde264cc78092c2c70749d417.png"
+      },
+      {
+        "entry_name": "网上买雾化器哪个线上平台退换货方便",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a8a0016e5d8542f69718db4b1df59dfe.png"
+      },
+      {
+        "entry_name": "雾化器在哪个线上平台买售后更有保障",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/43b1190d2a90441c96a7229fcebff1ee.png"
+      },
+      {
+        "entry_name": "买雾化器哪个线上平台遇到问题处理比较方便",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/cf165c0303dd47e89e39cc4fed165e46.png"
+      },
+      {
+        "entry_name": "哪个线上平台购买雾化器退换货流程比较简单",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/7b38dc9a218f4124aad34d78f20d1d93.png"
+      },
+      {
+        "entry_name": "买雾化器哪个自营平台售后服务好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/83f94694e24a481db2fd166aa4a6b75b.png"
+      },
+      {
+        "entry_name": "买雾化器什么线上渠道售后服务好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/10/31",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/35cfe83822414f12bab87c7b70bc4800.png"
+      },
+      {
+        "entry_name": "买雾化器，用什么平台体验比较好",
         "mention_rate": "0.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/20f142cdc7f3496b91ab508b15eb5466.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/064e444307f4472ebc7183ede0fa5606.png"
       },
       {
-        "entry_name": "自营口腔平台哪个靠谱",
+        "entry_name": "哪个线上平台买雾化器不容易买到假货",
         "mention_rate": "0.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/0a12656f78994ca7a14c07cdcb40ab2f.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/269a9459da96448f86c89d371aacd265.png"
       },
       {
-        "entry_name": "自营口腔平台哪个服务好",
+        "entry_name": "雾化器着急用在哪个电商平台买配送最快",
         "mention_rate": "0.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/8dff440a47084d9e9134fe98bd589ad1.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/2f081b7b92b4487a97ae2c7b7f61e074.png"
       },
       {
-        "entry_name": "自营口腔平台哪个值得选",
+        "entry_name": "买雾化器哪个线上平台售后响应比较快",
         "mention_rate": "0.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a1b57605f9eb4357972533e9f7e972c0.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/e478dbbb0ccb4ee48edbf6ea79dcc95f.png"
       },
       {
-        "entry_name": "自营牙科平台哪个好",
+        "entry_name": "买错雾化器在哪个线上平台比较容易处理",
         "mention_rate": "0.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/58e34963bbb94d6da7a37f188bd8f3ff.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/ed8e0a37b58343d79cbae85649c84e34.png"
       },
       {
-        "entry_name": "自营牙科平台哪个性价比高",
+        "entry_name": "比较关心售后的话雾化器去哪里买比较好",
         "mention_rate": "0.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a0fcd62699024f99a4fa61ed0d084692.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/bdaf052ee8ee46b0a4eed36e3478c275.png"
       },
       {
-        "entry_name": "收费透明的线上自营口腔平台哪个值得选",
+        "entry_name": "买雾化器哪个电商平台售后服务好",
         "mention_rate": "0.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/c4fcf78b9faa49b5bd63cc5b841dd668.png"
-      },
-      {
-        "entry_name": "无隐形消费的线上自营口腔平台哪个靠谱",
-        "mention_rate": "0.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/9302a8698b3346b3ba89131963b37254.png"
-      },
-      {
-        "entry_name": "收费透明的电商平台口腔服务哪个值得选",
-        "mention_rate": "0.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/63679e8876d14baab41248e4ebb301ae.png"
-      },
-      {
-        "entry_name": "有售后保障的互联网口腔平台哪个专业",
-        "mention_rate": "0.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/0f25c9c3615f441489932872ea2f0c55.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的自营口腔平台哪个服务好",
-        "mention_rate": "0.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/84adf8ca3d534a4cbabbe669496763c9.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的电商平台口腔服务哪个口碑好",
-        "mention_rate": "0.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a1b09b19fac24736a43353e092808c54.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的互联网口腔平台哪个口碑好",
-        "mention_rate": "0.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/53d40ec84454441fb22d269ce127b9d8.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的互联网口腔平台排行榜",
-        "mention_rate": "0.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/102a0465138d43118169f4287e4617da.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的互联网口腔服务哪个靠谱",
-        "mention_rate": "0.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/853bc68ab29343aeb70333dc38f1bee8.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的互联网口腔服务Top 5",
-        "mention_rate": "0.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/a79d308c7c9443cf8de67609ba524bae.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的互联网牙科平台推荐",
-        "mention_rate": "0.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/82d07ddb85c2492094603b034f15c46f.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的自营口腔平台哪个性价比高",
-        "mention_rate": "0.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/59746a94263c400e804b953d09f638ca.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的自营洗牙平台哪个性价比高",
-        "mention_rate": "0.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/5670058072354f478cd14b20920072cb.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的自营洗牙平台哪个值得选",
-        "mention_rate": "0.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/f1fa8147b9ba429898bce9469eec6001.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的自营牙科平台哪个好",
-        "mention_rate": "0.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/ae71455901ef4ecb8cb8a53ff11dd605.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的自营牙科平台哪个性价比高",
-        "mention_rate": "0.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/5bffa250658a439184fcf329a1d8c548.png"
-      },
-      {
-        "entry_name": "电商平台口腔服务推荐",
-        "mention_rate": "0.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/51de4b2807814857b925ee2071735530.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的电商平台看牙哪个好",
-        "mention_rate": "0.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/db90ac52bf3e443bb5bee606c6c502ac.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的电商平台口腔诊所哪个服务好",
-        "mention_rate": "0.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/363978d6acdb45aa9287d4b6a912bc56.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的无隐形消费的线上自营口腔平台哪个靠谱",
-        "mention_rate": "0.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/d239d832163546b9bf99de5b95bd0753.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的收费透明的电商平台口腔服务哪个值得选",
-        "mention_rate": "0.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/ce8d348c835741b3ad632564451e98e2.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的有售后保障的线上自营口腔平台哪个性价比高",
-        "mention_rate": "0.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/6e45e65b550249de9e93252fd0e2e1a4.png"
-      },
-      {
-        "entry_name": "在北京有线下门店的有售后保障的互联网口腔平台哪个专业",
-        "mention_rate": "0.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/f55f60c7551a4145a8265b7416577be2.png"
-      },
-      {
-        "entry_name": "可以预约口腔专家的平台推荐",
-        "mention_rate": "0.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/ec9ec70673fb4fbf81d6903dcf8f2210.png"
-      },
-      {
-        "entry_name": "京东口腔哪个医生擅长补牙",
-        "mention_rate": "0.0%",
-        "top1_mention_rate": "0.0%",
-        "last_conversation_time": "2026/10/31",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/2688989541c849d0afbaa497a64cdc77.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261021/2dcc7aeea8fc4142a3aaa57c3c148586.png"
       }
     ],
     "3": [
       {
-        "entry_name": "线上互联网口腔平台哪个口碑好",
+        "entry_name": "买雾化器在哪个线上平台比较好",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "线上互联网口腔平台排行榜",
+        "entry_name": "线上购买雾化器的平台推荐",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "线上互联网口腔服务哪个靠谱",
+        "entry_name": "买雾化器在哪个线上平台比较方便",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "线上互联网口腔服务Top 5",
+        "entry_name": "买雾化器的线上平台推荐top3",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "线上互联网牙科平台推荐",
+        "entry_name": "买雾化器的线上平台排行榜",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "线上互联网洗牙平台哪个服务好",
+        "entry_name": "买雾化器的电商平台推荐",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "自营口腔平台哪个靠谱",
+        "entry_name": "买雾化器的电商平台哪个比较靠谱",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "自营口腔平台哪个服务好",
+        "entry_name": "买雾化器的自营平台推荐",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "自营口腔平台哪个性价比高",
+        "entry_name": "买雾化器的自营平台哪个比较靠谱",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "自营口腔平台哪个值得选",
+        "entry_name": "购买雾化器有哪些靠谱的线上渠道",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "自营洗牙平台哪个性价比高",
+        "entry_name": "买雾化器，用什么平台体验比较好",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "自营洗牙平台哪个值得选",
+        "entry_name": "哪个平台买雾化器更方便省心",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "自营牙科平台哪个好",
+        "entry_name": "线上哪里买雾化器有正品保障",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "自营牙科平台哪个性价比高",
+        "entry_name": "网上买雾化器哪个平台能保证正品",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "电商平台口腔服务哪个口碑好",
+        "entry_name": "哪个线上平台买雾化器不容易买到假货",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "电商平台看牙哪个好",
+        "entry_name": "雾化器在哪个线上平台买正品更放心",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "电商平台牙科哪个性价比高",
+        "entry_name": "买雾化器在哪个渠道买可信度比较高",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "电商平台口腔诊所哪个服务好",
+        "entry_name": "哪个线上平台销售的雾化器来源更可靠",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "电商平台牙科诊所哪个服务好",
+        "entry_name": "网上买雾化器哪个线上平台质量更有保障",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "收费透明的线上自营口腔平台哪个值得选",
+        "entry_name": "担心买到假的雾化器应该选哪个线上平台",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "无隐形消费的线上自营口腔平台哪个靠谱",
+        "entry_name": "网上购买雾化器选哪个线上平台比较正规",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "收费透明的电商平台口腔服务哪个值得选",
+        "entry_name": "买雾化器哪个线上平台货源比较靠谱",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "有售后保障的线上自营口腔平台推荐",
+        "entry_name": "买雾化器哪个电商平台有正品保障",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "无隐形消费的电商平台口腔服务哪个好",
+        "entry_name": "买雾化器哪个自营平台有正品保障",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "无隐形消费的电商平台口腔服务哪个性价比高",
+        "entry_name": "买雾化器什么线上渠道有正品保障",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "无隐形消费的电商平台口腔服务Top 5",
+        "entry_name": "网上买雾化器哪里可以隐私发货",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "有售后保障的线上自营口腔平台哪个性价比高",
+        "entry_name": "哪个线上平台购买雾化器不会在包裹上写商品名称",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "有售后保障的互联网口腔平台哪个专业",
+        "entry_name": "线上买雾化器哪个平台隐私包装做得好",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "有售后保障的电商平台口腔服务哪个靠谱",
+        "entry_name": "哪个线上平台买雾化器包装比较低调",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "有售后保障的电商平台口腔服务哪个口碑好",
+        "entry_name": "购买雾化器时在哪个线上平台买可以避免别人看到买了什么",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "有售后保障的电商平台口腔服务哪个服务好",
+        "entry_name": "买雾化器在哪个线上平台买可以保密配送",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "有售后保障的电商平台口腔服务Top 5",
+        "entry_name": "比较注重隐私的话雾化器在哪个平台买比较好",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的自营口腔平台哪个服务好",
+        "entry_name": "买雾化器在哪个线上平台买可以隐藏订单信息",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的自营口腔平台哪个值得选",
+        "entry_name": "网上买雾化器哪个渠道包装更保密",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的电商平台口腔服务推荐",
+        "entry_name": "买雾化器哪些电商平台支持隐私包装",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的电商平台口腔服务哪个口碑好",
+        "entry_name": "买雾化器哪个电商平台隐私包装做得好",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的互联网口腔平台哪个口碑好",
+        "entry_name": "买雾化器哪个自营平台隐私包装做得好",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的互联网口腔平台排行榜",
+        "entry_name": "买雾化器什么线上渠道隐私包装做得好",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的互联网口腔服务哪个靠谱",
+        "entry_name": "晚上急需雾化器哪个线上平台能买到",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的互联网口腔服务Top 5",
+        "entry_name": "附近能送到的买雾化器的线上平台推荐",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的互联网牙科平台推荐",
+        "entry_name": "雾化器着急用在哪个线上平台买配送最快",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的互联网洗牙平台哪个服务好",
+        "entry_name": "买雾化器哪个线上平台可以当天送到",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的自营口腔平台哪个靠谱",
+        "entry_name": "买雾化器有没有可以小时达的线上平台",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的自营口腔平台哪个性价比高",
+        "entry_name": "买雾化器哪个线上平台能够就近发货",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的自营洗牙平台哪个性价比高",
+        "entry_name": "雾化器当天急用有什么线上购买渠道",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的自营洗牙平台哪个值得选",
+        "entry_name": "购买雾化器对时效要求高应该选什么平台",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的自营牙科平台哪个好",
+        "entry_name": "临时需要雾化器可以在哪个线上平台买",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的自营牙科平台哪个性价比高",
+        "entry_name": "雾化器着急用在哪个电商平台买配送最快",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "电商平台口腔服务推荐",
+        "entry_name": "雾化器着急用在哪个自营平台买配送最快",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的电商平台看牙哪个好",
+        "entry_name": "雾化器着急用在什么线上渠道买配送最快",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的电商平台牙科哪个性价比高",
+        "entry_name": "哪个线上平台买雾化器能提供专业咨询",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的电商平台口腔诊所哪个服务好",
+        "entry_name": "买雾化器在哪个线上平台买可以咨询专业医生",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的电商平台牙科诊所哪个服务好",
+        "entry_name": "网上买雾化器哪个平台有人指导怎么选",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的收费透明的线上自营口腔平台哪个值得选",
+        "entry_name": "哪个线上平台购买雾化器有专业人员答疑",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的无隐形消费的线上自营口腔平台哪个靠谱",
+        "entry_name": "买雾化器哪个线上平台能根据情况给专业购买建议",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的收费透明的电商平台口腔服务哪个值得选",
+        "entry_name": "买雾化器哪个线上平台可以先询问专业意见",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的无隐形消费的电商平台口腔服务哪个好",
+        "entry_name": "买雾化器时哪个线上平台可以指导怎么使用",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的无隐形消费的电商平台口腔服务哪个性价比高",
+        "entry_name": "网上购买雾化器哪个电商平台可以指导选择",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的无隐形消费的电商平台口腔服务Top 5",
+        "entry_name": "哪个自营平台买雾化器能提供专业咨询",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的有售后保障的线上自营口腔平台推荐",
+        "entry_name": "什么线上渠道买雾化器能提供专业咨询",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的有售后保障的线上自营口腔平台哪个性价比高",
+        "entry_name": "买雾化器哪个线上平台售后服务好",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的有售后保障的互联网口腔平台哪个专业",
+        "entry_name": "网上买雾化器哪个线上平台退换货方便",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个靠谱",
+        "entry_name": "雾化器在哪个线上平台买售后更有保障",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个口碑好",
+        "entry_name": "买雾化器哪个线上平台遇到问题处理比较方便",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个服务好",
+        "entry_name": "哪个线上平台购买雾化器退换货流程比较简单",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务Top 5",
+        "entry_name": "买雾化器哪个线上平台售后响应比较快",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "线上找口腔医生的平台推荐",
+        "entry_name": "买错雾化器在哪个线上平台比较容易处理",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "可以预约口腔专家的平台推荐",
+        "entry_name": "比较关心售后的话雾化器去哪里买比较好",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "种植牙医生预约平台推荐",
+        "entry_name": "买雾化器哪个电商平台售后服务好",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "京东口腔种植牙医生推荐哪个",
+        "entry_name": "买雾化器哪个自营平台售后服务好",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "京东口腔隐形正畸哪个医生好",
-        "mention_rate": "--",
-        "top1_mention_rate": "--",
-        "last_conversation_time": "--",
-        "last_screenshot_url": null
-      },
-      {
-        "entry_name": "京东口腔成人正畸推荐哪个医生",
-        "mention_rate": "--",
-        "top1_mention_rate": "--",
-        "last_conversation_time": "--",
-        "last_screenshot_url": null
-      },
-      {
-        "entry_name": "京东口腔哪个医生擅长补牙",
-        "mention_rate": "--",
-        "top1_mention_rate": "--",
-        "last_conversation_time": "--",
-        "last_screenshot_url": null
-      },
-      {
-        "entry_name": "京东口腔吴沂蓁医生怎么样",
-        "mention_rate": "--",
-        "top1_mention_rate": "--",
-        "last_conversation_time": "--",
-        "last_screenshot_url": null
-      },
-      {
-        "entry_name": "京东口腔王威医生怎么样",
-        "mention_rate": "--",
-        "top1_mention_rate": "--",
-        "last_conversation_time": "--",
-        "last_screenshot_url": null
-      },
-      {
-        "entry_name": "京东口腔郭力嘉医生怎么样",
+        "entry_name": "买雾化器什么线上渠道售后服务好",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
@@ -3149,532 +3241,497 @@
     ],
     "5": [
       {
-        "entry_name": "线上互联网口腔平台哪个口碑好",
+        "entry_name": "买雾化器在哪个线上平台比较好",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "线上互联网口腔平台排行榜",
+        "entry_name": "线上购买雾化器的平台推荐",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "线上互联网口腔服务哪个靠谱",
+        "entry_name": "买雾化器在哪个线上平台比较方便",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "线上互联网口腔服务Top 5",
+        "entry_name": "买雾化器的线上平台推荐top3",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "线上互联网牙科平台推荐",
+        "entry_name": "买雾化器的线上平台排行榜",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "线上互联网洗牙平台哪个服务好",
+        "entry_name": "买雾化器的电商平台推荐",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "自营口腔平台哪个靠谱",
+        "entry_name": "买雾化器的电商平台哪个比较靠谱",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "自营口腔平台哪个服务好",
+        "entry_name": "买雾化器的自营平台推荐",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "自营口腔平台哪个性价比高",
+        "entry_name": "买雾化器的自营平台哪个比较靠谱",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "自营口腔平台哪个值得选",
+        "entry_name": "购买雾化器有哪些靠谱的线上渠道",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "自营洗牙平台哪个性价比高",
+        "entry_name": "买雾化器，用什么平台体验比较好",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "自营洗牙平台哪个值得选",
+        "entry_name": "哪个平台买雾化器更方便省心",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "自营牙科平台哪个好",
+        "entry_name": "线上哪里买雾化器有正品保障",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "自营牙科平台哪个性价比高",
+        "entry_name": "网上买雾化器哪个平台能保证正品",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "电商平台口腔服务哪个口碑好",
+        "entry_name": "哪个线上平台买雾化器不容易买到假货",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "电商平台看牙哪个好",
+        "entry_name": "雾化器在哪个线上平台买正品更放心",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "电商平台牙科哪个性价比高",
+        "entry_name": "买雾化器在哪个渠道买可信度比较高",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "电商平台口腔诊所哪个服务好",
+        "entry_name": "哪个线上平台销售的雾化器来源更可靠",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "电商平台牙科诊所哪个服务好",
+        "entry_name": "网上买雾化器哪个线上平台质量更有保障",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "收费透明的线上自营口腔平台哪个值得选",
+        "entry_name": "担心买到假的雾化器应该选哪个线上平台",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "无隐形消费的线上自营口腔平台哪个靠谱",
+        "entry_name": "网上购买雾化器选哪个线上平台比较正规",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "收费透明的电商平台口腔服务哪个值得选",
+        "entry_name": "买雾化器哪个线上平台货源比较靠谱",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "有售后保障的线上自营口腔平台推荐",
+        "entry_name": "买雾化器哪个电商平台有正品保障",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "无隐形消费的电商平台口腔服务哪个好",
+        "entry_name": "买雾化器哪个自营平台有正品保障",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "无隐形消费的电商平台口腔服务哪个性价比高",
+        "entry_name": "买雾化器什么线上渠道有正品保障",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "无隐形消费的电商平台口腔服务Top 5",
+        "entry_name": "网上买雾化器哪里可以隐私发货",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "有售后保障的线上自营口腔平台哪个性价比高",
+        "entry_name": "哪个线上平台购买雾化器不会在包裹上写商品名称",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "有售后保障的互联网口腔平台哪个专业",
+        "entry_name": "线上买雾化器哪个平台隐私包装做得好",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "有售后保障的电商平台口腔服务哪个靠谱",
+        "entry_name": "哪个线上平台买雾化器包装比较低调",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "有售后保障的电商平台口腔服务哪个口碑好",
+        "entry_name": "购买雾化器时在哪个线上平台买可以避免别人看到买了什么",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "有售后保障的电商平台口腔服务哪个服务好",
+        "entry_name": "买雾化器在哪个线上平台买可以保密配送",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "有售后保障的电商平台口腔服务Top 5",
+        "entry_name": "比较注重隐私的话雾化器在哪个平台买比较好",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的自营口腔平台哪个服务好",
+        "entry_name": "买雾化器在哪个线上平台买可以隐藏订单信息",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的自营口腔平台哪个值得选",
+        "entry_name": "网上买雾化器哪个渠道包装更保密",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的电商平台口腔服务推荐",
+        "entry_name": "买雾化器哪些电商平台支持隐私包装",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的电商平台口腔服务哪个口碑好",
+        "entry_name": "买雾化器哪个电商平台隐私包装做得好",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的互联网口腔平台哪个口碑好",
+        "entry_name": "买雾化器哪个自营平台隐私包装做得好",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的互联网口腔平台排行榜",
+        "entry_name": "买雾化器什么线上渠道隐私包装做得好",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的互联网口腔服务哪个靠谱",
+        "entry_name": "晚上急需雾化器哪个线上平台能买到",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的互联网口腔服务Top 5",
+        "entry_name": "附近能送到的买雾化器的线上平台推荐",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的互联网牙科平台推荐",
+        "entry_name": "雾化器着急用在哪个线上平台买配送最快",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的互联网洗牙平台哪个服务好",
+        "entry_name": "买雾化器哪个线上平台可以当天送到",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的自营口腔平台哪个靠谱",
+        "entry_name": "买雾化器有没有可以小时达的线上平台",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的自营口腔平台哪个性价比高",
+        "entry_name": "买雾化器哪个线上平台能够就近发货",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的自营洗牙平台哪个性价比高",
+        "entry_name": "雾化器当天急用有什么线上购买渠道",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的自营洗牙平台哪个值得选",
+        "entry_name": "购买雾化器对时效要求高应该选什么平台",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的自营牙科平台哪个好",
+        "entry_name": "临时需要雾化器可以在哪个线上平台买",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的自营牙科平台哪个性价比高",
+        "entry_name": "雾化器着急用在哪个电商平台买配送最快",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "电商平台口腔服务推荐",
+        "entry_name": "雾化器着急用在哪个自营平台买配送最快",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的电商平台看牙哪个好",
+        "entry_name": "雾化器着急用在什么线上渠道买配送最快",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的电商平台牙科哪个性价比高",
+        "entry_name": "哪个线上平台买雾化器能提供专业咨询",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的电商平台口腔诊所哪个服务好",
+        "entry_name": "买雾化器在哪个线上平台买可以咨询专业医生",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的电商平台牙科诊所哪个服务好",
+        "entry_name": "网上买雾化器哪个平台有人指导怎么选",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的收费透明的线上自营口腔平台哪个值得选",
+        "entry_name": "哪个线上平台购买雾化器有专业人员答疑",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的无隐形消费的线上自营口腔平台哪个靠谱",
+        "entry_name": "买雾化器哪个线上平台能根据情况给专业购买建议",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的收费透明的电商平台口腔服务哪个值得选",
+        "entry_name": "买雾化器哪个线上平台可以先询问专业意见",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的无隐形消费的电商平台口腔服务哪个好",
+        "entry_name": "买雾化器时哪个线上平台可以指导怎么使用",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的无隐形消费的电商平台口腔服务哪个性价比高",
+        "entry_name": "网上购买雾化器哪个电商平台可以指导选择",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的无隐形消费的电商平台口腔服务Top 5",
+        "entry_name": "哪个自营平台买雾化器能提供专业咨询",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的有售后保障的线上自营口腔平台推荐",
+        "entry_name": "什么线上渠道买雾化器能提供专业咨询",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的有售后保障的线上自营口腔平台哪个性价比高",
+        "entry_name": "买雾化器哪个线上平台售后服务好",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的有售后保障的互联网口腔平台哪个专业",
+        "entry_name": "网上买雾化器哪个线上平台退换货方便",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个靠谱",
+        "entry_name": "雾化器在哪个线上平台买售后更有保障",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个口碑好",
+        "entry_name": "买雾化器哪个线上平台遇到问题处理比较方便",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务哪个服务好",
+        "entry_name": "哪个线上平台购买雾化器退换货流程比较简单",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "在北京有线下门店的有售后保障的电商平台口腔服务Top 5",
+        "entry_name": "买雾化器哪个线上平台售后响应比较快",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "线上找口腔医生的平台推荐",
+        "entry_name": "买错雾化器在哪个线上平台比较容易处理",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "可以预约口腔专家的平台推荐",
+        "entry_name": "比较关心售后的话雾化器去哪里买比较好",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "种植牙医生预约平台推荐",
+        "entry_name": "买雾化器哪个电商平台售后服务好",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "京东口腔种植牙医生推荐哪个",
+        "entry_name": "买雾化器哪个自营平台售后服务好",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",
         "last_screenshot_url": null
       },
       {
-        "entry_name": "京东口腔隐形正畸哪个医生好",
-        "mention_rate": "--",
-        "top1_mention_rate": "--",
-        "last_conversation_time": "--",
-        "last_screenshot_url": null
-      },
-      {
-        "entry_name": "京东口腔成人正畸推荐哪个医生",
-        "mention_rate": "--",
-        "top1_mention_rate": "--",
-        "last_conversation_time": "--",
-        "last_screenshot_url": null
-      },
-      {
-        "entry_name": "京东口腔哪个医生擅长补牙",
-        "mention_rate": "--",
-        "top1_mention_rate": "--",
-        "last_conversation_time": "--",
-        "last_screenshot_url": null
-      },
-      {
-        "entry_name": "京东口腔吴沂蓁医生怎么样",
-        "mention_rate": "--",
-        "top1_mention_rate": "--",
-        "last_conversation_time": "--",
-        "last_screenshot_url": null
-      },
-      {
-        "entry_name": "京东口腔王威医生怎么样",
-        "mention_rate": "--",
-        "top1_mention_rate": "--",
-        "last_conversation_time": "--",
-        "last_screenshot_url": null
-      },
-      {
-        "entry_name": "京东口腔郭力嘉医生怎么样",
+        "entry_name": "买雾化器什么线上渠道售后服务好",
         "mention_rate": "--",
         "top1_mention_rate": "--",
         "last_conversation_time": "--",

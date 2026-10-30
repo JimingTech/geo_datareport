@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
- * 采集京东口腔 ① (项目 5195) 报告补充数据：情感、分平台词条、竞品进榜明细。
- * 优化前 = 2026-10-09（提及率 42.1%），优化后（10月阶段节点）= 2026-10-31（累计 21 天 ≥60%）。
+ * 采集京东雾化器 (项目 5203) 报告补充数据：情感、分平台词条、竞品进榜明细。
+ * 项目开始 / 优化前 = 2026-09-23，优化后阶段节点 = 2026-10-31（任意 20 天 ≥60%，10/12~10/31 已满足）。
  */
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 import path from 'path';
@@ -21,8 +21,8 @@ if (existsSync(envPath)) {
 }
 
 const API_BASE = process.env.GEO_API_BASE;
-const PROJECT_ID = 5195;
-const BEFORE_DATE = '2026-10-09';
+const PROJECT_ID = 5203;
+const BEFORE_DATE = '2026-09-23';
 const OCT_DATE = '2026-10-31';
 
 let cookie = '';

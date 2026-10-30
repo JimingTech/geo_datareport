@@ -22,11 +22,11 @@ const LOGOS = {
 };
 
 const PRODUCT_META = {
-  5195: { short: '京东口腔①', full: '京东大健康(京东健康、京东买药、京东大药房)' },
+  5203: { short: '京东雾化器', full: '京东大健康(京东健康、京东买药、京东大药房)' },
 };
 
 export default function Page_QueryDataSystemLink({
-  projectId = 5195,
+  projectId = 5203,
   platformId = 1,
   pageIndex = 0,
   pageSize = 19,
@@ -38,7 +38,7 @@ export default function Page_QueryDataSystemLink({
   const data = allData.slice(safePage * pageSize, safePage * pageSize + pageSize);
   const startRank = safePage * pageSize;
 
-  const product = PRODUCT_META[projectId] || { short: '京东口腔①', full: '京东大健康(京东健康、京东买药、京东大药房)' };
+  const product = PRODUCT_META[projectId] || { short: '京东雾化器', full: '京东大健康(京东健康、京东买药、京东大药房)' };
   const platformName = PLATFORM_NAMES[platformId] || '';
   const slideTitle = `${product.short}词条数据明细（${platformName}）`;
 
@@ -55,28 +55,24 @@ export default function Page_QueryDataSystemLink({
       <div className="flex items-center justify-between p-1 mb-1.5 shrink-0 text-[13px] font-medium text-zinc-500">
         <div className="flex items-center gap-3">
           <div className="flex items-center gap-1.5 bg-white border border-zinc-200/80 rounded-md px-3 py-1.5 shadow-[0_1px_2px_rgba(0,0,0,0.02)]">
-            <span className="text-zinc-400 text-xs">📅</span>
             <span>日期</span>
             <span className="text-zinc-400 text-[10px] ml-1">{report.meta.october_date.slice(5)}</span>
             <span className="text-zinc-300 text-[9px] ml-1">▼</span>
           </div>
 
           <div className="flex items-center gap-1.5 bg-white border border-zinc-200/80 rounded-md px-3 py-1.5 shadow-[0_1px_2px_rgba(0,0,0,0.02)]">
-            <span className="text-zinc-400 text-xs">🤖</span>
             <span>平台</span>
             <span className="text-zinc-800 font-bold ml-1">{platformName}</span>
             <span className="text-zinc-300 text-[9px] ml-1">▼</span>
           </div>
 
           <div className="flex items-center gap-1.5 bg-white border border-zinc-200/80 rounded-md px-3 py-1.5 shadow-[0_1px_2px_rgba(0,0,0,0.02)]">
-            <span className="text-zinc-400 text-xs">📝</span>
             <span>词条</span>
             <span className="text-zinc-400 text-[10px] ml-1">全部</span>
             <span className="text-zinc-300 text-[9px] ml-1">▼</span>
           </div>
 
           <div className="flex items-center gap-1.5 bg-[#f0f4ff] border border-[#dbe4ff] rounded-md px-3 py-1.5 text-[#004CE5] font-extrabold text-[12px] shadow-sm ml-1">
-            <span className="text-[#004CE5] text-xs">❖</span>
             <span>目标产品 | {product.full}</span>
           </div>
         </div>
@@ -89,7 +85,7 @@ export default function Page_QueryDataSystemLink({
             </div>
           </div>
           <button type="button" className="border border-zinc-200 bg-white rounded-md px-3 py-1.5 shadow-sm text-zinc-650 flex items-center gap-1">
-            ⚙ 管理列
+            管理列
           </button>
         </div>
       </div>
