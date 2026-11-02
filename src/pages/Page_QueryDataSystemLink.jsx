@@ -49,7 +49,7 @@ export default function Page_QueryDataSystemLink({
         <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
         <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4">
           {slideTitle}
-          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年9月）</span>
+          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年10月）</span>
         </h1>
       </div>
 
@@ -61,28 +61,24 @@ export default function Page_QueryDataSystemLink({
       <div className="flex items-center justify-between p-1.5 mb-3 shrink-0 text-[13px] font-medium text-zinc-500">
         <div className="flex items-center gap-3">
           <div className="flex items-center gap-1.5 bg-white border border-zinc-200/80 rounded-md px-3 py-1.5 shadow-[0_1px_2px_rgba(0,0,0,0.02)]">
-            <span className="text-zinc-400 text-xs">📅</span>
             <span>日期</span>
-            <span className="text-zinc-400 text-[10px] ml-1">9月</span>
+            <span className="text-zinc-400 text-[10px] ml-1">10月</span>
             <span className="text-zinc-300 text-[9px] ml-1">▼</span>
           </div>
 
           <div className="flex items-center gap-1.5 bg-white border border-zinc-200/80 rounded-md px-3 py-1.5 shadow-[0_1px_2px_rgba(0,0,0,0.02)]">
-            <span className="text-zinc-400 text-xs">🤖</span>
             <span>平台</span>
             <span className="text-zinc-800 font-bold ml-1">{platformName}</span>
             <span className="text-zinc-300 text-[9px] ml-1">▼</span>
           </div>
 
           <div className="flex items-center gap-1.5 bg-white border border-zinc-200/80 rounded-md px-3 py-1.5 shadow-[0_1px_2px_rgba(0,0,0,0.02)]">
-            <span className="text-zinc-400 text-xs">📝</span>
             <span>词条</span>
             <span className="text-zinc-400 text-[10px] ml-1">全部</span>
             <span className="text-zinc-300 text-[9px] ml-1">▼</span>
           </div>
 
           <div className="flex items-center gap-1.5 bg-[#f0f4ff] border border-[#dbe4ff] rounded-md px-3 py-1.5 text-[#004CE5] font-extrabold text-[12px] shadow-sm ml-1">
-            <span className="text-[#004CE5] text-xs">❖</span>
             <span>目标产品 | {product.full}</span>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { tempBranding } from '../config/tempBranding';
+import { deckChapters } from '../config/tocPresets';
 
 export default function Page_ProposalChapterCover({
     bgImage,
@@ -9,7 +10,12 @@ export default function Page_ProposalChapterCover({
     chapterIndex = 0,
     chapters = [],
 }) {
-    const chapterNum = String(chapterIndex + 1).padStart(2, '0');
+    const shown = deckChapters(chapters);
+    const norm = (value) => String(value || '').replace(/\n/g, '');
+    const activeIndex = shown === chapters
+        ? chapterIndex
+        : Math.max(0, shown.findIndex((ch) => norm(ch.title) === norm(title)));
+    const chapterNum = String(activeIndex + 1).padStart(2, '0');
 
     return (
         <div className="w-full h-full relative overflow-hidden bg-gradient-to-br from-slate-50 via-zinc-100 to-white">
@@ -59,18 +65,18 @@ export default function Page_ProposalChapterCover({
 
             {/* ── 左下角：章节列表 ── */}
             <div
-                className={`absolute flex flex-col ${chapters.length > 4 ? 'gap-[6px]' : 'gap-[10px]'}`}
+                className={`absolute flex flex-col ${shown.length > 4 ? 'gap-[6px]' : 'gap-[10px]'}`}
                 style={{ bottom: '90px', left: '96px' }}
             >
-                {chapters.map((ch, i) => {
-                    const isActive = i === chapterIndex;
+                {shown.map((ch, i) => {
+                    const isActive = i === activeIndex;
                     const num = String(i + 1).padStart(2, '0');
                     return (
                         <div
                             key={i}
                             className="flex items-center gap-[4px]"
                             style={{ 
-                                fontSize: chapters.length > 4 ? '20px' : '32px', 
+                                fontSize: shown.length > 4 ? '20px' : '32px', 
                                 lineHeight: '1.4' 
                             }}
                         >

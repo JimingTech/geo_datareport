@@ -2,6 +2,7 @@ import React from 'react';
 import Page_PhaseSummary from '../pages/Page_PhaseSummary';
 import Page_PlatformMentionRates from '../pages/Page_PlatformMentionRates';
 import Page_CoreDataOverview from '../pages/Page_CoreDataOverview';
+import Page_OctDataOverview from '../pages/Page_OctDataOverview';
 import Page_CompetitorAnalysis from '../pages/Page_CompetitorAnalysis';
 import Page_ContentDetails from '../pages/Page_ContentDetails';
 import Page_ContentDetails_AI from '../pages/Page_ContentDetails_AI';
@@ -51,7 +52,7 @@ export const slideConfig = [
     backgroundImage: '/proposal-cover/proposal-cover-new.png',
     brand: 'GEO 索引未来',
     subtitle: '慕思GEO \n 阶段性报告',
-    date: 'September 2026',
+    date: 'October 2026',
   },
 
   {
@@ -96,4 +97,13 @@ export const slideConfig = [
   { type: 'page', title: '慕思智能床 词条数据明细', components: KeywordPages_Smart },
   { type: 'page', title: '慕思AI床垫 词条数据明细', components: KeywordPages_AI },
   { type: 'page', title: '慕思床垫 词条数据明细', components: KeywordPages_Musi },
+
+  { type: 'chapter', title: '10月数据', subtitle: 'OCTOBER DATA', backgroundImage: '/proposal-chapters/proposal-chapter-cover-03.jpg' },
+  { type: 'section', title: '10月核心数据' },
+  { type: 'page', title: '10月核心数据总览', component: Page_OctDataOverview },
+  { type: 'page', title: '10月各AI平台提及率', component: Page_PlatformMentionRates },
+  { type: 'section', title: '10月竞品分析' },
+  { type: 'page', title: '10月 慕思智能床竞品分析', component: Page_CompetitorAnalysis },
+  { type: 'page', title: '10月 慕思AI床垫竞品分析', component: Page_CompetitorAnalysis_AI },
+  { type: 'page', title: '10月 慕思床垫竞品分析', component: Page_CompetitorAnalysis_Musi },
 ];

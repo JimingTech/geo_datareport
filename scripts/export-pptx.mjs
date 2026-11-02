@@ -20,6 +20,10 @@
  *     --format=png|jpeg    截图格式，默认 png；jpeg 快约一倍、体积小三成
  *     --quality=<N>        jpeg 质量，默认 92
  *     --keep-shots         同时把图片留在 export-screenshots/
+ *     --ids=a,b,c          只导出这些页，顺序按给出的 id，不改整本报告的页序
+ *     --query=toc=october       目录只列 10月数据、投放明细、词条明细
+ *     --query=toc=october-only  目录只列 10月数据
+ *     --query=toc=monthly       目录只列常规月报四章，不含单独的 10月数据
  */
 import { readFileSync, mkdirSync, writeFileSync, statSync, readdirSync, existsSync } from 'node:fs';
 import { createServer } from 'node:http';
@@ -39,6 +43,7 @@ const flag = (name, fallback) => {
 const has = (name) => args.includes(`--${name}`);
 
 const EXTERNAL_URL = flag('url', null);
+const PAGE_QUERY = flag('query', '');
 const OUTPUT = path.resolve(root, flag('output', 'Presentation_2026.pptx'));
 const FORMAT = flag('format', 'png');
 const QUALITY = Number(flag('quality', 92));
@@ -51,7 +56,17 @@ const SLIDE_SELECTOR = 'div[style*="width: 1920px"]';
 
 const slideOrder = JSON.parse(readFileSync(path.join(root, 'src/slideOrder.json'), 'utf-8'))
   .filter((id) => tempBranding.enabled || (id !== 'brand-cover' && id !== 'brand-back'));
-const TOTAL = slideOrder.length;
+const onlyIds = flag('ids', '').split(',').map((s) => s.trim()).filter(Boolean);
+const unknownIds = onlyIds.filter((id) => !slideOrder.includes(id));
+if (unknownIds.length) {
+  console.error(`未知页：${unknownIds.join(', ')}`);
+  process.exit(1);
+}
+// 子集导出仍按整本报告的页码跳转，避免改 slideOrder
+const captureIndices = onlyIds.length
+  ? onlyIds.map((id) => slideOrder.indexOf(id))
+  : slideOrder.map((_, i) => i);
+const TOTAL = captureIndices.length;
 const CONCURRENCY = Math.max(
   1,
   Math.min(Number(flag('concurrency', Math.min(6, Math.ceil(cpus().length / 4)))), TOTAL)
@@ -179,6 +194,7 @@ async function main() {
   console.log(`共 ${TOTAL} 页，${CONCURRENCY} 个浏览器并行，${FORMAT.toUpperCase()} @${SCALE}x`);
 
   const shots = new Array(TOTAL);
+  const titles = new Array(TOTAL);
   const shotOptions =
     FORMAT === 'jpeg' ? { type: 'jpeg', quality: QUALITY } : { type: 'png' };
   let finished = 0;
@@ -207,19 +223,32 @@ async function main() {
           height: SLIDE_H + 128,
           deviceScaleFactor: SCALE,
         });
-        await page.goto(`${url}#slide=${start}`, { waitUntil: 'networkidle0', timeout: 60000 });
+        await page.goto(`${url}${PAGE_QUERY ? `?${PAGE_QUERY}` : ''}#slide=${captureIndices[start]}`, { waitUntil: 'networkidle0', timeout: 60000 });
         await page.addStyleTag({ content: EXPORT_CSS });
         await waitForSlideReady(page);
 
-        for (let i = start; i < end; i++) {
-          if (i > start) {
-            await page.keyboard.press('ArrowRight');
+        for (let n = start; n < end; n++) {
+          const deckIndex = captureIndices[n];
+          if (n > start) {
+            if (deckIndex === captureIndices[n - 1] + 1) {
+              await page.keyboard.press('ArrowRight');
+            } else {
+              await page.evaluate((i) => { window.location.hash = `slide=${i}`; }, deckIndex);
+              await page.waitForFunction((i) => {
+                const items = [...document.querySelectorAll('nav > div')];
+                return items[i] && String(items[i].className).includes('004CE5');
+              }, { timeout: 15000 }, deckIndex);
+            }
             await waitForSlideReady(page);
           }
 
           const el = await page.$(SLIDE_SELECTOR);
-          if (!el) throw new Error(`第 ${i + 1} 页找不到幻灯片节点`);
-          shots[i] = Buffer.from(await el.screenshot(shotOptions));
+          if (!el) throw new Error(`第 ${deckIndex + 1} 页找不到幻灯片节点`);
+          titles[n] = await page.evaluate(() => {
+            const h = document.querySelector('h1');
+            return (h ? h.innerText : document.body.innerText).replace(/\s+/g, ' ').trim().slice(0, 36);
+          });
+          shots[n] = Buffer.from(await el.screenshot(shotOptions));
 
           finished += 1;
           process.stdout.write(`\r  已截图 ${finished}/${TOTAL}`);
@@ -232,6 +261,9 @@ async function main() {
   }
 
   process.stdout.write('\n');
+  if (onlyIds.length) {
+    titles.forEach((title, i) => console.log(`  ${String(i + 1).padStart(2, ' ')}. ${title}`));
+  }
 
   const ext = FORMAT === 'jpeg' ? 'jpg' : 'png';
   if (KEEP_SHOTS) {

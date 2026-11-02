@@ -1,5 +1,5 @@
 import React from 'react';
-import report from '../data/musiSepReport.json';
+import report from '../data/musiOctReport.json';
 
 const { products, scope } = report;
 
@@ -19,13 +19,13 @@ export default function Page_CoreDataOverview() {
       <div className="flex items-center shrink-0 mb-[27px]">
         <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
         <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4">
-          核心数据总览 <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年9月）</span>
+          核心数据总览 <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年10月）</span>
         </h1>
       </div>
 
       <div className="rounded-xl border border-zinc-200 bg-slate-50/40 py-3.5 px-6 shrink-0 mb-4">
         <p className="text-[1.35rem] leading-relaxed text-zinc-500 font-bold">
-          本次监测周期覆盖 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">{scope.platforms}</span> 个核心AI平台，针对重点监测词条 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">{scope.entries}</span> 个进行查询，追踪相关问答数据共计 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">{scope.conversations.toLocaleString()}</span> 篇次，整体项目持续推进。
+          本次监测周期覆盖 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">{scope.platforms}</span> 个核心AI平台，针对重点监测词条 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">{scope.entries}</span> 个进行查询，追踪相关问答数据共计 <span className="font-['Montserrat',sans-serif] text-[#004CE5] font-black">{scope.conversations.toLocaleString()}</span> 篇次。
         </p>
       </div>
 
@@ -40,14 +40,14 @@ export default function Page_CoreDataOverview() {
               <th colSpan={2} className="py-4 px-2 text-2xl font-black text-center border-l border-white/10 bg-[#2E75FF]">竞品排名</th>
             </tr>
             <tr className="bg-slate-50/80 border-b border-zinc-200 text-[#004CE5] font-black text-xl">
-              <th className="py-2.5 px-2 text-center border-l border-zinc-200 w-[10.5%]">8月</th>
-              <th className="py-2.5 px-2 text-center border-l border-zinc-200 border-r-2 border-[#004CE5]/15 w-[10.5%]">9月</th>
-              <th className="py-2.5 px-2 text-center border-l border-zinc-200 w-[10.5%]">8月</th>
-              <th className="py-2.5 px-2 text-center border-l border-zinc-200 border-r-2 border-[#004CE5]/15 w-[10.5%]">9月</th>
-              <th className="py-2.5 px-2 text-center border-l border-zinc-200 w-[10.5%]">8月</th>
-              <th className="py-2.5 px-2 text-center border-l border-zinc-200 border-r-2 border-[#004CE5]/15 w-[10.5%]">9月</th>
-              <th className="py-2.5 px-2 text-center border-l border-zinc-200 w-[10.5%]">8月</th>
-              <th className="py-2.5 px-2 text-center border-l border-zinc-200 border-r-2 border-[#004CE5]/15 w-[10.5%]">9月</th>
+              <th className="py-2.5 px-2 text-center border-l border-zinc-200 w-[10.5%]">9月</th>
+              <th className="py-2.5 px-2 text-center border-l border-zinc-200 border-r-2 border-[#004CE5]/15 w-[10.5%]">10月</th>
+              <th className="py-2.5 px-2 text-center border-l border-zinc-200 w-[10.5%]">9月</th>
+              <th className="py-2.5 px-2 text-center border-l border-zinc-200 border-r-2 border-[#004CE5]/15 w-[10.5%]">10月</th>
+              <th className="py-2.5 px-2 text-center border-l border-zinc-200 w-[10.5%]">9月</th>
+              <th className="py-2.5 px-2 text-center border-l border-zinc-200 border-r-2 border-[#004CE5]/15 w-[10.5%]">10月</th>
+              <th className="py-2.5 px-2 text-center border-l border-zinc-200 w-[10.5%]">9月</th>
+              <th className="py-2.5 px-2 text-center border-l border-zinc-200 border-r-2 border-[#004CE5]/15 w-[10.5%]">10月</th>
             </tr>
           </thead>
           <tbody>
@@ -58,14 +58,14 @@ export default function Page_CoreDataOverview() {
                   <td className="py-1.5 px-4 border-r border-zinc-200 bg-slate-50/10 text-center font-black text-2xl text-zinc-800">
                     {row.name}
                   </td>
-                  <td className="py-1.5 px-2 text-center border-r border-zinc-200 text-3xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(p.august.mention_rate)}</td>
-                  <td className="py-1.5 px-2 text-center border-r-2 border-[#004CE5]/15 text-3xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(p.september.mention_rate)}</td>
-                  <td className="py-1.5 px-2 text-center border-r border-zinc-200 text-3xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(p.august.top1_mention_rate)}</td>
-                  <td className="py-1.5 px-2 text-center border-r-2 border-[#004CE5]/15 text-3xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(p.september.top1_mention_rate)}</td>
-                  <td className="py-1.5 px-2 text-center border-r border-zinc-200 text-3xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(p.august.top3_mention_rate)}</td>
-                  <td className="py-1.5 px-2 text-center border-r-2 border-[#004CE5]/15 text-3xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(p.september.top3_mention_rate)}</td>
-                  <td className="py-1.5 px-2 text-center border-r border-zinc-200 text-3xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">NO. {p.august.influence_rank}</td>
-                  <td className="py-1.5 px-2 text-center border-r-2 border-[#004CE5]/15 text-3xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">NO. {p.september.influence_rank}</td>
+                  <td className="py-1.5 px-2 text-center border-r border-zinc-200 text-3xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(p.september.mention_rate)}</td>
+                  <td className="py-1.5 px-2 text-center border-r-2 border-[#004CE5]/15 text-3xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(p.october.mention_rate)}</td>
+                  <td className="py-1.5 px-2 text-center border-r border-zinc-200 text-3xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(p.september.top1_mention_rate)}</td>
+                  <td className="py-1.5 px-2 text-center border-r-2 border-[#004CE5]/15 text-3xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(p.october.top1_mention_rate)}</td>
+                  <td className="py-1.5 px-2 text-center border-r border-zinc-200 text-3xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(p.september.top3_mention_rate)}</td>
+                  <td className="py-1.5 px-2 text-center border-r-2 border-[#004CE5]/15 text-3xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">{fmtPct(p.october.top3_mention_rate)}</td>
+                  <td className="py-1.5 px-2 text-center border-r border-zinc-200 text-3xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">NO.{p.september.influence_rank}</td>
+                  <td className="py-1.5 px-2 text-center border-r-2 border-[#004CE5]/15 text-3xl font-bold text-zinc-900 font-['Montserrat',sans-serif]">NO.{p.october.influence_rank}</td>
                 </tr>
               );
             })}
@@ -92,7 +92,7 @@ export default function Page_CoreDataOverview() {
           </div>
           <div className="flex-1 flex items-center min-h-0">
             <p className="text-[21px] leading-snug text-zinc-700 font-bold">
-              三款产品本月竞品排名均保持NO.1。智能床提及率86.6%、Top1 37.3%、Top3 64.2%，三项都在首位；AI床垫提及率88.9%、Top1 55%、Top3 82.2%，首推优势清晰；普通床垫提及率81.1%，行业影响力继续领先。
+              三款产品竞品排名均保持NO.1。智能床提及率87.2%、Top3 69.4%，仍居第一，Top1 31.7%，低于舒福德的38.3%；AI床垫提及率90.6%、Top1 47.2%、Top3 80%，三项仍居第一；普通床垫提及率83.3%，Top1 21.1%，与喜临门相同，排在第一。
             </p>
           </div>
         </div>
@@ -104,7 +104,7 @@ export default function Page_CoreDataOverview() {
           </div>
           <div className="flex-1 flex items-center min-h-0">
             <p className="text-[21px] leading-snug text-zinc-700 font-bold">
-              智能床继续巩固对舒福德的首推领先，把37.3%的Top1和64.2%的Top3做稳；AI床垫保持55%的首推优势，把功能词条上的首选心智做深；普通床垫稳住81.1%的提及率和NO.1，并在价位与弹簧类词条加强首选表达。
+              智能床把Top1拉回舒福德之上，守住87.2%的提及率和69.4%的Top3；AI床垫稳住47.2%的首推，保持对喜临门的领先；普通床垫守住83.3%的提及率和NO.1，Top1与喜临门同为21.1%，继续把首选拉开。
             </p>
           </div>
         </div>

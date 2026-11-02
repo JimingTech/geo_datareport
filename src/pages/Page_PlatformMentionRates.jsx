@@ -1,7 +1,7 @@
 import React from 'react';
-import smart from '../data/geoReport_182_2026-09-21.json';
-import ai from '../data/geoReport_181_2026-09-18.json';
-import mattress from '../data/geoReport_239_2026-09-23.json';
+import smart from '../data/geoReport_182_2026-10-25.json';
+import ai from '../data/geoReport_181_2026-10-27.json';
+import mattress from '../data/geoReport_239_2026-10-25.json';
 
 const PRODUCTS = [
   { name: '慕思智能床', stats: smart.stats.platform_stats },
@@ -20,7 +20,7 @@ export default function Page_PlatformMentionRates() {
         <div className="w-2 h-10 bg-[#004CE5] rounded-full" />
         <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4">
           三产品各AI平台提及率现状
-          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年9月）</span>
+          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年10月）</span>
         </h1>
       </div>
 

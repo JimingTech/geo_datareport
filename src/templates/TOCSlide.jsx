@@ -1,9 +1,10 @@
 import React from 'react';
 import { parsedConfig } from '../config/parseConfig';
 import { tempBranding } from '../config/tempBranding';
+import { deckChapters } from '../config/tocPresets';
 
 export default function TOCSlide({ bgImage, title, menuText, brandLabel, serviceGuide }) {
-  const { chapters } = parsedConfig;
+  const chapters = deckChapters(parsedConfig.chapters);
   const debug = false;
   const dbg = debug ? 'bg-red-500/40' : '';
 

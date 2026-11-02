@@ -93,10 +93,12 @@ async function login() {
   });
   const json = await res.json();
   if (!json.ok) throw new Error(`登录失败: ${json.error}`);
-  cookie = (res.headers.getSetCookie?.() || [res.headers.get('set-cookie')])
-    .filter(Boolean)
+  const raw = res.headers.getSetCookie?.() || [res.headers.get('set-cookie')].filter(Boolean);
+  const pairs = raw
     .map((c) => c.split(';')[0])
-    .join('; ');
+    .filter((pair) => pair.split('=').slice(1).join('=').length > 0);
+  cookie = pairs[pairs.length - 1] || '';
+  if (!cookie) throw new Error('登录成功但未拿到有效会话');
   return json.user;
 }
 
@@ -140,14 +142,23 @@ async function main() {
   if (groupName) {
     const groups = (await api('/api/entry-groups', { project_id: projectId })).data.groups || [];
     const group = groups.find((g) => g.name === groupName || g.name_zh === groupName);
-    if (!group) {
-      console.error(`未找到分组「${groupName}」，本项目分组: ${groups.map((g) => g.name).join('、') || '（无）'}`);
-      process.exit(1);
-    }
     const all = (await api('/api/entries', { ...range, page: 1, page_size: 500 })).data.list || [];
-    const members = all.filter((e) => e.group_id === group.id);
-    entryIds = members.map((e) => e.entry_id).join(',');
-    console.log(`词条分组: ${group.name}（${members.length} 条）`);
+    const members = group
+      ? all.filter((e) => e.group_id === group.id || (e.custom_group_ids || []).includes(group.id))
+      : [];
+    if (members.length) {
+      entryIds = members.map((e) => e.entry_id).join(',');
+      console.log(`词条分组: ${group.name}（${members.length} 条）`);
+    } else {
+      const custom = (await api('/api/entry-custom-groups', { project_id: projectId })).data.groups || [];
+      const hit = custom.find((g) => g.name === groupName || g.name_zh === groupName);
+      if (!hit?.entry_ids?.length) {
+        console.error(`未找到有词条的分组「${groupName}」。旧分组: ${groups.map((g) => `${g.name}(${g.entry_count})`).join('、') || '（无）'}；自定义分组: ${custom.map((g) => g.name).join('、') || '（无）'}`);
+        process.exit(1);
+      }
+      entryIds = hit.entry_ids.join(',');
+      console.log(`词条分组: ${hit.name}（${hit.entry_ids.length} 条）`);
+    }
   }
   if (entryIds) {
     range.entry_ids = entryIds;

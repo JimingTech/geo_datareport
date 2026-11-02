@@ -1,12 +1,12 @@
 import React from 'react';
-import report from '../data/musiSepReport.json';
+import delivery from '../data/delivery_excel_1029.json';
 
 function createContentDetailsPage({ productKey, title }) {
-  const data = report.products[productKey];
-  const ov = data.delivery.overview;
-  const plat = data.delivery.platform_totals;
-  const topArticles = data.delivery.top10;
-  const channels = data.delivery.channels;
+  const data = delivery[productKey];
+  const ov = data.overview;
+  const plat = data.platform_totals;
+  const topArticles = data.top10;
+  const channels = data.channels;
 
   return function ContentDetailsPage() {
     return (
@@ -15,7 +15,7 @@ function createContentDetailsPage({ productKey, title }) {
           <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
           <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4 flex items-center flex-wrap gap-x-4 gap-y-2">
             {title}
-            <span className="text-2xl font-bold text-zinc-400">（2026年9月）</span>
+            <span className="text-2xl font-bold text-zinc-400">（2026年10月）</span>
           </h1>
         </div>
 

@@ -1,6 +1,6 @@
 import React from 'react';
-import report from '../data/musiSepReport.json';
-import delivery from '../data/delivery_excel_0921.json';
+import report from '../data/musiOctReport.json';
+import delivery from '../data/delivery_excel_1029.json';
 
 const BLUE = '#0050F0';
 const GRAY = '#808080';
@@ -68,7 +68,7 @@ function MetricRow({ label, before, after, format = fmtPct, last = false }) {
         {label}
       </div>
       <div className="text-[17px] font-bold" style={{ color: INK }}>
-        8月
+        9月
       </div>
       <div className="text-[1.7rem] font-black font-['Montserrat',sans-serif]" style={{ color: INK }}>
         {format(before)}
@@ -77,7 +77,7 @@ function MetricRow({ label, before, after, format = fmtPct, last = false }) {
         <GradientArrow />
       </div>
       <div className="text-[17px] font-bold" style={{ color: INK }}>
-        9月
+        10月
       </div>
       <div className="text-[2.65rem] font-black font-['Montserrat',sans-serif] leading-none" style={{ color: BLUE }}>
         {format(after)}
@@ -108,16 +108,16 @@ export default function Page_PhaseSummary() {
 
       <div className="shrink-0 mt-4 rounded-2xl bg-white border border-[#E6EBF2] px-8 py-4 text-center shadow-[0_4px_16px_rgba(20,30,50,0.03)]">
         <p className="text-[1.45rem] font-black leading-relaxed text-[#1A1A1A]">
-          慕思团队产品侧持续深度指导与密切配合，9月三组产品核心指标对照8月保持高位。
+          10月三组产品对照9月，竞品排名仍为NO.1，提及率保持高位。
         </p>
         <ul className="mt-1.5 mx-auto w-fit text-left text-[1.05rem] font-bold leading-[1.7] text-[#3A4352]">
           <li>
-            · 一共平台查询{conversations}次，覆盖{platforms}个核心AI平台、{entries}个监测词条，实时监控模型的回答结果概况
+            · 覆盖{platforms}个核心AI平台、{entries}个监测词条，平台查询{conversations}次
           </li>
           <li>
-            · 共产出{articleTotal.toLocaleString('zh-CN')}篇文章，在监控中累计被记载抓取{citationTotal.toLocaleString('zh-CN')}次
+            · 共产出{articleTotal.toLocaleString('zh-CN')}篇文章，累计被引用{citationTotal.toLocaleString('zh-CN')}次
           </li>
-          <li>· 三组产品竞品排名均保持NO.1，本阶段目标达成，转入高端场景与长尾词条的深耕优化</li>
+          <li>· 三组产品竞品排名均保持NO.1。智能床Top1为31.7%，低于舒福德的38.3%；普通床垫Top1为21.1%，与喜临门相同，排在第一。</li>
         </ul>
       </div>
 
@@ -151,22 +151,22 @@ export default function Page_PhaseSummary() {
                     <span className="text-[1.55rem] font-black ml-0.5">篇</span>
                   </div>
                   <div className="mt-1 text-[15px] font-bold" style={{ color: GRAY }}>
-                    有效抓取率 {fmtPct(articles.citation_rate)}
+                    被引率 {fmtPct(articles.citation_rate)}
                   </div>
                 </div>
               </div>
 
               <div className="flex-1 min-w-0 grid pl-2 pr-2" style={{ gridTemplateRows: '1fr 1fr 1fr' }}>
-                <MetricRow label="提及率" before={product.august.mention_rate} after={product.september.mention_rate} />
+                <MetricRow label="提及率" before={product.september.mention_rate} after={product.october.mention_rate} />
                 <MetricRow
                   label="TOP1提及率"
-                  before={product.august.top1_mention_rate}
-                  after={product.september.top1_mention_rate}
+                  before={product.september.top1_mention_rate}
+                  after={product.october.top1_mention_rate}
                 />
                 <MetricRow
-                  label="综合竞品排名"
-                  before={product.august.influence_rank}
-                  after={product.september.influence_rank}
+                  label="竞品排名"
+                  before={product.september.influence_rank}
+                  after={product.october.influence_rank}
                   format={fmtRank}
                   last
                 />
