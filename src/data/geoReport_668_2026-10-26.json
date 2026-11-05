@@ -1,6 +1,6 @@
 {
   "meta": {
-    "fetched_at": "2026-10-29T09:19:50.789Z",
+    "fetched_at": "2026-10-29T12:46:04.755Z",
     "api_base": "https://api.geotopone.com",
     "project_id": 668,
     "project_name": "Awada-优化词",
@@ -127,9 +127,9 @@
         "product_name": null,
         "display_name": "火枫",
         "favicon_url": null,
-        "influence_score": 55.1,
+        "influence_score": 54.9,
         "mention_rate": 71.9,
-        "avg_position": 4.5,
+        "avg_position": 4.6,
         "is_target": false
       },
       {
@@ -138,9 +138,9 @@
         "product_name": null,
         "display_name": "爱路客",
         "favicon_url": null,
-        "influence_score": 21.6,
-        "mention_rate": 35.6,
-        "avg_position": 7.1,
+        "influence_score": 21.2,
+        "mention_rate": 35,
+        "avg_position": 7.2,
         "is_target": false
       },
       {
@@ -156,6 +156,17 @@
       },
       {
         "rank": 4,
+        "brand_name": "挪客",
+        "product_name": null,
+        "display_name": "挪客",
+        "favicon_url": null,
+        "influence_score": 19.2,
+        "mention_rate": 29.4,
+        "avg_position": 7.3,
+        "is_target": false
+      },
+      {
+        "rank": 5,
         "brand_name": "Awada",
         "product_name": null,
         "display_name": "Awada",
@@ -164,17 +175,6 @@
         "mention_rate": 23.1,
         "avg_position": 7.7,
         "is_target": true
-      },
-      {
-        "rank": 5,
-        "brand_name": "挪客",
-        "product_name": null,
-        "display_name": "挪客",
-        "favicon_url": null,
-        "influence_score": 17.3,
-        "mention_rate": 27.5,
-        "avg_position": 7.4,
-        "is_target": false
       }
     ]
   },
@@ -213,7 +213,7 @@
         "entry_id": 15962,
         "entry_name": "好出片户外厨具推荐",
         "mention_rate": 75,
-        "position": 3,
+        "position": 2.5,
         "platform_ids": [
           1,
           2,
@@ -221,7 +221,7 @@
           3
         ],
         "last_conversation_time": "2026-10-25T16:00:00.000Z",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261024/1065323a03d845248ad5ed7bc78dadb9.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261024/e515259a790d44e887b646188cc57f1c.png"
       },
       {
         "entry_id": 15955,
@@ -763,10 +763,21 @@
         "product_id": null,
         "product_name": null,
         "display_name": "爱路客",
-        "mention_count": 57,
-        "mention_rate": 35.6,
+        "mention_count": 56,
+        "mention_rate": 35,
         "is_target": false,
         "rank": 2
+      },
+      {
+        "brand_id": 121867,
+        "brand_name": "挪客",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "挪客",
+        "mention_count": 47,
+        "mention_rate": 29.4,
+        "is_target": false,
+        "rank": 3
       },
       {
         "brand_id": 121868,
@@ -776,17 +787,6 @@
         "display_name": "Snow Peak",
         "mention_count": 45,
         "mention_rate": 28.1,
-        "is_target": false,
-        "rank": 3
-      },
-      {
-        "brand_id": 121867,
-        "brand_name": "挪客",
-        "product_id": null,
-        "product_name": null,
-        "display_name": "挪客",
-        "mention_count": 44,
-        "mention_rate": 27.5,
         "is_target": false,
         "rank": 4
       },
@@ -809,7 +809,7 @@
         "product_id": null,
         "product_name": null,
         "display_name": "火枫",
-        "avg_position": 4.5,
+        "avg_position": 4.6,
         "mention_count": 115,
         "is_target": false
       },
@@ -829,8 +829,8 @@
         "product_id": null,
         "product_name": null,
         "display_name": "爱路客",
-        "avg_position": 7.1,
-        "mention_count": 57,
+        "avg_position": 7.2,
+        "mention_count": 56,
         "is_target": false
       },
       {
@@ -839,8 +839,8 @@
         "product_id": null,
         "product_name": null,
         "display_name": "挪客",
-        "avg_position": 7.4,
-        "mention_count": 44,
+        "avg_position": 7.3,
+        "mention_count": 47,
         "is_target": false
       },
       {
@@ -858,19 +858,19 @@
       {
         "date": "2026-10-26",
         "火枫": 71.9,
-        "爱路客": 35.6,
+        "爱路客": 35,
+        "挪客": 29.4,
         "Snow Peak": 28.1,
-        "挪客": 27.5,
         "Awada": 23.1
       }
     ],
     "position_daily": [
       {
         "date": "2026-10-26",
-        "火枫": 4.5,
+        "火枫": 4.6,
         "Snow Peak": 6.9,
-        "爱路客": 7.1,
-        "挪客": 7.4,
+        "爱路客": 7.2,
+        "挪客": 7.3,
         "Awada": 7.7
       }
     ],
@@ -880,7 +880,7 @@
         "brand_name": "火枫",
         "product_name": null,
         "display_name": "火枫",
-        "top1_mention_rate": 30,
+        "top1_mention_rate": 29.4,
         "is_target": false
       },
       {
@@ -909,6 +909,14 @@
       },
       {
         "rank": 5,
+        "brand_name": "挪客",
+        "product_name": null,
+        "display_name": "挪客",
+        "top1_mention_rate": 3.8,
+        "is_target": false
+      },
+      {
+        "rank": 6,
         "brand_name": "Keith铠斯",
         "product_name": null,
         "display_name": "Keith铠斯",
@@ -916,7 +924,7 @@
         "is_target": false
       },
       {
-        "rank": 6,
+        "rank": 7,
         "brand_name": "GSI Outdoors",
         "product_name": null,
         "display_name": "GSI Outdoors",
@@ -924,7 +932,7 @@
         "is_target": false
       },
       {
-        "rank": 7,
+        "rank": 8,
         "brand_name": "TOAKS",
         "product_name": null,
         "display_name": "TOAKS",
@@ -932,7 +940,7 @@
         "is_target": false
       },
       {
-        "rank": 8,
+        "rank": 9,
         "brand_name": "始祖鸟",
         "product_name": null,
         "display_name": "始祖鸟",
@@ -940,23 +948,7 @@
         "is_target": false
       },
       {
-        "rank": 9,
-        "brand_name": "挪客",
-        "product_name": null,
-        "display_name": "挪客",
-        "top1_mention_rate": 1.9,
-        "is_target": false
-      },
-      {
         "rank": 10,
-        "brand_name": "NATURAL HIKER",
-        "product_name": null,
-        "display_name": "NATURAL HIKER",
-        "top1_mention_rate": 1.3,
-        "is_target": false
-      },
-      {
-        "rank": 11,
         "brand_name": "三峰出",
         "product_name": null,
         "display_name": "三峰出",
@@ -964,7 +956,7 @@
         "is_target": false
       },
       {
-        "rank": 12,
+        "rank": 11,
         "brand_name": "乐基因",
         "product_name": null,
         "display_name": "乐基因",
@@ -972,7 +964,7 @@
         "is_target": false
       },
       {
-        "rank": 13,
+        "rank": 12,
         "brand_name": "凯乐石",
         "product_name": null,
         "display_name": "凯乐石",
@@ -980,7 +972,7 @@
         "is_target": false
       },
       {
-        "rank": 14,
+        "rank": 13,
         "brand_name": "布比克",
         "product_name": null,
         "display_name": "布比克",
@@ -988,7 +980,7 @@
         "is_target": false
       },
       {
-        "rank": 15,
+        "rank": 14,
         "brand_name": "拜格",
         "product_name": null,
         "display_name": "拜格",
@@ -996,7 +988,7 @@
         "is_target": false
       },
       {
-        "rank": 16,
+        "rank": 15,
         "brand_name": "探险者",
         "product_name": null,
         "display_name": "探险者",
@@ -1004,7 +996,7 @@
         "is_target": false
       },
       {
-        "rank": 17,
+        "rank": 16,
         "brand_name": "柯曼",
         "product_name": null,
         "display_name": "柯曼",
@@ -1012,7 +1004,7 @@
         "is_target": false
       },
       {
-        "rank": 18,
+        "rank": 17,
         "brand_name": "牧高笛",
         "product_name": null,
         "display_name": "牧高笛",
@@ -1020,7 +1012,7 @@
         "is_target": false
       },
       {
-        "rank": 19,
+        "rank": 18,
         "brand_name": "莱泽曼",
         "product_name": null,
         "display_name": "莱泽曼",
@@ -1028,7 +1020,7 @@
         "is_target": false
       },
       {
-        "rank": 20,
+        "rank": 19,
         "brand_name": "Bloomy",
         "product_name": null,
         "display_name": "Bloomy",
@@ -1036,7 +1028,7 @@
         "is_target": false
       },
       {
-        "rank": 21,
+        "rank": 20,
         "brand_name": "CADAC DOMETIC",
         "product_name": null,
         "display_name": "CADAC DOMETIC",
@@ -1044,7 +1036,7 @@
         "is_target": false
       },
       {
-        "rank": 22,
+        "rank": 21,
         "brand_name": "Helinox",
         "product_name": null,
         "display_name": "Helinox",
@@ -1052,7 +1044,7 @@
         "is_target": false
       },
       {
-        "rank": 23,
+        "rank": 22,
         "brand_name": "Jetboil",
         "product_name": null,
         "display_name": "Jetboil",
@@ -1060,7 +1052,7 @@
         "is_target": false
       },
       {
-        "rank": 24,
+        "rank": 23,
         "brand_name": "JIKABIJAPAN",
         "product_name": null,
         "display_name": "JIKABIJAPAN",
@@ -1068,10 +1060,18 @@
         "is_target": false
       },
       {
-        "rank": 25,
+        "rank": 24,
         "brand_name": "Montbell",
         "product_name": null,
         "display_name": "Montbell",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 25,
+        "brand_name": "NATURAL HIKER",
+        "product_name": null,
+        "display_name": "NATURAL HIKER",
         "top1_mention_rate": 0.6,
         "is_target": false
       },
@@ -1149,14 +1149,6 @@
       },
       {
         "rank": 35,
-        "brand_name": "北山狼",
-        "product_name": null,
-        "display_name": "北山狼",
-        "top1_mention_rate": 0.6,
-        "is_target": false
-      },
-      {
-        "rank": 36,
         "brand_name": "原始人",
         "product_name": null,
         "display_name": "原始人",
@@ -1164,7 +1156,7 @@
         "is_target": false
       },
       {
-        "rank": 37,
+        "rank": 36,
         "brand_name": "小鹰",
         "product_name": null,
         "display_name": "小鹰",
@@ -1172,7 +1164,7 @@
         "is_target": false
       },
       {
-        "rank": 38,
+        "rank": 37,
         "brand_name": "山之客",
         "product_name": null,
         "display_name": "山之客",
@@ -1180,7 +1172,7 @@
         "is_target": false
       },
       {
-        "rank": 39,
+        "rank": 38,
         "brand_name": "岩合",
         "product_name": null,
         "display_name": "岩合",
@@ -1188,7 +1180,7 @@
         "is_target": false
       },
       {
-        "rank": 40,
+        "rank": 39,
         "brand_name": "嵌入式双头房车燃气灶",
         "product_name": null,
         "display_name": "嵌入式双头房车燃气灶",
@@ -1196,7 +1188,7 @@
         "is_target": false
       },
       {
-        "rank": 41,
+        "rank": 40,
         "brand_name": "张小泉",
         "product_name": null,
         "display_name": "张小泉",
@@ -1204,7 +1196,7 @@
         "is_target": false
       },
       {
-        "rank": 42,
+        "rank": 41,
         "brand_name": "戈博",
         "product_name": null,
         "display_name": "戈博",
@@ -1212,7 +1204,7 @@
         "is_target": false
       },
       {
-        "rank": 43,
+        "rank": 42,
         "brand_name": "探路者",
         "product_name": null,
         "display_name": "探路者",
@@ -1220,7 +1212,7 @@
         "is_target": false
       },
       {
-        "rank": 44,
+        "rank": 43,
         "brand_name": "探露",
         "product_name": null,
         "display_name": "探露",
@@ -1228,7 +1220,7 @@
         "is_target": false
       },
       {
-        "rank": 45,
+        "rank": 44,
         "brand_name": "斯坦利",
         "product_name": null,
         "display_name": "斯坦利",
@@ -1236,7 +1228,7 @@
         "is_target": false
       },
       {
-        "rank": 46,
+        "rank": 45,
         "brand_name": "汉道",
         "product_name": null,
         "display_name": "汉道",
@@ -1244,7 +1236,7 @@
         "is_target": false
       },
       {
-        "rank": 47,
+        "rank": 46,
         "brand_name": "爱路客",
         "product_name": null,
         "display_name": "爱路客",
@@ -1252,7 +1244,7 @@
         "is_target": false
       },
       {
-        "rank": 48,
+        "rank": 47,
         "brand_name": "纳拓",
         "product_name": null,
         "display_name": "纳拓",
@@ -1260,7 +1252,7 @@
         "is_target": false
       },
       {
-        "rank": 49,
+        "rank": 48,
         "brand_name": "象印",
         "product_name": null,
         "display_name": "象印",
@@ -1268,7 +1260,7 @@
         "is_target": false
       },
       {
-        "rank": 50,
+        "rank": 49,
         "brand_name": "迪卡侬",
         "product_name": null,
         "display_name": "迪卡侬",
@@ -1276,7 +1268,7 @@
         "is_target": false
       },
       {
-        "rank": 51,
+        "rank": 50,
         "brand_name": "黑冰",
         "product_name": null,
         "display_name": "黑冰",
@@ -1284,7 +1276,7 @@
         "is_target": false
       },
       {
-        "rank": 52,
+        "rank": 51,
         "brand_name": "05 式不锈钢饭盒",
         "product_name": null,
         "display_name": "05 式不锈钢饭盒",
@@ -1292,10 +1284,18 @@
         "is_target": false
       },
       {
-        "rank": 53,
+        "rank": 52,
         "brand_name": "304 不锈钢烧水壶",
         "product_name": null,
         "display_name": "304 不锈钢烧水壶",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 53,
+        "brand_name": "304不锈钢撒粉罐",
+        "product_name": null,
+        "display_name": "304不锈钢撒粉罐",
         "top1_mention_rate": 0,
         "is_target": false
       },
@@ -1525,14 +1525,6 @@
       },
       {
         "rank": 82,
-        "brand_name": "Dr.HOWS",
-        "product_name": null,
-        "display_name": "Dr.HOWS",
-        "top1_mention_rate": 0,
-        "is_target": false
-      },
-      {
-        "rank": 83,
         "brand_name": "Durston",
         "product_name": null,
         "display_name": "Durston",
@@ -1540,7 +1532,7 @@
         "is_target": false
       },
       {
-        "rank": 84,
+        "rank": 83,
         "brand_name": "EVA",
         "product_name": null,
         "display_name": "EVA",
@@ -1548,7 +1540,7 @@
         "is_target": false
       },
       {
-        "rank": 85,
+        "rank": 84,
         "brand_name": "EVA 分格调料瓶包",
         "product_name": null,
         "display_name": "EVA 分格调料瓶包",
@@ -1556,7 +1548,7 @@
         "is_target": false
       },
       {
-        "rank": 86,
+        "rank": 85,
         "brand_name": "EVERNEW",
         "product_name": null,
         "display_name": "EVERNEW",
@@ -1564,7 +1556,7 @@
         "is_target": false
       },
       {
-        "rank": 87,
+        "rank": 86,
         "brand_name": "Fireside",
         "product_name": null,
         "display_name": "Fireside",
@@ -1572,7 +1564,7 @@
         "is_target": false
       },
       {
-        "rank": 88,
+        "rank": 87,
         "brand_name": "Freiluftküche",
         "product_name": null,
         "display_name": "Freiluftküche",
@@ -1580,7 +1572,7 @@
         "is_target": false
       },
       {
-        "rank": 89,
+        "rank": 88,
         "brand_name": "Garmin",
         "product_name": null,
         "display_name": "Garmin",
@@ -1588,7 +1580,7 @@
         "is_target": false
       },
       {
-        "rank": 90,
+        "rank": 89,
         "brand_name": "GlammFire",
         "product_name": null,
         "display_name": "GlammFire",
@@ -1596,7 +1588,7 @@
         "is_target": false
       },
       {
-        "rank": 91,
+        "rank": 90,
         "brand_name": "GOOUT SPRINGHILL",
         "product_name": null,
         "display_name": "GOOUT SPRINGHILL",
@@ -1604,7 +1596,7 @@
         "is_target": false
       },
       {
-        "rank": 92,
+        "rank": 91,
         "brand_name": "Gossamer Gear",
         "product_name": null,
         "display_name": "Gossamer Gear",
@@ -1612,7 +1604,7 @@
         "is_target": false
       },
       {
-        "rank": 93,
+        "rank": 92,
         "brand_name": "Heat.me",
         "product_name": null,
         "display_name": "Heat.me",
@@ -1620,7 +1612,7 @@
         "is_target": false
       },
       {
-        "rank": 94,
+        "rank": 93,
         "brand_name": "HFB",
         "product_name": null,
         "display_name": "HFB",
@@ -1628,7 +1620,7 @@
         "is_target": false
       },
       {
-        "rank": 95,
+        "rank": 94,
         "brand_name": "HIKEMAN",
         "product_name": null,
         "display_name": "HIKEMAN",
@@ -1636,7 +1628,7 @@
         "is_target": false
       },
       {
-        "rank": 96,
+        "rank": 95,
         "brand_name": "Hoka One One",
         "product_name": null,
         "display_name": "Hoka One One",
@@ -1644,7 +1636,7 @@
         "is_target": false
       },
       {
-        "rank": 97,
+        "rank": 96,
         "brand_name": "humangear",
         "product_name": null,
         "display_name": "humangear",
@@ -1652,7 +1644,7 @@
         "is_target": false
       },
       {
-        "rank": 98,
+        "rank": 97,
         "brand_name": "HydraPak",
         "product_name": null,
         "display_name": "HydraPak",
@@ -1660,7 +1652,7 @@
         "is_target": false
       },
       {
-        "rank": 99,
+        "rank": 98,
         "brand_name": "Hydro Flask",
         "product_name": null,
         "display_name": "Hydro Flask",
@@ -1668,10 +1660,18 @@
         "is_target": false
       },
       {
-        "rank": 100,
-        "brand_name": "Hyperlite Mountain Gear",
+        "rank": 99,
+        "brand_name": "Katadyn",
         "product_name": null,
-        "display_name": "Hyperlite Mountain Gear",
+        "display_name": "Katadyn",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 100,
+        "brand_name": "Kelly Kettle",
+        "product_name": null,
+        "display_name": "Kelly Kettle",
         "top1_mention_rate": 0,
         "is_target": false
       }
@@ -1682,7 +1682,7 @@
         "brand_name": "火枫",
         "product_name": null,
         "display_name": "火枫",
-        "top3_mention_rate": 50.6,
+        "top3_mention_rate": 49.4,
         "is_target": false
       },
       {
@@ -1698,7 +1698,7 @@
         "brand_name": "爱路客",
         "product_name": null,
         "display_name": "爱路客",
-        "top3_mention_rate": 14.4,
+        "top3_mention_rate": 13.8,
         "is_target": false
       },
       {
@@ -1714,7 +1714,7 @@
         "brand_name": "挪客",
         "product_name": null,
         "display_name": "挪客",
-        "top3_mention_rate": 10.6,
+        "top3_mention_rate": 12.5,
         "is_target": false
       },
       {
@@ -1730,7 +1730,7 @@
         "brand_name": "牧高笛",
         "product_name": null,
         "display_name": "牧高笛",
-        "top3_mention_rate": 8.8,
+        "top3_mention_rate": 9.4,
         "is_target": false
       },
       {
@@ -1770,7 +1770,7 @@
         "brand_name": "探险者",
         "product_name": null,
         "display_name": "探险者",
-        "top3_mention_rate": 5,
+        "top3_mention_rate": 5.6,
         "is_target": false
       },
       {
@@ -1871,14 +1871,6 @@
       },
       {
         "rank": 25,
-        "brand_name": "NATURAL HIKER",
-        "product_name": null,
-        "display_name": "NATURAL HIKER",
-        "top3_mention_rate": 1.9,
-        "is_target": false
-      },
-      {
-        "rank": 26,
         "brand_name": "三峰出",
         "product_name": null,
         "display_name": "三峰出",
@@ -1886,7 +1878,7 @@
         "is_target": false
       },
       {
-        "rank": 27,
+        "rank": 26,
         "brand_name": "京东京造",
         "product_name": null,
         "display_name": "京东京造",
@@ -1894,7 +1886,7 @@
         "is_target": false
       },
       {
-        "rank": 28,
+        "rank": 27,
         "brand_name": "始祖鸟",
         "product_name": null,
         "display_name": "始祖鸟",
@@ -1902,7 +1894,7 @@
         "is_target": false
       },
       {
-        "rank": 29,
+        "rank": 28,
         "brand_name": "思凯乐",
         "product_name": null,
         "display_name": "思凯乐",
@@ -1910,7 +1902,7 @@
         "is_target": false
       },
       {
-        "rank": 30,
+        "rank": 29,
         "brand_name": "黑冰",
         "product_name": null,
         "display_name": "黑冰",
@@ -1918,15 +1910,15 @@
         "is_target": false
       },
       {
-        "rank": 31,
-        "brand_name": "Big Agnes",
+        "rank": 30,
+        "brand_name": "NATURAL HIKER",
         "product_name": null,
-        "display_name": "Big Agnes",
+        "display_name": "NATURAL HIKER",
         "top3_mention_rate": 1.3,
         "is_target": false
       },
       {
-        "rank": 32,
+        "rank": 31,
         "brand_name": "Primus",
         "product_name": null,
         "display_name": "Primus",
@@ -1934,7 +1926,7 @@
         "is_target": false
       },
       {
-        "rank": 33,
+        "rank": 32,
         "brand_name": "Victorinox",
         "product_name": null,
         "display_name": "Victorinox",
@@ -1942,7 +1934,7 @@
         "is_target": false
       },
       {
-        "rank": 34,
+        "rank": 33,
         "brand_name": "乐基因",
         "product_name": null,
         "display_name": "乐基因",
@@ -1950,7 +1942,7 @@
         "is_target": false
       },
       {
-        "rank": 35,
+        "rank": 34,
         "brand_name": "凯乐石",
         "product_name": null,
         "display_name": "凯乐石",
@@ -1958,7 +1950,7 @@
         "is_target": false
       },
       {
-        "rank": 36,
+        "rank": 35,
         "brand_name": "原始人",
         "product_name": null,
         "display_name": "原始人",
@@ -1966,7 +1958,7 @@
         "is_target": false
       },
       {
-        "rank": 37,
+        "rank": 36,
         "brand_name": "猛犸象",
         "product_name": null,
         "display_name": "猛犸象",
@@ -1974,7 +1966,7 @@
         "is_target": false
       },
       {
-        "rank": 38,
+        "rank": 37,
         "brand_name": "纳丽德",
         "product_name": null,
         "display_name": "纳丽德",
@@ -1982,7 +1974,7 @@
         "is_target": false
       },
       {
-        "rank": 39,
+        "rank": 38,
         "brand_name": "脉鲜",
         "product_name": null,
         "display_name": "脉鲜",
@@ -1990,7 +1982,7 @@
         "is_target": false
       },
       {
-        "rank": 40,
+        "rank": 39,
         "brand_name": "膳魔师",
         "product_name": null,
         "display_name": "膳魔师",
@@ -1998,11 +1990,19 @@
         "is_target": false
       },
       {
-        "rank": 41,
+        "rank": 40,
         "brand_name": "鹿险家",
         "product_name": null,
         "display_name": "鹿险家",
         "top3_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 41,
+        "brand_name": "304不锈钢撒粉罐",
+        "product_name": null,
+        "display_name": "304不锈钢撒粉罐",
+        "top3_mention_rate": 0.6,
         "is_target": false
       },
       {
@@ -2023,6 +2023,14 @@
       },
       {
         "rank": 44,
+        "brand_name": "Big Agnes",
+        "product_name": null,
+        "display_name": "Big Agnes",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 45,
         "brand_name": "Bloomy",
         "product_name": null,
         "display_name": "Bloomy",
@@ -2030,7 +2038,7 @@
         "is_target": false
       },
       {
-        "rank": 45,
+        "rank": 46,
         "brand_name": "CADAC DOMETIC",
         "product_name": null,
         "display_name": "CADAC DOMETIC",
@@ -2038,7 +2046,7 @@
         "is_target": false
       },
       {
-        "rank": 46,
+        "rank": 47,
         "brand_name": "Camp Chef",
         "product_name": null,
         "display_name": "Camp Chef",
@@ -2046,7 +2054,7 @@
         "is_target": false
       },
       {
-        "rank": 47,
+        "rank": 48,
         "brand_name": "CAMPINGMOON柯曼",
         "product_name": null,
         "display_name": "CAMPINGMOON柯曼",
@@ -2054,18 +2062,10 @@
         "is_target": false
       },
       {
-        "rank": 48,
+        "rank": 49,
         "brand_name": "Captain Stag",
         "product_name": null,
         "display_name": "Captain Stag",
-        "top3_mention_rate": 0.6,
-        "is_target": false
-      },
-      {
-        "rank": 49,
-        "brand_name": "EVA",
-        "product_name": null,
-        "display_name": "EVA",
         "top3_mention_rate": 0.6,
         "is_target": false
       },
@@ -2119,14 +2119,6 @@
       },
       {
         "rank": 56,
-        "brand_name": "LTHW旅腾",
-        "product_name": null,
-        "display_name": "LTHW旅腾",
-        "top3_mention_rate": 0.6,
-        "is_target": false
-      },
-      {
-        "rank": 57,
         "brand_name": "Montbell",
         "product_name": null,
         "display_name": "Montbell",
@@ -2134,7 +2126,7 @@
         "is_target": false
       },
       {
-        "rank": 58,
+        "rank": 57,
         "brand_name": "OPINEL",
         "product_name": null,
         "display_name": "OPINEL",
@@ -2142,7 +2134,7 @@
         "is_target": false
       },
       {
-        "rank": 59,
+        "rank": 58,
         "brand_name": "Outdoor Edge",
         "product_name": null,
         "display_name": "Outdoor Edge",
@@ -2150,7 +2142,7 @@
         "is_target": false
       },
       {
-        "rank": 60,
+        "rank": 59,
         "brand_name": "Outopia",
         "product_name": null,
         "display_name": "Outopia",
@@ -2158,7 +2150,7 @@
         "is_target": false
       },
       {
-        "rank": 61,
+        "rank": 60,
         "brand_name": "OXO",
         "product_name": null,
         "display_name": "OXO",
@@ -2166,7 +2158,7 @@
         "is_target": false
       },
       {
-        "rank": 62,
+        "rank": 61,
         "brand_name": "Petromax",
         "product_name": null,
         "display_name": "Petromax",
@@ -2174,7 +2166,7 @@
         "is_target": false
       },
       {
-        "rank": 63,
+        "rank": 62,
         "brand_name": "PlayKing",
         "product_name": null,
         "display_name": "PlayKing",
@@ -2182,7 +2174,7 @@
         "is_target": false
       },
       {
-        "rank": 64,
+        "rank": 63,
         "brand_name": "PLAYTOP",
         "product_name": null,
         "display_name": "PLAYTOP",
@@ -2190,7 +2182,7 @@
         "is_target": false
       },
       {
-        "rank": 65,
+        "rank": 64,
         "brand_name": "Relo",
         "product_name": null,
         "display_name": "Relo",
@@ -2198,7 +2190,7 @@
         "is_target": false
       },
       {
-        "rank": 66,
+        "rank": 65,
         "brand_name": "SIGG",
         "product_name": null,
         "display_name": "SIGG",
@@ -2206,7 +2198,7 @@
         "is_target": false
       },
       {
-        "rank": 67,
+        "rank": 66,
         "brand_name": "STEKA",
         "product_name": null,
         "display_name": "STEKA",
@@ -2214,15 +2206,7 @@
         "is_target": false
       },
       {
-        "rank": 68,
-        "brand_name": "Therm-a-Rest",
-        "product_name": null,
-        "display_name": "Therm-a-Rest",
-        "top3_mention_rate": 0.6,
-        "is_target": false
-      },
-      {
-        "rank": 69,
+        "rank": 67,
         "brand_name": "Ti artisan钛工匠",
         "product_name": null,
         "display_name": "Ti artisan钛工匠",
@@ -2230,7 +2214,7 @@
         "is_target": false
       },
       {
-        "rank": 70,
+        "rank": 68,
         "brand_name": "Trangia",
         "product_name": null,
         "display_name": "Trangia",
@@ -2238,7 +2222,7 @@
         "is_target": false
       },
       {
-        "rank": 71,
+        "rank": 69,
         "brand_name": "UCO",
         "product_name": null,
         "display_name": "UCO",
@@ -2246,7 +2230,7 @@
         "is_target": false
       },
       {
-        "rank": 72,
+        "rank": 70,
         "brand_name": "Utheer",
         "product_name": null,
         "display_name": "Utheer",
@@ -2254,7 +2238,7 @@
         "is_target": false
       },
       {
-        "rank": 73,
+        "rank": 71,
         "brand_name": "Weber",
         "product_name": null,
         "display_name": "Weber",
@@ -2262,7 +2246,7 @@
         "is_target": false
       },
       {
-        "rank": 74,
+        "rank": 72,
         "brand_name": "三刃木",
         "product_name": null,
         "display_name": "三刃木",
@@ -2270,7 +2254,7 @@
         "is_target": false
       },
       {
-        "rank": 75,
+        "rank": 73,
         "brand_name": "伯希和",
         "product_name": null,
         "display_name": "伯希和",
@@ -2278,7 +2262,7 @@
         "is_target": false
       },
       {
-        "rank": 76,
+        "rank": 74,
         "brand_name": "兄弟捷登",
         "product_name": null,
         "display_name": "兄弟捷登",
@@ -2286,7 +2270,7 @@
         "is_target": false
       },
       {
-        "rank": 77,
+        "rank": 75,
         "brand_name": "八驴",
         "product_name": null,
         "display_name": "八驴",
@@ -2294,7 +2278,7 @@
         "is_target": false
       },
       {
-        "rank": 78,
+        "rank": 76,
         "brand_name": "华尔纳",
         "product_name": null,
         "display_name": "华尔纳",
@@ -2302,7 +2286,7 @@
         "is_target": false
       },
       {
-        "rank": 79,
+        "rank": 77,
         "brand_name": "卡式炉",
         "product_name": null,
         "display_name": "卡式炉",
@@ -2310,7 +2294,15 @@
         "is_target": false
       },
       {
-        "rank": 80,
+        "rank": 78,
+        "brand_name": "双罐组合",
+        "product_name": null,
+        "display_name": "双罐组合",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 79,
         "brand_name": "喜马拉雅",
         "product_name": null,
         "display_name": "喜马拉雅",
@@ -2318,7 +2310,7 @@
         "is_target": false
       },
       {
-        "rank": 81,
+        "rank": 80,
         "brand_name": "安路虎",
         "product_name": null,
         "display_name": "安路虎",
@@ -2326,7 +2318,7 @@
         "is_target": false
       },
       {
-        "rank": 82,
+        "rank": 81,
         "brand_name": "安踏",
         "product_name": null,
         "display_name": "安踏",
@@ -2334,7 +2326,7 @@
         "is_target": false
       },
       {
-        "rank": 83,
+        "rank": 82,
         "brand_name": "小天籁",
         "product_name": null,
         "display_name": "小天籁",
@@ -2342,7 +2334,7 @@
         "is_target": false
       },
       {
-        "rank": 84,
+        "rank": 83,
         "brand_name": "小鹰",
         "product_name": null,
         "display_name": "小鹰",
@@ -2350,7 +2342,7 @@
         "is_target": false
       },
       {
-        "rank": 85,
+        "rank": 84,
         "brand_name": "尚烤佳",
         "product_name": null,
         "display_name": "尚烤佳",
@@ -2358,7 +2350,7 @@
         "is_target": false
       },
       {
-        "rank": 86,
+        "rank": 85,
         "brand_name": "山之客",
         "product_name": null,
         "display_name": "山之客",
@@ -2366,7 +2358,7 @@
         "is_target": false
       },
       {
-        "rank": 87,
+        "rank": 86,
         "brand_name": "岩合",
         "product_name": null,
         "display_name": "岩合",
@@ -2374,7 +2366,7 @@
         "is_target": false
       },
       {
-        "rank": 88,
+        "rank": 87,
         "brand_name": "嵌入式双头房车燃气灶",
         "product_name": null,
         "display_name": "嵌入式双头房车燃气灶",
@@ -2382,7 +2374,7 @@
         "is_target": false
       },
       {
-        "rank": 89,
+        "rank": 88,
         "brand_name": "张小泉",
         "product_name": null,
         "display_name": "张小泉",
@@ -2390,7 +2382,7 @@
         "is_target": false
       },
       {
-        "rank": 90,
+        "rank": 89,
         "brand_name": "必唯",
         "product_name": null,
         "display_name": "必唯",
@@ -2398,7 +2390,7 @@
         "is_target": false
       },
       {
-        "rank": 91,
+        "rank": 90,
         "brand_name": "拓村",
         "product_name": null,
         "display_name": "拓村",
@@ -2406,7 +2398,7 @@
         "is_target": false
       },
       {
-        "rank": 92,
+        "rank": 91,
         "brand_name": "探露",
         "product_name": null,
         "display_name": "探露",
@@ -2414,7 +2406,7 @@
         "is_target": false
       },
       {
-        "rank": 93,
+        "rank": 92,
         "brand_name": "斯坦利",
         "product_name": null,
         "display_name": "斯坦利",
@@ -2422,7 +2414,7 @@
         "is_target": false
       },
       {
-        "rank": 94,
+        "rank": 93,
         "brand_name": "格里高利",
         "product_name": null,
         "display_name": "格里高利",
@@ -2430,7 +2422,7 @@
         "is_target": false
       },
       {
-        "rank": 95,
+        "rank": 94,
         "brand_name": "汉道",
         "product_name": null,
         "display_name": "汉道",
@@ -2438,7 +2430,7 @@
         "is_target": false
       },
       {
-        "rank": 96,
+        "rank": 95,
         "brand_name": "洛极",
         "product_name": null,
         "display_name": "洛极",
@@ -2446,7 +2438,7 @@
         "is_target": false
       },
       {
-        "rank": 97,
+        "rank": 96,
         "brand_name": "海品龙",
         "product_name": null,
         "display_name": "海品龙",
@@ -2454,7 +2446,7 @@
         "is_target": false
       },
       {
-        "rank": 98,
+        "rank": 97,
         "brand_name": "海涤",
         "product_name": null,
         "display_name": "海涤",
@@ -2462,7 +2454,7 @@
         "is_target": false
       },
       {
-        "rank": 99,
+        "rank": 98,
         "brand_name": "物芯质造",
         "product_name": null,
         "display_name": "物芯质造",
@@ -2470,10 +2462,18 @@
         "is_target": false
       },
       {
-        "rank": 100,
+        "rank": 99,
         "brand_name": "索格",
         "product_name": null,
         "display_name": "索格",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 100,
+        "brand_name": "老人头",
+        "product_name": null,
+        "display_name": "老人头",
         "top3_mention_rate": 0.6,
         "is_target": false
       }
@@ -2482,14 +2482,14 @@
   "citations": {
     "total_conversations": 160,
     "citation_rate": 96.3,
-    "total_citations": 2703,
+    "total_citations": 2697,
     "platform_stats": [
       {
         "platform_name": "抖音精选",
         "domain": "iesdouyin.com",
         "logo_url": "https://app.geoindexfuture.com/site-icons/iesdouyin.com-jingxuan.png",
         "citation_count": 423,
-        "share": 15.6
+        "share": 15.7
       },
       {
         "platform_name": "微信公众号",
@@ -2502,8 +2502,8 @@
         "platform_name": "淘宝商品页",
         "domain": "goods.taobao.com",
         "logo_url": "https://app.geoindexfuture.com/site-icons/goods.taobao.com.jpg",
-        "citation_count": 189,
-        "share": 7
+        "citation_count": 191,
+        "share": 7.1
       },
       {
         "platform_name": "知乎",
@@ -2516,7 +2516,7 @@
         "platform_name": "什么值得买",
         "domain": "smzdm.com",
         "logo_url": "https://app.geoindexfuture.com/site-icons/smzdm.com.jpg",
-        "citation_count": 152,
+        "citation_count": 150,
         "share": 5.6
       }
     ],
@@ -2542,16 +2542,6 @@
         "has_target_product": true
       },
       {
-        "title": "重装徒步新手到底怎么选锅具炉头以及食物#徒步 #爬山 #户外 #露营 #重装徒步",
-        "link_url": "https://www.iesdouyin.com/share/video/7680901133014938341",
-        "domain": "iesdouyin.com",
-        "platform_name": "抖音精选",
-        "logo_url": "https://app.geoindexfuture.com/site-icons/iesdouyin.com-jingxuan.png",
-        "total_citations": 16,
-        "avg_citations": 16,
-        "has_target_product": false
-      },
-      {
         "title": "2026年家庭露营厨具推荐:多人聚餐锅具容量与一包收纳盘点",
         "link_url": "https://hainan.ifeng.com/c/8xQWOFQLwWm",
         "domain": "ifeng.com",
@@ -2560,6 +2550,16 @@
         "total_citations": 16,
         "avg_citations": 16,
         "has_target_product": true
+      },
+      {
+        "title": "重装徒步新手到底怎么选锅具炉头以及食物#徒步 #爬山 #户外 #露营 #重装徒步",
+        "link_url": "https://www.iesdouyin.com/share/video/7680901133014938341",
+        "domain": "iesdouyin.com",
+        "platform_name": "抖音精选",
+        "logo_url": "https://app.geoindexfuture.com/site-icons/iesdouyin.com-jingxuan.png",
+        "total_citations": 16,
+        "avg_citations": 16,
+        "has_target_product": false
       },
       {
         "title": "Best Camping Cookware Sets - Reviews You Can Rely On",
@@ -2602,8 +2602,8 @@
         "has_target_product": false
       },
       {
-        "title": "【户外徒步炉头锅具怎么选】🔘户外炊具种类很多，如何选择一套适合自己的餐厨系统呢？\n🔘徒步炊事系统的选择取决于以下几个因素：\n▫️徒步的环境、海拔、季节、线路的长短；\n▫️所需要烹饪的食物；\n▫️轻量化",
-        "link_url": "https://www.iesdouyin.com/share/video/7543715644820589882",
+        "title": "自驾游露营4.0豪华套餐厨桌椅装备清单解析",
+        "link_url": "https://www.iesdouyin.com/share/video/7556168045341838642",
         "domain": "iesdouyin.com",
         "platform_name": "抖音精选",
         "logo_url": "https://app.geoindexfuture.com/site-icons/iesdouyin.com-jingxuan.png",
@@ -2612,8 +2612,8 @@
         "has_target_product": false
       },
       {
-        "title": "自驾游露营4.0豪华套餐厨桌椅装备清单解析",
-        "link_url": "https://www.iesdouyin.com/share/video/7556168045341838642",
+        "title": "十大户外露营常用装备靠谱品牌 #户外装备 #新手露营 #户外品牌",
+        "link_url": "https://www.iesdouyin.com/share/video/7674219883990764800",
         "domain": "iesdouyin.com",
         "platform_name": "抖音精选",
         "logo_url": "https://app.geoindexfuture.com/site-icons/iesdouyin.com-jingxuan.png",
@@ -2628,7 +2628,7 @@
       "date": "2026-10-26",
       "mention_rate": 23.1,
       "avg_position": 7.7,
-      "influence_rank": 4
+      "influence_rank": 5
     }
   ]
 }

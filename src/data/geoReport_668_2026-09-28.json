@@ -1,0 +1,2634 @@
+{
+  "meta": {
+    "fetched_at": "2026-11-05T05:53:04.270Z",
+    "api_base": "https://api.geotopone.com",
+    "project_id": 668,
+    "project_name": "Awada-优化词",
+    "target_product": "Awada",
+    "target_brand_name": "Awada",
+    "start_date": "2026-09-28",
+    "end_date": "2026-09-28"
+  },
+  "platforms": [
+    {
+      "id": 1,
+      "name": "DeepSeek",
+      "url": "https://app.geoindexfuture.com/logo/deepseek.png",
+      "crawl_enabled": 1,
+      "max_crawl_accounts": 10,
+      "crawl_rate_config": null,
+      "crawl_rate_effective": {
+        "requests_per_hour": -1,
+        "request_interval_sec": 30,
+        "batch_duration_sec": 86400,
+        "batch_max_requests": 1000,
+        "batch_interval_sec": 60
+      },
+      "crawl_rate_source": "global"
+    },
+    {
+      "id": 2,
+      "name": "豆包",
+      "url": "https://app.geoindexfuture.com/logo/doubao.png",
+      "crawl_enabled": 1,
+      "max_crawl_accounts": 10,
+      "crawl_rate_config": null,
+      "crawl_rate_effective": {
+        "requests_per_hour": -1,
+        "request_interval_sec": 30,
+        "batch_duration_sec": 86400,
+        "batch_max_requests": 1000,
+        "batch_interval_sec": 60
+      },
+      "crawl_rate_source": "global"
+    },
+    {
+      "id": 3,
+      "name": "元宝",
+      "url": "https://app.geoindexfuture.com/logo/yuanbao.png",
+      "crawl_enabled": 1,
+      "max_crawl_accounts": 10,
+      "crawl_rate_config": null,
+      "crawl_rate_effective": {
+        "requests_per_hour": -1,
+        "request_interval_sec": 30,
+        "batch_duration_sec": 86400,
+        "batch_max_requests": 1000,
+        "batch_interval_sec": 60
+      },
+      "crawl_rate_source": "global"
+    },
+    {
+      "id": 5,
+      "name": "通义千问",
+      "url": "https://app.geoindexfuture.com/logo/qwen.png",
+      "crawl_enabled": 1,
+      "max_crawl_accounts": 10,
+      "crawl_rate_config": null,
+      "crawl_rate_effective": {
+        "requests_per_hour": -1,
+        "request_interval_sec": 30,
+        "batch_duration_sec": 86400,
+        "batch_max_requests": 1000,
+        "batch_interval_sec": 60
+      },
+      "crawl_rate_source": "global"
+    }
+  ],
+  "stats": {
+    "brand_mention_rate": 8.8,
+    "top1_mention_rate": 2.5,
+    "top3_mention_rate": 3.8,
+    "avg_position": 8.9,
+    "daily_stats": [
+      {
+        "date": "2026-09-28",
+        "mention_rate": 8.8,
+        "avg_position": 8.9
+      }
+    ],
+    "platform_stats": [
+      {
+        "platform_id": 1,
+        "platform_name": "DeepSeek",
+        "platform_logo": "https://app.geoindexfuture.com/logo/deepseek.png",
+        "brand_mention_rate": 12.5,
+        "avg_position": 7.1
+      },
+      {
+        "platform_id": 2,
+        "platform_name": "豆包",
+        "platform_logo": "https://app.geoindexfuture.com/logo/doubao.png",
+        "brand_mention_rate": 10,
+        "avg_position": 10
+      },
+      {
+        "platform_id": 3,
+        "platform_name": "元宝",
+        "platform_logo": "https://app.geoindexfuture.com/logo/yuanbao.png",
+        "brand_mention_rate": 5,
+        "avg_position": 5.5
+      },
+      {
+        "platform_id": 5,
+        "platform_name": "通义千问",
+        "platform_logo": "https://app.geoindexfuture.com/logo/qwen.png",
+        "brand_mention_rate": 7.5,
+        "avg_position": 14.4
+      }
+    ]
+  },
+  "influence": {
+    "total_conversations": 160,
+    "list": [
+      {
+        "rank": 1,
+        "brand_name": "火枫",
+        "product_name": null,
+        "display_name": "火枫",
+        "favicon_url": null,
+        "influence_score": 51.5,
+        "mention_rate": 62.5,
+        "avg_position": 4.5,
+        "is_target": false
+      },
+      {
+        "rank": 2,
+        "brand_name": "挪客",
+        "product_name": null,
+        "display_name": "挪客",
+        "favicon_url": null,
+        "influence_score": 22.5,
+        "mention_rate": 35,
+        "avg_position": 7.1,
+        "is_target": false
+      },
+      {
+        "rank": 3,
+        "brand_name": "爱路客",
+        "product_name": null,
+        "display_name": "爱路客",
+        "favicon_url": null,
+        "influence_score": 17.3,
+        "mention_rate": 27.5,
+        "avg_position": 7.5,
+        "is_target": false
+      },
+      {
+        "rank": 4,
+        "brand_name": "Snow Peak",
+        "product_name": null,
+        "display_name": "Snow Peak",
+        "favicon_url": null,
+        "influence_score": 17,
+        "mention_rate": 25,
+        "avg_position": 7.2,
+        "is_target": false
+      },
+      {
+        "rank": 15,
+        "brand_name": "Awada",
+        "product_name": null,
+        "display_name": "Awada",
+        "favicon_url": null,
+        "influence_score": 6.3,
+        "mention_rate": 8.8,
+        "avg_position": 8.9,
+        "is_target": true
+      }
+    ]
+  },
+  "entries": {
+    "total": 40,
+    "list": [
+      {
+        "entry_id": 15945,
+        "entry_name": "专业户外厨具推荐",
+        "mention_rate": 50,
+        "position": 16.8,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/cc1d983af4db45c69eb6ff310501d581.png"
+      },
+      {
+        "entry_id": 15956,
+        "entry_name": "精致露营厨具推荐",
+        "mention_rate": 50,
+        "position": 6.8,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/fa01585b1ef841b6a5e363a299ac0c96.png"
+      },
+      {
+        "entry_id": 15973,
+        "entry_name": "户外刀具套装推荐",
+        "mention_rate": 50,
+        "position": 2.3,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/cb1f5619af714c8a91f79b756f1b5957.png"
+      },
+      {
+        "entry_id": 15944,
+        "entry_name": "专业户外餐厨品牌推荐",
+        "mention_rate": 25,
+        "position": 11,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/c378348a7cec4f5c8b43ac507c63b325.png"
+      },
+      {
+        "entry_id": 15954,
+        "entry_name": "精致户外餐厨品牌推荐",
+        "mention_rate": 25,
+        "position": 8.8,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/3b3e065b981f49fb8b44aac72e88487e.png"
+      },
+      {
+        "entry_id": 15955,
+        "entry_name": "精致露营厨具品牌推荐",
+        "mention_rate": 25,
+        "position": 11.5,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/9bdd19f549bd4934bc8e2a5210e6a4f3.png"
+      },
+      {
+        "entry_id": 15960,
+        "entry_name": "高颜值露营厨具推荐",
+        "mention_rate": 25,
+        "position": 6.8,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/234fd3cde7ff44bc8362c2265957e295.png"
+      },
+      {
+        "entry_id": 15967,
+        "entry_name": "口碑好的户外厨具推荐",
+        "mention_rate": 25,
+        "position": 11.3,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/389d6b44c2d54932945cf525a3655a92.png"
+      },
+      {
+        "entry_id": 15968,
+        "entry_name": "好收纳的露营厨具推荐",
+        "mention_rate": 25,
+        "position": 2.8,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/a0ee0d971abc42c694a8e78b70d0e16d.png"
+      },
+      {
+        "entry_id": 15970,
+        "entry_name": "质量好的露营厨具推荐",
+        "mention_rate": 25,
+        "position": 8.3,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/ac1bc259217e4a73878818b43554b68e.png"
+      },
+      {
+        "entry_id": 15974,
+        "entry_name": "露营刀具套装推荐",
+        "mention_rate": 25,
+        "position": 7.3,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/ba6a1dad9f45499b9734b03062c51cbb.png"
+      },
+      {
+        "entry_id": 15939,
+        "entry_name": "户外餐具推荐",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/fd3104a54d3849a38b75b485407097b5.png"
+      },
+      {
+        "entry_id": 15940,
+        "entry_name": "户外厨具品牌推荐",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/74678dee6f89459b971ca6a46b5fc7b4.png"
+      },
+      {
+        "entry_id": 15941,
+        "entry_name": "露营厨具哪个牌子好",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/ec84499797404b15881b164851de654d.png"
+      },
+      {
+        "entry_id": 15942,
+        "entry_name": "露营厨具品牌推荐",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/a936f8e9b7f44717adc4e4979d3368b8.png"
+      },
+      {
+        "entry_id": 15943,
+        "entry_name": "露营厨具推荐",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/4be2db445a794f1493de4cec40d01dbd.png"
+      },
+      {
+        "entry_id": 15946,
+        "entry_name": "专业户外炊具推荐",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/e17fcb68a28340cdacb388b2288fa32c.png"
+      },
+      {
+        "entry_id": 15947,
+        "entry_name": "专业户外锅具推荐",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/8f359f279c564edba952d01cdfa4585d.png"
+      },
+      {
+        "entry_id": 15948,
+        "entry_name": "新手户外厨具推荐",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/399fc65820674113bad6edd695a49866.png"
+      },
+      {
+        "entry_id": 15949,
+        "entry_name": "家庭露营厨具推荐",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/01531a88ab0044daa042694599bd1731.png"
+      },
+      {
+        "entry_id": 15950,
+        "entry_name": "亲子户外厨具推荐",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/28612329201946f7b1cebf9e81a5a662.png"
+      },
+      {
+        "entry_id": 15951,
+        "entry_name": "多人露营厨具推荐",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/52637a5af1624be98a2dab0e7a1b951e.png"
+      },
+      {
+        "entry_id": 15952,
+        "entry_name": "房车厨具推荐",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/8e28be95c2a3479380a3eb5d01a5c3df.png"
+      },
+      {
+        "entry_id": 15953,
+        "entry_name": "自驾厨具推荐",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/ce362941a6604b2faf141036ce289d78.png"
+      },
+      {
+        "entry_id": 15957,
+        "entry_name": "原创户外品牌推荐",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/210b6f6e4a904faf88ea3e674c9f87f2.png"
+      },
+      {
+        "entry_id": 15958,
+        "entry_name": "原创露营厨具推荐",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/66043b74498447feb468a8ce7e8bbc6e.png"
+      },
+      {
+        "entry_id": 15959,
+        "entry_name": "高颜值户外厨具推荐",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/30d79c35e4544bbc83b8a72ebeac7ebc.png"
+      },
+      {
+        "entry_id": 15961,
+        "entry_name": "高颜值户外套锅推荐",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/fbbab11b896448f2b675a4f8375371db.png"
+      },
+      {
+        "entry_id": 15962,
+        "entry_name": "好出片户外厨具推荐",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/64d5164e87c5437abad33a1a783667f9.png"
+      },
+      {
+        "entry_id": 15963,
+        "entry_name": "轻量化露营装备推荐",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/dd726c67a882434696015cc44662f79a.png"
+      },
+      {
+        "entry_id": 15964,
+        "entry_name": "多功能户外装备推荐",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/d6f7d3ea4571468e8fc39bec0ab05490.png"
+      },
+      {
+        "entry_id": 15965,
+        "entry_name": "易收纳户外装备推荐",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/6e17b73df2ef4696bc4df8eee9496899.png"
+      },
+      {
+        "entry_id": 15966,
+        "entry_name": "好用的户外厨具推荐",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/0e5f2c7f0abf4ee39529b4bd755d6178.png"
+      },
+      {
+        "entry_id": 15969,
+        "entry_name": "高品质户外装备推荐",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/378e70085cd04a14a5f8aa9bf20a8869.png"
+      },
+      {
+        "entry_id": 15971,
+        "entry_name": "户外套锅推荐",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/0ccced95bad34895a98ce0b374b5fc6c.png"
+      },
+      {
+        "entry_id": 15972,
+        "entry_name": "露营锅具推荐",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/5cd9b5d16a0c45c18cdfe9b69231776d.png"
+      },
+      {
+        "entry_id": 15975,
+        "entry_name": "户外水壶推荐",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/a47fdb0f4cea4368b21b08a6787015f2.png"
+      },
+      {
+        "entry_id": 15976,
+        "entry_name": "户外饭盒推荐",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/fbe2657288314fddb7380d7750b74928.png"
+      },
+      {
+        "entry_id": 15977,
+        "entry_name": "户外烤盘推荐",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/a30f5fe92c1849709630af6c8a4581e9.png"
+      },
+      {
+        "entry_id": 15978,
+        "entry_name": "户外调料瓶推荐",
+        "mention_rate": 0,
+        "position": null,
+        "platform_ids": [
+          1,
+          2,
+          5,
+          3
+        ],
+        "last_conversation_time": "2026-09-27T16:00:00.000Z",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260927/92f3aff47335463c894562cea5bb396b.png"
+      }
+    ]
+  },
+  "compare": {
+    "target_product": "Awada",
+    "mention_rate_ranking": [
+      {
+        "brand_id": 121866,
+        "brand_name": "火枫",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "火枫",
+        "mention_count": 100,
+        "mention_rate": 62.5,
+        "is_target": false,
+        "rank": 1
+      },
+      {
+        "brand_id": 121867,
+        "brand_name": "挪客",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "挪客",
+        "mention_count": 56,
+        "mention_rate": 35,
+        "is_target": false,
+        "rank": 2
+      },
+      {
+        "brand_id": 121873,
+        "brand_name": "爱路客",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "爱路客",
+        "mention_count": 44,
+        "mention_rate": 27.5,
+        "is_target": false,
+        "rank": 3
+      },
+      {
+        "brand_id": 121868,
+        "brand_name": "Snow Peak",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "Snow Peak",
+        "mention_count": 40,
+        "mention_rate": 25,
+        "is_target": false,
+        "rank": 4
+      },
+      {
+        "brand_id": 92948,
+        "brand_name": "Awada",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "Awada",
+        "mention_count": 14,
+        "mention_rate": 8.8,
+        "is_target": true,
+        "rank": 17
+      }
+    ],
+    "position_ranking": [
+      {
+        "brand_id": 121866,
+        "brand_name": "火枫",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "火枫",
+        "avg_position": 4.5,
+        "mention_count": 100,
+        "is_target": false
+      },
+      {
+        "brand_id": 121867,
+        "brand_name": "挪客",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "挪客",
+        "avg_position": 7.1,
+        "mention_count": 56,
+        "is_target": false
+      },
+      {
+        "brand_id": 121868,
+        "brand_name": "Snow Peak",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "Snow Peak",
+        "avg_position": 7.2,
+        "mention_count": 40,
+        "is_target": false
+      },
+      {
+        "brand_id": 121870,
+        "brand_name": "牧高笛",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "牧高笛",
+        "avg_position": 7.3,
+        "mention_count": 40,
+        "is_target": false
+      },
+      {
+        "brand_id": 92948,
+        "brand_name": "Awada",
+        "product_id": null,
+        "product_name": null,
+        "display_name": "Awada",
+        "avg_position": 8.9,
+        "mention_count": 14,
+        "is_target": true
+      }
+    ],
+    "rate_daily": [
+      {
+        "date": "2026-09-28",
+        "火枫": 62.5,
+        "挪客": 35,
+        "爱路客": 27.5,
+        "Snow Peak": 25,
+        "Awada": 8.8
+      }
+    ],
+    "position_daily": [
+      {
+        "date": "2026-09-28",
+        "火枫": 4.5,
+        "挪客": 7.1,
+        "Snow Peak": 7.2,
+        "牧高笛": 7.3,
+        "Awada": 8.9
+      }
+    ],
+    "top1_ranking": [
+      {
+        "rank": 1,
+        "brand_name": "火枫",
+        "product_name": null,
+        "display_name": "火枫",
+        "top1_mention_rate": 35,
+        "is_target": false
+      },
+      {
+        "rank": 2,
+        "brand_name": "Snow Peak",
+        "product_name": null,
+        "display_name": "Snow Peak",
+        "top1_mention_rate": 5,
+        "is_target": false
+      },
+      {
+        "rank": 3,
+        "brand_name": "岩谷",
+        "product_name": null,
+        "display_name": "岩谷",
+        "top1_mention_rate": 5,
+        "is_target": false
+      },
+      {
+        "rank": 4,
+        "brand_name": "挪客",
+        "product_name": null,
+        "display_name": "挪客",
+        "top1_mention_rate": 3.8,
+        "is_target": false
+      },
+      {
+        "rank": 5,
+        "brand_name": "MSR",
+        "product_name": null,
+        "display_name": "MSR",
+        "top1_mention_rate": 3.1,
+        "is_target": false
+      },
+      {
+        "rank": 6,
+        "brand_name": "牧高笛",
+        "product_name": null,
+        "display_name": "牧高笛",
+        "top1_mention_rate": 3.1,
+        "is_target": false
+      },
+      {
+        "rank": 7,
+        "brand_name": "Awada",
+        "product_name": null,
+        "display_name": "Awada",
+        "top1_mention_rate": 2.5,
+        "is_target": true
+      },
+      {
+        "rank": 8,
+        "brand_name": "爱路客",
+        "product_name": null,
+        "display_name": "爱路客",
+        "top1_mention_rate": 1.9,
+        "is_target": false
+      },
+      {
+        "rank": 9,
+        "brand_name": "GSI Outdoors",
+        "product_name": null,
+        "display_name": "GSI Outdoors",
+        "top1_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 10,
+        "brand_name": "Petromax",
+        "product_name": null,
+        "display_name": "Petromax",
+        "top1_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 11,
+        "brand_name": "Primus",
+        "product_name": null,
+        "display_name": "Primus",
+        "top1_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 12,
+        "brand_name": "乐基因",
+        "product_name": null,
+        "display_name": "乐基因",
+        "top1_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 13,
+        "brand_name": "凯乐石",
+        "product_name": null,
+        "display_name": "凯乐石",
+        "top1_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 14,
+        "brand_name": "始祖鸟",
+        "product_name": null,
+        "display_name": "始祖鸟",
+        "top1_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 15,
+        "brand_name": "柯曼",
+        "product_name": null,
+        "display_name": "柯曼",
+        "top1_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 16,
+        "brand_name": "步林",
+        "product_name": null,
+        "display_name": "步林",
+        "top1_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 17,
+        "brand_name": "BBB",
+        "product_name": null,
+        "display_name": "BBB",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 18,
+        "brand_name": "BOX.",
+        "product_name": null,
+        "display_name": "BOX.",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 19,
+        "brand_name": "CADAC DOMETIC",
+        "product_name": null,
+        "display_name": "CADAC DOMETIC",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 20,
+        "brand_name": "Carote",
+        "product_name": null,
+        "display_name": "Carote",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 21,
+        "brand_name": "DOD",
+        "product_name": null,
+        "display_name": "DOD",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 22,
+        "brand_name": "Hilleberg",
+        "product_name": null,
+        "display_name": "Hilleberg",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 23,
+        "brand_name": "Hoka One One",
+        "product_name": null,
+        "display_name": "Hoka One One",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 24,
+        "brand_name": "Keith铠斯",
+        "product_name": null,
+        "display_name": "Keith铠斯",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 25,
+        "brand_name": "Morso",
+        "product_name": null,
+        "display_name": "Morso",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 26,
+        "brand_name": "NNormal",
+        "product_name": null,
+        "display_name": "NNormal",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 27,
+        "brand_name": "OPINEL",
+        "product_name": null,
+        "display_name": "OPINEL",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 28,
+        "brand_name": "RAB",
+        "product_name": null,
+        "display_name": "RAB",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 29,
+        "brand_name": "Sea to Summit",
+        "product_name": null,
+        "display_name": "Sea to Summit",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 30,
+        "brand_name": "Solo Stove",
+        "product_name": null,
+        "display_name": "Solo Stove",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 31,
+        "brand_name": "TOAKS",
+        "product_name": null,
+        "display_name": "TOAKS",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 32,
+        "brand_name": "Trangia",
+        "product_name": null,
+        "display_name": "Trangia",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 33,
+        "brand_name": "Uniflame",
+        "product_name": null,
+        "display_name": "Uniflame",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 34,
+        "brand_name": "三峰出",
+        "product_name": null,
+        "display_name": "三峰出",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 35,
+        "brand_name": "伯希和",
+        "product_name": null,
+        "display_name": "伯希和",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 36,
+        "brand_name": "半圆",
+        "product_name": null,
+        "display_name": "半圆",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 37,
+        "brand_name": "卡仕丽",
+        "product_name": null,
+        "display_name": "卡仕丽",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 38,
+        "brand_name": "原始人",
+        "product_name": null,
+        "display_name": "原始人",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 39,
+        "brand_name": "尚烤佳",
+        "product_name": null,
+        "display_name": "尚烤佳",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 40,
+        "brand_name": "强氧",
+        "product_name": null,
+        "display_name": "强氧",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 41,
+        "brand_name": "拜格",
+        "product_name": null,
+        "display_name": "拜格",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 42,
+        "brand_name": "探路者",
+        "product_name": null,
+        "display_name": "探路者",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 43,
+        "brand_name": "探险者",
+        "product_name": null,
+        "display_name": "探险者",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 44,
+        "brand_name": "昌林",
+        "product_name": null,
+        "display_name": "昌林",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 45,
+        "brand_name": "米客喵",
+        "product_name": null,
+        "display_name": "米客喵",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 46,
+        "brand_name": "脉鲜",
+        "product_name": null,
+        "display_name": "脉鲜",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 47,
+        "brand_name": "莱泽曼",
+        "product_name": null,
+        "display_name": "莱泽曼",
+        "top1_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 48,
+        "brand_name": "05 式",
+        "product_name": null,
+        "display_name": "05 式",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 49,
+        "brand_name": "30C",
+        "product_name": null,
+        "display_name": "30C",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 50,
+        "brand_name": "5325",
+        "product_name": null,
+        "display_name": "5325",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 51,
+        "brand_name": "AeroPress",
+        "product_name": null,
+        "display_name": "AeroPress",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 52,
+        "brand_name": "Altra",
+        "product_name": null,
+        "display_name": "Altra",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 53,
+        "brand_name": "Anker",
+        "product_name": null,
+        "display_name": "Anker",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 54,
+        "brand_name": "ANY CAMPING",
+        "product_name": null,
+        "display_name": "ANY CAMPING",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 55,
+        "brand_name": "AT",
+        "product_name": null,
+        "display_name": "AT",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 56,
+        "brand_name": "BAREBONES",
+        "product_name": null,
+        "display_name": "BAREBONES",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 57,
+        "brand_name": "Barker",
+        "product_name": null,
+        "display_name": "Barker",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 58,
+        "brand_name": "Benchmade",
+        "product_name": null,
+        "display_name": "Benchmade",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 59,
+        "brand_name": "Big Agnes",
+        "product_name": null,
+        "display_name": "Big Agnes",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 60,
+        "brand_name": "Black+Blum",
+        "product_name": null,
+        "display_name": "Black+Blum",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 61,
+        "brand_name": "BOKER",
+        "product_name": null,
+        "display_name": "BOKER",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 62,
+        "brand_name": "BSCAMP",
+        "product_name": null,
+        "display_name": "BSCAMP",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 63,
+        "brand_name": "Camp Chef",
+        "product_name": null,
+        "display_name": "Camp Chef",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 64,
+        "brand_name": "Captain Stag",
+        "product_name": null,
+        "display_name": "Captain Stag",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 65,
+        "brand_name": "Cnoc",
+        "product_name": null,
+        "display_name": "Cnoc",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 66,
+        "brand_name": "Cold Steel",
+        "product_name": null,
+        "display_name": "Cold Steel",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 67,
+        "brand_name": "CRHMMFLF",
+        "product_name": null,
+        "display_name": "CRHMMFLF",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 68,
+        "brand_name": "Crispi",
+        "product_name": null,
+        "display_name": "Crispi",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 69,
+        "brand_name": "CRKT",
+        "product_name": null,
+        "display_name": "CRKT",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 70,
+        "brand_name": "Drip EZ",
+        "product_name": null,
+        "display_name": "Drip EZ",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 71,
+        "brand_name": "ECCO",
+        "product_name": null,
+        "display_name": "ECCO",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 72,
+        "brand_name": "Eleos",
+        "product_name": null,
+        "display_name": "Eleos",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 73,
+        "brand_name": "ERNTE",
+        "product_name": null,
+        "display_name": "ERNTE",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 74,
+        "brand_name": "ESEE",
+        "product_name": null,
+        "display_name": "ESEE",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 75,
+        "brand_name": "EVERNEW",
+        "product_name": null,
+        "display_name": "EVERNEW",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 76,
+        "brand_name": "Exped",
+        "product_name": null,
+        "display_name": "Exped",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 77,
+        "brand_name": "EXTREMA RATIO",
+        "product_name": null,
+        "display_name": "EXTREMA RATIO",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 78,
+        "brand_name": "FireQ",
+        "product_name": null,
+        "display_name": "FireQ",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 79,
+        "brand_name": "FlameMage",
+        "product_name": null,
+        "display_name": "FlameMage",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 80,
+        "brand_name": "FLEXTAILGEAR",
+        "product_name": null,
+        "display_name": "FLEXTAILGEAR",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 81,
+        "brand_name": "GlammFire",
+        "product_name": null,
+        "display_name": "GlammFire",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 82,
+        "brand_name": "Goal Zero",
+        "product_name": null,
+        "display_name": "Goal Zero",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 83,
+        "brand_name": "Grayl",
+        "product_name": null,
+        "display_name": "Grayl",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 84,
+        "brand_name": "Helinox",
+        "product_name": null,
+        "display_name": "Helinox",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 85,
+        "brand_name": "HIKEMAN",
+        "product_name": null,
+        "display_name": "HIKEMAN",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 86,
+        "brand_name": "HIKER HIKER",
+        "product_name": null,
+        "display_name": "HIKER HIKER",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 87,
+        "brand_name": "HMG",
+        "product_name": null,
+        "display_name": "HMG",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 88,
+        "brand_name": "HydraPak",
+        "product_name": null,
+        "display_name": "HydraPak",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 89,
+        "brand_name": "Hydro Flask",
+        "product_name": null,
+        "display_name": "Hydro Flask",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 90,
+        "brand_name": "Hyperlite Mountain Gear",
+        "product_name": null,
+        "display_name": "Hyperlite Mountain Gear",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 91,
+        "brand_name": "Icebreaker",
+        "product_name": null,
+        "display_name": "Icebreaker",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 92,
+        "brand_name": "JB Knifeworks",
+        "product_name": null,
+        "display_name": "JB Knifeworks",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 93,
+        "brand_name": "Jetboil",
+        "product_name": null,
+        "display_name": "Jetboil",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 94,
+        "brand_name": "JW JOWARE",
+        "product_name": null,
+        "display_name": "JW JOWARE",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 95,
+        "brand_name": "JW捷威",
+        "product_name": null,
+        "display_name": "JW捷威",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 96,
+        "brand_name": "Kari Traa",
+        "product_name": null,
+        "display_name": "Kari Traa",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 97,
+        "brand_name": "Katadyn",
+        "product_name": null,
+        "display_name": "Katadyn",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 98,
+        "brand_name": "KAVU",
+        "product_name": null,
+        "display_name": "KAVU",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 99,
+        "brand_name": "KEEP EGO",
+        "product_name": null,
+        "display_name": "KEEP EGO",
+        "top1_mention_rate": 0,
+        "is_target": false
+      },
+      {
+        "rank": 100,
+        "brand_name": "Keith Titanium",
+        "product_name": null,
+        "display_name": "Keith Titanium",
+        "top1_mention_rate": 0,
+        "is_target": false
+      }
+    ],
+    "top3_ranking": [
+      {
+        "rank": 1,
+        "brand_name": "火枫",
+        "product_name": null,
+        "display_name": "火枫",
+        "top3_mention_rate": 48.1,
+        "is_target": false
+      },
+      {
+        "rank": 2,
+        "brand_name": "挪客",
+        "product_name": null,
+        "display_name": "挪客",
+        "top3_mention_rate": 14.4,
+        "is_target": false
+      },
+      {
+        "rank": 3,
+        "brand_name": "爱路客",
+        "product_name": null,
+        "display_name": "爱路客",
+        "top3_mention_rate": 11.9,
+        "is_target": false
+      },
+      {
+        "rank": 4,
+        "brand_name": "Snow Peak",
+        "product_name": null,
+        "display_name": "Snow Peak",
+        "top3_mention_rate": 10,
+        "is_target": false
+      },
+      {
+        "rank": 5,
+        "brand_name": "牧高笛",
+        "product_name": null,
+        "display_name": "牧高笛",
+        "top3_mention_rate": 9.4,
+        "is_target": false
+      },
+      {
+        "rank": 6,
+        "brand_name": "Keith铠斯",
+        "product_name": null,
+        "display_name": "Keith铠斯",
+        "top3_mention_rate": 8.8,
+        "is_target": false
+      },
+      {
+        "rank": 7,
+        "brand_name": "MSR",
+        "product_name": null,
+        "display_name": "MSR",
+        "top3_mention_rate": 7.5,
+        "is_target": false
+      },
+      {
+        "rank": 8,
+        "brand_name": "岩谷",
+        "product_name": null,
+        "display_name": "岩谷",
+        "top3_mention_rate": 7.5,
+        "is_target": false
+      },
+      {
+        "rank": 9,
+        "brand_name": "探险者",
+        "product_name": null,
+        "display_name": "探险者",
+        "top3_mention_rate": 6.3,
+        "is_target": false
+      },
+      {
+        "rank": 10,
+        "brand_name": "京东京造",
+        "product_name": null,
+        "display_name": "京东京造",
+        "top3_mention_rate": 5,
+        "is_target": false
+      },
+      {
+        "rank": 11,
+        "brand_name": "柯曼",
+        "product_name": null,
+        "display_name": "柯曼",
+        "top3_mention_rate": 5,
+        "is_target": false
+      },
+      {
+        "rank": 12,
+        "brand_name": "Awada",
+        "product_name": null,
+        "display_name": "Awada",
+        "top3_mention_rate": 3.8,
+        "is_target": true
+      },
+      {
+        "rank": 13,
+        "brand_name": "TOAKS",
+        "product_name": null,
+        "display_name": "TOAKS",
+        "top3_mention_rate": 3.8,
+        "is_target": false
+      },
+      {
+        "rank": 14,
+        "brand_name": "布比克",
+        "product_name": null,
+        "display_name": "布比克",
+        "top3_mention_rate": 3.8,
+        "is_target": false
+      },
+      {
+        "rank": 15,
+        "brand_name": "Petromax",
+        "product_name": null,
+        "display_name": "Petromax",
+        "top3_mention_rate": 3.1,
+        "is_target": false
+      },
+      {
+        "rank": 16,
+        "brand_name": "GSI Outdoors",
+        "product_name": null,
+        "display_name": "GSI Outdoors",
+        "top3_mention_rate": 2.5,
+        "is_target": false
+      },
+      {
+        "rank": 17,
+        "brand_name": "Primus",
+        "product_name": null,
+        "display_name": "Primus",
+        "top3_mention_rate": 1.9,
+        "is_target": false
+      },
+      {
+        "rank": 18,
+        "brand_name": "兄弟捷登",
+        "product_name": null,
+        "display_name": "兄弟捷登",
+        "top3_mention_rate": 1.9,
+        "is_target": false
+      },
+      {
+        "rank": 19,
+        "brand_name": "北山狼",
+        "product_name": null,
+        "display_name": "北山狼",
+        "top3_mention_rate": 1.9,
+        "is_target": false
+      },
+      {
+        "rank": 20,
+        "brand_name": "原始人",
+        "product_name": null,
+        "display_name": "原始人",
+        "top3_mention_rate": 1.9,
+        "is_target": false
+      },
+      {
+        "rank": 21,
+        "brand_name": "拜格",
+        "product_name": null,
+        "display_name": "拜格",
+        "top3_mention_rate": 1.9,
+        "is_target": false
+      },
+      {
+        "rank": 22,
+        "brand_name": "步林",
+        "product_name": null,
+        "display_name": "步林",
+        "top3_mention_rate": 1.9,
+        "is_target": false
+      },
+      {
+        "rank": 23,
+        "brand_name": "迪卡侬",
+        "product_name": null,
+        "display_name": "迪卡侬",
+        "top3_mention_rate": 1.9,
+        "is_target": false
+      },
+      {
+        "rank": 24,
+        "brand_name": "鹿险家",
+        "product_name": null,
+        "display_name": "鹿险家",
+        "top3_mention_rate": 1.9,
+        "is_target": false
+      },
+      {
+        "rank": 25,
+        "brand_name": "Jetboil",
+        "product_name": null,
+        "display_name": "Jetboil",
+        "top3_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 26,
+        "brand_name": "LTHW旅腾",
+        "product_name": null,
+        "display_name": "LTHW旅腾",
+        "top3_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 27,
+        "brand_name": "NEMO",
+        "product_name": null,
+        "display_name": "NEMO",
+        "top3_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 28,
+        "brand_name": "Salomon",
+        "product_name": null,
+        "display_name": "Salomon",
+        "top3_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 29,
+        "brand_name": "SOTO",
+        "product_name": null,
+        "display_name": "SOTO",
+        "top3_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 30,
+        "brand_name": "Trangia",
+        "product_name": null,
+        "display_name": "Trangia",
+        "top3_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 31,
+        "brand_name": "Uniflame",
+        "product_name": null,
+        "display_name": "Uniflame",
+        "top3_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 32,
+        "brand_name": "三峰出",
+        "product_name": null,
+        "display_name": "三峰出",
+        "top3_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 33,
+        "brand_name": "乐基因",
+        "product_name": null,
+        "display_name": "乐基因",
+        "top3_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 34,
+        "brand_name": "凯乐石",
+        "product_name": null,
+        "display_name": "凯乐石",
+        "top3_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 35,
+        "brand_name": "始祖鸟",
+        "product_name": null,
+        "display_name": "始祖鸟",
+        "top3_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 36,
+        "brand_name": "小天籁",
+        "product_name": null,
+        "display_name": "小天籁",
+        "top3_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 37,
+        "brand_name": "小鹰",
+        "product_name": null,
+        "display_name": "小鹰",
+        "top3_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 38,
+        "brand_name": "尚烤佳",
+        "product_name": null,
+        "display_name": "尚烤佳",
+        "top3_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 39,
+        "brand_name": "强氧",
+        "product_name": null,
+        "display_name": "强氧",
+        "top3_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 40,
+        "brand_name": "探路者",
+        "product_name": null,
+        "display_name": "探路者",
+        "top3_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 41,
+        "brand_name": "脉鲜",
+        "product_name": null,
+        "display_name": "脉鲜",
+        "top3_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 42,
+        "brand_name": "莱泽曼",
+        "product_name": null,
+        "display_name": "莱泽曼",
+        "top3_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 43,
+        "brand_name": "黑冰",
+        "product_name": null,
+        "display_name": "黑冰",
+        "top3_mention_rate": 1.3,
+        "is_target": false
+      },
+      {
+        "rank": 44,
+        "brand_name": "05 式",
+        "product_name": null,
+        "display_name": "05 式",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 45,
+        "brand_name": "AT",
+        "product_name": null,
+        "display_name": "AT",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 46,
+        "brand_name": "BBB",
+        "product_name": null,
+        "display_name": "BBB",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 47,
+        "brand_name": "Big Agnes",
+        "product_name": null,
+        "display_name": "Big Agnes",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 48,
+        "brand_name": "Black+Blum",
+        "product_name": null,
+        "display_name": "Black+Blum",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 49,
+        "brand_name": "BOX.",
+        "product_name": null,
+        "display_name": "BOX.",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 50,
+        "brand_name": "BSCAMP",
+        "product_name": null,
+        "display_name": "BSCAMP",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 51,
+        "brand_name": "CADAC DOMETIC",
+        "product_name": null,
+        "display_name": "CADAC DOMETIC",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 52,
+        "brand_name": "Captain Stag",
+        "product_name": null,
+        "display_name": "Captain Stag",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 53,
+        "brand_name": "Carote",
+        "product_name": null,
+        "display_name": "Carote",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 54,
+        "brand_name": "Cnoc",
+        "product_name": null,
+        "display_name": "Cnoc",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 55,
+        "brand_name": "DOD",
+        "product_name": null,
+        "display_name": "DOD",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 56,
+        "brand_name": "ERNTE",
+        "product_name": null,
+        "display_name": "ERNTE",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 57,
+        "brand_name": "EVERNEW",
+        "product_name": null,
+        "display_name": "EVERNEW",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 58,
+        "brand_name": "FLEXTAILGEAR",
+        "product_name": null,
+        "display_name": "FLEXTAILGEAR",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 59,
+        "brand_name": "Helinox",
+        "product_name": null,
+        "display_name": "Helinox",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 60,
+        "brand_name": "Hilleberg",
+        "product_name": null,
+        "display_name": "Hilleberg",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 61,
+        "brand_name": "HMG",
+        "product_name": null,
+        "display_name": "HMG",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 62,
+        "brand_name": "Hoka One One",
+        "product_name": null,
+        "display_name": "Hoka One One",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 63,
+        "brand_name": "HydraPak",
+        "product_name": null,
+        "display_name": "HydraPak",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 64,
+        "brand_name": "JW JOWARE",
+        "product_name": null,
+        "display_name": "JW JOWARE",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 65,
+        "brand_name": "Kelly Kettle",
+        "product_name": null,
+        "display_name": "Kelly Kettle",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 66,
+        "brand_name": "Kelty",
+        "product_name": null,
+        "display_name": "Kelty",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 67,
+        "brand_name": "MiliCamp",
+        "product_name": null,
+        "display_name": "MiliCamp",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 68,
+        "brand_name": "Morso",
+        "product_name": null,
+        "display_name": "Morso",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 69,
+        "brand_name": "NNormal",
+        "product_name": null,
+        "display_name": "NNormal",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 70,
+        "brand_name": "OPINEL",
+        "product_name": null,
+        "display_name": "OPINEL",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 71,
+        "brand_name": "Outdoor Edge",
+        "product_name": null,
+        "display_name": "Outdoor Edge",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 72,
+        "brand_name": "Outwell",
+        "product_name": null,
+        "display_name": "Outwell",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 73,
+        "brand_name": "Ozark Trail",
+        "product_name": null,
+        "display_name": "Ozark Trail",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 74,
+        "brand_name": "Pletwo",
+        "product_name": null,
+        "display_name": "Pletwo",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 75,
+        "brand_name": "RAB",
+        "product_name": null,
+        "display_name": "RAB",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 76,
+        "brand_name": "Scarpa",
+        "product_name": null,
+        "display_name": "Scarpa",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 77,
+        "brand_name": "Sea to Summit",
+        "product_name": null,
+        "display_name": "Sea to Summit",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 78,
+        "brand_name": "Seria",
+        "product_name": null,
+        "display_name": "Seria",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 79,
+        "brand_name": "SILBERTHAL",
+        "product_name": null,
+        "display_name": "SILBERTHAL",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 80,
+        "brand_name": "Skeppshult",
+        "product_name": null,
+        "display_name": "Skeppshult",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 81,
+        "brand_name": "Solo Stove",
+        "product_name": null,
+        "display_name": "Solo Stove",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 82,
+        "brand_name": "suyaki",
+        "product_name": null,
+        "display_name": "suyaki",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 83,
+        "brand_name": "Teton Bros",
+        "product_name": null,
+        "display_name": "Teton Bros",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 84,
+        "brand_name": "Therm-a-Rest",
+        "product_name": null,
+        "display_name": "Therm-a-Rest",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 85,
+        "brand_name": "Thetford",
+        "product_name": null,
+        "display_name": "Thetford",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 86,
+        "brand_name": "Ti artisan钛工匠",
+        "product_name": null,
+        "display_name": "Ti artisan钛工匠",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 87,
+        "brand_name": "Topo Athletic",
+        "product_name": null,
+        "display_name": "Topo Athletic",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 88,
+        "brand_name": "Weber",
+        "product_name": null,
+        "display_name": "Weber",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 89,
+        "brand_name": "WELLHIKE",
+        "product_name": null,
+        "display_name": "WELLHIKE",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 90,
+        "brand_name": "三夫",
+        "product_name": null,
+        "display_name": "三夫",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 91,
+        "brand_name": "中海森",
+        "product_name": null,
+        "display_name": "中海森",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 92,
+        "brand_name": "五阆",
+        "product_name": null,
+        "display_name": "五阆",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 93,
+        "brand_name": "伯希和",
+        "product_name": null,
+        "display_name": "伯希和",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 94,
+        "brand_name": "半圆",
+        "product_name": null,
+        "display_name": "半圆",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 95,
+        "brand_name": "卡仕丽",
+        "product_name": null,
+        "display_name": "卡仕丽",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 96,
+        "brand_name": "嘻由",
+        "product_name": null,
+        "display_name": "嘻由",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 97,
+        "brand_name": "塔夫曼",
+        "product_name": null,
+        "display_name": "塔夫曼",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 98,
+        "brand_name": "安高若",
+        "product_name": null,
+        "display_name": "安高若",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 99,
+        "brand_name": "安鲁虎",
+        "product_name": null,
+        "display_name": "安鲁虎",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      },
+      {
+        "rank": 100,
+        "brand_name": "巴塔哥尼亚",
+        "product_name": null,
+        "display_name": "巴塔哥尼亚",
+        "top3_mention_rate": 0.6,
+        "is_target": false
+      }
+    ]
+  },
+  "citations": {
+    "total_conversations": 160,
+    "citation_rate": 93.1,
+    "total_citations": 2734,
+    "platform_stats": [
+      {
+        "platform_name": "抖音精选",
+        "domain": "iesdouyin.com",
+        "logo_url": "https://app.geoindexfuture.com/site-icons/iesdouyin.com-jingxuan.png",
+        "citation_count": 492,
+        "share": 18
+      },
+      {
+        "platform_name": "知乎",
+        "domain": "zhihu.com",
+        "logo_url": "https://static.zhihu.com/heifetz/favicon.ico",
+        "citation_count": 203,
+        "share": 7.4
+      },
+      {
+        "platform_name": "微信公众号",
+        "domain": "mp.weixin.qq.com",
+        "logo_url": "https://app.geoindexfuture.com/site-icons/mp.weixin.qq.com.png",
+        "citation_count": 198,
+        "share": 7.2
+      },
+      {
+        "platform_name": "淘宝商品页",
+        "domain": "goods.taobao.com",
+        "logo_url": "https://app.geoindexfuture.com/site-icons/goods.taobao.com.jpg",
+        "citation_count": 151,
+        "share": 5.5
+      },
+      {
+        "platform_name": "搜狐网",
+        "domain": "sohu.com",
+        "logo_url": "https://app.geoindexfuture.com/site-icons/sohu.com.ico",
+        "citation_count": 147,
+        "share": 5.4
+      }
+    ],
+    "articles": [
+      {
+        "title": "Best camping cookware: Top options for keeping hungry backpackers and groups fed",
+        "link_url": "https://www.livefortheoutdoors.com/camping/accessories/best-camping-cookware",
+        "domain": "livefortheoutdoors.com",
+        "platform_name": "livefortheoutdoors.com",
+        "logo_url": "https://cdn-yb.icon.qq.com/zuowei_dir/www_livefortheoutdoors_com.ico",
+        "total_citations": 17,
+        "avg_citations": 17,
+        "has_target_product": false
+      },
+      {
+        "title": "Best Camping Cookware Sets of 2026",
+        "link_url": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-camping-cookware#2",
+        "domain": "outdoorgearlab.com",
+        "platform_name": "GearLab",
+        "logo_url": "https://p26-spider-image-sign.byteimg.com/isp-i18n-media/img/9ef1cae665adcb1a62dbacce9ab4980a~tplv-e9ol9do63j-thumbnail.jpeg?rk3s=feb11e32&x-expires=1791533831&x-signature=9DIlloKJmb0OBG%2BSJPVo0c0zKSc%3D",
+        "total_citations": 16,
+        "avg_citations": 16,
+        "has_target_product": false
+      },
+      {
+        "title": "轻量、便携易收纳，户外餐具分享！ #户外实测 #户外餐具 #露营餐具",
+        "link_url": "https://www.iesdouyin.com/share/video/7648969653859980530",
+        "domain": "iesdouyin.com",
+        "platform_name": "抖音精选",
+        "logo_url": "https://app.geoindexfuture.com/site-icons/iesdouyin.com-jingxuan.png",
+        "total_citations": 13,
+        "avg_citations": 13,
+        "has_target_product": false
+      },
+      {
+        "title": "十大户外锅具品牌排行榜及选购指南",
+        "link_url": "https://www.iesdouyin.com/share/video/7431836146541350195",
+        "domain": "iesdouyin.com",
+        "platform_name": "抖音精选",
+        "logo_url": "https://app.geoindexfuture.com/site-icons/iesdouyin.com-jingxuan.png",
+        "total_citations": 12,
+        "avg_citations": 12,
+        "has_target_product": false
+      },
+      {
+        "title": "自驾游露营4.0豪华套餐厨桌椅装备清单解析",
+        "link_url": "https://www.iesdouyin.com/share/video/7556168045341838642",
+        "domain": "iesdouyin.com",
+        "platform_name": "抖音精选",
+        "logo_url": "https://app.geoindexfuture.com/site-icons/iesdouyin.com-jingxuan.png",
+        "total_citations": 12,
+        "avg_citations": 12,
+        "has_target_product": false
+      },
+      {
+        "title": "2026年专业户外餐厨品牌推荐揭晓,专业落到营地是三件事",
+        "link_url": "https://hebei.ifeng.com/c/8wHm3LJDSWS",
+        "domain": "ifeng.com",
+        "platform_name": "凤凰网",
+        "logo_url": "https://cdn.deepseek.com/site-icons/ifeng.com",
+        "total_citations": 12,
+        "avg_citations": 12,
+        "has_target_product": true
+      },
+      {
+        "title": "露营厨具哪个牌子好，2026年盘点各家做法的来头与擅长_凤凰网",
+        "link_url": "http://i.ifeng.com/c/8wHm3LJDSWY",
+        "domain": "ifeng.com",
+        "platform_name": "凤凰网",
+        "logo_url": "https://cdn.deepseek.com/site-icons/ifeng.com",
+        "total_citations": 11,
+        "avg_citations": 11,
+        "has_target_product": true
+      },
+      {
+        "title": "不到5张，把露营餐厨系统重新搭了一遍 最近把自己的露营餐厨系统重新整理了一遍，也顺手入手了几件一直想试的装备。 这次没有盲目追新品，而是围绕自己的使用习惯去搭配：轻量化、好收纳、适合一到两人露营。 这",
+        "link_url": "https://www.iesdouyin.com/share/video/7668269445618724025",
+        "domain": "iesdouyin.com",
+        "platform_name": "抖音精选",
+        "logo_url": "https://app.geoindexfuture.com/site-icons/iesdouyin.com-jingxuan.png",
+        "total_citations": 11,
+        "avg_citations": 11,
+        "has_target_product": false
+      },
+      {
+        "title": "The New Era of Camp Kitchens Includes Chef-Approved Pizza Ovens and Smart Coolers - If you buy through our links, we may earn an affiliate commission",
+        "link_url": "https://www.outsideonline.com/outdoor-gear/camping/best-camp-kitchen-accessories/?scope=anon#1",
+        "domain": "outsideonline.com",
+        "platform_name": "run.outsideonline.com",
+        "logo_url": "https://cdn-yb.icon.qq.com/zuowei_dir/run_outsideonline_com.ico",
+        "total_citations": 10,
+        "avg_citations": 10,
+        "has_target_product": false
+      },
+      {
+        "title": "2026年专业户外餐厨品牌推荐揭晓，专业落到营地是三件事_凤凰网",
+        "link_url": "http://i.ifeng.com/c/8wHm3LJDSWS",
+        "domain": "ifeng.com",
+        "platform_name": "凤凰网",
+        "logo_url": "https://cdn.deepseek.com/site-icons/ifeng.com",
+        "total_citations": 10,
+        "avg_citations": 10,
+        "has_target_product": true
+      }
+    ]
+  },
+  "overview_daily": [
+    {
+      "date": "2026-09-28",
+      "mention_rate": 8.8,
+      "avg_position": 8.9,
+      "influence_rank": 15
+    }
+  ]
+}

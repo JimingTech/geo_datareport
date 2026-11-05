@@ -5,7 +5,7 @@
     "product": "Awada",
     "brand": "Awada",
     "label": "2026年10月",
-    "september_date": "2026-09-21",
+    "september_date": "2026-09-28",
     "october_date": "2026-10-26",
     "september_label": "9月",
     "october_label": "10月"
@@ -22,20 +22,20 @@
     "conversations": 160
   },
   "september": {
-    "mention_rate": 6.9,
-    "top1_mention_rate": 1.3,
-    "top3_mention_rate": 1.3,
-    "influence_rank": 16,
+    "mention_rate": 8.8,
+    "top1_mention_rate": 2.5,
+    "top3_mention_rate": 3.8,
+    "influence_rank": 15,
     "conversations": 160,
-    "covered_entries": 10,
+    "covered_entries": 11,
     "platforms": [
       {
         "name": "DeepSeek",
-        "mention_rate": 10
+        "mention_rate": 12.5
       },
       {
         "name": "豆包",
-        "mention_rate": 7.5
+        "mention_rate": 10
       },
       {
         "name": "元宝",
@@ -43,7 +43,7 @@
       },
       {
         "name": "通义千问",
-        "mention_rate": 5
+        "mention_rate": 7.5
       }
     ]
   },
@@ -51,7 +51,7 @@
     "mention_rate": 23.1,
     "top1_mention_rate": 12.5,
     "top3_mention_rate": 15,
-    "influence_rank": 4,
+    "influence_rank": 5,
     "mention_rank": 6,
     "top1_rank": 2,
     "conversations": 160,
@@ -85,19 +85,19 @@
       },
       {
         "name": "爱路客",
-        "value": "35.6%",
+        "value": "35%",
         "isTarget": false,
         "rank": 2
       },
       {
-        "name": "Snow Peak",
-        "value": "28.1%",
+        "name": "挪客",
+        "value": "29.4%",
         "isTarget": false,
         "rank": 3
       },
       {
-        "name": "挪客",
-        "value": "27.5%",
+        "name": "Snow Peak",
+        "value": "28.1%",
         "isTarget": false,
         "rank": 4
       },
@@ -111,7 +111,7 @@
     "top1": [
       {
         "name": "火枫",
-        "value": "30%",
+        "value": "29.4%",
         "isTarget": false,
         "rank": 1
       },
@@ -134,8 +134,8 @@
         "rank": 4
       },
       {
-        "name": "Keith铠斯",
-        "value": "3.1%",
+        "name": "挪客",
+        "value": "3.8%",
         "isTarget": false,
         "rank": 5
       }
@@ -160,15 +160,15 @@
         "rank": 3
       },
       {
-        "name": "Awada",
+        "name": "挪客",
         "value": "NO. 4",
-        "isTarget": true,
+        "isTarget": false,
         "rank": 4
       },
       {
-        "name": "挪客",
+        "name": "Awada",
         "value": "NO. 5",
-        "isTarget": false,
+        "isTarget": true,
         "rank": 5
       }
     ]
@@ -1076,7 +1076,7 @@
         "mention_rate": "0.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/26",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261024/cc9080746c54498b89d0990383bbcc7e.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261024/e3c536aea81e486787aa3914c283950f.png"
       },
       {
         "entry_name": "多功能户外装备推荐",
@@ -1351,7 +1351,7 @@
         "mention_rate": "0.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/26",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261024/1065323a03d845248ad5ed7bc78dadb9.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261024/e515259a790d44e887b646188cc57f1c.png"
       },
       {
         "entry_name": "轻量化露营装备推荐",
@@ -2013,7 +2013,7 @@
         "mention_rate": "0.0%",
         "top1_mention_rate": "0.0%",
         "last_conversation_time": "2026/10/26",
-        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261024/07db4a7b3c0d4497b28141a8c636c411.png"
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261024/4c49f9ec43c04fd88bd840487ce7cd4b.png"
       }
     ]
   }

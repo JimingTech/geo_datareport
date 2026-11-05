@@ -20,19 +20,18 @@ import { fileURLToPath } from 'url';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = (p) => JSON.parse(readFileSync(path.join(root, p), 'utf8'));
 
+const SEPT_DATE = '2026-09-28';
 const OCT_DATE = '2026-10-26';
 const DELIVERY_FILE = 'Awada-优化词(中位数)_投放文章统计_1029.xlsx';
 const DELIVERY_DATE = '2026-10-29';
-const prev = read('src/data/awadaSeptemberReport.json');
+const sept = read(`src/data/geoReport_668_${SEPT_DATE}.json`);
 const oct = read(`src/data/geoReport_668_${OCT_DATE}.json`);
 const entries = read('src/data/awada_oct_entries.json');
 const excel = read('scripts/_excel_dump_awada_1029.json');
 
-if (prev.meta.september_date !== '2026-09-21') {
-  throw new Error(`9月列来源不是 2026-09-21：${prev.meta.september_date}`);
-}
-if (prev.september.mention_rate !== 6.9 || prev.september.influence_rank !== 16) {
-  throw new Error('9月列与上一版快照不一致');
+const septSelfInf = sept.influence.list.find((b) => b.is_target);
+if (sept.stats.brand_mention_rate !== 8.8 || septSelfInf?.rank !== 15) {
+  throw new Error('9月列（2026-09-28）与预期不一致');
 }
 if (entries.date !== OCT_DATE || entries.project_id !== 668) {
   throw new Error('词条明细不是项目 668 的 2026-10-26');
@@ -202,7 +201,7 @@ const report = {
     product: 'Awada',
     brand: 'Awada',
     label: '2026年10月',
-    september_date: prev.meta.september_date,
+    september_date: SEPT_DATE,
     october_date: OCT_DATE,
     september_label: '9月',
     october_label: '10月',
@@ -214,13 +213,16 @@ const report = {
     conversations: oct.influence.total_conversations,
   },
   september: {
-    mention_rate: prev.september.mention_rate,
-    top1_mention_rate: prev.september.top1_mention_rate,
-    top3_mention_rate: prev.september.top3_mention_rate,
-    influence_rank: prev.september.influence_rank,
-    conversations: prev.september.conversations,
-    covered_entries: prev.september.covered_entries,
-    platforms: prev.september.platforms,
+    mention_rate: sept.stats.brand_mention_rate,
+    top1_mention_rate: sept.stats.top1_mention_rate,
+    top3_mention_rate: sept.stats.top3_mention_rate,
+    influence_rank: septSelfInf.rank,
+    conversations: sept.influence.total_conversations,
+    covered_entries: sept.entries.list.filter((e) => Number(e.mention_rate) > 0).length,
+    platforms: sept.stats.platform_stats.map((p) => ({
+      name: p.platform_name,
+      mention_rate: p.brand_mention_rate,
+    })),
   },
   october: {
     mention_rate: oct.stats.brand_mention_rate,

@@ -75,7 +75,7 @@ export default function Page_CoreDataOverview() {
           </div>
           <div className="flex-1 flex flex-col justify-evenly min-h-0">
             <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-              1. 提及率由6.9%升至23.1%，综合竞品排名由NO.16进至NO.4。
+              1. 提及率由8.8%升至23.1%，综合竞品排名由NO.15进至NO.5。
             </p>
             <div className="h-px bg-[#004CE5]/10" />
             <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
@@ -83,7 +83,7 @@ export default function Page_CoreDataOverview() {
             </p>
             <div className="h-px bg-[#004CE5]/10" />
             <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-              3. Top1由1.3%升至12.5%，Top3由1.3%升至15%。
+              3. Top1由2.5%升至12.5%，Top3由3.8%升至15%。
             </p>
           </div>
         </div>
@@ -96,7 +96,7 @@ export default function Page_CoreDataOverview() {
           <div className="flex-1 flex flex-col justify-evenly min-h-0">
             {[
               { num: '01', title: '补上元宝', desc: '元宝提及率 7.5%，四平台里最低。专业餐厨、精致露营这些已有声量的词条继续往元宝补。' },
-              { num: '02', title: '补回掉下去的词', desc: '「露营厨具推荐」和「家庭露营厨具推荐」9月都是25%，10月回到0。40个词条里还有17个是0。' },
+              { num: '02', title: '突破空白词条', desc: '40个重点词条已覆盖23个，剩余17个仍为0，重点攻坚「露营厨具推荐」等泛选购大词与场景词。' },
               { num: '03', title: '把首推做稳', desc: 'Top1为12.5%，排在火枫之后。推荐里把首选Awada写清楚。' },
             ].map((strat) => (
               <div key={strat.num} className="flex items-start gap-3">

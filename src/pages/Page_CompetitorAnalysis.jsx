@@ -114,11 +114,11 @@ export default function Page_CompetitorAnalysis() {
             </h2>
             <div className="flex-grow rounded-2xl bg-[#004CE5]/5 border border-[#004CE5]/20 p-5 flex flex-col justify-evenly min-h-0">
               <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-                1. 火枫提及率 71.9%、Top1 30%，综合竞品排名 NO.1。爱路客、Snow Peak、挪客的提及率分别是 35.6%、28.1%、27.5%。
+                1. 火枫提及率 71.9%、Top1 29.4%，综合竞品排名 NO.1。爱路客、挪客、Snow Peak 的提及率分别是 35%、29.4%、28.1%。
               </p>
               <div className="h-px bg-[#004CE5]/10 my-1" />
               <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-                2. Awada 提及率 23.1%，提及率排名 NO.6；综合竞品排名由 9月的 NO.16 进至 NO.4。Top1 为 12.5%，排在火枫之后。
+                2. Awada 提及率 23.1%，提及率排名 NO.6；综合竞品排名由 9月的 NO.15 进至 NO.5。Top1 为 12.5%，排在火枫之后。
               </p>
             </div>
           </div>
@@ -130,9 +130,9 @@ export default function Page_CompetitorAnalysis() {
             </h2>
             <div className="flex-grow rounded-2xl bg-[#004CE5]/[0.015] border border-[#004CE5]/15 p-5 flex flex-col justify-evenly min-h-0">
               {[
-                { num: '01', title: '对着火枫补首推', desc: '火枫 Top1 30%，Awada 12.5%。专业餐厨和精致露营的推荐里写明首选 Awada。' },
-                { num: '02', title: '跟上爱路客', desc: '爱路客提及率 35.6%，提及率排名第 2。泛选购大词继续铺。' },
-                { num: '03', title: '继续抬排名', desc: '综合竞品排名现为 NO.4。推荐里把首选 Awada 写清楚，先把提及率往挪客的 27.5% 靠。' },
+                { num: '01', title: '对着火枫补首推', desc: '火枫 Top1 29.4%，Awada 12.5%。专业餐厨和精致露营的推荐里写明首选 Awada。' },
+                { num: '02', title: '跟上爱路客', desc: '爱路客提及率 35%，提及率排名第 2。泛选购大词继续铺。' },
+                { num: '03', title: '继续抬排名', desc: '综合竞品排名现为 NO.5。推荐里把首选 Awada 写清楚，先把提及率往 Snow Peak 的 28.1% 靠。' },
               ].map((strat, idx) => (
                 <div key={idx} className="flex items-start gap-3">
                   <span className="text-[#004CE5] font-black text-2xl shrink-0 mt-0.5">{strat.num}</span>
