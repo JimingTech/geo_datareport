@@ -16,7 +16,7 @@ export default function Page_ContentDetails_AI() {
         <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
         <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4 flex items-center">
           古20投放明细
-          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年10月）</span>
+          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年11月）</span>
         </h1>
       </div>
 
@@ -56,7 +56,7 @@ export default function Page_ContentDetails_AI() {
               ( {citedArticles} / {totalArticles} 篇投放已被引用 )
             </div>
             <p className="text-[1rem] font-bold text-zinc-400 leading-relaxed mt-1">
-              投放到什么值得买、网易、今日头条等渠道已顺利通过 文心、Kimi 等大模型的检索。
+              什么值得买、网易在文心和 Kimi 上均有引用，知乎的引用主要来自文心。
             </p>
           </div>
 

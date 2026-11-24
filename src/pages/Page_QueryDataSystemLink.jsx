@@ -22,8 +22,8 @@ export default function Page_QueryDataSystemLink({ projectId = 123, platformId =
   const productName = projectId === 123 ? '古井贡酒古16' : '古井贡酒古20';
   const platformName = PLATFORM_NAMES[platformId] || '';
 
-  const dateLabel = '2026年10月';
-  const dateRangeLabel = '10月';
+  const dateLabel = '2026年11月';
+  const dateRangeLabel = '11月';
   const slideTitle = `${projectId === 123 ? '古16' : '古20'}词条数据明细（${platformName}）`;
 
   return (
@@ -49,7 +49,6 @@ export default function Page_QueryDataSystemLink({ projectId = 123, platformId =
         <div className="flex items-center gap-3">
           {/* Date Picker */}
           <div className="flex items-center gap-1.5 bg-white border border-zinc-200/80 rounded-md px-3 py-1.5 shadow-[0_1px_2px_rgba(0,0,0,0.02)] cursor-pointer hover:border-zinc-300 transition-colors">
-            <span className="text-zinc-400 text-xs">📅</span>
             <span className="text-zinc-550">日期</span>
             <span className="text-zinc-400 text-[10px] ml-1">{dateRangeLabel}</span>
             <span className="text-zinc-300 text-[9px] ml-1">▼</span>
@@ -57,7 +56,6 @@ export default function Page_QueryDataSystemLink({ projectId = 123, platformId =
 
           {/* Platform Selector */}
           <div className="flex items-center gap-1.5 bg-white border border-zinc-200/80 rounded-md px-3 py-1.5 shadow-[0_1px_2px_rgba(0,0,0,0.02)] cursor-pointer hover:border-zinc-300 transition-colors">
-            <span className="text-zinc-400 text-xs">🤖</span>
             <span className="text-zinc-550">平台</span>
             <span className="text-zinc-800 font-bold ml-1">{platformName}</span>
             <span className="text-zinc-300 text-[9px] ml-1">▼</span>
@@ -65,7 +63,6 @@ export default function Page_QueryDataSystemLink({ projectId = 123, platformId =
 
           {/* Keyword Selector */}
           <div className="flex items-center gap-1.5 bg-white border border-zinc-200/80 rounded-md px-3 py-1.5 shadow-[0_1px_2px_rgba(0,0,0,0.02)] cursor-pointer hover:border-zinc-300 transition-colors">
-            <span className="text-zinc-400 text-xs">📝</span>
             <span className="text-zinc-550">词条</span>
             <span className="text-zinc-400 text-[10px] ml-1">全部</span>
             <span className="text-zinc-300 text-[9px] ml-1">▼</span>
@@ -73,7 +70,6 @@ export default function Page_QueryDataSystemLink({ projectId = 123, platformId =
 
           {/* Blue Product Pill Badge */}
           <div className="flex items-center gap-1.5 bg-[#f0f4ff] border border-[#dbe4ff] rounded-md px-3 py-1.5 text-[#004CE5] font-extrabold text-[12px] shadow-sm ml-1">
-            <span className="text-[#004CE5] text-xs">❖</span>
             <span>目标产品 | {productName}</span>
           </div>
         </div>
