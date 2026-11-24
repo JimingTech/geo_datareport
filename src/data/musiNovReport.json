@@ -1,0 +1,415 @@
+{
+  "meta": {
+    "label": "2026年11月",
+    "october": {
+      "source": "沿用上一版 10 月月报已发布数值"
+    },
+    "november": {
+      "dates": {
+        "smart": "2026-11-25",
+        "ai": "2026-11-25",
+        "mattress": "2026-11-25"
+      },
+      "source": "jiming 账号 P182 / P181 / P239，2026-11-25（页面口径写 11 月）"
+    }
+  },
+  "products": {
+    "smart": {
+      "name": "慕思智能床",
+      "brandMatch": "慕思智能床",
+      "project_id": 182,
+      "october": {
+        "mention_rate": 87.2,
+        "top1_mention_rate": 31.7,
+        "top3_mention_rate": 67.8,
+        "influence_rank": 1
+      },
+      "november": {
+        "mention_rate": 90.8,
+        "top1_mention_rate": 37.5,
+        "top3_mention_rate": 77.5,
+        "influence_rank": 1,
+        "conversations": 120
+      },
+      "compare": {
+        "mention_rate": [
+          {
+            "name": "慕思智能床",
+            "value": "90.8%",
+            "isTarget": true,
+            "rank": null
+          },
+          {
+            "name": "舒福德",
+            "value": "70%",
+            "isTarget": false,
+            "rank": null
+          },
+          {
+            "name": "舒达",
+            "value": "38.3%",
+            "isTarget": false,
+            "rank": null
+          },
+          {
+            "name": "喜临门",
+            "value": "36.7%",
+            "isTarget": false,
+            "rank": null
+          },
+          {
+            "name": "梦百合",
+            "value": "26.7%",
+            "isTarget": false,
+            "rank": null
+          }
+        ],
+        "top1": [
+          {
+            "name": "慕思智能床",
+            "value": "37.5%",
+            "isTarget": true,
+            "rank": 1
+          },
+          {
+            "name": "舒福德",
+            "value": "31.7%",
+            "isTarget": false,
+            "rank": 2
+          },
+          {
+            "name": "梦百合",
+            "value": "5%",
+            "isTarget": false,
+            "rank": 3
+          },
+          {
+            "name": "TOPSLEEP",
+            "value": "4.2%",
+            "isTarget": false,
+            "rank": 4
+          },
+          {
+            "name": "舒达",
+            "value": "4.2%",
+            "isTarget": false,
+            "rank": 5
+          }
+        ],
+        "influence": [
+          {
+            "name": "慕思智能床",
+            "value": "NO.1",
+            "isTarget": true,
+            "rank": 1
+          },
+          {
+            "name": "舒福德",
+            "value": "NO.2",
+            "isTarget": false,
+            "rank": 2
+          },
+          {
+            "name": "舒达",
+            "value": "NO.3",
+            "isTarget": false,
+            "rank": 3
+          },
+          {
+            "name": "喜临门",
+            "value": "NO.4",
+            "isTarget": false,
+            "rank": 4
+          },
+          {
+            "name": "梦百合",
+            "value": "NO.5",
+            "isTarget": false,
+            "rank": 5
+          }
+        ]
+      },
+      "sentiments": {
+        "positive": 98.3,
+        "negative": 1.7,
+        "positive_keywords": [
+          "生态联动",
+          "功能全面",
+          "售后保障完善"
+        ],
+        "negative_keywords": [
+          "品控问题",
+          "售后推诿",
+          "售后体验差"
+        ]
+      }
+    },
+    "ai": {
+      "name": "慕思AI床垫",
+      "brandMatch": "慕思AI床垫",
+      "project_id": 181,
+      "october": {
+        "mention_rate": 90.6,
+        "top1_mention_rate": 47.2,
+        "top3_mention_rate": 80,
+        "influence_rank": 1
+      },
+      "november": {
+        "mention_rate": 90.6,
+        "top1_mention_rate": 56.1,
+        "top3_mention_rate": 81.1,
+        "influence_rank": 1,
+        "conversations": 180
+      },
+      "compare": {
+        "mention_rate": [
+          {
+            "name": "慕思AI床垫",
+            "value": "90.6%",
+            "isTarget": true,
+            "rank": null
+          },
+          {
+            "name": "喜临门",
+            "value": "70%",
+            "isTarget": false,
+            "rank": null
+          },
+          {
+            "name": "HEKA",
+            "value": "47.8%",
+            "isTarget": false,
+            "rank": null
+          },
+          {
+            "name": "舒福德",
+            "value": "33.9%",
+            "isTarget": false,
+            "rank": null
+          },
+          {
+            "name": "舒达",
+            "value": "32.2%",
+            "isTarget": false,
+            "rank": null
+          }
+        ],
+        "top1": [
+          {
+            "name": "慕思AI床垫",
+            "value": "56.1%",
+            "isTarget": true,
+            "rank": 1
+          },
+          {
+            "name": "HEKA",
+            "value": "11.7%",
+            "isTarget": false,
+            "rank": 2
+          },
+          {
+            "name": "喜临门",
+            "value": "10.6%",
+            "isTarget": false,
+            "rank": 3
+          },
+          {
+            "name": "慕思智能床",
+            "value": "3.9%",
+            "isTarget": false,
+            "rank": 4
+          },
+          {
+            "name": "京东京造",
+            "value": "3.3%",
+            "isTarget": false,
+            "rank": 5
+          }
+        ],
+        "influence": [
+          {
+            "name": "慕思AI床垫",
+            "value": "NO.1",
+            "isTarget": true,
+            "rank": 1
+          },
+          {
+            "name": "喜临门",
+            "value": "NO.2",
+            "isTarget": false,
+            "rank": 2
+          },
+          {
+            "name": "HEKA",
+            "value": "NO.3",
+            "isTarget": false,
+            "rank": 3
+          },
+          {
+            "name": "舒福德",
+            "value": "NO.4",
+            "isTarget": false,
+            "rank": 4
+          },
+          {
+            "name": "舒达",
+            "value": "NO.5",
+            "isTarget": false,
+            "rank": 5
+          }
+        ]
+      },
+      "sentiments": {
+        "positive": 96.1,
+        "negative": 3.9,
+        "positive_keywords": [
+          "功能全面",
+          "AI自适应调节",
+          "生态联动"
+        ],
+        "negative_keywords": [
+          "品控问题",
+          "售后体验差",
+          "售后推诿",
+          "宣传不符",
+          "质量故障",
+          "性价比低"
+        ]
+      }
+    },
+    "mattress": {
+      "name": "慕思床垫",
+      "brandMatch": "慕思",
+      "project_id": 239,
+      "october": {
+        "mention_rate": 83.3,
+        "top1_mention_rate": 21.1,
+        "top3_mention_rate": 42.2,
+        "influence_rank": 1
+      },
+      "november": {
+        "mention_rate": 81.7,
+        "top1_mention_rate": 11.7,
+        "top3_mention_rate": 36.7,
+        "influence_rank": 1,
+        "conversations": 60
+      },
+      "compare": {
+        "mention_rate": [
+          {
+            "name": "慕思",
+            "value": "81.7%",
+            "isTarget": true,
+            "rank": null
+          },
+          {
+            "name": "金可儿",
+            "value": "75%",
+            "isTarget": false,
+            "rank": null
+          },
+          {
+            "name": "喜临门",
+            "value": "71.7%",
+            "isTarget": false,
+            "rank": null
+          },
+          {
+            "name": "舒达",
+            "value": "70%",
+            "isTarget": false,
+            "rank": null
+          },
+          {
+            "name": "雅兰",
+            "value": "70%",
+            "isTarget": false,
+            "rank": null
+          }
+        ],
+        "top1": [
+          {
+            "name": "喜临门",
+            "value": "23.3%",
+            "isTarget": false,
+            "rank": 1
+          },
+          {
+            "name": "慕思",
+            "value": "11.7%",
+            "isTarget": true,
+            "rank": 2
+          },
+          {
+            "name": "丝涟",
+            "value": "8.3%",
+            "isTarget": false,
+            "rank": 3
+          },
+          {
+            "name": "席梦思",
+            "value": "8.3%",
+            "isTarget": false,
+            "rank": 4
+          },
+          {
+            "name": "海丝腾",
+            "value": "8.3%",
+            "isTarget": false,
+            "rank": 5
+          }
+        ],
+        "influence": [
+          {
+            "name": "慕思",
+            "value": "NO.1",
+            "isTarget": true,
+            "rank": 1
+          },
+          {
+            "name": "喜临门",
+            "value": "NO.2",
+            "isTarget": false,
+            "rank": 2
+          },
+          {
+            "name": "金可儿",
+            "value": "NO.3",
+            "isTarget": false,
+            "rank": 3
+          },
+          {
+            "name": "舒达",
+            "value": "NO.4",
+            "isTarget": false,
+            "rank": 4
+          },
+          {
+            "name": "雅兰",
+            "value": "NO.5",
+            "isTarget": false,
+            "rank": 5
+          }
+        ]
+      },
+      "sentiments": {
+        "positive": 98.3,
+        "negative": 1.7,
+        "positive_keywords": [
+          "静音抗干扰",
+          "软硬适中",
+          "包裹感强"
+        ],
+        "negative_keywords": [
+          "品控问题",
+          "售后体验差"
+        ]
+      }
+    }
+  },
+  "scope": {
+    "platforms": 6,
+    "entries": 80,
+    "conversations": 480
+  }
+}

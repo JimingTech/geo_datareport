@@ -1,0 +1,58 @@
+{
+  "smart": {
+    "project_id": 182,
+    "name": "慕思智能床",
+    "date": "2026-11-25",
+    "group": "11.25前20",
+    "positive_percentage": 98.3,
+    "negative_percentage": 1.7,
+    "positive_keywords": [
+      "生态联动",
+      "功能全面",
+      "售后保障完善"
+    ],
+    "negative_keywords": [
+      "品控问题",
+      "售后推诿",
+      "售后体验差"
+    ]
+  },
+  "ai": {
+    "project_id": 181,
+    "name": "慕思AI床垫",
+    "date": "2026-11-25",
+    "group": null,
+    "positive_percentage": 96.1,
+    "negative_percentage": 3.9,
+    "positive_keywords": [
+      "功能全面",
+      "AI自适应调节",
+      "生态联动"
+    ],
+    "negative_keywords": [
+      "品控问题",
+      "售后体验差",
+      "售后推诿",
+      "宣传不符",
+      "质量故障",
+      "性价比低"
+    ]
+  },
+  "mattress": {
+    "project_id": 239,
+    "name": "慕思床垫",
+    "date": "2026-11-25",
+    "group": "11.25前10",
+    "positive_percentage": 98.3,
+    "negative_percentage": 1.7,
+    "positive_keywords": [
+      "静音抗干扰",
+      "软硬适中",
+      "包裹感强"
+    ],
+    "negative_keywords": [
+      "品控问题",
+      "售后体验差"
+    ]
+  }
+}

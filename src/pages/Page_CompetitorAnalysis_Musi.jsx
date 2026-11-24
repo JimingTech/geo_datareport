@@ -1,5 +1,5 @@
 import React from 'react';
-import report from '../data/musiOctReport.json';
+import report from '../data/musiNovReport.json';
 
 const brandName = '慕思';
 const data = report.products.mattress;
@@ -85,7 +85,7 @@ export default function Page_CompetitorAnalysis_Musi() {
         <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
         <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4 flex items-center">
           慕思床垫竞品分析
-          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年10月）</span>
+          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年11月）</span>
         </h1>
       </div>
 
@@ -104,11 +104,11 @@ export default function Page_CompetitorAnalysis_Musi() {
             </h2>
             <div className="flex-grow rounded-2xl bg-[#004CE5]/5 border border-[#004CE5]/20 p-5 flex flex-col justify-evenly min-h-0">
               <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-                1. 本品提及率83.3%，竞品排名NO.1，Top3为42.2%。Top1为21.1%，与喜临门相同，排在第一。
+                1. 本品提及率81.7%，竞品排名NO.1。Top1为11.7%，低于喜临门的23.3%；Top3为36.7%，低于喜临门的40%。
               </p>
               <div className="h-px bg-[#004CE5]/10 my-1" />
               <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-                2. 喜临门、金可儿的提及率分别为72.2%、66.7%，丝涟和舒达均为53.3%。竞品排名喜临门NO.2，金可儿NO.3，丝涟、雅兰分列NO.4、NO.5。
+                2. 金可儿、喜临门的提及率分别为75%、71.7%，舒达和雅兰均为70%。竞品排名喜临门NO.2，金可儿NO.3，舒达、雅兰分列NO.4、NO.5。
               </p>
             </div>
           </div>
@@ -120,9 +120,9 @@ export default function Page_CompetitorAnalysis_Musi() {
             </h2>
             <div className="flex-grow rounded-2xl bg-[#004CE5]/[0.015] border border-[#004CE5]/15 p-5 flex flex-col justify-evenly min-h-0">
               {[
-                { num: '01', title: '补上元宝', desc: '提及率83.3%，高于喜临门的72.2%和金可儿的66.7%。元宝只有60%，先把这一平台补上。' },
-                { num: '02', title: '守住竞品排名', desc: '竞品排名仍是NO.1，喜临门为NO.2。Top3为42.2%，喜临门为38.9%，支撑和护脊词条要把首选说清楚。' },
-                { num: '03', title: '拉开首推', desc: 'Top1为21.1%，与喜临门相同，排在第一。七千价位和高端弹簧词条加强首选表达。' },
+                { num: '01', title: '补上DeepSeek', desc: '提及率81.7%，高于金可儿的75%和喜临门的71.7%。DeepSeek只有50%，先把这一平台补上。' },
+                { num: '02', title: '守住竞品排名', desc: '竞品排名仍是NO.1，喜临门为NO.2。Top3为36.7%，喜临门为40%。支撑和高端弹簧词条要把前三说清楚。' },
+                { num: '03', title: '拉开首推', desc: 'Top1为11.7%，喜临门为23.3%。七千价位和高端弹簧词条加强首选表达。' },
               ].map((strat, idx) => (
                 <div key={idx} className="flex items-start gap-3">
                   <span className="text-[#004CE5] font-black text-2xl shrink-0 mt-0.5">{strat.num}</span>

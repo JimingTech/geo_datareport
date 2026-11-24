@@ -1,6 +1,6 @@
 import React from 'react';
-import report from '../data/musiOctReport.json';
-import delivery from '../data/delivery_excel_1029.json';
+import report from '../data/musiNovReport.json';
+import delivery from '../data/delivery_excel_1124.json';
 
 const BLUE = '#0050F0';
 const GRAY = '#808080';
@@ -68,7 +68,7 @@ function MetricRow({ label, before, after, format = fmtPct, last = false }) {
         {label}
       </div>
       <div className="text-[17px] font-bold" style={{ color: INK }}>
-        9月
+        10月
       </div>
       <div className="text-[1.7rem] font-black font-['Montserrat',sans-serif]" style={{ color: INK }}>
         {format(before)}
@@ -77,7 +77,7 @@ function MetricRow({ label, before, after, format = fmtPct, last = false }) {
         <GradientArrow />
       </div>
       <div className="text-[17px] font-bold" style={{ color: INK }}>
-        10月
+        11月
       </div>
       <div className="text-[2.65rem] font-black font-['Montserrat',sans-serif] leading-none" style={{ color: BLUE }}>
         {format(after)}
@@ -108,7 +108,7 @@ export default function Page_PhaseSummary() {
 
       <div className="shrink-0 mt-4 rounded-2xl bg-white border border-[#E6EBF2] px-8 py-4 text-center shadow-[0_4px_16px_rgba(20,30,50,0.03)]">
         <p className="text-[1.45rem] font-black leading-relaxed text-[#1A1A1A]">
-          10月三组产品对照9月，竞品排名仍为NO.1，提及率保持高位。
+          11月三组产品对照10月，竞品排名仍为NO.1。智能床和AI床垫的首推上升，普通床垫的首推下降。
         </p>
         <ul className="mt-1.5 mx-auto w-fit text-left text-[1.05rem] font-bold leading-[1.7] text-[#3A4352]">
           <li>
@@ -117,7 +117,7 @@ export default function Page_PhaseSummary() {
           <li>
             · 共产出{articleTotal.toLocaleString('zh-CN')}篇文章，累计被引用{citationTotal.toLocaleString('zh-CN')}次
           </li>
-          <li>· 三组产品竞品排名均保持NO.1。智能床Top1为31.7%，低于舒福德的38.3%；普通床垫Top1为21.1%，与喜临门相同，排在第一。</li>
+          <li>· 三组产品竞品排名均保持NO.1。智能床Top1为37.5%，高于舒福德的31.7%；普通床垫Top1为11.7%，低于喜临门的23.3%。</li>
         </ul>
       </div>
 
@@ -157,16 +157,16 @@ export default function Page_PhaseSummary() {
               </div>
 
               <div className="flex-1 min-w-0 grid pl-2 pr-2" style={{ gridTemplateRows: '1fr 1fr 1fr' }}>
-                <MetricRow label="提及率" before={product.september.mention_rate} after={product.october.mention_rate} />
+                <MetricRow label="提及率" before={product.october.mention_rate} after={product.november.mention_rate} />
                 <MetricRow
                   label="TOP1提及率"
-                  before={product.september.top1_mention_rate}
-                  after={product.october.top1_mention_rate}
+                  before={product.october.top1_mention_rate}
+                  after={product.november.top1_mention_rate}
                 />
                 <MetricRow
                   label="竞品排名"
-                  before={product.september.influence_rank}
-                  after={product.october.influence_rank}
+                  before={product.october.influence_rank}
+                  after={product.november.influence_rank}
                   format={fmtRank}
                   last
                 />

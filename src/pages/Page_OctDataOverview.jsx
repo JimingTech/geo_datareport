@@ -1,5 +1,5 @@
 import React from 'react';
-import report from '../data/musiOctReport.json';
+import report from '../data/musiNovReport.json';
 
 const { products, scope } = report;
 
@@ -19,7 +19,7 @@ export default function Page_OctDataOverview() {
       <div className="flex items-center shrink-0 mb-[27px]">
         <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
         <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4">
-          核心数据总览 <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年10月）</span>
+          核心数据总览 <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年11月）</span>
         </h1>
       </div>
 
@@ -42,7 +42,7 @@ export default function Page_OctDataOverview() {
           </thead>
           <tbody>
             {rows.map((row) => {
-              const p = products[row.key].october;
+              const p = products[row.key].november;
               return (
                 <tr key={row.key} className="border-b border-zinc-200 bg-white">
                   <td className="py-8 px-4 border-r border-zinc-200 bg-slate-50/10 text-center font-black text-2xl text-zinc-800">
@@ -59,7 +59,18 @@ export default function Page_OctDataOverview() {
         </table>
       </div>
 
-      <div className="grid grid-cols-2 gap-6 shrink-0 h-[220px]">
+      <div className="rounded-xl border border-[#004CE5]/20 bg-[#004CE5]/[0.04] px-6 py-3 shrink-0 mb-4 flex items-center gap-5">
+        <div className="flex items-center gap-3 shrink-0">
+          <div className="w-1.5 h-8 bg-[#004CE5] rounded-full" />
+          <h3 className="text-2xl font-black text-[#004CE5] tracking-wider whitespace-nowrap">高位波动属正常现象</h3>
+        </div>
+        <div className="w-px h-10 bg-[#004CE5]/15 shrink-0" />
+        <p className="text-[21px] leading-snug text-zinc-700 font-bold min-w-0">
+          当前各项指标已接近优化上限，在高位区间内出现约 10% 以内的月度上下波动属于正常现象，并不代表 GEO 优化效果下降，整体优化成效仍保持稳定。
+        </p>
+      </div>
+
+      <div className="grid grid-cols-2 gap-6 shrink-0 h-[168px]">
         <div className="rounded-2xl border border-[#004CE5]/15 bg-[#004CE5]/[0.01] px-6 py-4 flex flex-col shadow-[0_4px_25px_rgba(0,76,229,0.005)]">
           <div className="flex items-center gap-2.5 mb-2 shrink-0">
             <span className="w-3 h-3 rounded-full bg-[#004CE5] shadow-[0_0_8px_rgba(0,76,229,0.3)]" />
@@ -67,7 +78,7 @@ export default function Page_OctDataOverview() {
           </div>
           <div className="flex-1 flex items-center min-h-0">
             <p className="text-[21px] leading-snug text-zinc-700 font-bold">
-              三款产品竞品排名都是NO.1。智能床提及率87.2%、Top3 69.4%，这两项第一，Top1 31.7%，低于舒福德的38.3%。AI床垫提及率90.6%、Top1 47.2%、Top3 80%，三项都是第一。普通床垫提及率83.3%，Top1 21.1%，与喜临门相同，排在第一。
+              三款产品竞品排名都是NO.1。智能床提及率90.8%、Top1 37.5%、Top3 77.5%，三项都是第一，Top1高于舒福德的31.7%。AI床垫提及率90.6%、Top1 56.1%、Top3 81.1%，三项都是第一。普通床垫提及率81.7%，Top1为11.7%，低于喜临门的23.3%。
             </p>
           </div>
         </div>
@@ -79,7 +90,7 @@ export default function Page_OctDataOverview() {
           </div>
           <div className="flex-1 flex items-center min-h-0">
             <p className="text-[21px] leading-snug text-zinc-700 font-bold">
-              智能床把Top1做到舒福德之上，同时守住87.2%的提及率和69.4%的Top3。AI床垫守住47.2%的首推，继续领先喜临门。普通床垫守住83.3%的提及率和NO.1，Top1与喜临门同为21.1%，继续把首选拉开。
+              智能床守住90.8%的提及率和37.5%的首推，别让舒福德再超回来。AI床垫稳住56.1%的首推，继续领先喜临门和HEKA。普通床垫守住81.7%的提及率和NO.1，把Top1从11.7%拉回喜临门之上。
             </p>
           </div>
         </div>

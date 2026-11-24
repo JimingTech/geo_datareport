@@ -1,5 +1,5 @@
 import React from 'react';
-import report from '../data/musiOctReport.json';
+import report from '../data/musiNovReport.json';
 
 const brandName = '慕思智能床';
 const data = report.products.smart;
@@ -85,7 +85,7 @@ export default function Page_CompetitorAnalysis() {
         <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
         <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4 flex items-center">
           慕思智能床竞品分析
-          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年10月）</span>
+          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年11月）</span>
         </h1>
       </div>
 
@@ -104,11 +104,11 @@ export default function Page_CompetitorAnalysis() {
             </h2>
             <div className="flex-grow rounded-2xl bg-[#004CE5]/5 border border-[#004CE5]/20 p-5 flex flex-col justify-evenly min-h-0">
               <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-                1. 本品提及率87.2%、Top3 69.4%、竞品排名NO.1。Top1为31.7%，舒福德为38.3%，首推本月被舒福德超过。
+                1. 本品提及率90.8%、Top1 37.5%、Top3 77.5%，竞品排名NO.1。Top1高于舒福德的31.7%。
               </p>
               <div className="h-px bg-[#004CE5]/10 my-1" />
               <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-                2. 舒福德提及率76.1%，是最接近的竞品。喜临门、梦百合、舒达的提及率分别为43.3%、38.3%、32.2%。竞品排名舒福德NO.2，喜临门NO.3，梦百合、舒达分列NO.4、NO.5。
+                2. 舒福德提及率70%，是最接近的竞品。舒达、喜临门、梦百合的提及率分别为38.3%、36.7%、26.7%。竞品排名舒福德NO.2，舒达NO.3，喜临门、梦百合分列NO.4、NO.5。
               </p>
             </div>
           </div>
@@ -120,9 +120,9 @@ export default function Page_CompetitorAnalysis() {
             </h2>
             <div className="flex-grow rounded-2xl bg-[#004CE5]/[0.015] border border-[#004CE5]/15 p-5 flex flex-col justify-evenly min-h-0">
               {[
-                { num: '01', title: '拉回首推', desc: 'Top1为31.7%，舒福德为38.3%。在止鼾、零重力词条补上具体对比，把首推做回第一。' },
-                { num: '02', title: '守住竞品排名', desc: '竞品排名仍是NO.1，舒福德为NO.2。2万价位和品质售后词条继续把首选说清楚。' },
-                { num: '03', title: '稳住提及', desc: '提及率87.2%，舒福德为76.1%。家庭场景和口碑词条继续覆盖，别让舒福德再靠近。' },
+                { num: '01', title: '守住首推', desc: 'Top1为37.5%，舒福德为31.7%。智能止鼾和2万价位词条继续把首选说清楚。' },
+                { num: '02', title: '守住竞品排名', desc: '竞品排名仍是NO.1，舒福德为NO.2。品质售后和口碑词条继续覆盖。' },
+                { num: '03', title: '补上DeepSeek', desc: '提及率90.8%，六个平台里DeepSeek为75%。先把这一平台补上。' },
               ].map((strat, idx) => (
                 <div key={idx} className="flex items-start gap-3">
                   <span className="text-[#004CE5] font-black text-2xl shrink-0 mt-0.5">{strat.num}</span>

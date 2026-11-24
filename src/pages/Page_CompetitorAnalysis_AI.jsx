@@ -1,5 +1,5 @@
 import React from 'react';
-import report from '../data/musiOctReport.json';
+import report from '../data/musiNovReport.json';
 
 const brandName = '慕思AI床垫';
 const data = report.products.ai;
@@ -85,7 +85,7 @@ export default function Page_CompetitorAnalysis_AI() {
         <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
         <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4 flex items-center">
           慕思AI床垫竞品分析
-          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年10月）</span>
+          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年11月）</span>
         </h1>
       </div>
 
@@ -104,11 +104,11 @@ export default function Page_CompetitorAnalysis_AI() {
             </h2>
             <div className="flex-grow rounded-2xl bg-[#004CE5]/5 border border-[#004CE5]/20 p-5 flex flex-col justify-evenly min-h-0">
               <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-                1. 本品三项仍居第一：提及率90.6%、Top1 47.2%、竞品排名NO.1。Top1高于第二名喜临门（15.6%）31.6个百分点。
+                1. 本品三项仍居第一：提及率90.6%、Top1 56.1%、竞品排名NO.1。Top1高于第二名HEKA（11.7%）44.4个百分点。
               </p>
               <div className="h-px bg-[#004CE5]/10 my-1" />
               <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-                2. 喜临门提及率76.1%、竞品排名NO.2；HEKA提及率36.1%、Top1 9.4%、竞品排名NO.3。本品在提及和首推上仍领先这两家。
+                2. 喜临门提及率70%、竞品排名NO.2；HEKA提及率47.8%、Top1 11.7%、竞品排名NO.3。本品在提及和首推上仍领先这两家。
               </p>
             </div>
           </div>
@@ -120,9 +120,9 @@ export default function Page_CompetitorAnalysis_AI() {
             </h2>
             <div className="flex-grow rounded-2xl bg-[#004CE5]/[0.015] border border-[#004CE5]/15 p-5 flex flex-col justify-evenly min-h-0">
               {[
-                { num: '01', title: '稳住提及', desc: '本品提及率90.6%，喜临门为76.1%。品牌榜单和口碑推荐词条继续补量。' },
-                { num: '02', title: '守住首推', desc: 'Top1为47.2%，喜临门为15.6%。分区调节、精准护脊词条把首选说清楚。' },
-                { num: '03', title: '把对比写具体', desc: '售后联保和质量词条补充具体对比，把NO.1说清楚。' },
+                { num: '01', title: '稳住提及', desc: '本品提及率90.6%，喜临门为70%。品牌榜单和口碑推荐词条继续补量。' },
+                { num: '02', title: '守住首推', desc: 'Top1为56.1%，HEKA为11.7%。分区调节、精准护脊词条把首选说清楚。' },
+                { num: '03', title: '补上元宝', desc: '元宝提及率70%，是六个平台里最低的。质量和服务词条先补这一平台。' },
               ].map((strat, idx) => (
                 <div key={idx} className="flex items-start gap-3">
                   <span className="text-[#004CE5] font-black text-2xl shrink-0 mt-0.5">{strat.num}</span>

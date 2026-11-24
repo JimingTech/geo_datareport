@@ -49,7 +49,7 @@ export default function Page_QueryDataSystemLink({
         <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
         <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4">
           {slideTitle}
-          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年10月）</span>
+          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年11月）</span>
         </h1>
       </div>
 
@@ -62,7 +62,7 @@ export default function Page_QueryDataSystemLink({
         <div className="flex items-center gap-3">
           <div className="flex items-center gap-1.5 bg-white border border-zinc-200/80 rounded-md px-3 py-1.5 shadow-[0_1px_2px_rgba(0,0,0,0.02)]">
             <span>日期</span>
-            <span className="text-zinc-400 text-[10px] ml-1">10月</span>
+            <span className="text-zinc-400 text-[10px] ml-1">11月</span>
             <span className="text-zinc-300 text-[9px] ml-1">▼</span>
           </div>
 
