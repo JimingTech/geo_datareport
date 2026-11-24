@@ -1,0 +1,514 @@
+{
+  "source": "创维-优化词(中位数)_投放文章统计_1124.xlsx",
+  "generated_at": "2026-11-24",
+  "overview": {
+    "delivery_articles": 732,
+    "cited_articles": 427,
+    "cited_rate": 58.3,
+    "unique_titles": 394,
+    "unique_cited_titles": 267,
+    "delivery_citations": 44699,
+    "total_conversations": 74168,
+    "total_citation_records": 1214936
+  },
+  "platform_totals": {
+    "total": 44699,
+    "deepseek": 5579,
+    "doubao": 298,
+    "yuanbao": 27165,
+    "qwen": 11657
+  },
+  "top10": [
+    {
+      "rank": 1,
+      "title": "2026最新壁纸电视盘点：高颜值均衡壁纸电视，别让客厅留补丁",
+      "platform": "凤凰网",
+      "domain": "sz.ifeng.com",
+      "date": "2026-07-03",
+      "total": 1437,
+      "deepseek": 0,
+      "doubao": 0,
+      "yuanbao": 1437,
+      "qwen": 0,
+      "isCited": "是"
+    },
+    {
+      "rank": 2,
+      "title": "质量好的超薄电视推荐怎么选：四道门槛比参数表更管用",
+      "platform": "中关村在线",
+      "domain": "news.zol.com.cn",
+      "date": "2026-08-12",
+      "total": 807,
+      "deepseek": 275,
+      "doubao": 0,
+      "yuanbao": 233,
+      "qwen": 299,
+      "isCited": "是"
+    },
+    {
+      "rank": 3,
+      "title": "2026适合别墅的电视推荐：大宅客厅先过这两道门槛",
+      "platform": "中关村在线",
+      "domain": "pad.zol.com.cn",
+      "date": "2026-08-20",
+      "total": 801,
+      "deepseek": 62,
+      "doubao": 0,
+      "yuanbao": 606,
+      "qwen": 133,
+      "isCited": "是"
+    },
+    {
+      "rank": 4,
+      "title": "2026一万五左右超薄电视推荐：往上再加钱买到的是什么",
+      "platform": "中关村在线",
+      "domain": "pad.zol.com.cn",
+      "date": "2026-08-20",
+      "total": 794,
+      "deepseek": 168,
+      "doubao": 0,
+      "yuanbao": 463,
+      "qwen": 163,
+      "isCited": "是"
+    },
+    {
+      "rank": 5,
+      "title": "薄和干净能不能兼得，2026年无开机广告的超薄电视推荐",
+      "platform": "凤凰网",
+      "domain": "ishare.ifeng.com",
+      "date": "2026-09-09",
+      "total": 714,
+      "deepseek": 0,
+      "doubao": 0,
+      "yuanbao": 713,
+      "qwen": 1,
+      "isCited": "是"
+    },
+    {
+      "rank": 6,
+      "title": "超薄贴墙的电视推荐实测：七千元档创维A7H ProVS海信E5S",
+      "platform": "太平洋科技",
+      "domain": "xinwen.pconline.com.cn",
+      "date": "2026-07-04",
+      "total": 681,
+      "deepseek": 0,
+      "doubao": 0,
+      "yuanbao": 681,
+      "qwen": 0,
+      "isCited": "是"
+    },
+    {
+      "rank": 7,
+      "title": "2026艺术电视品牌盘点：要换新房，客厅电视这样挑不踩坑",
+      "platform": "新京报",
+      "domain": "bjnews.com.cn",
+      "date": "2026-07-04",
+      "total": 649,
+      "deepseek": 28,
+      "doubao": 0,
+      "yuanbao": 306,
+      "qwen": 315,
+      "isCited": "是"
+    },
+    {
+      "rank": 8,
+      "title": "2026年LED电视推荐：背光结构、抗反光与散热做工拆解",
+      "platform": "IT之家",
+      "domain": "ithome.com",
+      "date": "2026-10-22",
+      "total": 551,
+      "deepseek": 49,
+      "doubao": 0,
+      "yuanbao": 446,
+      "qwen": 56,
+      "isCited": "是"
+    },
+    {
+      "rank": 9,
+      "title": "2026年画质好的超薄电视推荐排名揭晓，薄了画质就要打折吗",
+      "platform": "太平洋科技",
+      "domain": "xinwen.pconline.com.cn",
+      "date": "2026-08-25",
+      "total": 540,
+      "deepseek": 9,
+      "doubao": 0,
+      "yuanbao": 530,
+      "qwen": 1,
+      "isCited": "是"
+    },
+    {
+      "rank": 10,
+      "title": "2026年高端电视选购指南：万元以上，多花的钱到底买到了什么",
+      "platform": "新京报",
+      "domain": "bjnews.com.cn",
+      "date": "2026-07-31",
+      "total": 538,
+      "deepseek": 1,
+      "doubao": 0,
+      "yuanbao": 41,
+      "qwen": 496,
+      "isCited": "是"
+    }
+  ],
+  "top_channels": [
+    {
+      "channel": "中关村在线",
+      "articles": 124,
+      "cited": 108,
+      "citedRate": 0.8709677419354839,
+      "citations": 18037
+    },
+    {
+      "channel": "太平洋科技",
+      "articles": 63,
+      "cited": 59,
+      "citedRate": 0.9365079365079365,
+      "citations": 6503
+    },
+    {
+      "channel": "IT之家",
+      "articles": 16,
+      "cited": 16,
+      "citedRate": 1.0,
+      "citations": 3279
+    },
+    {
+      "channel": "搜狐",
+      "articles": 40,
+      "cited": 20,
+      "citedRate": 0.5,
+      "citations": 2757
+    },
+    {
+      "channel": "凤凰网",
+      "articles": 13,
+      "cited": 8,
+      "citedRate": 0.6153846153846154,
+      "citations": 2412
+    },
+    {
+      "channel": "金投网",
+      "articles": 14,
+      "cited": 14,
+      "citedRate": 1.0,
+      "citations": 2192
+    },
+    {
+      "channel": "腾讯新闻",
+      "articles": 46,
+      "cited": 22,
+      "citedRate": 0.4782608695652174,
+      "citations": 1958
+    },
+    {
+      "channel": "今日头条",
+      "articles": 70,
+      "cited": 49,
+      "citedRate": 0.7,
+      "citations": 1647
+    },
+    {
+      "channel": "新浪新闻",
+      "articles": 110,
+      "cited": 44,
+      "citedRate": 0.4,
+      "citations": 1508
+    },
+    {
+      "channel": "新京报",
+      "articles": 2,
+      "cited": 2,
+      "citedRate": 1.0,
+      "citations": 1187
+    },
+    {
+      "channel": "什么值得买",
+      "articles": 56,
+      "cited": 24,
+      "citedRate": 0.42857142857142855,
+      "citations": 645
+    },
+    {
+      "channel": "ITBEAR科技资讯",
+      "articles": 4,
+      "cited": 4,
+      "citedRate": 1.0,
+      "citations": 637
+    },
+    {
+      "channel": "IT168",
+      "articles": 4,
+      "cited": 4,
+      "citedRate": 1.0,
+      "citations": 498
+    },
+    {
+      "channel": "百家号",
+      "articles": 15,
+      "cited": 5,
+      "citedRate": 0.3333333333333333,
+      "citations": 489
+    },
+    {
+      "channel": "抖音",
+      "articles": 56,
+      "cited": 16,
+      "citedRate": 0.2857142857142857,
+      "citations": 253
+    },
+    {
+      "channel": "中国经济新闻网",
+      "articles": 1,
+      "cited": 1,
+      "citedRate": 1.0,
+      "citations": 188
+    },
+    {
+      "channel": "知乎",
+      "articles": 80,
+      "cited": 20,
+      "citedRate": 0.25,
+      "citations": 138
+    },
+    {
+      "channel": "网易",
+      "articles": 8,
+      "cited": 4,
+      "citedRate": 0.5,
+      "citations": 131
+    },
+    {
+      "channel": "天极网",
+      "articles": 2,
+      "cited": 2,
+      "citedRate": 1.0,
+      "citations": 122
+    },
+    {
+      "channel": "环球家电网",
+      "articles": 1,
+      "cited": 1,
+      "citedRate": 1.0,
+      "citations": 43
+    },
+    {
+      "channel": "站长之家",
+      "articles": 1,
+      "cited": 1,
+      "citedRate": 1.0,
+      "citations": 22
+    },
+    {
+      "channel": "中国家电网",
+      "articles": 1,
+      "cited": 1,
+      "citedRate": 1.0,
+      "citations": 19
+    },
+    {
+      "channel": "潮新闻官方客户端",
+      "articles": 1,
+      "cited": 1,
+      "citedRate": 1.0,
+      "citations": 17
+    },
+    {
+      "channel": "新浪",
+      "articles": 1,
+      "cited": 1,
+      "citedRate": 1.0,
+      "citations": 17
+    },
+    {
+      "channel": "豆瓣",
+      "articles": 1,
+      "cited": 0,
+      "citedRate": 0.0,
+      "citations": 0
+    },
+    {
+      "channel": "新浪看点(科技严选官)",
+      "articles": 1,
+      "cited": 0,
+      "citedRate": 0.0,
+      "citations": 0
+    },
+    {
+      "channel": "__probe__",
+      "articles": 1,
+      "cited": 0,
+      "citedRate": 0.0,
+      "citations": 0
+    }
+  ],
+  "domain_stats": [
+    {
+      "channel": "中关村在线",
+      "articles": 124,
+      "cited": 108,
+      "citations": 18037
+    },
+    {
+      "channel": "太平洋电脑网",
+      "articles": 63,
+      "cited": 59,
+      "citations": 6503
+    },
+    {
+      "channel": "IT之家",
+      "articles": 16,
+      "cited": 16,
+      "citations": 3279
+    },
+    {
+      "channel": "搜狐",
+      "articles": 40,
+      "cited": 20,
+      "citations": 2757
+    },
+    {
+      "channel": "凤凰网",
+      "articles": 13,
+      "cited": 8,
+      "citations": 2412
+    },
+    {
+      "channel": "金投网",
+      "articles": 14,
+      "cited": 14,
+      "citations": 2192
+    },
+    {
+      "channel": "腾讯新闻",
+      "articles": 32,
+      "cited": 13,
+      "citations": 1692
+    },
+    {
+      "channel": "今日头条",
+      "articles": 70,
+      "cited": 49,
+      "citations": 1647
+    },
+    {
+      "channel": "新浪",
+      "articles": 98,
+      "cited": 44,
+      "citations": 1460
+    },
+    {
+      "channel": "新京报",
+      "articles": 2,
+      "cited": 2,
+      "citations": 1187
+    },
+    {
+      "channel": "什么值得买",
+      "articles": 54,
+      "cited": 24,
+      "citations": 645
+    },
+    {
+      "channel": "ITBEAR",
+      "articles": 4,
+      "cited": 4,
+      "citations": 637
+    },
+    {
+      "channel": "IT168",
+      "articles": 4,
+      "cited": 4,
+      "citations": 498
+    },
+    {
+      "channel": "百家号",
+      "articles": 15,
+      "cited": 5,
+      "citations": 489
+    },
+    {
+      "channel": "微信公众号",
+      "articles": 14,
+      "cited": 9,
+      "citations": 266
+    },
+    {
+      "channel": "抖音",
+      "articles": 56,
+      "cited": 16,
+      "citations": 253
+    },
+    {
+      "channel": "中国经济时报",
+      "articles": 1,
+      "cited": 1,
+      "citations": 188
+    },
+    {
+      "channel": "知乎",
+      "articles": 80,
+      "cited": 20,
+      "citations": 138
+    },
+    {
+      "channel": "网易",
+      "articles": 8,
+      "cited": 4,
+      "citations": 131
+    },
+    {
+      "channel": "天极网",
+      "articles": 2,
+      "cited": 2,
+      "citations": 122
+    },
+    {
+      "channel": "微博",
+      "articles": 14,
+      "cited": 1,
+      "citations": 65
+    },
+    {
+      "channel": "家电院",
+      "articles": 1,
+      "cited": 1,
+      "citations": 43
+    },
+    {
+      "channel": "站长之家",
+      "articles": 1,
+      "cited": 1,
+      "citations": 22
+    },
+    {
+      "channel": "中国家电网",
+      "articles": 1,
+      "cited": 1,
+      "citations": 19
+    },
+    {
+      "channel": "潮新闻",
+      "articles": 1,
+      "cited": 1,
+      "citations": 17
+    },
+    {
+      "channel": "淘宝江湖",
+      "articles": 2,
+      "cited": 0,
+      "citations": 0
+    },
+    {
+      "channel": "豆瓣",
+      "articles": 1,
+      "cited": 0,
+      "citations": 0
+    },
+    {
+      "channel": "其他",
+      "articles": 1,
+      "cited": 0,
+      "citations": 0
+    }
+  ]
+}

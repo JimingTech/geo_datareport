@@ -1,7 +1,5 @@
 import React from 'react';
-import report from '../data/awadaSeptemberReport.json';
-
-const { compare } = report;
+import report from '../data/chuangweiOctoberReport.json';
 
 function RankBadge({ rank, index }) {
   const n = rank || index + 1;
@@ -34,7 +32,50 @@ function withGap(rows) {
   return out;
 }
 
-export default function Page_CompetitorAnalysis() {
+const COPY = {
+  all: {
+    title: '创维电视（全部词条）竞品分析',
+    analysis: [
+      '1. 海信提及率 67.6%、Top1 15.8%，综合竞品排名 NO.2，是离创维电视最近的对手；TCL 提及率 60%、Top1 8.6%，排在 NO.3。小米、雷鸟落在 27% 左右。',
+      '2. 创维电视 11 月提及率 83.4%，综合竞品排名保持 NO.1。Top1 由 10 月的 29.6% 升至 48.2%，Top3 由 45.7% 升至 65.1%，两项排名都保持 NO.1。',
+    ],
+    strategies: [
+      { num: '01', title: '拉开海信', desc: '全部词条领先海信 15.8 个点。同台对比里继续把创维电视写成更明确的第一选择。' },
+      { num: '02', title: '盯住 DeepSeek', desc: '元宝已从 10 月的 67.1% 升到 79.6%。DeepSeek 76.3%，是四端里最低的；通义千问 89.5%，豆包 88.2%。' },
+      { num: '03', title: '大词贴得很近', desc: '37 个大词提及率 80.4%→79.7%，综合排名由 NO.2 进至 NO.1，但仍只领先 TCL 3.3 个点。' },
+    ],
+  },
+  ex_form: {
+    title: '创维电视（除壁纸、超薄以外）竞品分析',
+    analysis: [
+      '1. 「除壁纸、超薄以外」这一组里，海信提及率 68.6%、Top1 19.3%，仍是最近的对手；TCL 提及率 63.4%、Top1 9%，排在 NO.3。雷鸟 32%，小米 29.2%。',
+      '2. 创维电视提及率由 10 月的 80.3% 升至 80.9%，综合竞品排名保持 NO.1。Top1 22.1%→40.1%，排名保持 NO.1。Top3 由 38.8%（NO.3）升至 57.5%（NO.1）。',
+    ],
+    strategies: [
+      { num: '01', title: '守住对海信的领先', desc: '提及率领先海信 12.3 个点（80.9% 对 68.6%）。综合排名仍是 NO.1，继续把第一选择写清楚。' },
+      { num: '02', title: '盯住 DeepSeek', desc: '元宝已从 10 月的 58.8% 升到 76.3%。DeepSeek 从 74.6% 降到 70.2%，现在是这一组里最低的一端。' },
+      { num: '03', title: '大词 Top3 还没跟上', desc: '这一组 Top3 已从 NO.3 进到 NO.1。37 个大词的 Top3 仍是 51.4%，排名还是 NO.3。' },
+    ],
+  },
+  big: {
+    title: '创维电视（大词）竞品分析',
+    analysis: [
+      '1. 大词上创维电视提及率 79.7%，综合竞品排名 NO.1。TCL 提及率 76.4%，只差 3.3 个点；海信提及率 74.3%、Top1 23.6%，综合排名仍是 NO.2。',
+      '2. 创维电视 Top1 由 10 月的 20.3%（NO.2）升至 33.8%（NO.1），综合竞品排名由 NO.2 进至 NO.1。提及率 80.4%→79.7%。豆包 86.5%，通义千问 97.3%；DeepSeek 64.9%，元宝 70.3%。',
+    ],
+    strategies: [
+      { num: '01', title: '拉开贴身的 TCL', desc: '37 个大词里提及率只领先 TCL 3.3 个点。海信 Top1 23.6%，仍是 Top1 上最近的对手。' },
+      { num: '02', title: '先补 DeepSeek', desc: 'DeepSeek 从 10 月的 67.6% 降到 64.9%，元宝从 62.2% 升到 70.3%。通义千问停在 97.3%。先把 DeepSeek 补上去。' },
+      { num: '03', title: '把 Top3 做成第一', desc: 'Top3 由 10 月的 33.8% 升至 51.4%，排名仍是 NO.3。大词进了推荐名单，还要再往前排。' },
+    ],
+  },
+};
+
+export default function Page_CompetitorAnalysis({ productKey = 'all' }) {
+  const product = report.products[productKey];
+  const copy = COPY[productKey];
+  const compare = product.compare;
+
   const renderTable = (title, headers, rows) => {
     const display = withGap(rows);
     return (
@@ -104,8 +145,8 @@ export default function Page_CompetitorAnalysis() {
       <div className="flex items-center shrink-0 mb-3">
         <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
         <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4 flex items-center">
-          Awada竞品分析
-          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年9月）</span>
+          {copy.title}
+          <span className="text-2xl font-bold text-zinc-400 ml-4">（{report.meta.label}）</span>
         </h1>
       </div>
 
@@ -123,13 +164,9 @@ export default function Page_CompetitorAnalysis() {
               潜在竞争分析：
             </h2>
             <div className="flex-grow rounded-2xl bg-[#004CE5]/5 border border-[#004CE5]/20 p-5 flex flex-col justify-evenly min-h-0">
-              <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-                1. 火枫提及率 60.6%、Top1 27.5%，综合竞品排名稳居 NO.1，仍是户外餐厨推荐的默认答案；挪客、Snow Peak、MSR 以 21%—32% 组成第二梯队。
-              </p>
+              <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">{copy.analysis[0]}</p>
               <div className="h-px bg-[#004CE5]/10 my-1" />
-              <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-                2. Awada 本月提及率 6.9%（排名 NO.17），综合竞品排名 NO.43→NO.16；Top1 升至 1.3%（排名 NO.9），首推刚打开。
-              </p>
+              <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">{copy.analysis[1]}</p>
             </div>
           </div>
 
@@ -139,12 +176,8 @@ export default function Page_CompetitorAnalysis() {
               重点优化策略：
             </h2>
             <div className="flex-grow rounded-2xl bg-[#004CE5]/[0.015] border border-[#004CE5]/15 p-5 flex flex-col justify-evenly min-h-0">
-              {[
-                { num: '01', title: '拦截火枫', desc: '火枫独占首推两成以上，需在专业餐厨、精致露营同台对比里给出 Awada 更优的结论。' },
-                { num: '02', title: '扩大提及广度', desc: '「露营厨具哪个牌子好」仍是 0，「口碑好的户外厨具推荐」刚破零，泛选购大词还要继续铺。' },
-                { num: '03', title: '提升综合竞品排名', desc: '综合竞品排名现居 NO.16，需在已覆盖的 10 个词条里抢前三，继续向第二梯队靠拢。' },
-              ].map((strat, idx) => (
-                <div key={idx} className="flex items-start gap-3">
+              {copy.strategies.map((strat) => (
+                <div key={strat.num} className="flex items-start gap-3">
                   <span className="text-[#004CE5] font-black text-2xl shrink-0 mt-0.5">{strat.num}</span>
                   <p className="text-[22px] leading-relaxed text-zinc-800 font-bold flex-grow min-h-0">
                     <span className="text-zinc-900 font-black">{strat.title}：</span>
