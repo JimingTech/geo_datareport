@@ -75,15 +75,15 @@ export default function Page_CoreDataOverview() {
           </div>
           <div className="flex-1 flex flex-col justify-evenly min-h-0">
             <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-              1. 提及率由优化前（9月16日）的10.7%升至42.1%，综合竞品排名由 NO.9 进至 NO.2。Top1 提及率由4.3%升至13.6%，排名由 NO.6 进至 NO.1。
+              1. 提及率由10月的42.1%升至52.8%，提及率排名稳居 NO. 2，落后新桥东 4.2 个点。综合竞品排名由 NO. 2 进至 NO. 1。Top1提及率由13.6%升至21.8%，稳居 NO. 1。
             </p>
             <div className="h-px bg-[#004CE5]/10" />
             <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-              2. DeepSeek 10%→45.7%，豆包 11.4%→38.6%。两端都在涨，豆包仍比 DeepSeek 低 7.1 个点。Top3 提及率由7.9%升至22.1%，排名由 NO.7 进至 NO.2。
+              2. 豆包 38.6%→63.4%，DeepSeek 45.7%→42.3%，豆包高出 21.1 个点。Top3提及率由22.1%（NO. 2）升至48.6%（NO. 1）。
             </p>
             <div className="h-px bg-[#004CE5]/10" />
             <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-              3. 70个监测词条的有效覆盖由11个增至45个，仍有25个为0。「适合总部入驻的深圳市宝安区高端产业园推荐」已到100%，Top1 仍是0。
+              3. 71个词条里，有提及的由45个增至47个，仍有24个是0。其中10个10月是50%，11月回到0。
             </p>
           </div>
         </div>
@@ -95,9 +95,9 @@ export default function Page_CoreDataOverview() {
           </div>
           <div className="flex-1 flex flex-col justify-evenly min-h-0">
             {[
-              { num: '01', title: '追上新桥东', desc: '提及率还差 9.3 个点（42.1%对51.4%），综合竞品排名 NO.2。Top1 已反超（13.6%对12.9%），同台对比里把创维创新谷写成第一选择。' },
-              { num: '02', title: '补齐豆包缺口', desc: '「适合电子信息企业入驻」「总部企业集聚」在 DeepSeek 已是 100%，豆包仍是 0。先把这两类词条补到豆包。' },
-              { num: '03', title: '大词做成首推', desc: '70 个词条里还有 56 个 Top1 为 0。「适合总部入驻的深圳市宝安区高端产业园推荐」提及率已是 100%，首推还是 0。' },
+              { num: '01', title: '追上新桥东', desc: '提及率还差 4.2 个点（52.8%对57%）。综合竞品排名已是 NO. 1，Top1提及率领先 6.3 个点（21.8%对15.5%）。' },
+              { num: '02', title: '补齐 DeepSeek', desc: '豆包已到 63.4%，DeepSeek 回落到 42.3%。总部企业集聚、地铁口产业园、「宝安区产业园有哪些」，豆包是 100%，DeepSeek 是 0。' },
+              { num: '03', title: '补回 0 提及词条', desc: '还有 24 个提及率是 0，其中 10 个 10 月是 50%。科技产业园、电子信息企业发展的提及率已到 100%，Top1提及率仍是 0。' },
             ].map((strat) => (
               <div key={strat.num} className="flex items-start gap-3">
                 <span className="text-emerald-600 font-black text-2xl shrink-0 mt-0.5 font-['Montserrat',sans-serif]">{strat.num}</span>

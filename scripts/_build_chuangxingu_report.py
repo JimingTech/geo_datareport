@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""组装创维创新谷 10 月报告。优化前=2026-09-16，10月=2026-10-28。监测用客户项目 721。"""
+"""组装创维创新谷 11 月报告。10月=2026-10-28，11月=2026-11-25。监测用客户项目 721。不改投放明细。"""
 import json
 from datetime import datetime, date
 from pathlib import Path
@@ -18,8 +18,8 @@ for line in Path(r"e:\6.cursor\reports\report_gujinggong\.env").read_text(encodi
 
 PROJECT_ID = 721
 PROJECT_NAME = "创新谷-优化词"
-BEFORE = "2026-09-16"
-OCTOBER = "2026-10-28"
+BEFORE = "2026-10-28"
+OCTOBER = "2026-11-25"
 DISPLAY = "创维创新谷"
 BASE = ENV["GEO_API_BASE"].rstrip("/")
 XLSX = Path(
@@ -151,9 +151,12 @@ def with_self(rows, n):
     return head
 
 
-def snapshot(day):
-    stats = get("/api/conversations/stats", project_id=PROJECT_ID, start_date=day, end_date=day)
-    influence = get("/api/competitors/influence", project_id=PROJECT_ID, start_date=day, end_date=day)
+def snapshot(day, entry_ids):
+    scope = {"entry_ids": entry_ids}
+    stats = get("/api/conversations/stats", project_id=PROJECT_ID, start_date=day, end_date=day, **scope)
+    influence = get("/api/competitors/influence", project_id=PROJECT_ID, start_date=day, end_date=day, **scope)
+    if stats.get("summary_scope"):
+        raise SystemExit(f"{day} 仍是筛选口径: {stats['summary_scope']}")
     entries, total = page_all(
         "/api/entries",
         project_id=PROJECT_ID,
@@ -161,12 +164,14 @@ def snapshot(day):
         end_date=day,
         sort_by="mention_rate",
         sort_order="desc",
+        **scope,
     )
     mention = page_all(
         "/api/competitors/mention-rate",
         project_id=PROJECT_ID,
         start_date=day,
         end_date=day,
+        **scope,
     )[0]
     top1 = get(
         "/api/competitors/top-mention-rate",
@@ -175,6 +180,7 @@ def snapshot(day):
         end_date=day,
         top_type="top1",
         page_size=100,
+        **scope,
     )
     top3 = get(
         "/api/competitors/top-mention-rate",
@@ -183,6 +189,7 @@ def snapshot(day):
         end_date=day,
         top_type="top3",
         page_size=100,
+        **scope,
     )
     me = next((b for b in (influence.get("list") or []) if b.get("is_target")), {})
     top1_list = top1.get("list") or []
@@ -262,8 +269,19 @@ def fmt_date(v):
     return f"{int(y)}/{int(m)}/{int(d)}"
 
 
-before = snapshot(BEFORE)
-october = snapshot(OCTOBER)
+id_rows, id_total = page_all(
+    "/api/entries",
+    project_id=PROJECT_ID,
+    start_date=OCTOBER,
+    end_date=OCTOBER,
+)
+entry_ids = ",".join(str(e["entry_id"]) for e in id_rows if e.get("entry_id"))
+if not entry_ids or (id_total and len(entry_ids.split(",")) != id_total):
+    raise SystemExit(f"词条 id 不完整: {len(entry_ids.split(','))} / {id_total}")
+print("entry_ids", len(entry_ids.split(",")), "full set, not best-n")
+
+before = snapshot(BEFORE, entry_ids)
+october = snapshot(OCTOBER, entry_ids)
 
 platform_entries = {}
 for pl in platforms:
@@ -275,6 +293,7 @@ for pl in platforms:
         sort_by="mention_rate",
         sort_order="desc",
         platform_ids=pl["id"],
+        entry_ids=entry_ids,
     )
     platform_entries[str(pl["id"])] = [
         {
@@ -327,7 +346,8 @@ def pct(v):
 
 
 snap_keys = (
-    "mention_rate", "top1_mention_rate", "top3_mention_rate", "influence_score",
+    "mention_rate", "top1_mention_rate", "top3_mention_rate",
+    "mention_rank", "top1_rank", "top3_rank", "influence_score",
     "influence_rank", "conversations", "covered_entries", "platforms",
 )
 
@@ -337,12 +357,12 @@ report = {
         "project_name": PROJECT_NAME,
         "product": DISPLAY,
         "brand": DISPLAY,
-        "label": "2026年10月",
+        "label": "2026年11月",
         "before_date": BEFORE,
         "september_date": OCTOBER,
         "october_date": OCTOBER,
-        "before_label": "优化前",
-        "september_label": "10月",
+        "before_label": "10月",
+        "september_label": "11月",
     },
     "scope": {
         "platforms": len(platforms),
@@ -368,117 +388,13 @@ report = {
 )
 
 
-def as_date(value):
-    if isinstance(value, datetime):
-        return value.strftime("%Y-%m-%d")
-    if isinstance(value, date):
-        return value.strftime("%Y-%m-%d")
-    return str(value or "").strip()[:10]
-
-
-wb = openpyxl.load_workbook(XLSX, data_only=True)
-overview = wb["数据概览"]
-detail = wb["文章引用明细"]
-channels = wb["平台与渠道分析"]
-
-
-def cell(row, col):
-    return overview.cell(row, col).value
-
-
-rows = []
-for record in detail.iter_rows(min_row=2, values_only=True):
-    if record[0] in (None, ""):
-        continue
-    try:
-        int(record[0])
-    except (TypeError, ValueError):
-        continue
-    rows.append(record)
-
-delivery_articles = int(cell(14, 2))
-cited_articles = int(cell(14, 5))
-delivery_citations = int(cell(10, 2))
-if len(rows) != delivery_articles:
-    raise SystemExit(f"明细 {len(rows)} 行，概览投放文章总数 {delivery_articles}")
-cited_rows = [r for r in rows if r[8] == "是"]
-if len(cited_rows) != cited_articles:
-    raise SystemExit(f"被引 {len(cited_rows)} 行，概览被引用文章数 {cited_articles}")
-
-
-def total_col(idx):
-    return sum(int(r[idx] or 0) for r in rows)
-
-
-platform_totals = {
-    "total": total_col(5),
-    "deepseek": total_col(6),
-    "doubao": total_col(7),
-}
-if platform_totals["total"] != delivery_citations:
-    raise SystemExit(f"明细引用合计 {platform_totals['total']}，概览 {delivery_citations}")
-
-unknown_domains = sorted({r[3] for r in rows if r[3] not in DOMAIN_NAMES})
-
-grouped = {}
-for r in rows:
-    name = DOMAIN_NAMES.get(r[3], r[3])
-    acc = grouped.setdefault(name, {"channel": name, "articles": 0, "cited": 0, "citations": 0})
-    acc["articles"] += 1
-    if r[8] == "是":
-        acc["cited"] += 1
-    acc["citations"] += int(r[5] or 0)
-domain_stats = sorted(grouped.values(), key=lambda a: (a["citations"], a["articles"]), reverse=True)
-
-top_channels = []
-for record in channels.iter_rows(min_row=2, values_only=True):
-    if not record[0] or record[0] == "发布平台":
-        continue
-    top_channels.append({
-        "channel": record[0],
-        "articles": int(record[1] or 0),
-        "cited": int(record[2] or 0),
-        "citedRate": float(record[3] or 0),
-        "citations": int(record[4] or 0),
-    })
-top_channels.sort(key=lambda a: (a["citations"], a["articles"]), reverse=True)
-
-delivery = {
-    "source": XLSX.name,
-    "generated_at": "2026-10-29",
-    "overview": {
-        "delivery_articles": delivery_articles,
-        "cited_articles": cited_articles,
-        "cited_rate": round(cited_articles / delivery_articles * 100, 1),
-        "unique_titles": len({r[1] for r in rows}),
-        "unique_cited_titles": len({r[1] for r in cited_rows}),
-        "delivery_citations": delivery_citations,
-        "total_conversations": int(cell(6, 2)),
-        "total_citation_records": int(cell(6, 5)),
-    },
-    "platform_totals": platform_totals,
-    "top10": [
-        {
-            "rank": int(r[0]),
-            "title": r[1],
-            "platform": r[2],
-            "domain": r[3],
-            "date": as_date(r[4]),
-            "total": int(r[5] or 0),
-            "deepseek": int(r[6] or 0),
-            "doubao": int(r[7] or 0),
-            "yuanbao": int(r[8] or 0),
-            "isCited": r[8],
-        }
-        for r in rows[:10]
-    ],
-    "top_channels": top_channels,
-    "domain_stats": domain_stats,
-}
-(ROOT / "src" / "data" / "chuangxinguDelivery.json").write_text(
-    json.dumps(delivery, ensure_ascii=False, indent=2),
-    encoding="utf-8",
-)
+# 投放明细由 _build_chuangxingu_delivery.py 单独写入，这里只读取。
+delivery = json.loads((ROOT / "src" / "data" / "chuangxinguDelivery.json").read_text(encoding="utf-8"))
+delivery_articles = delivery["overview"]["delivery_articles"]
+cited_articles = delivery["overview"]["cited_articles"]
+platform_totals = delivery["platform_totals"]
+domain_stats = delivery["domain_stats"]
+unknown_domains = []
 
 zeros = [e for e in entries if not (e["mention_rate"] or 0)]
 gains = sorted(entries, key=lambda e: (e["mention_rate"] or 0) - (e["before_mention_rate"] or 0), reverse=True)

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""投放明细：创新谷-优化词(中位数) 1029 表。监测平台只有 DeepSeek / 豆包。"""
+"""投放明细：创新谷-优化词(中位数) 1124 表。监测平台只有 DeepSeek / 豆包。"""
 import json
 from datetime import datetime, date
 from pathlib import Path
@@ -17,8 +17,8 @@ for line in Path(r"e:\6.cursor\reports\report_gujinggong\.env").read_text(encodi
     ENV[k.strip()] = v.strip().strip('"').strip("'")
 
 XLSX = Path(
-    r"e:\02GEO\3.GEO数据监测系统\投放文章统计-1029\投放文章统计-1029"
-    r"\创新谷-优化词(中位数)_投放文章统计_1029.xlsx"
+    r"e:\02GEO\4.结果汇报\11.25\11月投放文章\11月投放文章"
+    r"\创新谷-优化词(中位数)_投放文章统计_1124.xlsx"
 )
 
 DOMAIN_NAMES = {
@@ -52,8 +52,12 @@ DOMAIN_NAMES = {
     "news.sina.com.cn": "新浪",
     "jianghu.taobao.com": "淘宝江湖",
     "dutenews.com": "读特",
-    "cet.com.cn": "中国经济时报",
-    "www.cet.com.cn": "中国经济时报",
+    "cet.com.cn": "中国经济新闻网",
+    "www.cet.com.cn": "中国经济新闻网",
+    "xdxf.xcainews.cn": "搜狐",
+    "caijing365w.lyaskw.com": "搜狐",
+    "yicheshiw.cn": "搜狐",
+    "www.yicheshiw.cn": "搜狐",
     "view.inews.qq.com": "腾讯新闻",
     "news.qq.com": "腾讯新闻",
     "weibo.com": "微博",
@@ -120,7 +124,7 @@ def main():
 
     payload = {
         "source": XLSX.name,
-        "generated_at": "2026-10-29",
+        "generated_at": "2026-11-24",
         "overview": {
             "delivery_articles": delivery_articles,
             "cited_articles": cited_articles,
@@ -201,4 +205,3 @@ def ranks():
 
 if __name__ == "__main__":
     main()
-    ranks()

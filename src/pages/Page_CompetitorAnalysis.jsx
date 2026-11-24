@@ -124,11 +124,11 @@ export default function Page_CompetitorAnalysis() {
             </h2>
             <div className="flex-grow rounded-2xl bg-[#004CE5]/5 border border-[#004CE5]/20 p-5 flex flex-col justify-evenly min-h-0">
               <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-                1. 新桥东先进制造产业园提及率 51.4%、Top1 12.9%，综合竞品排名 NO.1，是离创维创新谷最近的对手；全至科技创新园提及率 30%，燕罗智能网联汽车产业园 29.3%，落在第三、第四。
+                1. 新桥东先进制造产业园提及率 57%、Top1提及率 15.5%，提及率排名 NO. 1，是离创维创新谷最近的对手。全至科技创新园提及率 35.2%，燕罗智能网联汽车产业园 30.3%，排在第三、第四。
               </p>
               <div className="h-px bg-[#004CE5]/10 my-1" />
               <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-                2. 创维创新谷 10 月提及率 42.1%（排名 NO.2），综合竞品排名 NO.9→NO.2；Top1 由 4.3%（NO.6）升至 13.6%（NO.1），Top3 由 7.9%（NO.7）升至 22.1%（NO.2）。
+                2. 创维创新谷 11 月提及率 52.8%，提及率排名稳居 NO. 2，比 10 月的 42.1% 高 10.7 个点。综合竞品排名由 NO. 2 进至 NO. 1。Top1提及率由 13.6% 升至 21.8%，稳居 NO. 1。Top3提及率由 22.1%（NO. 2）升至 48.6%（NO. 1）。
               </p>
             </div>
           </div>
@@ -140,9 +140,9 @@ export default function Page_CompetitorAnalysis() {
             </h2>
             <div className="flex-grow rounded-2xl bg-[#004CE5]/[0.015] border border-[#004CE5]/15 p-5 flex flex-col justify-evenly min-h-0">
               {[
-                { num: '01', title: '追上新桥东', desc: '提及率落后 9.3 个点，Top1 已领先 0.7 个点。同台对比里继续把创维创新谷写成第一选择。' },
-                { num: '02', title: '补豆包短板', desc: '豆包提及率 38.6%，DeepSeek 已到 45.7%。电子信息入驻、总部集聚在 DeepSeek 已是 100%，豆包还是 0。' },
-                { num: '03', title: '补上空白词条', desc: '还有 25 个词条是 0，集中在补贴、灵活分割、智能硬件和红本产权。已到 100% 的总部入驻词，Top1 仍是 0。' },
+                { num: '01', title: '追上新桥东', desc: '提及率落后 4.2 个点，Top1提及率已领先 6.3 个点。综合竞品排名已是 NO. 1。' },
+                { num: '02', title: '补齐 DeepSeek', desc: 'DeepSeek 提及率 42.3%，豆包已到 63.4%。总部企业集聚、地铁口产业园、「宝安区产业园有哪些」，豆包是 100%，DeepSeek 是 0。' },
+                { num: '03', title: '补回 0 提及词条', desc: '还有 24 个提及率是 0，其中 10 个 10 月是 50%。科技产业园、电子信息企业发展的提及率已到 100%，Top1提及率仍是 0。' },
               ].map((strat, idx) => (
                 <div key={idx} className="flex items-start gap-3">
                   <span className="text-[#004CE5] font-black text-2xl shrink-0 mt-0.5">{strat.num}</span>
