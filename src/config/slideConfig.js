@@ -33,7 +33,7 @@ export const slideConfig = [
     backgroundImage: '/proposal-cover/proposal-cover-new.png',
     brand: 'GEO 索引未来',
     subtitle: 'Awada GEO \n 阶段性报告',
-    date: 'October 2026',
+    date: 'November 2026',
   },
 
   {

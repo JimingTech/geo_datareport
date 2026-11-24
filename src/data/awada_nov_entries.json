@@ -1,0 +1,1152 @@
+{
+  "project_id": 668,
+  "date": "2026-11-23",
+  "platforms": [
+    {
+      "id": 1,
+      "name": "DeepSeek"
+    },
+    {
+      "id": 2,
+      "name": "豆包"
+    },
+    {
+      "id": 3,
+      "name": "元宝"
+    },
+    {
+      "id": 5,
+      "name": "通义千问"
+    }
+  ],
+  "platform_entries": {
+    "1": [
+      {
+        "entry_name": "露营厨具品牌推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/3fc2344f4e9442a782bcc4131a12c1a1.png"
+      },
+      {
+        "entry_name": "专业户外餐厨品牌推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261117/59711a035007458c8b998dc26c6f11ed.png"
+      },
+      {
+        "entry_name": "专业户外厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/e7901ae7cce4465383027a1e5469be6a.png"
+      },
+      {
+        "entry_name": "家庭露营厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261024/f9796bf171874d4b81feaef9dde69448.png"
+      },
+      {
+        "entry_name": "多人露营厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/1afade649581442187a932dacc83b524.png"
+      },
+      {
+        "entry_name": "精致户外餐厨品牌推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/234578da9517430fba3260930591b122.png"
+      },
+      {
+        "entry_name": "精致露营厨具品牌推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/c7945aa327244a87a33222f86b58f445.png"
+      },
+      {
+        "entry_name": "精致露营厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/f1917537099b47f8bf1cf78d851606cd.png"
+      },
+      {
+        "entry_name": "原创露营厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/780fe00be931408993b20f2a83f0d151.png"
+      },
+      {
+        "entry_name": "高颜值户外厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/7c626d91b50a469ba7e9ac1e1ae7e114.png"
+      },
+      {
+        "entry_name": "高颜值露营厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/ad71205617b9411ca628ee95bb8bf9c7.png"
+      },
+      {
+        "entry_name": "好用的户外厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261003/0ba269e562b24de19955ba475b633a85.png"
+      },
+      {
+        "entry_name": "口碑好的户外厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261114/01ebab9f9a5a4c1a9e7dca7d33d9b9b3.png"
+      },
+      {
+        "entry_name": "好收纳的露营厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/1e452e1e4dd149fc969339e6d418f305.png"
+      },
+      {
+        "entry_name": "户外调料瓶推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261010/32c71631b4cc420a81b92d645efb2d23.png"
+      },
+      {
+        "entry_name": "户外餐具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/cee48f1ef6934366ac04ed8ebdeff7ae.png"
+      },
+      {
+        "entry_name": "户外厨具品牌推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/2232508e4c484d2da830f5ae1a5a97f6.png"
+      },
+      {
+        "entry_name": "露营厨具哪个牌子好",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/f8d979d3d2e7476e811cd5f4bbc11852.png"
+      },
+      {
+        "entry_name": "露营厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/cae3735616d244238b3357620a44165e.png"
+      },
+      {
+        "entry_name": "专业户外炊具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/15e62cfbc3d048d8b261b0ce38eb01e1.png"
+      },
+      {
+        "entry_name": "专业户外锅具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/5a5df6fb9abc4e15b345cd2685f68ef9.png"
+      },
+      {
+        "entry_name": "新手户外厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/3f2fe97fcf06432f81b908b0374038c8.png"
+      },
+      {
+        "entry_name": "亲子户外厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/69343061bd594af08b98d5c36c9d62b1.png"
+      },
+      {
+        "entry_name": "房车厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/a6dd590398bf43e28caef3ebdb547c2f.png"
+      },
+      {
+        "entry_name": "自驾厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/e59e3250f5034bb9846d3bce24d5feb2.png"
+      },
+      {
+        "entry_name": "原创户外品牌推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/c63975b5479746a998212d92b16fba31.png"
+      },
+      {
+        "entry_name": "高颜值户外套锅推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/855020dad9ba49a5a51c08a534d3993b.png"
+      },
+      {
+        "entry_name": "好出片户外厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/7ee1e217ca49438eb1a7c8958898361e.png"
+      },
+      {
+        "entry_name": "轻量化露营装备推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/98069c7cabde470dabe0b619d53808ed.png"
+      },
+      {
+        "entry_name": "多功能户外装备推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/e2b0e40ca61943ae99b5b6bed9faf665.png"
+      },
+      {
+        "entry_name": "易收纳户外装备推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/3a1e969f41554206a8719fdf46da296d.png"
+      },
+      {
+        "entry_name": "高品质户外装备推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/71d1153c619a4530822799ea01ff8b9b.png"
+      },
+      {
+        "entry_name": "质量好的露营厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/12528b263875462583ab1267abec2cb3.png"
+      },
+      {
+        "entry_name": "户外套锅推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/26f436b0e54e483f946b2070b73e3f9e.png"
+      },
+      {
+        "entry_name": "露营锅具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/7af4acb2f99e491fb2690bdab5227c37.png"
+      },
+      {
+        "entry_name": "户外刀具套装推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/04e56e28edf748faae3a5b9fe4534560.png"
+      },
+      {
+        "entry_name": "露营刀具套装推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/ede433f5b68e4291bfd112dddca2c9b6.png"
+      },
+      {
+        "entry_name": "户外水壶推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/2ebf1b8064b84cab960563f6174af61d.png"
+      },
+      {
+        "entry_name": "户外饭盒推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/0e1ce1211a244d868e555587094d4c3f.png"
+      },
+      {
+        "entry_name": "户外烤盘推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/5d16f298fbc2443cba43d5f235f24ced.png"
+      }
+    ],
+    "2": [
+      {
+        "entry_name": "露营厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20260907/5ea2330d9c934e0e8510eb99a3994d12.png"
+      },
+      {
+        "entry_name": "专业户外餐厨品牌推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/def9a70d83044eb485ac39e17051d4bf.png"
+      },
+      {
+        "entry_name": "精致户外餐厨品牌推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261004/b6ae37d27afe434c80e82f71f3917d21.png"
+      },
+      {
+        "entry_name": "精致露营厨具品牌推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/076a3e207ef74f93840d32abd1985fbf.png"
+      },
+      {
+        "entry_name": "原创露营厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/aeafd20478a94d06a7134648f80581dc.png"
+      },
+      {
+        "entry_name": "好出片户外厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/65595943414c47448c7a3e8a7238588f.png"
+      },
+      {
+        "entry_name": "易收纳户外装备推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/0bc84055907e4559afbbe9fcc2bf33c9.png"
+      },
+      {
+        "entry_name": "好用的户外厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/291be3075f114142b031fa7aebd3a1a0.png"
+      },
+      {
+        "entry_name": "口碑好的户外厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/6bef4fcfef764974a3327dd5e0e66a8c.png"
+      },
+      {
+        "entry_name": "好收纳的露营厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/dc9eda26fd834250b260b9ed2b6354f9.png"
+      },
+      {
+        "entry_name": "质量好的露营厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/b9b5e2744b3649008d5a57af544d9561.png"
+      },
+      {
+        "entry_name": "露营刀具套装推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/a7745193f6c14e93bd02c6259d27bea0.png"
+      },
+      {
+        "entry_name": "户外调料瓶推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/6165dc0b53cb419abe4fb93b9dc85e9c.png"
+      },
+      {
+        "entry_name": "户外餐具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/02f4214fc54347728a752d6a44965487.png"
+      },
+      {
+        "entry_name": "户外厨具品牌推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/a290b889ff52411888900f37bbb0818c.png"
+      },
+      {
+        "entry_name": "露营厨具哪个牌子好",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/e0d94fc7338c44fe866a4c5ab3a81f94.png"
+      },
+      {
+        "entry_name": "露营厨具品牌推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/e44b7925ffa14c8d81ce307af678a5b4.png"
+      },
+      {
+        "entry_name": "专业户外厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/02b7c0ba43ae4a6e8420481ca39567c7.png"
+      },
+      {
+        "entry_name": "专业户外炊具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/76a520795ba84822a95504e576613e1a.png"
+      },
+      {
+        "entry_name": "专业户外锅具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/4d3a8ddaea8e4331a49fd8007fc7db31.png"
+      },
+      {
+        "entry_name": "新手户外厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/e4c8da6f57da4b4db46f85cc2e4aaa11.png"
+      },
+      {
+        "entry_name": "家庭露营厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/b5d8681f894d4edd925248d7f7b3a714.png"
+      },
+      {
+        "entry_name": "亲子户外厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/22c5b8a1945848e0a5f6c9760bef4bd4.png"
+      },
+      {
+        "entry_name": "多人露营厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/d36f63a7d5944ce9bb5e376a83f89f04.png"
+      },
+      {
+        "entry_name": "房车厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/c78093d1905944e9ba18eb9ed3137c62.png"
+      },
+      {
+        "entry_name": "自驾厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/2caf4fbaa7a8464dae60ed51d484f943.png"
+      },
+      {
+        "entry_name": "精致露营厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/4e81f7efb73244c899a3c32686c2d511.png"
+      },
+      {
+        "entry_name": "原创户外品牌推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/e2d955802229403887e73bd4666efb0f.png"
+      },
+      {
+        "entry_name": "高颜值户外厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/a258e35bb45b4477b09bc29196adca35.png"
+      },
+      {
+        "entry_name": "高颜值露营厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/255eb86a1611424395ed932899d768a3.png"
+      },
+      {
+        "entry_name": "高颜值户外套锅推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/80ab18559230417894076bd374050daa.png"
+      },
+      {
+        "entry_name": "轻量化露营装备推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/49b9c9b225f54b048657dda5226d23be.png"
+      },
+      {
+        "entry_name": "多功能户外装备推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/8bd937dc5a154f0193427f78537cd02b.png"
+      },
+      {
+        "entry_name": "高品质户外装备推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/4406252f68844ad9a9e75da0c9c42119.png"
+      },
+      {
+        "entry_name": "户外套锅推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/72474a615cc34099aec58d7b5d13e353.png"
+      },
+      {
+        "entry_name": "露营锅具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/499ca55f2bce432484828b6bc9bb2979.png"
+      },
+      {
+        "entry_name": "户外刀具套装推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/0c30246d92ae49b69524cbf37110f535.png"
+      },
+      {
+        "entry_name": "户外水壶推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/ce060fab6d214be8b2978fc7b7188756.png"
+      },
+      {
+        "entry_name": "户外饭盒推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/332f938c8d09425c96a6de95846e3f6b.png"
+      },
+      {
+        "entry_name": "户外烤盘推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/10b1e1c064d74ff59b58452d13436cfb.png"
+      }
+    ],
+    "3": [
+      {
+        "entry_name": "户外厨具品牌推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/5aab60a091fa411992c4df3c8375411d.png"
+      },
+      {
+        "entry_name": "露营厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/f7789908a237415c8cc95aa705ddbf2d.png"
+      },
+      {
+        "entry_name": "专业户外餐厨品牌推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261117/18e362cb8d264d6a8277f9fa9f100911.png"
+      },
+      {
+        "entry_name": "专业户外炊具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/c5fe38b0b13748d1a868c49de83b7208.png"
+      },
+      {
+        "entry_name": "亲子户外厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261117/231f2fa89cc04a8fadd39fbf943daf5f.png"
+      },
+      {
+        "entry_name": "多人露营厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/638a4a8276944ea08381850dfadf394a.png"
+      },
+      {
+        "entry_name": "房车厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/e72accf1855242ad8af533cb4758d460.png"
+      },
+      {
+        "entry_name": "精致户外餐厨品牌推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261117/1cc81074f13a4d81856511073101ae56.png"
+      },
+      {
+        "entry_name": "精致露营厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261114/1e1153944dfe4ea0a429994fa263da0e.png"
+      },
+      {
+        "entry_name": "原创露营厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261114/f23b0613a28a480cb8917a461286c988.png"
+      },
+      {
+        "entry_name": "高颜值户外厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261010/54b0d1156a554bad9928f7230a92487f.png"
+      },
+      {
+        "entry_name": "高颜值露营厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/19075a8570694b27b363555357fedff2.png"
+      },
+      {
+        "entry_name": "高颜值户外套锅推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/1e1d4cd7b0e6418eb78fb0f8bdceff1b.png"
+      },
+      {
+        "entry_name": "多功能户外装备推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261114/f0ed1a260dd5438c9ed685c34c12a6ca.png"
+      },
+      {
+        "entry_name": "口碑好的户外厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261117/19d92d12cec9448591b762e8bf053767.png"
+      },
+      {
+        "entry_name": "好收纳的露营厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/6a2cad40d49d4606a619b53a6626c46f.png"
+      },
+      {
+        "entry_name": "户外套锅推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/ee104a9f598f4fdfa7a7c968c773d990.png"
+      },
+      {
+        "entry_name": "户外餐具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/1133e9d335094d69b8db8aae15a49327.png"
+      },
+      {
+        "entry_name": "露营厨具哪个牌子好",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/7a21800116054a0c8eb8a70f40456373.png"
+      },
+      {
+        "entry_name": "露营厨具品牌推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/458fae4955a7450382f10b0980a2a8d8.png"
+      },
+      {
+        "entry_name": "专业户外厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/91fcdfcc7d094375a2d26adff04c2a16.png"
+      },
+      {
+        "entry_name": "专业户外锅具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/c80610a7821840ceb4821a7fd764d7ad.png"
+      },
+      {
+        "entry_name": "新手户外厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/cff33a88ac2a46c3847ea17d08f69f08.png"
+      },
+      {
+        "entry_name": "家庭露营厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/c6e10f78e87a489dadb96af195b3c5a0.png"
+      },
+      {
+        "entry_name": "自驾厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/d24258979e814cd194bd0f8282e7e5df.png"
+      },
+      {
+        "entry_name": "精致露营厨具品牌推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/a32ea2c0becc4890a6889c9049eb7138.png"
+      },
+      {
+        "entry_name": "原创户外品牌推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/904538eebea74a7cae7e9612e5c4809d.png"
+      },
+      {
+        "entry_name": "好出片户外厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/d3ea0dcd776d4e199197b8f6ef7721f0.png"
+      },
+      {
+        "entry_name": "轻量化露营装备推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/19b0e6fc4610417d977fb6e5b8903399.png"
+      },
+      {
+        "entry_name": "易收纳户外装备推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/e7fede62a43e42ef9b8517c4a0966a3b.png"
+      },
+      {
+        "entry_name": "好用的户外厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/15bbec196ea34fc7b394409dd32022ed.png"
+      },
+      {
+        "entry_name": "高品质户外装备推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/4808ed0996b946b196bdbc75149e4c21.png"
+      },
+      {
+        "entry_name": "质量好的露营厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/4100ed00341a4201a3b33fb1a200c50d.png"
+      },
+      {
+        "entry_name": "露营锅具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/3a029114f1484c1386c059aee80ba0de.png"
+      },
+      {
+        "entry_name": "户外刀具套装推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/8f0b9bce94494e2f96e8c44f04104f38.png"
+      },
+      {
+        "entry_name": "露营刀具套装推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/d9e9c73ea23e426883d728985096e07e.png"
+      },
+      {
+        "entry_name": "户外水壶推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/2aa14993852f4b2ba49614969622bf18.png"
+      },
+      {
+        "entry_name": "户外饭盒推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/0f48ef78709c4ae2816ee1d952cd6db8.png"
+      },
+      {
+        "entry_name": "户外烤盘推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/a90b08a37ca04385ba968ccd9c45342d.png"
+      },
+      {
+        "entry_name": "户外调料瓶推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261121/7fab9be1d9ea4606a0291531a8afeef0.png"
+      }
+    ],
+    "5": [
+      {
+        "entry_name": "专业户外餐厨品牌推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261024/cbe783cf6238415c8501db3cc0d33f10.png"
+      },
+      {
+        "entry_name": "专业户外厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/d1bccea627d24d7d9f17bd642c71c6f1.png"
+      },
+      {
+        "entry_name": "多人露营厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/c0f8cfb8aefc4cdd8363e6a128a54d3b.png"
+      },
+      {
+        "entry_name": "原创露营厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261114/2116f43b676e497c95880fd6e540305e.png"
+      },
+      {
+        "entry_name": "高颜值户外厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261114/6011d0a4d0f74ec3956325c7a8da3680.png"
+      },
+      {
+        "entry_name": "好出片户外厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261017/637f64937e5f46f49cf36430f0ff038b.png"
+      },
+      {
+        "entry_name": "多功能户外装备推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261017/13129f91d99d45308f3d8844913f143c.png"
+      },
+      {
+        "entry_name": "好用的户外厨具推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261017/3d7d2042fb38486a9a559bc57f8f9c03.png"
+      },
+      {
+        "entry_name": "户外套锅推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/50fd9bce1e2b4f5898c4fa7f5f63964e.png"
+      },
+      {
+        "entry_name": "户外刀具套装推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/d00fadf8eb074ebd810905d651db1c66.png"
+      },
+      {
+        "entry_name": "户外餐具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/5986d7cf34644da1853fecc52580f850.png"
+      },
+      {
+        "entry_name": "户外厨具品牌推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/4d2ce7acf0084ce4ad8d5e9e10d15335.png"
+      },
+      {
+        "entry_name": "露营厨具哪个牌子好",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/faf30ba3a7054c9e8c9dc1b023531ec6.png"
+      },
+      {
+        "entry_name": "露营厨具品牌推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/df4f943e5cac45ed807c0b5c0267e3a9.png"
+      },
+      {
+        "entry_name": "露营厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/b40120e261bd46bb991aea7381a7ff1e.png"
+      },
+      {
+        "entry_name": "专业户外炊具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/8f75e530108b48afa0de8d025d4ff84d.png"
+      },
+      {
+        "entry_name": "专业户外锅具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/efc968cd978e448682fc19f68f995f9a.png"
+      },
+      {
+        "entry_name": "新手户外厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/ee176957c2e649f9a27106928be65cf1.png"
+      },
+      {
+        "entry_name": "家庭露营厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/613b80c7de63473a9a5a4c27444e7bed.png"
+      },
+      {
+        "entry_name": "亲子户外厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/10d9ad5762274accb76bd72400b884eb.png"
+      },
+      {
+        "entry_name": "房车厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/9388c5f25fa248ca9a2b1dfcc87778a5.png"
+      },
+      {
+        "entry_name": "自驾厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/1e1c8672b68240af96f3a9a1ccc69cc8.png"
+      },
+      {
+        "entry_name": "精致户外餐厨品牌推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/8f7b389d102b4951a3b8c84ad8c7d01d.png"
+      },
+      {
+        "entry_name": "精致露营厨具品牌推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/1c109ca3aeb546bb95323cd2d5b23046.png"
+      },
+      {
+        "entry_name": "精致露营厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/289b83e7bb1a48b5bca45e6953ccf2ef.png"
+      },
+      {
+        "entry_name": "原创户外品牌推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/041e5be3a55b48dc969cf2150775ea72.png"
+      },
+      {
+        "entry_name": "高颜值露营厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/cead8af5a0204fac816f6e7f0c54ae37.png"
+      },
+      {
+        "entry_name": "高颜值户外套锅推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/e06e64cc43164c5b94d383037de65f6c.png"
+      },
+      {
+        "entry_name": "轻量化露营装备推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/802be4327a16477393e16c74081d6414.png"
+      },
+      {
+        "entry_name": "易收纳户外装备推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/430ba6ca733a4a7d8507a25d09e4f32a.png"
+      },
+      {
+        "entry_name": "口碑好的户外厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/b616b49008e545a694a7a67d6666121f.png"
+      },
+      {
+        "entry_name": "好收纳的露营厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/8c42e92bfc69499ebf3282b383acafa9.png"
+      },
+      {
+        "entry_name": "高品质户外装备推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/cd693d12402541d6800dc6a8acd3f272.png"
+      },
+      {
+        "entry_name": "质量好的露营厨具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/1c70208fa99d4d1b8d4bc451bee59f85.png"
+      },
+      {
+        "entry_name": "露营锅具推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/18356b0b774a49a3bfe3210a955e46c6.png"
+      },
+      {
+        "entry_name": "露营刀具套装推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/292217f64a40447ebf7d7de4f001ce21.png"
+      },
+      {
+        "entry_name": "户外水壶推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/3d9d99dda78a4ca7a142135e304d90e8.png"
+      },
+      {
+        "entry_name": "户外饭盒推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/1251e470b06a4754af4274304c01764d.png"
+      },
+      {
+        "entry_name": "户外烤盘推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/12fadec0e3bd469bb91fd5762ceffcf8.png"
+      },
+      {
+        "entry_name": "户外调料瓶推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/23",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261122/f4ea313eed8e42df8a610067f4891a42.png"
+      }
+    ]
+  }
+}

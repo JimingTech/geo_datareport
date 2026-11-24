@@ -95,7 +95,7 @@ export default function Page_CompetitorAnalysis() {
         <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
         <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4 flex items-center">
           Awada竞品分析
-          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年10月）</span>
+          <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年11月）</span>
         </h1>
       </div>
 
@@ -110,15 +110,15 @@ export default function Page_CompetitorAnalysis() {
           <div className="flex flex-col gap-3 h-full min-h-0">
             <h2 className="text-2xl font-black text-zinc-900 flex items-center gap-2 shrink-0">
               <span className="w-2.5 h-2.5 rounded-full bg-[#004CE5]" />
-              潜在竞争分析：
+              竞争格局分析：
             </h2>
             <div className="flex-grow rounded-2xl bg-[#004CE5]/5 border border-[#004CE5]/20 p-5 flex flex-col justify-evenly min-h-0">
               <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-                1. 火枫提及率 71.9%、Top1 29.4%，综合竞品排名 NO.1。爱路客、挪客、Snow Peak 的提及率分别是 35%、29.4%、28.1%。
+                1. 火枫提及率 65.6%、Top1 26.3%，综合竞品排名 NO.1。Awada（34.4%）、挪客（31.3%）、牧高笛（29.4%）、爱路客（28.1%）位列 2–5 名。
               </p>
               <div className="h-px bg-[#004CE5]/10 my-1" />
               <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-                2. Awada 提及率 23.1%，提及率排名 NO.6；综合竞品排名由 9月的 NO.15 进至 NO.5。Top1 为 12.5%，排在火枫之后。
+                2. Awada 提及率由 10月的 23.1% 升至 34.4%，提及率排名由 NO.6 跃升至 NO.2；综合竞品排名由 NO.5 升至 NO.2。Top1 达 16.3%，稳居第二。
               </p>
             </div>
           </div>
@@ -126,13 +126,13 @@ export default function Page_CompetitorAnalysis() {
           <div className="flex flex-col gap-3 h-full min-h-0">
             <h2 className="text-2xl font-black text-zinc-900 flex items-center gap-2 shrink-0">
               <span className="w-2.5 h-2.5 rounded-full bg-[#004CE5]" />
-              重点优化策略：
+              最终竞争地位总结：
             </h2>
             <div className="flex-grow rounded-2xl bg-[#004CE5]/[0.015] border border-[#004CE5]/15 p-5 flex flex-col justify-evenly min-h-0">
               {[
-                { num: '01', title: '对着火枫补首推', desc: '火枫 Top1 29.4%，Awada 12.5%。专业餐厨和精致露营的推荐里写明首选 Awada。' },
-                { num: '02', title: '跟上爱路客', desc: '爱路客提及率 35%，提及率排名第 2。泛选购大词继续铺。' },
-                { num: '03', title: '继续抬排名', desc: '综合竞品排名现为 NO.5。推荐里把首选 Awada 写清楚，先把提及率往 Snow Peak 的 28.1% 靠。' },
+                { num: '01', title: '全榜稳居行业第二', desc: 'Awada 在提及率（34.4%）、Top1 提及率（16.3%）与综合竞品排名中全部稳居行业第 2，竞争地位高度巩固。' },
+                { num: '02', title: '大幅超越成熟传统品牌', desc: '全面拉开与挪客（31.3%）、牧高笛（29.4%）、爱路客（28.1%）的竞争差距，成功实现后发先至。' },
+                { num: '03', title: '首推竞争壁垒牢固树立', desc: 'Top1 提及率达到 16.3%，是第 3 名牧高笛（5.6%）的近 3 倍，在露营厨具大模型问答中建立起极为稳固的首推心智。' },
               ].map((strat, idx) => (
                 <div key={idx} className="flex items-start gap-3">
                   <span className="text-[#004CE5] font-black text-2xl shrink-0 mt-0.5">{strat.num}</span>
