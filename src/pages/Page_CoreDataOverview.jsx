@@ -1,5 +1,5 @@
 import React from 'react';
-import report from '../data/chuangxinguOctoberReport.json';
+import report from '../data/pangluoNovemberReport.json';
 
 const { scope, before, september } = report;
 
@@ -75,15 +75,15 @@ export default function Page_CoreDataOverview() {
           </div>
           <div className="flex-1 flex flex-col justify-evenly min-h-0">
             <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-              1. 提及率由优化前（9月16日）的10.7%升至42.1%，综合竞品排名由 NO.9 进至 NO.2。Top1 提及率由4.3%升至13.6%，排名由 NO.6 进至 NO.1。
+              1. 提及率由优化前的 40.2% 提升至 53.6%，排名稳居行业 NO.1，领先第二名夸克 5.0 个百分点。Top1 提及率升至 17.9%（NO.2）；Top3 提及率升至 34.3%（NO.2）。综合竞品排名居 NO.2，与第一名夸克仅差 0.1 分（39.3 对 39.4）。
             </p>
             <div className="h-px bg-[#004CE5]/10" />
             <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-              2. DeepSeek 10%→45.7%，豆包 11.4%→38.6%。两端都在涨，豆包仍比 DeepSeek 低 7.1 个点。Top3 提及率由7.9%升至22.1%，排名由 NO.7 进至 NO.2。
+              2. 四端全面增长：DeepSeek 36.4%→51.4%（+15.0%），豆包 54.5%→60.0%（+5.5%），元宝 45.5%→57.1%（+11.6%），通义千问 24.2%→45.7%（+21.5%）。此前薄弱端通义千问大幅拉升，四端整体表现更为均衡。
             </p>
             <div className="h-px bg-[#004CE5]/10" />
             <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-              3. 70个监测词条的有效覆盖由11个增至45个，仍有25个为0。「适合总部入驻的深圳市宝安区高端产业园推荐」已到100%，Top1 仍是0。
+              3. 35个监测词条的有效覆盖由优化前的 19 个增至 26 个，净增 7 个词条覆盖，覆盖率由 54.3% 提升至 74.3%。未覆盖词条由 16 个降至 9 个。
             </p>
           </div>
         </div>
@@ -95,9 +95,9 @@ export default function Page_CoreDataOverview() {
           </div>
           <div className="flex-1 flex flex-col justify-evenly min-h-0">
             {[
-              { num: '01', title: '追上新桥东', desc: '提及率还差 9.3 个点（42.1%对51.4%），综合竞品排名 NO.2。Top1 已反超（13.6%对12.9%），同台对比里把创维创新谷写成第一选择。' },
-              { num: '02', title: '补齐豆包缺口', desc: '「适合电子信息企业入驻」「总部企业集聚」在 DeepSeek 已是 100%，豆包仍是 0。先把这两类词条补到豆包。' },
-              { num: '03', title: '大词做成首推', desc: '70 个词条里还有 56 个 Top1 为 0。「适合总部入驻的深圳市宝安区高端产业园推荐」提及率已是 100%，首推还是 0。' },
+              { num: '01', title: '攻坚夸克首推优势', desc: '庞洛提及率已领先夸克 5.0 个百分点，综合得分仅差 0.1 分。但夸克在 Top1（25.7% 对 17.9%）仍有优势，需在同台对比中把庞洛写成第一选择。' },
+              { num: '02', title: '突破高提及零首推词', desc: '「南极邮轮怎么选」「极地邮轮怎么选」「奢华邮轮推荐」等词条提及率已达 75%~100%，但 Top1 仍为 0。针对这些高潜大词优化首推语料。' },
+              { num: '03', title: '补齐剩余9个空白词条', desc: '攻坚「一次南极行程最多能看几种企鹅」「大溪地怎么玩」「适合老年人的邮轮」等未覆盖词条，定向补充渠道语料，消除监测盲区。' },
             ].map((strat) => (
               <div key={strat.num} className="flex items-start gap-3">
                 <span className="text-emerald-600 font-black text-2xl shrink-0 mt-0.5 font-['Montserrat',sans-serif]">{strat.num}</span>

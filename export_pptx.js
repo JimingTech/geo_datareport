@@ -14,11 +14,11 @@ async function run() {
     });
     const page = await browser.newPage();
 
-    console.log('Navigating to http://localhost:7650...');
+    console.log('Navigating to http://localhost:7651...');
     try {
-        await page.goto('http://localhost:7650', { waitUntil: 'networkidle0', timeout: 60000 });
+        await page.goto('http://localhost:7651', { waitUntil: 'networkidle0', timeout: 60000 });
     } catch (e) {
-        console.error('Failed to load page. Make sure Vite server is running on port 7650.', e);
+        console.error('Failed to load page. Make sure Vite server is running on port 7651.', e);
         await browser.close();
         return;
     }
@@ -101,8 +101,8 @@ async function run() {
     }
 
     const outputName = hasPageFilter
-        ? `Presentation_P${startPage}-${endPage}.pptx`
-        : `Presentation.pptx`;
+        ? `庞洛邮轮GEO阶段性报告_2026年11月_P${startPage}-${endPage}.pptx`
+        : `庞洛邮轮GEO阶段性报告_2026年11月.pptx`;
     console.log('Generating PPTX file...');
     await pptx.writeFile({ fileName: outputName });
     console.log(`Export complete: ${outputName}`);

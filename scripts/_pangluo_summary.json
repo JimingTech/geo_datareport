@@ -1,0 +1,322 @@
+{
+  "before": {
+    "day": "2026-10-19",
+    "mention_rate": 40.2,
+    "stats_top1": null,
+    "stats_top3": null,
+    "top1_mention_rate": 12.1,
+    "top3_mention_rate": 21.2,
+    "top1_rank": 2,
+    "top3_rank": 2,
+    "mention_rank": 1,
+    "influence_score": 29,
+    "influence_rank": 2,
+    "conversations": 132,
+    "entries_total": 35,
+    "covered_entries": 19,
+    "platforms": [
+      {
+        "name": "DeepSeek",
+        "mention_rate": 36.4
+      },
+      {
+        "name": "豆包",
+        "mention_rate": 54.5
+      },
+      {
+        "name": "元宝",
+        "mention_rate": 45.5
+      },
+      {
+        "name": "通义千问",
+        "mention_rate": 24.2
+      }
+    ]
+  },
+  "current": {
+    "day": "2026-11-25",
+    "mention_rate": 53.6,
+    "stats_top1": null,
+    "stats_top3": null,
+    "top1_mention_rate": 17.9,
+    "top3_mention_rate": 34.3,
+    "top1_rank": 2,
+    "top3_rank": 2,
+    "mention_rank": 1,
+    "influence_score": 39.3,
+    "influence_rank": 2,
+    "conversations": 140,
+    "entries_total": 35,
+    "covered_entries": 26,
+    "platforms": [
+      {
+        "name": "DeepSeek",
+        "mention_rate": 51.4
+      },
+      {
+        "name": "豆包",
+        "mention_rate": 60
+      },
+      {
+        "name": "元宝",
+        "mention_rate": 57.1
+      },
+      {
+        "name": "通义千问",
+        "mention_rate": 45.7
+      }
+    ]
+  },
+  "compare": {
+    "mention_rate": [
+      {
+        "name": "庞洛邮轮",
+        "value": "53.6%",
+        "isTarget": true,
+        "rank": 1
+      },
+      {
+        "name": "夸克",
+        "value": "48.6%",
+        "isTarget": false,
+        "rank": 2
+      },
+      {
+        "name": "HX Expeditions",
+        "value": "16.4%",
+        "isTarget": false,
+        "rank": 3
+      },
+      {
+        "name": "Antarctica21",
+        "value": "15.7%",
+        "isTarget": false,
+        "rank": 4
+      },
+      {
+        "name": "Aurora Expeditions",
+        "value": "14.3%",
+        "isTarget": false,
+        "rank": 5
+      }
+    ],
+    "top1": [
+      {
+        "name": "夸克",
+        "value": "25.7%",
+        "isTarget": false,
+        "rank": 1
+      },
+      {
+        "name": "庞洛邮轮",
+        "value": "17.9%",
+        "isTarget": true,
+        "rank": 2
+      },
+      {
+        "name": "Antarctica21",
+        "value": "3.6%",
+        "isTarget": false,
+        "rank": 3
+      },
+      {
+        "name": "MSC地中海邮轮",
+        "value": "3.6%",
+        "isTarget": false,
+        "rank": 4
+      },
+      {
+        "name": "爱达邮轮",
+        "value": "3.6%",
+        "isTarget": false,
+        "rank": 5
+      }
+    ],
+    "influence": [
+      {
+        "name": "夸克",
+        "value": "NO. 1",
+        "isTarget": false,
+        "rank": 1
+      },
+      {
+        "name": "庞洛邮轮",
+        "value": "NO. 2",
+        "isTarget": true,
+        "rank": 2
+      },
+      {
+        "name": "Antarctica21",
+        "value": "NO. 3",
+        "isTarget": false,
+        "rank": 3
+      },
+      {
+        "name": "HX Expeditions",
+        "value": "NO. 4",
+        "isTarget": false,
+        "rank": 4
+      },
+      {
+        "name": "Aurora Expeditions",
+        "value": "NO. 5",
+        "isTarget": false,
+        "rank": 5
+      }
+    ]
+  },
+  "zero_count": 9,
+  "zero_names": [
+    "一次南极行程最多能看几种企鹅",
+    "南极登陆次数多的邮轮",
+    "大溪地怎么玩",
+    "中文服务的邮轮推荐",
+    "适合VIP高端团建/年会/会奖出境游的创意玩法",
+    "适合老年人的邮轮",
+    "适合国际学校的研学旅行线路",
+    "香草四岛怎么去",
+    "春节航线推荐"
+  ],
+  "new_cover": [
+    {
+      "name": "南极邮轮哪家最好",
+      "now": 100,
+      "top1": 0
+    },
+    {
+      "name": "奢华邮轮推荐",
+      "now": 75,
+      "top1": 0
+    },
+    {
+      "name": "一个人邮轮旅行推荐",
+      "now": 75,
+      "top1": 0
+    },
+    {
+      "name": "看北极熊航线推荐",
+      "now": 50,
+      "top1": 0
+    },
+    {
+      "name": "南极婚礼邮轮推荐",
+      "now": 50,
+      "top1": 0
+    },
+    {
+      "name": "哪家邮轮探险队员比较多",
+      "now": 25,
+      "top1": 0
+    },
+    {
+      "name": "地中海邮轮选哪家",
+      "now": 25,
+      "top1": 0
+    },
+    {
+      "name": "去北极怕晕船，选哪家",
+      "now": 25,
+      "top1": 0
+    }
+  ],
+  "top_gains": [
+    {
+      "name": "南极邮轮哪家最好",
+      "before": null,
+      "now": 100,
+      "top1": 0
+    },
+    {
+      "name": "奢华邮轮推荐",
+      "before": 0,
+      "now": 75,
+      "top1": 0
+    },
+    {
+      "name": "一个人邮轮旅行推荐",
+      "before": 0,
+      "now": 75,
+      "top1": 0
+    },
+    {
+      "name": "南极邮轮怎么选",
+      "before": 50,
+      "now": 100,
+      "top1": 0
+    },
+    {
+      "name": "安全靠谱的极地邮轮",
+      "before": 50,
+      "now": 100,
+      "top1": 25
+    },
+    {
+      "name": "哪些航线能看到王企鹅",
+      "before": 25,
+      "now": 75,
+      "top1": 25
+    },
+    {
+      "name": "看北极熊航线推荐",
+      "before": 0,
+      "now": 50,
+      "top1": 0
+    },
+    {
+      "name": "南极婚礼邮轮推荐",
+      "before": 0,
+      "now": 50,
+      "top1": 0
+    },
+    {
+      "name": "北极邮轮怎么选",
+      "before": 75,
+      "now": 100,
+      "top1": 50
+    },
+    {
+      "name": "体验好的极地探险邮轮推荐",
+      "before": 75,
+      "now": 100,
+      "top1": 50
+    }
+  ],
+  "top1_zero_high_mention": [
+    {
+      "name": "南极邮轮怎么选",
+      "now": 100
+    },
+    {
+      "name": "南极/北极/极地中文服务最好的邮轮",
+      "now": 100
+    },
+    {
+      "name": "南极邮轮哪家最好",
+      "now": 100
+    },
+    {
+      "name": "极地邮轮怎么选",
+      "now": 75
+    },
+    {
+      "name": "奢华邮轮推荐",
+      "now": 75
+    },
+    {
+      "name": "一个人邮轮旅行推荐",
+      "now": 75
+    },
+    {
+      "name": "看北极熊航线推荐",
+      "now": 50
+    },
+    {
+      "name": "哪家极地邮轮探险队员更专业",
+      "now": 50
+    },
+    {
+      "name": "南极婚礼邮轮推荐",
+      "now": 50
+    }
+  ]
+}

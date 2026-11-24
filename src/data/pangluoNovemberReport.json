@@ -1,0 +1,1438 @@
+{
+  "meta": {
+    "project_id": 7947,
+    "project_name": "庞洛邮轮-优化词",
+    "product": "庞洛邮轮",
+    "brand": "庞洛邮轮",
+    "label": "2026年11月",
+    "before_date": "2026-10-19",
+    "current_date": "2026-11-25",
+    "september_date": "2026-11-25",
+    "before_label": "优化前",
+    "september_label": "11月"
+  },
+  "scope": {
+    "platforms": 4,
+    "platform_names": [
+      "DeepSeek",
+      "豆包",
+      "元宝",
+      "通义千问"
+    ],
+    "entries": 35,
+    "conversations": 140
+  },
+  "before": {
+    "mention_rate": 40.2,
+    "top1_mention_rate": 12.1,
+    "top3_mention_rate": 21.2,
+    "mention_rank": 1,
+    "top1_rank": 2,
+    "top3_rank": 2,
+    "influence_score": 29,
+    "influence_rank": 2,
+    "conversations": 132,
+    "covered_entries": 19,
+    "platforms": [
+      {
+        "name": "DeepSeek",
+        "mention_rate": 36.4
+      },
+      {
+        "name": "豆包",
+        "mention_rate": 54.5
+      },
+      {
+        "name": "元宝",
+        "mention_rate": 45.5
+      },
+      {
+        "name": "通义千问",
+        "mention_rate": 24.2
+      }
+    ]
+  },
+  "september": {
+    "mention_rate": 53.6,
+    "top1_mention_rate": 17.9,
+    "top3_mention_rate": 34.3,
+    "mention_rank": 1,
+    "top1_rank": 2,
+    "top3_rank": 2,
+    "influence_score": 39.3,
+    "influence_rank": 2,
+    "conversations": 140,
+    "covered_entries": 26,
+    "platforms": [
+      {
+        "name": "DeepSeek",
+        "mention_rate": 51.4
+      },
+      {
+        "name": "豆包",
+        "mention_rate": 60
+      },
+      {
+        "name": "元宝",
+        "mention_rate": 57.1
+      },
+      {
+        "name": "通义千问",
+        "mention_rate": 45.7
+      }
+    ]
+  },
+  "compare": {
+    "mention_rate": [
+      {
+        "name": "庞洛邮轮",
+        "value": "53.6%",
+        "isTarget": true,
+        "rank": 1
+      },
+      {
+        "name": "夸克",
+        "value": "48.6%",
+        "isTarget": false,
+        "rank": 2
+      },
+      {
+        "name": "HX Expeditions",
+        "value": "16.4%",
+        "isTarget": false,
+        "rank": 3
+      },
+      {
+        "name": "Antarctica21",
+        "value": "15.7%",
+        "isTarget": false,
+        "rank": 4
+      },
+      {
+        "name": "Aurora Expeditions",
+        "value": "14.3%",
+        "isTarget": false,
+        "rank": 5
+      }
+    ],
+    "top1": [
+      {
+        "name": "夸克",
+        "value": "25.7%",
+        "isTarget": false,
+        "rank": 1
+      },
+      {
+        "name": "庞洛邮轮",
+        "value": "17.9%",
+        "isTarget": true,
+        "rank": 2
+      },
+      {
+        "name": "Antarctica21",
+        "value": "3.6%",
+        "isTarget": false,
+        "rank": 3
+      },
+      {
+        "name": "MSC地中海邮轮",
+        "value": "3.6%",
+        "isTarget": false,
+        "rank": 4
+      },
+      {
+        "name": "爱达邮轮",
+        "value": "3.6%",
+        "isTarget": false,
+        "rank": 5
+      }
+    ],
+    "influence": [
+      {
+        "name": "夸克",
+        "value": "NO. 1",
+        "isTarget": false,
+        "rank": 1
+      },
+      {
+        "name": "庞洛邮轮",
+        "value": "NO. 2",
+        "isTarget": true,
+        "rank": 2
+      },
+      {
+        "name": "Antarctica21",
+        "value": "NO. 3",
+        "isTarget": false,
+        "rank": 3
+      },
+      {
+        "name": "HX Expeditions",
+        "value": "NO. 4",
+        "isTarget": false,
+        "rank": 4
+      },
+      {
+        "name": "Aurora Expeditions",
+        "value": "NO. 5",
+        "isTarget": false,
+        "rank": 5
+      }
+    ]
+  },
+  "entries": [
+    {
+      "name": "南极邮轮怎么选",
+      "mention_rate": 100,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 50,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "北极邮轮怎么选",
+      "mention_rate": 100,
+      "top1_mention_rate": 50,
+      "before_mention_rate": 75,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "体验好的极地探险邮轮推荐",
+      "mention_rate": 100,
+      "top1_mention_rate": 50,
+      "before_mention_rate": 75,
+      "before_top1_mention_rate": 25
+    },
+    {
+      "name": "北极邮轮哪家最好",
+      "mention_rate": 100,
+      "top1_mention_rate": 100,
+      "before_mention_rate": 100,
+      "before_top1_mention_rate": 25
+    },
+    {
+      "name": "庞洛和夸克帝企鹅航线对比",
+      "mention_rate": 100,
+      "top1_mention_rate": 25,
+      "before_mention_rate": 100,
+      "before_top1_mention_rate": 50
+    },
+    {
+      "name": "南极/北极/极地中文服务最好的邮轮",
+      "mention_rate": 100,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 100,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "南极华人包船推荐",
+      "mention_rate": 100,
+      "top1_mention_rate": 75,
+      "before_mention_rate": 75,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "安全靠谱的极地邮轮",
+      "mention_rate": 100,
+      "top1_mention_rate": 25,
+      "before_mention_rate": 50,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "极地邮轮排名",
+      "mention_rate": 100,
+      "top1_mention_rate": 25,
+      "before_mention_rate": 100,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "南极邮轮哪家最好",
+      "mention_rate": 100,
+      "top1_mention_rate": 0,
+      "before_mention_rate": null,
+      "before_top1_mention_rate": null
+    },
+    {
+      "name": "极地邮轮怎么选",
+      "mention_rate": 75,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 75,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "帝企鹅航线推荐",
+      "mention_rate": 75,
+      "top1_mention_rate": 25,
+      "before_mention_rate": 75,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "哪些航线能看到王企鹅",
+      "mention_rate": 75,
+      "top1_mention_rate": 25,
+      "before_mention_rate": 25,
+      "before_top1_mention_rate": 25
+    },
+    {
+      "name": "北冕号怎么样",
+      "mention_rate": 75,
+      "top1_mention_rate": 75,
+      "before_mention_rate": 75,
+      "before_top1_mention_rate": 75
+    },
+    {
+      "name": "指挥官夏古号破冰能力如何",
+      "mention_rate": 75,
+      "top1_mention_rate": 75,
+      "before_mention_rate": 100,
+      "before_top1_mention_rate": 100
+    },
+    {
+      "name": "奢华邮轮推荐",
+      "mention_rate": 75,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "一个人邮轮旅行推荐",
+      "mention_rate": 75,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "看北极熊航线推荐",
+      "mention_rate": 50,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "哪家极地邮轮探险队员更专业",
+      "mention_rate": 50,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 50,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "大溪地邮轮怎么选",
+      "mention_rate": 50,
+      "top1_mention_rate": 25,
+      "before_mention_rate": 25,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "南冠号邮轮什么档次",
+      "mention_rate": 50,
+      "top1_mention_rate": 50,
+      "before_mention_rate": 100,
+      "before_top1_mention_rate": 100
+    },
+    {
+      "name": "南极婚礼邮轮推荐",
+      "mention_rate": 50,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "去南极怕晕船，选哪家",
+      "mention_rate": 25,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 50,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "哪家邮轮探险队员比较多",
+      "mention_rate": 25,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "地中海邮轮选哪家",
+      "mention_rate": 25,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "去北极怕晕船，选哪家",
+      "mention_rate": 25,
+      "top1_mention_rate": 0,
+      "before_mention_rate": null,
+      "before_top1_mention_rate": null
+    },
+    {
+      "name": "一次南极行程最多能看几种企鹅",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "南极登陆次数多的邮轮",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 25,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "大溪地怎么玩",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "中文服务的邮轮推荐",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "适合VIP高端团建/年会/会奖出境游的创意玩法",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "适合老年人的邮轮",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "适合国际学校的研学旅行线路",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "香草四岛怎么去",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    },
+    {
+      "name": "春节航线推荐",
+      "mention_rate": 0,
+      "top1_mention_rate": 0,
+      "before_mention_rate": 0,
+      "before_top1_mention_rate": 0
+    }
+  ],
+  "platform_entries": {
+    "1": [
+      {
+        "entry_name": "极地邮轮怎么选",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/d4bca24f5d4f43d4ab29c5b2c17cd787.png"
+      },
+      {
+        "entry_name": "南极邮轮怎么选",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/fede61c6bde14a9cb443d19146a0a8ff.png"
+      },
+      {
+        "entry_name": "北极邮轮怎么选",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/b90d1c649ffd4443be3a376e5b4e482a.png"
+      },
+      {
+        "entry_name": "体验好的极地探险邮轮推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/5e9972fffe484d25b57a98659c14e2cc.png"
+      },
+      {
+        "entry_name": "北极邮轮哪家最好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/081dd0f282524e629909db4cb1b6ab69.png"
+      },
+      {
+        "entry_name": "帝企鹅航线推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/604c0546c7e047f9bf900a2da7150f1f.png"
+      },
+      {
+        "entry_name": "庞洛和夸克帝企鹅航线对比",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/eec442f22c704bc3b531c4da74b8fc3a.png"
+      },
+      {
+        "entry_name": "哪些航线能看到王企鹅",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/462aa8375adb4ea18d7e4c59e4d2abec.png"
+      },
+      {
+        "entry_name": "南极/北极/极地中文服务最好的邮轮",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/d3eaa2badcf74a30a85dd8a8d9a89a9b.png"
+      },
+      {
+        "entry_name": "南极华人包船推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/88626bd741f643ef8ad8b12357274e5c.png"
+      },
+      {
+        "entry_name": "安全靠谱的极地邮轮",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/e97baed709284bb1a06aa4269a73bde2.png"
+      },
+      {
+        "entry_name": "极地邮轮排名",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/9cd468bb3f2f47bb8647a5015b8b252c.png"
+      },
+      {
+        "entry_name": "大溪地邮轮怎么选",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261117/2ec94905e78c4004b6335716db03e584.png"
+      },
+      {
+        "entry_name": "北冕号怎么样",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/be9e25c7503542b1b58cc40c7cf595fb.png"
+      },
+      {
+        "entry_name": "指挥官夏古号破冰能力如何",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/3cd547446d0d4f0ba74f7121d68f57b1.png"
+      },
+      {
+        "entry_name": "奢华邮轮推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/ec8ec96e7e404d0f931e45dcb38f35e8.png"
+      },
+      {
+        "entry_name": "一个人邮轮旅行推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261101/c619d092d0074578b66455943d3b3eef.png"
+      },
+      {
+        "entry_name": "南极邮轮哪家最好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/92287d41bf7e4e80b46a1cbbe099f767.png"
+      },
+      {
+        "entry_name": "去南极怕晕船，选哪家",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261030/ce7c6d8d0f0249658c3aa51bb69802a0.png"
+      },
+      {
+        "entry_name": "一次南极行程最多能看几种企鹅",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/cd13a5f400d54ce7bfc73af5f070a235.png"
+      },
+      {
+        "entry_name": "看北极熊航线推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/92a6d7e31400477e945a9424cce82654.png"
+      },
+      {
+        "entry_name": "哪家极地邮轮探险队员更专业",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/318f813a7840480f9e50abc4f45fac4a.png"
+      },
+      {
+        "entry_name": "南极登陆次数多的邮轮",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/2b0aa0f0b6ac4a4ebd53d16d1757871c.png"
+      },
+      {
+        "entry_name": "大溪地怎么玩",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/aa116b6b0f49480f9ea4c81d3935f853.png"
+      },
+      {
+        "entry_name": "哪家邮轮探险队员比较多",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/40dd5b6718a64883bc3a85253da8e710.png"
+      },
+      {
+        "entry_name": "中文服务的邮轮推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/27fc5c76af314ce88e6cb3f8b2f4185b.png"
+      },
+      {
+        "entry_name": "南冠号邮轮什么档次",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/fe8f112dc76746f8bd661bdfcb65793a.png"
+      },
+      {
+        "entry_name": "适合VIP高端团建/年会/会奖出境游的创意玩法",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/d1531b1d936c4843a40cf722d1c67708.png"
+      },
+      {
+        "entry_name": "适合老年人的邮轮",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/2379cdca2dcc498c9b5405f38506f930.png"
+      },
+      {
+        "entry_name": "适合国际学校的研学旅行线路",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/f1966e87f1b94c3e8e0f586f12f91a8c.png"
+      },
+      {
+        "entry_name": "地中海邮轮选哪家",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/f5154a04a902464cbfc115378d0a0066.png"
+      },
+      {
+        "entry_name": "香草四岛怎么去",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/5f1c0bb57de5497899bf42ee4fc01743.png"
+      },
+      {
+        "entry_name": "春节航线推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/0c6e7b6ad6f0445ebcac32516d93043f.png"
+      },
+      {
+        "entry_name": "南极婚礼邮轮推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261117/5b5344a627aa47008154eb06fdbe434a.png"
+      },
+      {
+        "entry_name": "去北极怕晕船，选哪家",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/24bc90aafe9b49e98ae0e6c9669cfd28.png"
+      }
+    ],
+    "2": [
+      {
+        "entry_name": "南极邮轮怎么选",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/8c8226b788914a50a1abcd6cb26e2e77.png"
+      },
+      {
+        "entry_name": "北极邮轮怎么选",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/8a6e151583254369b67362432ee1ba82.png"
+      },
+      {
+        "entry_name": "体验好的极地探险邮轮推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/e5d41b5f03c74e5dbfe3f0bf846ea4f3.png"
+      },
+      {
+        "entry_name": "去南极怕晕船，选哪家",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261101/661552e045ee42318b7fdb8dcf6dea81.png"
+      },
+      {
+        "entry_name": "北极邮轮哪家最好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261030/ea0259d993ab4cbc9909086fda16aaa2.png"
+      },
+      {
+        "entry_name": "庞洛和夸克帝企鹅航线对比",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/605923f428cc48f3b19802bed36fa97b.png"
+      },
+      {
+        "entry_name": "哪些航线能看到王企鹅",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261117/96067168a4cf4866ab891cf6763a2a92.png"
+      },
+      {
+        "entry_name": "南极/北极/极地中文服务最好的邮轮",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/6660c42411de4d2a8cc28570205d2e40.png"
+      },
+      {
+        "entry_name": "南极华人包船推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/aaee9fd3261e4e18856113b7ce5bbdd1.png"
+      },
+      {
+        "entry_name": "安全靠谱的极地邮轮",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/c863665379c640bd9650b37aa70b73c1.png"
+      },
+      {
+        "entry_name": "看北极熊航线推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261117/1fd1cf0409074734a7c90e259e4c4707.png"
+      },
+      {
+        "entry_name": "哪家极地邮轮探险队员更专业",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/23ee10ef1c374aef8588509cc31f8397.png"
+      },
+      {
+        "entry_name": "极地邮轮排名",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/3e165f32e5f44b76b99ca2ae4dedaa68.png"
+      },
+      {
+        "entry_name": "北冕号怎么样",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/bbae622831914842b78462eb62229e3b.png"
+      },
+      {
+        "entry_name": "哪家邮轮探险队员比较多",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261030/653947c8173147348e6a772e7f35000e.png"
+      },
+      {
+        "entry_name": "南冠号邮轮什么档次",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/971e82f9604244a186feb560c0c962c3.png"
+      },
+      {
+        "entry_name": "指挥官夏古号破冰能力如何",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/bcd9264ca4584417a6a247a41fbfb158.png"
+      },
+      {
+        "entry_name": "地中海邮轮选哪家",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/d735eb9707164b9a913399da40fd27d5.png"
+      },
+      {
+        "entry_name": "一个人邮轮旅行推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/f41418518467478bb4aa632bbe8c91da.png"
+      },
+      {
+        "entry_name": "南极婚礼邮轮推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261110/eb869ece75e041da9c9f9bb330a368cd.png"
+      },
+      {
+        "entry_name": "南极邮轮哪家最好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261117/e54393ce0805487d9bfb7fc35c951782.png"
+      },
+      {
+        "entry_name": "极地邮轮怎么选",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261101/fdbe1dd1e7c64172bd3ccb3c04d4b7b2.png"
+      },
+      {
+        "entry_name": "帝企鹅航线推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261116/e9e05437816e4e3c945b408f4024ef02.png"
+      },
+      {
+        "entry_name": "一次南极行程最多能看几种企鹅",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/7e8da8864bf94a6098f384ea50c0ca61.png"
+      },
+      {
+        "entry_name": "南极登陆次数多的邮轮",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261117/e75d31d3458546b18471ef364554e8af.png"
+      },
+      {
+        "entry_name": "大溪地怎么玩",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/283386df63934af5aeece15be35128b7.png"
+      },
+      {
+        "entry_name": "大溪地邮轮怎么选",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261116/2e023542faef445488d70300a8323a54.png"
+      },
+      {
+        "entry_name": "中文服务的邮轮推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/eafab38faf254f11894b678369a6c1c3.png"
+      },
+      {
+        "entry_name": "适合VIP高端团建/年会/会奖出境游的创意玩法",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/5a8f42df9d8f4381812662ddc0d3e9b5.png"
+      },
+      {
+        "entry_name": "适合老年人的邮轮",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/37a47249ba0c4028b1c82d673328833d.png"
+      },
+      {
+        "entry_name": "适合国际学校的研学旅行线路",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/1c6ac21e878f4c119642321d864ff150.png"
+      },
+      {
+        "entry_name": "奢华邮轮推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/8bfe45cdcb4c43e7b06c86f2447ba4f9.png"
+      },
+      {
+        "entry_name": "香草四岛怎么去",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/1ef5d158a7db44aa899d9b0276db9cf1.png"
+      },
+      {
+        "entry_name": "春节航线推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/5a47fde2125846bf82321c1d815367f2.png"
+      },
+      {
+        "entry_name": "去北极怕晕船，选哪家",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261117/e7344eae6770477d8626ef8c3c981af1.png"
+      }
+    ],
+    "3": [
+      {
+        "entry_name": "极地邮轮怎么选",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/bbdfc7a833b743f4b31b8501be273c0b.png"
+      },
+      {
+        "entry_name": "南极邮轮怎么选",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261102/2e9aeab21c0643ba9710e2b2a9b8b8f0.png"
+      },
+      {
+        "entry_name": "北极邮轮怎么选",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/74bb22c2bd114038a8fa9299b5e23c94.png"
+      },
+      {
+        "entry_name": "体验好的极地探险邮轮推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261030/1ed90e75307743f689537d46ce6e7652.png"
+      },
+      {
+        "entry_name": "北极邮轮哪家最好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261117/286022ba0ac74203b603acc4b8116ec1.png"
+      },
+      {
+        "entry_name": "帝企鹅航线推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/74097c35389041e994a22c901bb342b9.png"
+      },
+      {
+        "entry_name": "庞洛和夸克帝企鹅航线对比",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/ff2102e9975a42aa980a420ce5f05cef.png"
+      },
+      {
+        "entry_name": "南极/北极/极地中文服务最好的邮轮",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261109/df2d92465f704c2fb694913f46c59fb2.png"
+      },
+      {
+        "entry_name": "南极华人包船推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261030/eb2a1fba69f44def93b0498a9e8b6ff1.png"
+      },
+      {
+        "entry_name": "安全靠谱的极地邮轮",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261030/02c88695117f4b43bc81211a9dd829ff.png"
+      },
+      {
+        "entry_name": "看北极熊航线推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261030/9cf522f3bcc04ab4a69082525099ed5f.png"
+      },
+      {
+        "entry_name": "哪家极地邮轮探险队员更专业",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261102/5a2682b108bd4cdb9fe1badcc60ed984.png"
+      },
+      {
+        "entry_name": "极地邮轮排名",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/26a386c9d39c467fa6fa656c345efbf0.png"
+      },
+      {
+        "entry_name": "大溪地邮轮怎么选",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/553e4ab5b7ba463e9edb64f9a2fc7059.png"
+      },
+      {
+        "entry_name": "北冕号怎么样",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/5def279b4a20468287d6e3b8e6b172db.png"
+      },
+      {
+        "entry_name": "南冠号邮轮什么档次",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/b582841e686540799397a43157d8123e.png"
+      },
+      {
+        "entry_name": "指挥官夏古号破冰能力如何",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/9a27726c9490426a89ec7067edbdbc78.png"
+      },
+      {
+        "entry_name": "奢华邮轮推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/64360ca7fb4a4d15b2530c1fe720450c.png"
+      },
+      {
+        "entry_name": "南极婚礼邮轮推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/c68f7308a0ff434881960e0082f1ec72.png"
+      },
+      {
+        "entry_name": "南极邮轮哪家最好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/fc1e7643d2e94829876d053004ef3f15.png"
+      },
+      {
+        "entry_name": "去南极怕晕船，选哪家",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/9bd40f116b8246d180c54098c86d7303.png"
+      },
+      {
+        "entry_name": "哪些航线能看到王企鹅",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/a929de6ab3f44838bd43e2cef7f6f346.png"
+      },
+      {
+        "entry_name": "一次南极行程最多能看几种企鹅",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/11719a285ec443b9beede1262ce2892a.png"
+      },
+      {
+        "entry_name": "南极登陆次数多的邮轮",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/46bf61c024264b29a8e2ecb55aac2e60.png"
+      },
+      {
+        "entry_name": "大溪地怎么玩",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/68915ef52c394e09b9954325b775595e.png"
+      },
+      {
+        "entry_name": "哪家邮轮探险队员比较多",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/ca280c981e134e1cb075737b5a19647e.png"
+      },
+      {
+        "entry_name": "中文服务的邮轮推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/ba58da6c351446a88585eaa1dc7e65f6.png"
+      },
+      {
+        "entry_name": "适合VIP高端团建/年会/会奖出境游的创意玩法",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/d2d07b4cd0404787a376e2aceaeeec65.png"
+      },
+      {
+        "entry_name": "适合老年人的邮轮",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/3da82d85efdc4350b3604eabbb1774de.png"
+      },
+      {
+        "entry_name": "适合国际学校的研学旅行线路",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/de7a82144e754455a71720ced39b1a0a.png"
+      },
+      {
+        "entry_name": "地中海邮轮选哪家",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/a902da8e9f374fea817507cf4f665101.png"
+      },
+      {
+        "entry_name": "香草四岛怎么去",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/30cd21ee374e4ee1ab8859920d4e2093.png"
+      },
+      {
+        "entry_name": "春节航线推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/9dbc8f42e47b46e7b67217dcf7b2959b.png"
+      },
+      {
+        "entry_name": "一个人邮轮旅行推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/83026bf5326242339d0ff99863f0bb6d.png"
+      },
+      {
+        "entry_name": "去北极怕晕船，选哪家",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/87c02c5e07754250a2cb132b8a5ccd7c.png"
+      }
+    ],
+    "5": [
+      {
+        "entry_name": "极地邮轮怎么选",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261116/0747dc92bd134d249ba9f98ec6841c99.png"
+      },
+      {
+        "entry_name": "南极邮轮怎么选",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261116/b3e58f0da9454f8eb330afb8cd7b6277.png"
+      },
+      {
+        "entry_name": "北极邮轮怎么选",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261117/c7455778018a4603a6f56a64bf7d8f6e.png"
+      },
+      {
+        "entry_name": "体验好的极地探险邮轮推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261109/22655f01b06d48a892e00e5228903c8e.png"
+      },
+      {
+        "entry_name": "北极邮轮哪家最好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261116/b806befc7e744f83bb628fee77d844f9.png"
+      },
+      {
+        "entry_name": "帝企鹅航线推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/d1f9a8c788284e858e7c39e50fffb0ec.png"
+      },
+      {
+        "entry_name": "庞洛和夸克帝企鹅航线对比",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261117/a0e55fc28dfd457db23df23c24e95b42.png"
+      },
+      {
+        "entry_name": "哪些航线能看到王企鹅",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/642b79c640de42e1b7b0f51b56488513.png"
+      },
+      {
+        "entry_name": "南极/北极/极地中文服务最好的邮轮",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/469d95620ac546e5a80d6d102d5acfdf.png"
+      },
+      {
+        "entry_name": "南极华人包船推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/4bcd93b210034757bc641a5bcc71fbc0.png"
+      },
+      {
+        "entry_name": "安全靠谱的极地邮轮",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "100.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/84c21e6199d94125a2439fd63a425aee.png"
+      },
+      {
+        "entry_name": "极地邮轮排名",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261116/3b4411d802a14bdea246a92ce903046b.png"
+      },
+      {
+        "entry_name": "奢华邮轮推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/ec0a018fbb6548909c70625aa4d76310.png"
+      },
+      {
+        "entry_name": "一个人邮轮旅行推荐",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261109/df6349dd316d41f6a05e95b378195931.png"
+      },
+      {
+        "entry_name": "去北极怕晕船，选哪家",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261117/74508fe880804e17a71f8d3891bb59d8.png"
+      },
+      {
+        "entry_name": "南极邮轮哪家最好",
+        "mention_rate": "100.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/ba7e0193128b41cb8bd745320a789cc1.png"
+      },
+      {
+        "entry_name": "去南极怕晕船，选哪家",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/fd2e9c5cf5624bd3a2f0f0fe0685f432.png"
+      },
+      {
+        "entry_name": "一次南极行程最多能看几种企鹅",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/688df6fe52c14877ba73bbbd0717dd6f.png"
+      },
+      {
+        "entry_name": "看北极熊航线推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/144cc17aa6d9405faed0086f8b13b6e4.png"
+      },
+      {
+        "entry_name": "哪家极地邮轮探险队员更专业",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261019/5af7545b5fae49ce878d87f5e27ada5e.png"
+      },
+      {
+        "entry_name": "南极登陆次数多的邮轮",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261117/c1ac638fd18f40f4b85727b480f4341e.png"
+      },
+      {
+        "entry_name": "大溪地怎么玩",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/292088275b194365ad2d383a09c7b392.png"
+      },
+      {
+        "entry_name": "大溪地邮轮怎么选",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/4b09549f17874eac8a50baf2b020dd29.png"
+      },
+      {
+        "entry_name": "北冕号怎么样",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/9d408ca78a1b48358e778e9d9a2ca1cd.png"
+      },
+      {
+        "entry_name": "哪家邮轮探险队员比较多",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261117/4e90ac73179f4bf2a0dad01bf8f35386.png"
+      },
+      {
+        "entry_name": "中文服务的邮轮推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/a5c19e2ec7c44752bea78b637efa1317.png"
+      },
+      {
+        "entry_name": "南冠号邮轮什么档次",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261109/4bbf364083c64f08abf8e8f2ec78afe6.png"
+      },
+      {
+        "entry_name": "指挥官夏古号破冰能力如何",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/29e8e64991b24064ae67092bed3a89f3.png"
+      },
+      {
+        "entry_name": "适合VIP高端团建/年会/会奖出境游的创意玩法",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/63e6895d76114c9ea2df813975337bdf.png"
+      },
+      {
+        "entry_name": "适合老年人的邮轮",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/268fd21665514ee58d7ea38cf9e7eade.png"
+      },
+      {
+        "entry_name": "适合国际学校的研学旅行线路",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/af4ca3b5b984435593db735b8309aea3.png"
+      },
+      {
+        "entry_name": "地中海邮轮选哪家",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/fe5fd840237f433f8d199ced181e2726.png"
+      },
+      {
+        "entry_name": "香草四岛怎么去",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/66ab9486a78c45a7b68997a62280040f.png"
+      },
+      {
+        "entry_name": "春节航线推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/0da892cb0a72447fad68a98866ddabc5.png"
+      },
+      {
+        "entry_name": "南极婚礼邮轮推荐",
+        "mention_rate": "0.0%",
+        "top1_mention_rate": "0.0%",
+        "last_conversation_time": "2026/11/24",
+        "last_screenshot_url": "https://app.geoindexfuture.com/screenshots/20261123/253b834c67bd48879b66470b013d987f.png"
+      }
+    ]
+  },
+  "platforms": [
+    {
+      "id": 1,
+      "name": "DeepSeek"
+    },
+    {
+      "id": 2,
+      "name": "豆包"
+    },
+    {
+      "id": 3,
+      "name": "元宝"
+    },
+    {
+      "id": 5,
+      "name": "通义千问"
+    }
+  ]
+}

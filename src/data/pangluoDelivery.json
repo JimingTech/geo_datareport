@@ -1,0 +1,217 @@
+{
+  "source": "庞洛邮轮-优化词(中位数)_投放文章统计_1124.xlsx",
+  "generated_at": "2026-11-24",
+  "overview": {
+    "delivery_articles": 37,
+    "cited_articles": 14,
+    "cited_rate": 37.8,
+    "delivery_citations": 67,
+    "total_conversations": 972,
+    "total_citation_records": 12721
+  },
+  "platform_totals": {
+    "total": 67,
+    "deepseek": 24,
+    "doubao": 8,
+    "yuanbao": 22,
+    "qwen": 13
+  },
+  "top10": [
+    {
+      "rank": 1,
+      "title": "2026年北极邮轮怎么选？走斯瓦尔巴与格陵兰航线看这六家船司",
+      "platform": "中国网（美篇）",
+      "domain": "meipian.cn",
+      "date": "2026-10-30",
+      "total": 13,
+      "deepseek": 0,
+      "doubao": 1,
+      "yuanbao": 0,
+      "qwen": 12,
+      "isCited": "是",
+      "url": "https://www.meipian.cn/5qlyowrn?first_share_to=copy_link&share_depth=1&first_share_uid=523347105"
+    },
+    {
+      "rank": 2,
+      "title": "2026年北极邮轮怎么选？走斯瓦尔巴与格陵兰航线看这六家船司",
+      "platform": "知乎",
+      "domain": "zhihu.com",
+      "date": "2026-10-30",
+      "total": 10,
+      "deepseek": 10,
+      "doubao": 0,
+      "yuanbao": 0,
+      "qwen": 0,
+      "isCited": "是",
+      "url": "https://zhuanlan.zhihu.com/p/2099829079616775735"
+    },
+    {
+      "rank": 3,
+      "title": "去南极哪些航线能看到王企鹅？南极半岛与三岛环线船司对比",
+      "platform": "腾讯新闻",
+      "domain": "mp.weixin.qq.com",
+      "date": "2026-10-30",
+      "total": 9,
+      "deepseek": 0,
+      "doubao": 0,
+      "yuanbao": 9,
+      "qwen": 0,
+      "isCited": "是",
+      "url": "https://mp.weixin.qq.com/s/No76oCtRTSbI2BfK5hT9Ng?token=572677980&lang=zh_CN"
+    },
+    {
+      "rank": 4,
+      "title": "2026年中文服务的邮轮推荐：常驻中文探险队与华人包船盘点",
+      "platform": "腾讯新闻",
+      "domain": "mp.weixin.qq.com",
+      "date": "2026-11-06",
+      "total": 8,
+      "deepseek": 0,
+      "doubao": 0,
+      "yuanbao": 8,
+      "qwen": 0,
+      "isCited": "是",
+      "url": "https://mp.weixin.qq.com/s/MbOKIM8UWsolzYPooT0jRA"
+    },
+    {
+      "rank": 5,
+      "title": "2026年看北极熊航线推荐：斯瓦尔巴群岛与浮冰边缘巡航船司",
+      "platform": "新浪新闻",
+      "domain": "k.sina.com.cn",
+      "date": "2026-11-12",
+      "total": 5,
+      "deepseek": 3,
+      "doubao": 0,
+      "yuanbao": 2,
+      "qwen": 0,
+      "isCited": "是",
+      "url": "https://k.sina.com.cn/article_8407472044_1f51fd7ac0010166f4.html?kdurlshow=1&wm=3049_0047&from=travel"
+    },
+    {
+      "rank": 6,
+      "title": "2026年哪些航线能看到王企鹅？南乔治亚岛登陆与极地船司对比",
+      "platform": "今日头条",
+      "domain": "toutiao.com",
+      "date": "2026-11-12",
+      "total": 5,
+      "deepseek": 4,
+      "doubao": 0,
+      "yuanbao": 0,
+      "qwen": 1,
+      "isCited": "是",
+      "url": "https://www.toutiao.com/item/7707252839785202218/"
+    },
+    {
+      "rank": 7,
+      "title": "2026年看北极熊航线推荐，破冰船与斯瓦尔巴航线对比",
+      "platform": "抖音",
+      "domain": "douyin.com",
+      "date": "2026-11-07",
+      "total": 4,
+      "deepseek": 0,
+      "doubao": 4,
+      "yuanbao": 0,
+      "qwen": 0,
+      "isCited": "是",
+      "url": "https://www.douyin.com/video/7705380101396003569"
+    },
+    {
+      "rank": 8,
+      "title": "2026年欧洲度假地中海邮轮选哪家？能停小岛渔港的奢华船盘点",
+      "platform": "知乎",
+      "domain": "zhihu.com",
+      "date": "2026-10-30",
+      "total": 4,
+      "deepseek": 4,
+      "doubao": 0,
+      "yuanbao": 0,
+      "qwen": 0,
+      "isCited": "是",
+      "url": "https://zhuanlan.zhihu.com/p/2099546729498648997"
+    },
+    {
+      "rank": 9,
+      "title": "2026年威德尔海帝企鹅航线推荐，重冰破冰船与直升机怎么选",
+      "platform": "知乎",
+      "domain": "zhihu.com",
+      "date": "2026-10-30",
+      "total": 3,
+      "deepseek": 3,
+      "doubao": 0,
+      "yuanbao": 0,
+      "qwen": 0,
+      "isCited": "是",
+      "url": "https://zhuanlan.zhihu.com/p/2099527062889428426"
+    },
+    {
+      "rank": 10,
+      "title": "2026年北极邮轮怎么选？走斯瓦尔巴与格陵兰航线看这六家船司",
+      "platform": "搜狐",
+      "domain": "sohu.com",
+      "date": "2026-11-06",
+      "total": 2,
+      "deepseek": 0,
+      "doubao": 1,
+      "yuanbao": 1,
+      "qwen": 0,
+      "isCited": "是",
+      "url": "https://www.sohu.com/a/1098024076_123049304"
+    }
+  ],
+  "domain_stats": [
+    {
+      "channel": "腾讯新闻",
+      "articles": 6,
+      "cited": 4,
+      "citations": 19
+    },
+    {
+      "channel": "知乎",
+      "articles": 11,
+      "cited": 3,
+      "citations": 17
+    },
+    {
+      "channel": "中国网（美篇）",
+      "articles": 1,
+      "cited": 1,
+      "citations": 13
+    },
+    {
+      "channel": "抖音",
+      "articles": 6,
+      "cited": 2,
+      "citations": 5
+    },
+    {
+      "channel": "今日头条",
+      "articles": 6,
+      "cited": 1,
+      "citations": 5
+    },
+    {
+      "channel": "新浪新闻",
+      "articles": 1,
+      "cited": 1,
+      "citations": 5
+    },
+    {
+      "channel": "搜狐",
+      "articles": 4,
+      "cited": 1,
+      "citations": 2
+    },
+    {
+      "channel": "中华网（美篇）",
+      "articles": 1,
+      "cited": 1,
+      "citations": 1
+    },
+    {
+      "channel": "百家号",
+      "articles": 1,
+      "cited": 0,
+      "citations": 0
+    }
+  ]
+}

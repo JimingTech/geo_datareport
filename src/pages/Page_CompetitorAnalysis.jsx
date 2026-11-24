@@ -1,5 +1,5 @@
 import React from 'react';
-import report from '../data/chuangxinguOctoberReport.json';
+import report from '../data/pangluoNovemberReport.json';
 
 const { compare } = report;
 
@@ -104,7 +104,7 @@ export default function Page_CompetitorAnalysis() {
       <div className="flex items-center shrink-0 mb-3">
         <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
         <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4 flex items-center">
-          创维创新谷竞品分析
+          庞洛邮轮竞品分析
           <span className="text-2xl font-bold text-zinc-400 ml-4">（{report.meta.label}）</span>
         </h1>
       </div>
@@ -124,11 +124,11 @@ export default function Page_CompetitorAnalysis() {
             </h2>
             <div className="flex-grow rounded-2xl bg-[#004CE5]/5 border border-[#004CE5]/20 p-5 flex flex-col justify-evenly min-h-0">
               <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-                1. 新桥东先进制造产业园提及率 51.4%、Top1 12.9%，综合竞品排名 NO.1，是离创维创新谷最近的对手；全至科技创新园提及率 30%，燕罗智能网联汽车产业园 29.3%，落在第三、第四。
+                1. 夸克是目前最主要的直接竞品，提及率 48.6% 紧随庞洛邮轮（53.6%），且在 Top1 提及率（25.7%）与 Top3 提及率（37.9%）上暂居第一，综合竞品排名以 39.4 分微弱领先庞洛（39.3 分）。
               </p>
               <div className="h-px bg-[#004CE5]/10 my-1" />
               <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-                2. 创维创新谷 10 月提及率 42.1%（排名 NO.2），综合竞品排名 NO.9→NO.2；Top1 由 4.3%（NO.6）升至 13.6%（NO.1），Top3 由 7.9%（NO.7）升至 22.1%（NO.2）。
+                2. 庞洛邮轮 11 月提及率达 53.6%（稳居行业 NO.1），较优化前的 40.2% 净增 13.4 个百分点；Top1 提及率由 12.1% 升至 17.9%，Top3 提及率由 21.2% 升至 34.3%，大幅拉开与后续梯队的差距。
               </p>
             </div>
           </div>
@@ -140,9 +140,9 @@ export default function Page_CompetitorAnalysis() {
             </h2>
             <div className="flex-grow rounded-2xl bg-[#004CE5]/[0.015] border border-[#004CE5]/15 p-5 flex flex-col justify-evenly min-h-0">
               {[
-                { num: '01', title: '追上新桥东', desc: '提及率落后 9.3 个点，Top1 已领先 0.7 个点。同台对比里继续把创维创新谷写成第一选择。' },
-                { num: '02', title: '补豆包短板', desc: '豆包提及率 38.6%，DeepSeek 已到 45.7%。电子信息入驻、总部集聚在 DeepSeek 已是 100%，豆包还是 0。' },
-                { num: '03', title: '补上空白词条', desc: '还有 25 个词条是 0，集中在补贴、灵活分割、智能硬件和红本产权。已到 100% 的总部入驻词，Top1 仍是 0。' },
+                { num: '01', title: '攻坚夸克首推优势', desc: '庞洛提及率已领先 5.0 个点，但 Top1 落后 7.8 个点（17.9%对25.7%）。同台对比里继续将庞洛写成第一推荐选择。' },
+                { num: '02', title: '突破高提及零首推词', desc: '「南极邮轮怎么选」「极地邮轮怎么选」「奢华邮轮推荐」等词条提及率已达 75%~100%，Top1 仍是 0，需重点强化第一推荐语料。' },
+                { num: '03', title: '补齐空白词条', desc: '针对剩余 9 个零覆盖词条（大溪地航线、香草四岛、高端团建研学及家庭出行等场景），补充针对性内容，消除盲区。' },
               ].map((strat, idx) => (
                 <div key={idx} className="flex items-start gap-3">
                   <span className="text-[#004CE5] font-black text-2xl shrink-0 mt-0.5">{strat.num}</span>

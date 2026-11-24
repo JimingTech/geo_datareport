@@ -38,7 +38,7 @@ const flag = (name, fallback) => {
 const has = (name) => args.includes(`--${name}`);
 
 const EXTERNAL_URL = flag('url', null);
-const OUTPUT = path.resolve(root, flag('output', 'Presentation_2026.pptx'));
+const OUTPUT = path.resolve(root, flag('output', '庞洛邮轮GEO阶段性报告_2026年11月.pptx'));
 const FORMAT = flag('format', 'png');
 const QUALITY = Number(flag('quality', 92));
 const SCALE = Number(flag('scale', 2));
