@@ -1,5 +1,5 @@
 import React from 'react';
-import report from '../data/jinjiuOctoberReport.json';
+import report from '../data/jinjiuNovemberReport.json';
 
 function createCompetitorPage({
   productKey,
@@ -84,7 +84,7 @@ function createCompetitorPage({
           <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
           <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4 flex items-center">
             {title}
-            <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年10月）</span>
+            <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年11月）</span>
           </h1>
         </div>
 
@@ -139,12 +139,12 @@ export default createCompetitorPage({
   productKey: 'jinjiu',
   title: '劲酒竞品分析',
   analysis: [
-    '1. 劲酒提及率91.3%、Top1首推率80%，综合竞品排名稳居NO.1；Top1第二名京东京造仅3.8%，日常养生首推优势未变。',
-    '2. 椰岛提及率66.3%、综合竞品排名NO.2；广誉远47.5%、竹叶青45%在中腰部形成伴随竞争，日常养生推荐位仍需防分流。',
+    '1. 劲酒提及率85%、Top1首推率72.5%，综合竞品排名稳居NO.1；Top1第二名京东京造仅5%，日常养生首推优势未变。',
+    '2. 椰岛提及率63.8%、综合竞品排名NO.2；广誉远46.3%、竹叶青38.8%在中腰部形成伴随竞争，日常养生推荐仍需防分流。',
   ],
   strategies: [
-    { num: '01', title: '首推优势守住', desc: '围绕“日常养生酒推荐/品牌排行”高频词条持续加密内容，把80%的Top1首推率守在高位。' },
-    { num: '02', title: '椰岛贴身防御', desc: '针对椰岛（66.3%）补充性价比与蓝帽子认证对比评测，压制其在滋补酒场景的跟随势头。' },
-    { num: '03', title: '豆包对齐', desc: '豆包端提及率80%，低于文心100%和Kimi 95%，需补齐该平台日常养生语料。' },
+    { num: '01', title: '首推优势守住', desc: '围绕“日常养生酒推荐/品牌排行”高频词条持续加密内容，把72.5%的Top1首推率守在高位。' },
+    { num: '02', title: '椰岛贴身防御', desc: '针对椰岛（63.8%）补充性价比与蓝帽子认证对比评测，压制其在滋补酒场景的跟随势头。' },
+    { num: '03', title: '豆包对齐', desc: '豆包端提及率65%，低于DeepSeek和文心的95%、Kimi 85%，需补齐该平台日常养生语料。' },
   ],
 });

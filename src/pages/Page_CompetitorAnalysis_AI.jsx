@@ -1,5 +1,5 @@
 import React from 'react';
-import report from '../data/jinjiuOctoberReport.json';
+import report from '../data/jinjiuNovemberReport.json';
 
 function createPage({ productKey, title, analysis, strategies }) {
   const data = report.products[productKey];
@@ -59,7 +59,7 @@ function createPage({ productKey, title, analysis, strategies }) {
           <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
           <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4 flex items-center">
             {title}
-            <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年10月）</span>
+            <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年11月）</span>
           </h1>
         </div>
         <div className="flex-grow flex flex-col min-h-0 justify-start">
@@ -108,12 +108,12 @@ export default createPage({
   productKey: 'maopu',
   title: '毛铺竞品分析',
   analysis: [
-    '1. 毛铺酒提及率61.9%，综合竞品排名稳居NO.1；已领先「劲牌」母品牌（33.3%）28.6个点，品牌切割继续见效。',
-    '2. Top1首推率45.2%仍居首；竹叶青提及率39.3%、综合排名NO.2，聚会家宴场景仍需防渗透。DeepSeek端提及率仅33.3%。',
+    '1. 毛铺酒提及率58.3%，综合竞品排名稳居NO.1；已领先「劲牌」母品牌（29.8%）28.5个点，品牌切割继续见效。',
+    '2. Top1首推率34.5%仍居首；劲牌综合排名NO.2，竹叶青提及率31%。豆包端提及率仅33.3%，DeepSeek端38.1%。',
   ],
   strategies: [
     { num: '01', title: '母品牌切割', desc: '继续在推荐问答中明确“毛铺”独立产品名与草本白酒定位，把相对劲牌的领先守住。' },
-    { num: '02', title: '场景心智独占', desc: '加密“聚会不伤身、家宴低度草本、次日体感舒适”内容矩阵，守住45.2%的Top1首推。' },
-    { num: '03', title: 'DeepSeek短板补齐', desc: 'DeepSeek端仅33.3%，远低于文心81%和Kimi 76.2%，需补齐该平台聚会与家宴语料。' },
+    { num: '02', title: '场景心智独占', desc: '加密“聚会不伤身、家宴低度草本、次日体感舒适”内容矩阵，守住34.5%的Top1首推。' },
+    { num: '03', title: '豆包与DeepSeek补齐', desc: '豆包端仅33.3%、DeepSeek端38.1%，远低于文心85.7%和Kimi 76.2%，需补齐聚会与家宴语料。' },
   ],
 });

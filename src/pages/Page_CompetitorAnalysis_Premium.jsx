@@ -1,5 +1,5 @@
 import React from 'react';
-import report from '../data/jinjiuOctoberReport.json';
+import report from '../data/jinjiuNovemberReport.json';
 
 function createPage({ productKey, title, analysis, strategies }) {
   const data = report.products[productKey];
@@ -59,7 +59,7 @@ function createPage({ productKey, title, analysis, strategies }) {
           <div className="w-2 h-10 bg-[#004CE5] rounded-full shadow-[0_0_15px_rgba(0,76,229,0.25)]" />
           <h1 className="text-4xl font-black text-zinc-900 tracking-wider ml-4 flex items-center">
             {title}
-            <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年10月）</span>
+            <span className="text-2xl font-bold text-zinc-400 ml-4">（2026年11月）</span>
           </h1>
         </div>
         <div className="flex-grow flex flex-col min-h-0 justify-start">
@@ -108,12 +108,12 @@ export default createPage({
   productKey: 'yangsheng',
   title: '养生一号竞品分析',
   analysis: [
-    '1. 养生一号提及率51.2%、Top1首推率39.3%，综合竞品排名稳居NO.1；椰岛鹿龟酒50%、广誉远龟龄集酒48.8%，分列提及率第二、第三。',
-    '2. 劲酒提及率40.5%、Top1 27.4%，综合排名NO.2，送礼首推存在分流；豆包端提及率38.1%，是四个平台里最低的。',
+    '1. 养生一号提及率51.2%、Top1首推率38.1%，综合竞品排名稳居NO.1；广誉远龟龄集酒提及率53.6%略高，劲酒提及率48.8%。',
+    '2. 劲酒Top1 27.4%、综合排名NO.2，送礼首推存在分流；豆包端提及率28.6%，是四个平台里最低的。',
   ],
   strategies: [
-    { num: '01', title: '巩固提及率第一', desc: '针对椰岛、广誉远补充配方功效、非遗背书和礼盒体验对比，避免被贴近。' },
-    { num: '02', title: '送礼心智加厚', desc: '加大“给长辈送礼/千元养生酒礼盒”内容，把39.3%的Top1优势覆盖到更多送礼词条。' },
-    { num: '03', title: '豆包端补齐', desc: '豆包端提及率38.1%，低于Kimi 61.9%和DeepSeek 57.1%，需补充能被豆包引用的送礼内容。' },
+    { num: '01', title: '提及率拉回', desc: '广誉远龟龄集酒提及率53.6%已略超本品，针对配方功效、非遗背书和礼盒体验补对比内容。' },
+    { num: '02', title: '送礼心智加厚', desc: '加大“给长辈送礼/千元养生酒礼盒”内容，把38.1%的Top1优势覆盖到更多送礼词条。' },
+    { num: '03', title: '豆包端补齐', desc: '豆包端提及率28.6%，低于Kimi 81%和文心52.4%，需补充能被豆包引用的送礼内容。' },
   ],
 });
