@@ -17,8 +17,8 @@
       "DeepSeek",
       "豆包"
     ],
-    "entries": 71,
-    "conversations": 142
+    "entries": 50,
+    "conversations": 100
   },
   "before": {
     "mention_rate": 42.1,
@@ -43,56 +43,56 @@
     ]
   },
   "september": {
-    "mention_rate": 52.8,
-    "top1_mention_rate": 21.8,
-    "top3_mention_rate": 48.6,
-    "mention_rank": 2,
+    "mention_rate": 75,
+    "top1_mention_rate": 31,
+    "top3_mention_rate": 69,
+    "mention_rank": 1,
     "top1_rank": 1,
     "top3_rank": 1,
-    "influence_score": 40.4,
+    "influence_score": 57.4,
     "influence_rank": 1,
-    "conversations": 142,
+    "conversations": 100,
     "covered_entries": 47,
     "platforms": [
       {
         "name": "DeepSeek",
-        "mention_rate": 42.3
+        "mention_rate": 60
       },
       {
         "name": "豆包",
-        "mention_rate": 63.4
+        "mention_rate": 90
       }
     ]
   },
   "compare": {
     "mention_rate": [
       {
-        "name": "新桥东先进制造产业园",
-        "value": "57%",
-        "isTarget": false,
+        "name": "创维创新谷",
+        "value": "75%",
+        "isTarget": true,
         "rank": 1
       },
       {
-        "name": "创维创新谷",
-        "value": "52.8%",
-        "isTarget": true,
+        "name": "新桥东先进制造产业园",
+        "value": "61%",
+        "isTarget": false,
         "rank": 2
       },
       {
         "name": "全至科技创新园",
-        "value": "35.2%",
+        "value": "44%",
         "isTarget": false,
         "rank": 3
       },
       {
-        "name": "燕罗智能网联汽车产业园",
-        "value": "30.3%",
+        "name": "雪花科创城",
+        "value": "38%",
         "isTarget": false,
         "rank": 4
       },
       {
-        "name": "雪花科创城",
-        "value": "29.6%",
+        "name": "燕罗智能网联汽车产业园",
+        "value": "29%",
         "isTarget": false,
         "rank": 5
       }
@@ -100,31 +100,31 @@
     "top1": [
       {
         "name": "创维创新谷",
-        "value": "21.8%",
+        "value": "31%",
         "isTarget": true,
         "rank": 1
       },
       {
         "name": "新桥东先进制造产业园",
-        "value": "15.5%",
+        "value": "17%",
         "isTarget": false,
         "rank": 2
       },
       {
-        "name": "燕罗智能网联汽车产业园",
-        "value": "7.7%",
+        "name": "燕罗湾区芯城",
+        "value": "9%",
         "isTarget": false,
         "rank": 3
       },
       {
-        "name": "燕罗湾区芯城",
-        "value": "7%",
+        "name": "雪花科创城",
+        "value": "9%",
         "isTarget": false,
         "rank": 4
       },
       {
-        "name": "雪花科创城",
-        "value": "7%",
+        "name": "燕罗智能网联汽车产业园",
+        "value": "6%",
         "isTarget": false,
         "rank": 5
       }
@@ -149,13 +149,13 @@
         "rank": 3
       },
       {
-        "name": "燕罗智能网联汽车产业园",
+        "name": "雪花科创城",
         "value": "NO. 4",
         "isTarget": false,
         "rank": 4
       },
       {
-        "name": "雪花科创城",
+        "name": "燕罗智能网联汽车产业园",
         "value": "NO. 5",
         "isTarget": false,
         "rank": 5
@@ -512,153 +512,6 @@
       "top1_mention_rate": 0,
       "before_mention_rate": 0,
       "before_top1_mention_rate": 0
-    },
-    {
-      "name": "面积能灵活分割的深圳市宝安区高端产业园推荐",
-      "mention_rate": 0,
-      "top1_mention_rate": 0,
-      "before_mention_rate": 0,
-      "before_top1_mention_rate": 0
-    },
-    {
-      "name": "适配AI人工智能机器人的深圳市宝安区产业园推荐",
-      "mention_rate": 0,
-      "top1_mention_rate": 0,
-      "before_mention_rate": 0,
-      "before_top1_mention_rate": 0
-    },
-    {
-      "name": "深圳市宝安区适合智能硬件企业的产业园有哪些",
-      "mention_rate": 0,
-      "top1_mention_rate": 0,
-      "before_mention_rate": 0,
-      "before_top1_mention_rate": 0
-    },
-    {
-      "name": "适合总部办公的深圳市宝安区写字楼推荐",
-      "mention_rate": 0,
-      "top1_mention_rate": 0,
-      "before_mention_rate": 50,
-      "before_top1_mention_rate": 0
-    },
-    {
-      "name": "深圳市宝安区新一代信息技术产业园推荐",
-      "mention_rate": 0,
-      "top1_mention_rate": 0,
-      "before_mention_rate": 0,
-      "before_top1_mention_rate": 0
-    },
-    {
-      "name": "深圳市宝安区电子信息产业集群园区推荐",
-      "mention_rate": 0,
-      "top1_mention_rate": 0,
-      "before_mention_rate": 50,
-      "before_top1_mention_rate": 0
-    },
-    {
-      "name": "深圳市宝安区智能硬件产业园推荐",
-      "mention_rate": 0,
-      "top1_mention_rate": 0,
-      "before_mention_rate": 50,
-      "before_top1_mention_rate": 0
-    },
-    {
-      "name": "深圳市宝安区产业链上下游企业集聚园区推荐",
-      "mention_rate": 0,
-      "top1_mention_rate": 0,
-      "before_mention_rate": 50,
-      "before_top1_mention_rate": 0
-    },
-    {
-      "name": "深圳市宝安区产业链协同发展的产业园推荐",
-      "mention_rate": 0,
-      "top1_mention_rate": 0,
-      "before_mention_rate": 0,
-      "before_top1_mention_rate": 0
-    },
-    {
-      "name": "深圳市宝安区产业集群优势明显的产业园推荐",
-      "mention_rate": 0,
-      "top1_mention_rate": 0,
-      "before_mention_rate": 0,
-      "before_top1_mention_rate": 0
-    },
-    {
-      "name": "深圳市宝安区适合智能硬件企业入驻的产业园推荐",
-      "mention_rate": 0,
-      "top1_mention_rate": 0,
-      "before_mention_rate": 50,
-      "before_top1_mention_rate": 0
-    },
-    {
-      "name": "深圳市宝安区适合科技制造企业入驻的产业园推荐",
-      "mention_rate": 0,
-      "top1_mention_rate": 0,
-      "before_mention_rate": 0,
-      "before_top1_mention_rate": 0
-    },
-    {
-      "name": "深圳市宝安区适合研发型企业入驻的产业园推荐",
-      "mention_rate": 0,
-      "top1_mention_rate": 0,
-      "before_mention_rate": 0,
-      "before_top1_mention_rate": 0
-    },
-    {
-      "name": "深圳市宝安区适合研发生产一体企业的产业园推荐",
-      "mention_rate": 0,
-      "top1_mention_rate": 0,
-      "before_mention_rate": 0,
-      "before_top1_mention_rate": 0
-    },
-    {
-      "name": "深圳市宝安区适合科技企业长期发展的产业园推荐",
-      "mention_rate": 0,
-      "top1_mention_rate": 0,
-      "before_mention_rate": 0,
-      "before_top1_mention_rate": 0
-    },
-    {
-      "name": "深圳市宝安区龙头企业集聚的产业园推荐",
-      "mention_rate": 0,
-      "top1_mention_rate": 0,
-      "before_mention_rate": 50,
-      "before_top1_mention_rate": 0
-    },
-    {
-      "name": "深圳市宝安区高标准研发楼产业园推荐",
-      "mention_rate": 0,
-      "top1_mention_rate": 0,
-      "before_mention_rate": 0,
-      "before_top1_mention_rate": 0
-    },
-    {
-      "name": "深圳市宝安区工业上楼产业园推荐",
-      "mention_rate": 0,
-      "top1_mention_rate": 0,
-      "before_mention_rate": 0,
-      "before_top1_mention_rate": 0
-    },
-    {
-      "name": "深圳市宝安区配套完善的产业园推荐",
-      "mention_rate": 0,
-      "top1_mention_rate": 0,
-      "before_mention_rate": 50,
-      "before_top1_mention_rate": 0
-    },
-    {
-      "name": "深圳市宝安区高性价比产业园推荐",
-      "mention_rate": 0,
-      "top1_mention_rate": 0,
-      "before_mention_rate": 50,
-      "before_top1_mention_rate": 0
-    },
-    {
-      "name": "宝安区靠近南山的写字楼或产业园推荐",
-      "mention_rate": 0,
-      "top1_mention_rate": 0,
-      "before_mention_rate": null,
-      "before_top1_mention_rate": null
     }
   ],
   "platform_entries": {

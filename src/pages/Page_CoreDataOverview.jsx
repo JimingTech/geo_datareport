@@ -75,15 +75,15 @@ export default function Page_CoreDataOverview() {
           </div>
           <div className="flex-1 flex flex-col justify-evenly min-h-0">
             <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-              1. 提及率由10月的42.1%升至52.8%，提及率排名稳居 NO. 2，落后新桥东 4.2 个点。综合竞品排名由 NO. 2 进至 NO. 1。Top1提及率由13.6%升至21.8%，稳居 NO. 1。
+              1. 提及率由10月的42.1%升至75%，提及率排名由 NO. 2 进至 NO. 1，领先新桥东 14 个点。综合竞品排名由 NO. 2 进至 NO. 1。Top1提及率由13.6%升至31%，稳居 NO. 1。
             </p>
             <div className="h-px bg-[#004CE5]/10" />
             <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-              2. 豆包 38.6%→63.4%，DeepSeek 45.7%→42.3%，豆包高出 21.1 个点。Top3提及率由22.1%（NO. 2）升至48.6%（NO. 1）。
+              2. 豆包 38.6%→90%，DeepSeek 45.7%→60%，豆包高出 30 个点。Top3提及率由22.1%（NO. 2）升至69%（NO. 1）。
             </p>
             <div className="h-px bg-[#004CE5]/10" />
             <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-              3. 71个词条里，有提及的由45个增至47个，仍有24个是0。其中10个10月是50%，11月回到0。
+              3. 50个词条里，有提及的47个，还有3个是0。配套齐全、能生产又能办公，10月是50%，11月回到0。
             </p>
           </div>
         </div>
@@ -95,9 +95,9 @@ export default function Page_CoreDataOverview() {
           </div>
           <div className="flex-1 flex flex-col justify-evenly min-h-0">
             {[
-              { num: '01', title: '追上新桥东', desc: '提及率还差 4.2 个点（52.8%对57%）。综合竞品排名已是 NO. 1，Top1提及率领先 6.3 个点（21.8%对15.5%）。' },
-              { num: '02', title: '补齐 DeepSeek', desc: '豆包已到 63.4%，DeepSeek 回落到 42.3%。总部企业集聚、地铁口产业园、「宝安区产业园有哪些」，豆包是 100%，DeepSeek 是 0。' },
-              { num: '03', title: '补回 0 提及词条', desc: '还有 24 个提及率是 0，其中 10 个 10 月是 50%。科技产业园、电子信息企业发展的提及率已到 100%，Top1提及率仍是 0。' },
+              { num: '01', title: '守住领先', desc: '提及率已领先新桥东 14 个点（75%对61%）。综合竞品排名已是 NO. 1，Top1提及率领先 14 个点（31%对17%）。' },
+              { num: '02', title: '补齐 DeepSeek', desc: '豆包已到 90%，DeepSeek 是 60%。总部企业集聚、地铁口产业园、「宝安区产业园有哪些」，豆包是 100%，DeepSeek 是 0。' },
+              { num: '03', title: '补回 0 提及词条', desc: '还有 3 个提及率是 0。配套齐全、能生产又能办公，10 月是 50%，11 月回到 0。科技产业园、电子信息企业发展的提及率已到 100%，Top1提及率仍是 0。' },
             ].map((strat) => (
               <div key={strat.num} className="flex items-start gap-3">
                 <span className="text-emerald-600 font-black text-2xl shrink-0 mt-0.5 font-['Montserrat',sans-serif]">{strat.num}</span>

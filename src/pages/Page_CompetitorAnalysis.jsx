@@ -124,11 +124,11 @@ export default function Page_CompetitorAnalysis() {
             </h2>
             <div className="flex-grow rounded-2xl bg-[#004CE5]/5 border border-[#004CE5]/20 p-5 flex flex-col justify-evenly min-h-0">
               <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-                1. 新桥东先进制造产业园提及率 57%、Top1提及率 15.5%，提及率排名 NO. 1，是离创维创新谷最近的对手。全至科技创新园提及率 35.2%，燕罗智能网联汽车产业园 30.3%，排在第三、第四。
+                1. 新桥东先进制造产业园提及率 61%、Top1提及率 17%，提及率排名 NO. 2，是离创维创新谷最近的对手。全至科技创新园提及率 44%，雪花科创城 38%，排在第三、第四。
               </p>
               <div className="h-px bg-[#004CE5]/10 my-1" />
               <p className="text-[22px] leading-relaxed text-zinc-800 font-bold">
-                2. 创维创新谷 11 月提及率 52.8%，提及率排名稳居 NO. 2，比 10 月的 42.1% 高 10.7 个点。综合竞品排名由 NO. 2 进至 NO. 1。Top1提及率由 13.6% 升至 21.8%，稳居 NO. 1。Top3提及率由 22.1%（NO. 2）升至 48.6%（NO. 1）。
+                2. 创维创新谷 11 月提及率 75%，提及率排名由 NO. 2 进至 NO. 1，比 10 月的 42.1% 高 32.9 个点。综合竞品排名由 NO. 2 进至 NO. 1。Top1提及率由 13.6% 升至 31%，稳居 NO. 1。Top3提及率由 22.1%（NO. 2）升至 69%（NO. 1）。
               </p>
             </div>
           </div>
@@ -140,9 +140,9 @@ export default function Page_CompetitorAnalysis() {
             </h2>
             <div className="flex-grow rounded-2xl bg-[#004CE5]/[0.015] border border-[#004CE5]/15 p-5 flex flex-col justify-evenly min-h-0">
               {[
-                { num: '01', title: '追上新桥东', desc: '提及率落后 4.2 个点，Top1提及率已领先 6.3 个点。综合竞品排名已是 NO. 1。' },
-                { num: '02', title: '补齐 DeepSeek', desc: 'DeepSeek 提及率 42.3%，豆包已到 63.4%。总部企业集聚、地铁口产业园、「宝安区产业园有哪些」，豆包是 100%，DeepSeek 是 0。' },
-                { num: '03', title: '补回 0 提及词条', desc: '还有 24 个提及率是 0，其中 10 个 10 月是 50%。科技产业园、电子信息企业发展的提及率已到 100%，Top1提及率仍是 0。' },
+                { num: '01', title: '守住领先', desc: '提及率已领先新桥东 14 个点（75%对61%）。Top1提及率领先 14 个点（31%对17%）。综合竞品排名已是 NO. 1。' },
+                { num: '02', title: '补齐 DeepSeek', desc: 'DeepSeek 提及率 60%，豆包已到 90%。总部企业集聚、地铁口产业园、「宝安区产业园有哪些」，豆包是 100%，DeepSeek 是 0。' },
+                { num: '03', title: '补回 0 提及词条', desc: '还有 3 个提及率是 0。配套齐全、能生产又能办公，10 月是 50%，11 月回到 0。科技产业园、电子信息企业发展的提及率已到 100%，Top1提及率仍是 0。' },
               ].map((strat, idx) => (
                 <div key={idx} className="flex items-start gap-3">
                   <span className="text-[#004CE5] font-black text-2xl shrink-0 mt-0.5">{strat.num}</span>

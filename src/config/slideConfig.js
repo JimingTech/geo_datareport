@@ -4,9 +4,9 @@ import Page_CompetitorAnalysis from '../pages/Page_CompetitorAnalysis';
 import Page_ContentDetails from '../pages/Page_ContentDetails';
 import Page_QueryDataSystemLink from '../pages/Page_QueryDataSystemLink';
 
-// 词条明细：与数据系统 UI 同款
-// 项目 721（创新谷-优化词，给客户的项目）共 71 个词条，监测平台为 DeepSeek / 豆包
-// 每平台 5 页 × 每页 15 条，最后一页 11 条（对齐创维电视 / 慕思）
+// 词条明细列出项目全部词条。总览数字仍是数据系统 11 月 25 日默认展示口径。
+// 项目 721（创新谷-优化词），监测平台为 DeepSeek / 豆包
+// 每平台 5 页 × 每页 15 条，最后一页 11 条
 const PROJECT_ID = 721;
 const PLATFORM_IDS = [1, 2];
 const ENTRY_PAGE_SIZE = 15;

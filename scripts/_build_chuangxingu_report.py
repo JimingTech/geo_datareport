@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
-"""组装创维创新谷 11 月报告。10月=2026-10-28，11月=2026-11-25。监测用客户项目 721。不改投放明细。"""
+"""组装创维创新谷 11 月报告。10月=2026-10-28，11月=2026-11-25。
+
+监测用客户项目 721。11 月沿用数据系统当天默认展示口径；10 月用当天默认展示口径。不改投放明细。
+"""
 import json
 from datetime import datetime, date
 from pathlib import Path
@@ -151,12 +154,22 @@ def with_self(rows, n):
     return head
 
 
-def snapshot(day, entry_ids):
-    scope = {"entry_ids": entry_ids}
+def display_entry_ids(day):
+    """数据系统当天默认展示的词条。没有 summary_scope 时表示全量。"""
+    stats = get("/api/conversations/stats", project_id=PROJECT_ID, start_date=day, end_date=day)
+    summary = stats.get("summary_scope") or {}
+    days = summary.get("days") or []
+    raw = (days[0].get("entry_ids") if days else None) or []
+    ids = [str(i) for i in raw]
+    label = summary.get("label") or "全量"
+    print("display", day, label, len(ids) or "all")
+    return ",".join(ids) if ids else None
+
+
+def snapshot(day, entry_ids=None):
+    scope = {"entry_ids": entry_ids} if entry_ids else {}
     stats = get("/api/conversations/stats", project_id=PROJECT_ID, start_date=day, end_date=day, **scope)
     influence = get("/api/competitors/influence", project_id=PROJECT_ID, start_date=day, end_date=day, **scope)
-    if stats.get("summary_scope"):
-        raise SystemExit(f"{day} 仍是筛选口径: {stats['summary_scope']}")
     entries, total = page_all(
         "/api/entries",
         project_id=PROJECT_ID,
@@ -269,19 +282,10 @@ def fmt_date(v):
     return f"{int(y)}/{int(m)}/{int(d)}"
 
 
-id_rows, id_total = page_all(
-    "/api/entries",
-    project_id=PROJECT_ID,
-    start_date=OCTOBER,
-    end_date=OCTOBER,
-)
-entry_ids = ",".join(str(e["entry_id"]) for e in id_rows if e.get("entry_id"))
-if not entry_ids or (id_total and len(entry_ids.split(",")) != id_total):
-    raise SystemExit(f"词条 id 不完整: {len(entry_ids.split(','))} / {id_total}")
-print("entry_ids", len(entry_ids.split(",")), "full set, not best-n")
-
-before = snapshot(BEFORE, entry_ids)
-october = snapshot(OCTOBER, entry_ids)
+before_ids = display_entry_ids(BEFORE)
+november_ids = display_entry_ids(OCTOBER)
+before = snapshot(BEFORE, before_ids)
+october = snapshot(OCTOBER, november_ids)
 
 platform_entries = {}
 for pl in platforms:
@@ -293,7 +297,6 @@ for pl in platforms:
         sort_by="mention_rate",
         sort_order="desc",
         platform_ids=pl["id"],
-        entry_ids=entry_ids,
     )
     platform_entries[str(pl["id"])] = [
         {
